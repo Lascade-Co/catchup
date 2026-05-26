@@ -1,5 +1,151 @@
 {
   "daily": [
     "daily/2026-05-26.json"
+  ],
+  "repos": [
+    "Lascade-Co/D2-Flight-Android",
+    "Lascade-Co/D2-hotel-ios-v2",
+    "Lascade-Co/M1-hotel-ios-v2",
+    "Lascade-Co/actions",
+    "Lascade-Co/airline70-flutter",
+    "Lascade-Co/catchup",
+    "Lascade-Co/e-sim-flutter",
+    "Lascade-Co/email-push-backend",
+    "Lascade-Co/esim-backend",
+    "Lascade-Co/esim-saily",
+    "Lascade-Co/esim-web",
+    "Lascade-Co/flights-70-web",
+    "Lascade-Co/kayak-main-server",
+    "Lascade-Co/lascade-routines",
+    "Lascade-Co/m8-android-hotel",
+    "Lascade-Co/marine-tracking-flutter",
+    "Lascade-Co/marineradar-trends",
+    "Lascade-Co/product-intelligence",
+    "Lascade-Co/travel-analytics-server",
+    "Lascade-Co/travel-animator-android",
+    "Lascade-Co/travel-animator-ios",
+    "Lascade-Co/travel-animator-lp"
+  ],
+  "users": [
+    {
+      "login": "actions-user",
+      "name": "GitHub Actions"
+    },
+    {
+      "login": "AdarshLascade",
+      "name": "AdarshLascade"
+    },
+    {
+      "login": "AjinLascade",
+      "name": "ajinLascade"
+    },
+    {
+      "login": "akashkottil",
+      "name": "Akash Kottil"
+    },
+    {
+      "login": "Angelrose19",
+      "name": "Angel"
+    },
+    {
+      "login": "Basith-P",
+      "name": "Basith-P"
+    },
+    {
+      "login": "cherian",
+      "name": "cherian"
+    },
+    {
+      "login": "claude",
+      "name": "Claude"
+    },
+    {
+      "login": "Iamfasna",
+      "name": "Iamfasna"
+    },
+    {
+      "login": "Jenin82",
+      "name": "Jenin Joseph"
+    },
+    {
+      "login": "jyothikrishna-06",
+      "name": "jyothikrishna-06"
+    },
+    {
+      "login": "Krishnan-E",
+      "name": "Krishnan-E"
+    },
+    {
+      "login": "lascadeansal",
+      "name": "ansal"
+    },
+    {
+      "login": "Lascadesevices",
+      "name": "Deploy"
+    },
+    {
+      "login": "mhdbk",
+      "name": "mhdbk"
+    },
+    {
+      "login": "Mushf1qHumayoon",
+      "name": "Mushfiq Humayoon"
+    },
+    {
+      "login": "MushfiqHumayoon",
+      "name": "mushfiq"
+    },
+    {
+      "login": "naumshaz",
+      "name": "naumshaz"
+    },
+    {
+      "login": null,
+      "name": "octopoocha"
+    },
+    {
+      "login": "prapanch-lascade",
+      "name": "prapanch-lascade"
+    },
+    {
+      "login": "rahul028",
+      "name": "rahul028"
+    },
+    {
+      "login": "rebin03",
+      "name": "Muhammed Rebin"
+    },
+    {
+      "login": "risal-ea",
+      "name": "risal-ea"
+    },
+    {
+      "login": "rohittp0",
+      "name": "Rohit T P"
+    },
+    {
+      "login": "sajithlascade",
+      "name": "sajithlascade"
+    },
+    {
+      "login": "Shaan-Shoukath",
+      "name": "Shaan-Shoukath"
+    },
+    {
+      "login": "shon400",
+      "name": "shon400"
+    },
+    {
+      "login": "Swalih60",
+      "name": "Swalih"
+    },
+    {
+      "login": "VarshaShaheen",
+      "name": "VarshaShaheen"
+    },
+    {
+      "login": null,
+      "name": "Vivek Venugopal"
+    }
   ]
 }

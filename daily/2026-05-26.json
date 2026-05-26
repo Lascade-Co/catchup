@@ -6,11 +6,12 @@
       "developers": [
         {
           "login": "rohittp0",
-          "name": "Rohit",
-          "commit_count": 1,
+          "name": "Rohit T P",
+          "commit_count": 3,
           "bullets": [
-            "🚀 Implemented a daily organization catchup workflow for engineering activity reporting",
-            "🔧 Added commit classification to support clearer daily summaries"
+            "🚀 Implemented a daily organization catchup workflow with commit classification and summary generation.",
+            "🚀 Enhanced index output to include deduplicated repository and user lists.",
+            "🐛 Updated GitHub app token configuration to use the client ID instead of the app ID."
           ]
         }
       ]
@@ -23,11 +24,11 @@
           "name": "sajithlascade",
           "commit_count": 6,
           "bullets": [
-            "🔧 Added QA and release build automation for Flutter APK/AAB delivery and centralized build dispatching.",
-            "🔧 Updated release workflow triggering so release builds run after merged pull requests into the release branch.",
-            "🔧 Added Flutter/FVM project configuration, repository ignores, editor settings, and setup documentation for the v2 project baseline.",
-            "🐛 Fixed attribution data handling to pass backend-provided fields through without remapping.",
-            "🔧 Bumped the app version to 1.6.4+66 and adjusted locked test-related package versions."
+            "🔧 Added Flutter version management files and refreshed project metadata for the v2 Flutter setup.",
+            "🔧 Implemented QA and release GitHub workflows for APK/AAB builds, central dispatch triggers, and Slack build notifications.",
+            "🔧 Updated release workflow triggers to run only after merged pull requests into the release branch.",
+            "🐛 Fixed attribution data handling so backend-provided fields pass through without remapping.",
+            "🔧 Bumped the app version and adjusted locked test-related package versions."
           ]
         },
         {
@@ -48,8 +49,8 @@
           "name": "Rohit",
           "commit_count": 2,
           "bullets": [
-            "🔧 Added the initial index JSON file for the project.",
-            "📝 Created the initial README introducing the catchup repository."
+            "🚀 Added the initial project index data file.",
+            "📝 Created the repository README with the project title."
           ]
         }
       ]
@@ -64,9 +65,8 @@
           "bullets": [
             "🚀 Updated the flight autocomplete integration to the newest version.",
             "🔧 Added GitHub workflows to request centralized debug and release Android builds.",
-            "🔧 Set up Android build configuration with signing, release minification, native symbol packaging, and core app dependencies.",
-            "📝 Added local setup guidance for secrets, keystore generation, and Firebase configuration.",
-            "🔧 Added repository ignore rules and ProGuard keep rules for Android, Firebase, networking, database, and analytics libraries."
+            "🔧 Set up Android project build configuration, signing setup, dependencies, and release symbol packaging.",
+            "📝 Added local setup documentation for secret management, keystore creation, and Firebase configuration."
           ]
         }
       ]
@@ -79,11 +79,11 @@
           "name": "Akash Kottil",
           "commit_count": 19,
           "bullets": [
-            "🚀 Added booking and deeplink webview loading indicators, including centered spinners and native progress bars under the header.",
-            "⚡ Improved booking launch speed by prefetching deal URLs and warming WebKit before popular-location taps.",
-            "🐛 Fixed search and deeplink accuracy issues, including offline autocomplete messaging, recent-search placeholders, and popular-location entity IDs.",
-            "🐛 Tightened filter, calendar, and guest flows so selections persist, calendars reopen on the chosen month, and guest limits apply reliably.",
-            "💄 Refined bottom-sheet and toast positioning around sticky apply controls, with clearer limit feedback for guest steppers."
+            "🚀 Improved booking and deeplink webviews with immediate loaders, native progress bars, and warmer prefetching for faster perceived booking opens.",
+            "🐛 Fixed popular-location deeplinks by resolving fresh place IDs and corrected recent-search placeholder imagery.",
+            "🐛 Tightened filter, guest, and calendar flows so selections persist, apply actions trigger reliably, and calendars reopen on the selected month.",
+            "🚀 Added guest-limit toast messaging, adjusted toast placement above sticky controls, and enforced default occupancy rules.",
+            "🐛 Improved search state reliability by persisting rooms across relaunches, computing property-type counts locally, and showing offline autocomplete messaging."
           ]
         }
       ]
@@ -96,11 +96,11 @@
           "name": "sajithlascade",
           "commit_count": 8,
           "bullets": [
-            "🚀 Redesigned checkout with updated plan, promo, wallet, payment, and trust badge UI.",
-            "🐛 Fixed wallet transactions loading after auth is ready, with silent refresh and pull-to-refresh support.",
-            "🔧 Added QA and release build workflows for Android artifacts, distribution, and team notifications.",
-            "🚀 Added iOS TestFlight release automation using Flutter and Fastlane.",
-            "♻️ Cleaned project setup by removing unused test/iOS files, updating ignores, and bumping the app version."
+            "🚀 Redesigned checkout with updated plan, promo, wallet, payment, and trust badge sections.",
+            "🐛 Fixed auto-renewal controls in home plan detail sheets and ensured required state is passed through.",
+            "🚀 Improved wallet behavior by loading transactions after auth is ready, adding silent refresh, and refreshing wallet data together.",
+            "🔧 Added QA and release build automation for Android artifacts with distribution and team notifications.",
+            "🔧 Cleaned up unused test and iOS project artifacts while tightening generated-file ignores."
           ]
         }
       ]
@@ -113,11 +113,11 @@
           "name": "Jenin Joseph",
           "commit_count": 7,
           "bullets": [
-            "🚀 Added transactional and once-per-user email behavior, including welcome deduplication, app domain splitting, and admin override bypasses.",
-            "🐛 Fixed welcome email backfill and send-path edge cases, including N+1 backfill queries, SES short-circuiting, and MIME recipient guards.",
-            "⚡ Replaced the welcome_sent_at backfill command with lazy population from EmailLog on first access.",
-            "♻️ Split automation utilities into focused render, gate, and defer modules.",
-            "🐛 Applied linear time-of-day pacing to warm-up sending and refined defer-then-fall-through behavior."
+            "🚀 Added transactional email controls, once-per-user behavior, app domain separation, welcome send tracking, and admin override handling.",
+            "🚀 Implemented welcome-email deduplication with lazy backfill from historical email logs on first access.",
+            "🐛 Fixed review findings around backfill query efficiency, SES send short-circuiting, and MIME recipient guards.",
+            "♻️ Split automation utilities into focused render, gating, and deferral modules.",
+            "🐛 Applied linear time-of-day pacing to warm-up sends and refined defer-then-fall-through behavior."
           ]
         }
       ]
@@ -130,11 +130,11 @@
           "name": "Shaan-Shoukath",
           "commit_count": 1,
           "bullets": [
-            "🐛 Fixed wallet saved-card deletion and top-up handling issues.",
-            "🔧 Added sample environment configuration for local backend setup and service integrations.",
-            "🔧 Added GitHub workflows for branch deploy triggers, central Docker image builds, and email import guarding.",
-            "📝 Added repository guidance covering local development, architecture, apps, wallet phases, and email queue usage.",
-            "🔧 Added baseline repository configuration for ignored files, shared scripts, and secrets management metadata."
+            "🐛 Fixed wallet card deletion and top-up handling issues.",
+            "🔧 Added environment sample configuration for Django, Redis, Celery, Stripe, email, push, and external service integrations.",
+            "🔧 Added GitHub Actions workflows for branch deploy triggers, central Docker image builds, and email import guarding.",
+            "📝 Added repository guidance covering local setup, architecture, app responsibilities, email delivery rules, and wallet system behavior.",
+            "🔧 Added repository housekeeping for ignored local artifacts, shared scripts, and secret-management configuration."
           ]
         }
       ]
@@ -148,10 +148,10 @@
           "commit_count": 16,
           "bullets": [
             "🚀 Added unified fetching and deduplication for standard and unlimited data plans.",
-            "🚀 Improved checkout and plan flows with region-aware labels, country-name resolution, and region-specific top-ups.",
-            "🚀 Added dynamic authentication headline support for the checkout sign-in flow.",
-            "🐛 Fixed active plan filtering to use enabled status and addressed Android 12+ launch and onboarding video fallback issues.",
-            "🔧 Updated Flutter, Stripe, Dart SDK, Firebase, app ID, ignore rules, and local project configuration."
+            "🚀 Improved checkout and plan flows with region-aware labels, country name resolution, and region-specific top-ups.",
+            "🚀 Added dynamic checkout authentication headline support and updated order summary presentation.",
+            "🐛 Fixed active plan filtering to use enabled status and resolved an Android 12+ launch crash with onboarding video fallbacks.",
+            "🔧 Updated Flutter, Stripe, Firebase, app ID, SDK, ignore, and project configuration for platform-specific setup."
           ]
         },
         {
@@ -159,9 +159,9 @@
           "name": "shon400",
           "commit_count": 2,
           "bullets": [
-            "🔧 Removed committed Firebase configuration artifacts from Android, iOS, and shared Flutter code.",
-            "🔧 Switched Firebase initialization to use platform-provided configuration instead of generated options.",
-            "🔧 Adjusted locked transitive Dart package versions while cleaning up configuration files."
+            "🔧 Removed committed Firebase configuration artifacts from the app source.",
+            "🔧 Switched Firebase initialization to rely on platform default configuration instead of generated options.",
+            "🔧 Adjusted locked transitive dependency versions after configuration cleanup."
           ]
         }
       ]
@@ -174,11 +174,11 @@
           "name": "Muhammed Rebin",
           "commit_count": 6,
           "bullets": [
-            "🚀 Added a promo-code sign-in gate with locale-aware return flow during checkout.",
-            "🚀 Made wallet auto top-up rule fields auto-save with a status pill and removed the manual Save button.",
-            "🐛 Serialized auto top-up rule updates to prevent concurrent PATCH race conditions.",
-            "🐛 Reduced review-page layout shift with a conditional WalletPaySegment skeleton and tightened disabled toggle behavior.",
-            "📝 Localized wallet validation, API error, toggle hint, and promo sign-in messaging."
+            "🚀 Added wallet auto-topup auto-save behavior with a status pill and removed the manual Save flow.",
+            "🐛 Serialized auto-topup rule updates to prevent concurrent PATCH race conditions.",
+            "🐛 Reduced checkout and wallet UX issues by conditionally showing payment skeletons, clearing local edits on retry, and tightening disabled toggle states.",
+            "🔐 Added promo-code sign-in gating with locale-aware return paths.",
+            "📝 Localized remaining auto-topup errors, toggle hints, and amount validation messages."
           ]
         },
         {
@@ -186,7 +186,7 @@
           "name": "jyothikrishna-06",
           "commit_count": 2,
           "bullets": [
-            "🔧 Updated robots configuration to allow AI crawlers.",
+            "🔧 Updated robots configuration to allow AI crawler access.",
             "📝 Improved llms.txt structure so AI crawlers can better understand site content."
           ]
         },
@@ -195,7 +195,7 @@
           "name": "Deploy",
           "commit_count": 1,
           "bullets": [
-            "🔧 Deployed the latest changes to Vercel."
+            "🔧 Deployed the latest site changes to Vercel."
           ]
         }
       ]
@@ -208,7 +208,7 @@
           "name": "Lascadesevices",
           "commit_count": 1,
           "bullets": [
-            "🔧 Triggered a deployment for the web application."
+            "🔧 Triggered a deployment for the flights web app."
           ]
         },
         {
@@ -229,10 +229,10 @@
           "name": "mhdbk",
           "commit_count": 1,
           "bullets": [
-            "🔧 Added a GitHub Actions workflow for Node.js install checks and staged server deployments.",
-            "✅ Added deployment health checks to verify each environment responds successfully before continuing.",
-            "📝 Added basic project documentation with deployment caution guidance.",
-            "🔧 Added Node.js dependency locking and repository ignore rules for local and generated files."
+            "🔧 Added a GitHub Actions workflow to install dependencies, deploy through staged environments, and verify service health after each rollout.",
+            "🔧 Set up the Node.js server package lock with Express, Redis, security, rate limiting, HTTP, and user-agent parsing dependencies.",
+            "📝 Added repository documentation warning that pushes to the main branch trigger live deployment.",
+            "🔧 Added ignore rules for local dependencies, editor files, OS metadata, and private configuration."
           ]
         }
       ]
@@ -266,11 +266,11 @@
           "name": "Swalih",
           "commit_count": 8,
           "bullets": [
-            "🚀 Built out the hotel results screen UI, including the header, filter controls, and result card interactions.",
-            "🚀 Updated the home screen styling and top picks deep link experience.",
-            "🚀 Improved the modify search flow with refreshed sheet layout, responsive date and guest cards, and cleaner spacing.",
-            "🐛 Reset unsaved modify search edits when the panel closes so reopened searches show the original parameters.",
-            "⚡ Added a loading bar animation for hotel search feedback."
+            "🚀 Built out the hotel results experience with a new header, result cards, filter UI, and filter icon assets.",
+            "🚀 Added deep linking support for the home screen top-picks section.",
+            "🚀 Updated the home UI surface, pinned header spacing, and recent-search removal styling.",
+            "🚀 Refined the modify-search sheet layout with responsive date and guest cards plus cleaner spacing.",
+            "🐛 Fixed result-card tap behavior and reset unsaved modify-search edits when the panel closes."
           ]
         }
       ]
@@ -283,11 +283,11 @@
           "name": "ansal",
           "commit_count": 5,
           "bullets": [
-            "🐛 Fixed local notification scheduling so app foreground/background transitions consistently cancel and reschedule reminders.",
-            "♻️ Removed the separate local ad notification worker flow, related remote-config flags, and local ad click handling.",
-            "🚀 Added an in-app WebView flow for hotel redirects and replaced external browser/custom-tab launches from ads, loader, and hotel results.",
-            "🔧 Added web navigation tracking, session creation with full search parameters, and custom web event handling around booking and exit flows.",
-            "🐛 Fixed push notification delivery issues."
+            "🐛 Fixed local notification scheduling so reminders are consistently cancelled and rescheduled around app foreground/background transitions.",
+            "♻️ Removed the separate local ad notification worker flow, including its remote config flag handling and local ad click analytics path.",
+            "🚀 Added an in-app WebView flow for hotel redirects, replacing Chrome Custom Tabs and loader browser handoffs.",
+            "🔧 Integrated custom web navigation handling, HTTPS normalization, external app scheme support, and web interaction analytics.",
+            "🔧 Sent full user hotel search parameters when creating sessions and addressed push notification delivery issues."
           ]
         }
       ]
@@ -300,11 +300,11 @@
           "name": "AdarshLascade",
           "commit_count": 1,
           "bullets": [
-            "🔧 Added Flutter project setup metadata, version pinning, editor launch settings, and repository ignore rules.",
-            "🔧 Added GitHub Actions triggers for centralized debug builds on pull requests and release builds from main.",
-            "📝 Added contributor guidance documenting the app architecture, GetX patterns, data flow, logging, routing, and build commands.",
-            "🔧 Added Xcode Cloud trigger scaffolding for iOS build automation.",
-            "📝 Added basic project documentation and a short follow-up todo list for map-related improvements."
+            "🐛 Merged PS event fixes into the marine tracking Flutter app.",
+            "🔧 Added Flutter project setup metadata, version pinning, analyzer settings, and local editor launch configuration.",
+            "🔧 Added GitHub Actions triggers for centralized debug and release Flutter build workflows.",
+            "📝 Added contributor guidance covering the app architecture, GetX patterns, data flow, logging, routing, and build commands.",
+            "🔧 Added Xcode Cloud trigger metadata and repository hygiene files for ignored artifacts and platform build outputs."
           ]
         }
       ]
@@ -317,11 +317,11 @@
           "name": "VarshaShaheen",
           "commit_count": 4,
           "bullets": [
-            "🚀 Added breakout analytics views for newly appearing, reignited, and accelerating maritime entities with source and query attribution.",
-            "🚀 Built seasonality reporting with annual pattern ribbons, active/upcoming windows, and hour/day heatmaps.",
-            "🚀 Set up the MarineRadar Trends dashboard foundation, including overview pages, navigation shell, KPI cards, movers, breakouts, and category pulse components.",
-            "🔧 Wired pages for dynamic live data and added route-loading skeletons for smoother navigation while server queries run.",
-            "🔧 Updated project configuration and dependencies, including Next.js, PostCSS, Sharp-related packages, ignore rules, README, and design context documentation."
+            "🚀 Built the initial MarineRadar Trends dashboard with overview KPIs, movers, breakout feeds, attribution, and category pulse views.",
+            "🚀 Added new analytics pages for breakouts, seasonality, and geographic heatmap-style exploration.",
+            "🔧 Wired pages for live data behavior with dynamic rendering, query-backed views, and mock-data fallback states.",
+            "🎨 Added shared visual components for sparklines, heatmaps, seasonal ribbons, loading skeletons, entity labels, and dashboard shell layout.",
+            "🔧 Updated deployment/runtime dependencies, including newer Next.js, PostCSS, and image processing lockfile entries."
           ]
         },
         {
@@ -329,9 +329,10 @@
           "name": "cherian",
           "commit_count": 1,
           "bullets": [
-            "♻️ Overhauled typography with tokenized text scales and semantic recipe classes.",
-            "🔧 Removed the Instrument Serif font loader and standardized affected UI on Geist Sans.",
-            "♻️ Replaced many one-off text sizing and tracking utilities across pages and components with shared typography classes."
+            "♻️ Overhauled typography around a tokenized scale and semantic text classes.",
+            "♻️ Replaced many ad hoc text size and tracking utilities with shared typography recipes.",
+            "🔧 Removed the extra serif font loader and standardized display usage on Geist Sans.",
+            "🎨 Swept pages and components to make headings, labels, KPIs, and hero numerals more consistent."
           ]
         }
       ]
@@ -344,10 +345,9 @@
           "name": "Angel",
           "commit_count": 1,
           "bullets": [
-            "📊 Added a PPP price-change impact analysis for May 11, 2026.",
-            "📉 Compared country-level revenue before and after the pricing change, highlighting an overall daily revenue decline.",
-            "🛒 Broke down platform impact, showing App Store revenue declined more sharply than Play Store revenue.",
-            "🌍 Identified regional differences, with European markets improving while English-speaking and Latin American markets declined."
+            "📊 Added a May 11, 2026 PPP price-change impact analysis comparing country-level revenue before and after the change.",
+            "📉 Highlighted an overall daily revenue decline, with App Store revenue affected more than Play Store.",
+            "🌍 Broke out regional movement, noting gains in European markets and declines in English-speaking and Latin American markets."
           ]
         },
         {
@@ -355,11 +355,10 @@
           "name": "Iamfasna",
           "commit_count": 1,
           "bullets": [
-            "📝 Added review context for the Cover Image launch to prevent repeated false-positive growth critiques.",
-            "🔗 Documented smart-link behavior and channel tooling constraints for email, push, Telegram, and social review workflows.",
-            "🔧 Added an ad spend report skill for generating Slack- and Telegram-ready summaries across Meta, Google, and Apple Search Ads.",
-            "⚙️ Defined multi-organization ad reporting configuration with app routing, channel toggles, currency, and emoji mappings.",
-            "📊 Specified reporting logic for date ranges, campaign grouping, daily sparklines, platform metrics, and API error handling."
+            "📝 Added review context for the Cover Image launch to prevent repeated false-positive critiques.",
+            "🔧 Introduced an ad spend reporting skill for Meta, Google, and Apple Search Ads with multi-org and app-level routing.",
+            "📅 Documented date-range handling, platform API collection, campaign grouping, sparklines, and report formatting for ad spend summaries.",
+            "🔐 Added a placeholder configuration template for ad platform credentials and app mappings without exposing real secrets."
           ]
         }
       ]
@@ -373,8 +372,8 @@
           "commit_count": 2,
           "bullets": [
             "🐛 Skipped Google conversion CSV entries that lack required click or email attribution data.",
-            "🐛 Limited Google Ads timestamp bulk updates to only conversions actually processed into the CSV.",
-            "🔧 Kept conversion update timestamps aligned with the CSV generation time for exported records."
+            "🐛 Limited Google Ads timestamp updates to only the conversions actually processed into the export.",
+            "⚡ Used a filtered bulk update to avoid touching conversions excluded from the generated CSV."
           ]
         }
       ]
@@ -387,11 +386,11 @@
           "name": "Rohit T P",
           "commit_count": 6,
           "bullets": [
-            "♻️ Improved 3D follower path precision by carrying world-space positions through rotation history and reducing projection-related lateral offset.",
-            "♻️ Replaced the arc-specific renderer with a generic 3D line layer that resamples polylines and bakes altitude into animation points.",
-            "🔧 Simplified renderer and avatar update flows by removing model update caching and streamlining bitmap APIs.",
-            "🐛 Allowed the login bottom sheet to be closed after a successful purchase.",
-            "🧹 Removed unused debug launcher exposure and obsolete string resources."
+            "♻️ Improved 3D follower path precision by carrying world-space positions through rotation history and avoiding projection round-trips.",
+            "♻️ Replaced the arc-only renderer with a generic 3D line layer that supports resampled polylines and baked altitude points.",
+            "🔧 Refined route animation behavior, including distance-based arc heights, flatter camera lead, and smoother handoff from ground lines to 3D lines.",
+            "♻️ Simplified avatar and model update APIs by removing redundant avatar setters, unnecessary suspension, and renderer-side model caching.",
+            "🐛 Allowed the login sheet to close after a successful purchase and removed unused globe string resources."
           ]
         },
         {
@@ -400,9 +399,9 @@
           "commit_count": 2,
           "bullets": [
             "🐛 Removed Google Maps intent filters.",
-            "♻️ Centralized cover snapshot refresh decisions in the cover image ViewModel.",
-            "🐛 Fixed TerraInk route and theme refresh behavior to avoid stale map snapshots.",
-            "♻️ Simplified preview cover refresh coordination and reused shared TerraInk styling helpers."
+            "♻️ Centralized cover snapshot refresh policy in the cover image ViewModel.",
+            "🐛 Fixed TerraInk route and theme refresh behavior so cover captures regenerate instead of reusing stale snapshots.",
+            "♻️ Simplified PreviewScreen cover refresh coordination and TerraInk style helpers while preserving standard snapshot loading for other cover styles."
           ]
         },
         {
@@ -410,10 +409,10 @@
           "name": "naumshaz",
           "commit_count": 1,
           "bullets": [
-            "🚀 Added a TerraInk cover style with themed Mapbox snapshot rendering and selectable map palettes.",
-            "🚀 Introduced 24 TerraInk themes with UI selection and persistence through DataStore.",
-            "⚡ Improved cover image map snapshots with overzooming for denser road detail.",
-            "🎨 Added themed TerraInk rendering with gradient banner styling for cover images."
+            "🚀 Added the TerraInk cover style with themed Mapbox/OpenFreeMap snapshots and a gradient title banner.",
+            "🚀 Introduced 24 TerraInk color palettes plus a theme picker in the cover sheet.",
+            "⚡ Added overzoomed cover snapshot generation to improve road density in map-based cover images.",
+            "🔧 Integrated TerraInk into cover style models, UI state, and DataStore persistence."
           ]
         },
         {
@@ -421,7 +420,7 @@
           "name": "octopoocha",
           "commit_count": 1,
           "bullets": [
-            "🧹 Removed an unused globe string resource as part of lint cleanup."
+            "🧹 Removed an unused outro globe string resource as part of an automated lint cleanup."
           ]
         }
       ]
@@ -435,9 +434,9 @@
           "commit_count": 5,
           "bullets": [
             "🚀 Added analytics tracking for unit-related interactions.",
-            "🐛 Fixed the enabled-state background styling for unit button selection.",
-            "♻️ Reverted an earlier unit-removal change during map setup to restore the prior behavior.",
-            "🔧 Merged latest mainline setup including build dispatch workflows, ignore rules, and agent documentation."
+            "🐛 Fixed the selected state background for the unit button.",
+            "🐛 Reverted a map setup change that removed unit handling.",
+            "📝 Merged shared repository updates, including workflow and contributor guidance files."
           ]
         },
         {
@@ -445,10 +444,11 @@
           "name": "Krishnan-E",
           "commit_count": 4,
           "bullets": [
-            "🐛 Refined GPX sharing support by adjusting imported/exported type declarations and handling uppercase GPX extensions.",
-            "♻️ Removed share-sheet intent donation code from the share extension import flow.",
-            "🐛 Mirrored share extension handling into scene delegate logic for more consistent import behavior.",
-            "🔧 Bumped project build versions across app and extension targets."
+            "🐛 Refined GPX share/import handling across the share extension and scene delegate.",
+            "♻️ Removed Siri intent donation code from the share extension import flow.",
+            "🔧 Updated GPX type declarations and extension matching for better file recognition.",
+            "🔧 Bumped the project build version for the app and extensions.",
+            "📝 Merged shared repository updates, including workflow and contributor guidance files."
           ]
         },
         {
@@ -456,10 +456,10 @@
           "name": "Basith-P",
           "commit_count": 3,
           "bullets": [
-            "🐛 Fixed route place labels so the current label hides correctly when the next reached point has no visible label.",
-            "🐛 Sorted place label updates by animation frame to match playback order instead of route order.",
-            "🚀 Increased sequence and focused flag render sizes for clearer route previews and exports.",
-            "🔧 Merged latest mainline setup including build dispatch workflows, ignore rules, and agent documentation."
+            "🐛 Fixed route place labels so the active label hides correctly when later points have no visible label.",
+            "🐛 Reordered place label updates by animation frame to match playback order.",
+            "🚀 Increased the visual size of sequence and focused flag styles in previews and exports.",
+            "📝 Merged shared repository updates, including workflow and contributor guidance files."
           ]
         },
         {
@@ -467,10 +467,10 @@
           "name": "Mushfiq Humayoon",
           "commit_count": 3,
           "bullets": [
-            "🚀 Added scene style analytics work for the 3.8.2 release line.",
-            "🔧 Merged the 3.8.1 release back into the active branch.",
-            "🐛 Merged a fix for free exports getting stuck when a premium map is selected.",
-            "🔧 Brought in latest mainline setup including build dispatch workflows, ignore rules, and agent documentation."
+            "🚀 Added scene style analytics support for export events.",
+            "🔧 Prepared release version 3.8.2 updates.",
+            "🐛 Merged the free export fix for premium map selections.",
+            "🔧 Merged the 3.8.1 release branch."
           ]
         },
         {
@@ -478,8 +478,8 @@
           "name": "mushfiq",
           "commit_count": 1,
           "bullets": [
-            "🚀 Added export analytics properties for scene style, zoom level, angle bucket, and intro direction.",
-            "🔧 Bumped marketing versions for the app and extension targets to 3.8.2."
+            "🚀 Added scene style, zoom, angle, and intro metadata to export analytics.",
+            "🔧 Bumped the app and extension marketing versions to 3.8.2."
           ]
         }
       ]
@@ -492,11 +492,11 @@
           "name": "VarshaShaheen",
           "commit_count": 5,
           "bullets": [
-            "♻️ Reworked the models carousel to render through React with optimized Next.js images instead of manual DOM updates.",
-            "🔧 Added deployment automation that dispatches Vercel deploy requests through the central actions repository.",
-            "🌐 Added broad localized landing-page content, including Arabic and Bengali translations for metadata, navigation, feature sections, and CTAs.",
-            "🔧 Added baseline project setup files including git ignores, ESLint configuration, README badge, and app link association metadata.",
-            "🔧 Fixed package lock structure to keep dependency metadata valid."
+            "♻️ Reworked the models carousel to render through React state instead of direct DOM mutations.",
+            "🚀 Switched model thumbnails to Next.js image rendering while keeping the duplicated rows for seamless scrolling.",
+            "🔧 Added deployment and project setup files, including Vercel dispatch automation, ignore rules, lint config, and a README badge.",
+            "🚀 Added app link association support for Travel Animator deep links.",
+            "📝 Added localized landing page content for Arabic and Bengali."
           ]
         }
       ]

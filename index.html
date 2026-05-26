@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catchup · Lascade daily activity</title>
+  <meta name="description" content="What happened across the Lascade org each day." />
+
+  <!-- flatpickr (CDN micro-lib) for the inline calendar -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/flatpickr.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/flatpickr.min.js"></script>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ===== Top bar: brand + filters + grouping ===== -->
+  <header class="topbar">
+    <div class="topbar__brand">
+      <span class="topbar__logo" aria-hidden="true">◆</span>
+      <div>
+        <h1 class="topbar__title">Catchup</h1>
+        <p class="topbar__subtitle" id="day-label">—</p>
+      </div>
+    </div>
+
+    <div class="topbar__controls">
+      <!-- Repo multi-select dropdown -->
+      <div class="dropdown" id="repo-dropdown">
+        <button class="dropdown__toggle" id="repo-toggle" type="button"
+                aria-haspopup="true" aria-expanded="false">
+          <span id="repo-toggle-label">Repos</span>
+          <svg class="dropdown__caret" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true">
+            <path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          </svg>
+        </button>
+        <div class="dropdown__panel" id="repo-panel" role="menu" hidden>
+          <div class="dropdown__search">
+            <input type="search" id="repo-search" placeholder="Filter repos…" aria-label="Filter repos" />
+          </div>
+          <div class="dropdown__actions">
+            <button type="button" class="linkbtn" id="repo-clear">Clear</button>
+          </div>
+          <ul class="dropdown__list" id="repo-list"></ul>
+        </div>
+      </div>
+
+      <!-- Developer multi-select dropdown -->
+      <div class="dropdown" id="user-dropdown">
+        <button class="dropdown__toggle" id="user-toggle" type="button"
+                aria-haspopup="true" aria-expanded="false">
+          <span id="user-toggle-label">Developers</span>
+          <svg class="dropdown__caret" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true">
+            <path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          </svg>
+        </button>
+        <div class="dropdown__panel" id="user-panel" role="menu" hidden>
+          <div class="dropdown__search">
+            <input type="search" id="user-search" placeholder="Filter developers…" aria-label="Filter developers" />
+          </div>
+          <div class="dropdown__actions">
+            <button type="button" class="linkbtn" id="user-clear">Clear</button>
+          </div>
+          <ul class="dropdown__list" id="user-list"></ul>
+        </div>
+      </div>
+
+      <!-- Date button (mobile entry point to calendar) -->
+      <button class="datebtn" id="date-btn" type="button" aria-haspopup="dialog" aria-expanded="false">
+        <svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true">
+          <rect x="2" y="3" width="12" height="11" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.3"/>
+          <path d="M2 6h12M5 1.5v3M11 1.5v3" stroke="currentColor" stroke-width="1.3"/>
+        </svg>
+        <span id="date-btn-label">Date</span>
+      </button>
+
+    </div>
+
+    <!-- Selected-developer chips (only the chosen ones, removable) -->
+    <div class="chips" id="user-chips" aria-label="Selected developers"></div>
+  </header>
+
+  <!-- ===== Body: feed + calendar sidebar ===== -->
+  <main class="layout">
+    <div class="feed-col">
+      <div class="feed-bar">
+        <span class="feed-bar__label">Group by:</span>
+        <div class="segmented" role="group" aria-label="Group activity by">
+          <button type="button" class="segmented__btn is-active" id="group-repo" data-group="repo">Repo</button>
+          <button type="button" class="segmented__btn" id="group-dev" data-group="dev">Developer</button>
+        </div>
+      </div>
+      <section class="feed" id="feed" aria-live="polite" aria-busy="true">
+        <div class="state" id="feed-state">Loading…</div>
+      </section>
+    </div>
+
+    <aside class="sidebar" id="sidebar">
+      <h2 class="sidebar__heading">Calendar</h2>
+      <div id="calendar"></div>
+      <p class="sidebar__hint">Only days with activity are selectable.</p>
+    </aside>
+  </main>
+
+  <!-- Scrim for mobile calendar popover -->
+  <div class="scrim" id="scrim" hidden></div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

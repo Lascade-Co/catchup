@@ -1,0 +1,507 @@
+{
+  "date": "2026-05-27",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 4,
+          "bullets": [
+            "🚀 Implemented a daily organization catchup workflow with commit classification and summary generation.",
+            "🚀 Enhanced index metadata to include deduplicated repositories and users.",
+            "🐛 Updated artifact upload/download actions to their latest versions in the daily catchup workflow.",
+            "🔧 Fixed GitHub app token configuration to use the client ID instead of the app ID."
+          ]
+        }
+      ]
+    },
+    {
+      "repo": "Lascade-Co/airline70-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 6,
+          "bullets": [
+            "🔧 Added QA and release GitHub workflows for Flutter APK/AAB builds and central build dispatches.",
+            "🔧 Updated release trigger behavior to run after merged pull requests into the release branch.",
+            "🔧 Added Flutter/FVM project version metadata and development environment setup files.",
+            "🐛 Fixed attribution data handling so backend-provided fields pass through without remapping.",
+            "🚀 Bumped the app version and adjusted locked test-related dependency versions."
+          ]
+        },
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 1,
+          "bullets": [
+            "🔧 Implemented GitHub workflow automation for the Flutter project."
+          ]
+        }
+      ]
+    },
+    {
+      "repo": "Lascade-Co/catchup",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 4,
+          "bullets": [
+            "🚀 Built a static daily catchup front end that renders manifest and per-day activity data.",
+            "🔎 Added repo and developer filtering with persistent selections, removable chips, and group-by controls.",
+            "📅 Added date navigation with selectable manifest days and URL hash deep-linking.",
+            "🔧 Initialized the public site data manifest and project README.",
+            "🎨 Added an SVG favicon aligned with the site branding."
+          ]
+        }
+      ]
+    },
+    {
+      "repo": "Lascade-Co/D2-Flight-Android",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 2,
+          "bullets": [
+            "🚀 Updated the Flight Autocomplete integration to the newest version.",
+            "🔧 Added GitHub workflows to dispatch centralized debug and release Android builds.",
+            "🔧 Set up Android project build configuration, signing setup, dependencies, and release symbol packaging.",
+            "📝 Added local development setup documentation for secrets, keystores, and Firebase configuration.",
+            "🔧 Added ignore rules and secret-management configuration for local Android build artifacts."
+          ]
+        }
+      ]
+    },
+    {
+      "repo": "Lascade-Co/D2-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 19,
+          "bullets": [
+            "🚀 Added booking and deeplink webview loading indicators, including centered spinners and native progress bars aligned with headers.",
+            "⚡ Warmed booking/deal webviews and prefetched deal URLs so hotel booking opens faster with reduced perceived network latency.",
+            "🐛 Fixed search and deeplink reliability by correcting popular-location entity IDs, offline autocomplete messaging, and recent-search placeholders.",
+            "🐛 Improved filter, calendar, and guest flows so selections persist, check-in months reopen correctly, and guest limits/apply actions behave reliably.",
+            "🎨 Adjusted bottom toast placement and limit messaging so banners clear sticky controls and communicate guest-stepper constraints cleanly."
+          ]
+        }
+      ]
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 8,
+          "bullets": [
+            "🚀 Redesigned checkout with updated plan, promo, wallet, payment, and trust-badge sections.",
+            "🐛 Fixed wallet transaction loading after authentication resolves and added smoother silent refresh behavior.",
+            "🚀 Added auto-renewal support to the home tab eSIM details sheet through a shared top-up widget.",
+            "🔧 Added Android QA and release build automation with app distribution, release notes, and team notifications.",
+            "🔧 Removed the iOS release workflow, cleaned up ignored generated files, removed an unused test file, and bumped the app version."
+          ]
+        }
+      ]
+    },
+    {
+      "repo": "Lascade-Co/email-push-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 7,
+          "bullets": [
+            "🚀 Added transactional email controls, once-per-user behavior, welcome deduplication, and admin override bypasses.",
+            "🚀 Split app/domain handling and added lazy welcome_sent_at backfill from prior email logs.",
+            "🐛 Fixed review issues around N+1 backfill queries, SES send short-circuiting, and MIME recipient guards.",
+            "♻️ Refactored automation utilities into focused render, gate, and defer modules.",
+            "🐛 Applied linear time-of-day pacing to warm-up behavior and cleaned up deferred send fall-through."
+          ]
+        }
+      ]
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan-Shoukath",
+          "commit_count": 1,
+          "bullets": [
+            "🐛 Fixed wallet saved-card deletion and top-up handling issues.",
+            "🔧 Added branch deploy and centralized Docker build request workflows.",
+            "🔧 Added an email guard workflow to prevent deprecated email-sending paths from returning.",
+            "📝 Added local environment sample configuration and developer guidance for the Django backend.",
+            "🔧 Added repository hygiene/configuration files including ignore rules, submodule setup, and secret-management metadata."
+          ]
+        }
+      ]
+    },
+    {
+      "repo": "Lascade-Co/esim-saily",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 16,
+          "bullets": [
+            "🚀 Added unified fetching and deduplication for standard and unlimited data plans.",
+            "🚀 Improved checkout and plan flows with region-aware labels, country-name resolution, dynamic auth copy, and region-specific top-ups.",
+            "🐛 Fixed active-plan filtering to use enabled status and resolved an Android 12+ launch crash.",
+            "🔧 Updated Flutter Stripe, Dart SDK, Firebase setup, app ID configuration, and ignored local/generated platform files.",
+            "♻️ Refactored plan-fetch request handling with clearer URI usage and logging, plus onboarding video fallback assets."
+          ]
+        },
+        {
+          "login": "shon400",
+          "name": "shon400",
+          "commit_count": 2,
+          "bullets": [
+            "🔧 Removed checked-in Firebase generated configuration files and switched initialization to platform defaults.",
+            "🔧 Cleaned cached platform Firebase artifacts from Android and iOS project files.",
+            "🔧 Updated dependency lockfile entries after removing generated Firebase setup."
+          ]
+        }
+      ]
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 6,
+          "bullets": [
+            "🚀 Added wallet auto-topup auto-save behavior with a status pill and removed the manual Save flow.",
+            "🐛 Serialized auto-topup rule updates to avoid concurrent PATCH race conditions.",
+            "🐛 Reduced checkout and wallet UI instability by conditionally showing payment skeletons and clearing stale local edits on retry.",
+            "🔐 Added promo-code sign-in gating with locale-aware return handling.",
+            "📝 Localized remaining auto-topup API errors, toggle hints, and amount validation messages."
+          ]
+        },
+        {
+          "login": "jyothikrishna-06",
+          "name": "jyothikrishna-06",
+          "commit_count": 2,
+          "bullets": [
+            "🔧 Updated robots configuration to allow AI crawlers.",
+            "📝 Improved llms.txt structure for clearer AI crawler guidance."
+          ]
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 1,
+          "bullets": [
+            "🔧 Deployed the site on Vercel."
+          ]
+        }
+      ]
+    },
+    {
+      "repo": "Lascade-Co/flights-70-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": [
+            "🔧 Triggered a deployment for the web app."
+          ]
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": [
+            "🐛 Fixed a crash by checking the flight deal count before rendering."
+          ]
+        }
+      ]
+    },
+    {
+      "repo": "Lascade-Co/kayak-main-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": [
+            "🔧 Added a GitHub Actions deployment pipeline for testing and staged server rollouts.",
+            "✅ Added automated HTTP health checks after each deployment stage.",
+            "🔧 Set up Node.js package locking and core server dependencies.",
+            "📝 Added repository setup notes and deployment caution guidance.",
+            "🔧 Added ignore rules for local config, dependencies, and editor/system files."
+          ]
+        }
+      ]
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": [
+            "🔧 Marked the 2026-05-26 daily report as sent"
+          ]
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": [
+            "📝 Saved the 2026-05-26 daily report for GitHub Actions delivery"
+          ]
+        }
+      ]
+    },
+    {
+      "repo": "Lascade-Co/M1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih",
+          "commit_count": 8,
+          "bullets": [
+            "🚀 Built out the hotel results experience with the result screen, header, filter UI, and supporting filter icon asset.",
+            "🚀 Added deeplink support for the \"Top picks for you\" flow and introduced a loading bar animation.",
+            "🚀 Refined the home screen styling, including the white header area and lower-page surface treatment.",
+            "🐛 Fixed result card tap behavior so hotel result interactions respond correctly.",
+            "♻️ Updated the modify search sheet layout and state syncing so dismissed edits reset back to the current search parameters."
+          ]
+        }
+      ]
+    },
+    {
+      "repo": "Lascade-Co/m8-android-hotel",
+      "developers": [
+        {
+          "login": "lascadeansal",
+          "name": "ansal",
+          "commit_count": 5,
+          "bullets": [
+            "🐛 Fixed local notification scheduling and cancellation around app foreground/background transitions.",
+            "🔧 Removed the separate local ad notification worker flow and related remote-config/session handling.",
+            "🚀 Added an in-app WebView flow for hotel redirects, replacing external browser/custom tab handoffs in key paths.",
+            "📊 Integrated WebView interaction and exit/payment-related analytics events for custom web sessions.",
+            "🐛 Fixed push notification delivery and expanded session creation to include all user search parameters."
+          ]
+        }
+      ]
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": "AdarshLascade",
+          "name": "AdarshLascade",
+          "commit_count": 1,
+          "bullets": [
+            "🔧 Added Flutter project setup metadata, version pinning, editor launch settings, and ignore rules.",
+            "🔧 Added GitHub Actions triggers for pull request debug builds and main-branch release builds via the central actions repository.",
+            "📝 Added contributor guidance covering the app architecture, GetX patterns, data flow, logging conventions, build commands, and key dependencies.",
+            "🔧 Added Xcode Cloud trigger metadata and placeholder files for build automation.",
+            "📝 Added initial project notes, README content, analyzer configuration, and captured analysis output."
+          ]
+        }
+      ]
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 4,
+          "bullets": [
+            "🚀 Built the MarineRadar Trends dashboard foundation with overview, navigation shell, global styling, and maritime-focused design guidance.",
+            "🚀 Added breakout analytics showing ranked entities, status classes, source attribution, query-to-entity flows, and supporting KPIs.",
+            "🚀 Added seasonality reporting with annual pattern ribbons, active and upcoming windows, maturity indicators, and hourly/day-of-week heatmaps.",
+            "🔧 Wired pages for dynamic live data access with fallback messaging when the ingest backend is unavailable.",
+            "🔧 Added project setup docs, ignore rules, loading skeletons, and Vercel configuration updates."
+          ]
+        },
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": [
+            "♻️ Overhauled typography with tokenized text scales and semantic text classes.",
+            "♻️ Removed the extra serif font dependency and standardized display styling around Geist Sans.",
+            "🧹 Replaced many one-off text sizing and tracking utilities across pages and components with shared classes."
+          ]
+        }
+      ]
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": [
+            "📊 Added a May 11, 2026 PPP price-change impact analysis comparing revenue before and after the change.",
+            "📉 Quantified overall daily revenue decline and broke out differences between App Store and Play Store performance.",
+            "🌍 Highlighted regional patterns, including gains in European markets and declines in English-speaking and Latin American markets."
+          ]
+        },
+        {
+          "login": "Iamfasna",
+          "name": "Iamfasna",
+          "commit_count": 1,
+          "bullets": [
+            "📝 Added review context for the Cover Image launch to prevent repeated false-positive critiques.",
+            "🔧 Introduced an ad spend reporting skill for Meta, Google, and Apple Search Ads with multi-org and app-level routing.",
+            "📊 Documented report generation logic for date ranges, campaign grouping, sparklines, and Slack/Telegram-friendly output.",
+            "🔧 Added a sample ad spend configuration template with placeholder credential fields and per-app mappings."
+          ]
+        }
+      ]
+    },
+    {
+      "repo": "Lascade-Co/travel-analytics-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": [
+            "🐛 Skipped Google CSV conversion entries that are missing required gclid or email data.",
+            "♻️ Limited Google Ads conversion bulk updates to only rows actually processed for bot uploads."
+          ]
+        }
+      ]
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 6,
+          "bullets": [
+            "♻️ Improved 3D follower path precision by carrying world-space positions through rotation history and reducing projection-related lateral drift.",
+            "♻️ Replaced the arc-specific renderer with a generic 3D line layer that supports resampled polylines and altitude-aware route animation.",
+            "🔧 Simplified model and avatar update paths by removing renderer-side model caching and streamlining the avatar bitmap API.",
+            "🐛 Allowed the login sheet to be dismissed after a successful purchase, in addition to first-time user flows.",
+            "🧹 Removed duplicate debug launcher behavior and unused string resources."
+          ]
+        },
+        {
+          "login": null,
+          "name": "Vivek Venugopal",
+          "commit_count": 2,
+          "bullets": [
+            "🐛 Removed Google Maps intent filters from the app configuration.",
+            "♻️ Centralized cover snapshot refresh decisions in the cover image ViewModel.",
+            "🐛 Fixed TerraInk route and theme refresh behavior so cover images do not reuse stale map snapshots.",
+            "♻️ Simplified cover preview refresh coordination and reused shared TerraInk styling helpers."
+          ]
+        },
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 1,
+          "bullets": [
+            "🚀 Added a TerraInk cover style with custom themed map styling, snapshot rendering, and a gradient title banner.",
+            "🎨 Introduced 24 TerraInk color palettes with theme selection in the cover sheet.",
+            "⚡ Improved cover map snapshots with overzooming to capture denser road detail.",
+            "🔧 Integrated TerraInk into cover style state, UI models, and persisted theme preferences."
+          ]
+        },
+        {
+          "login": null,
+          "name": "octopoocha",
+          "commit_count": 1,
+          "bullets": [
+            "🧹 Removed an unused outro globe string resource as part of lint cleanup."
+          ]
+        }
+      ]
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "rahul028",
+          "name": "rahul028",
+          "commit_count": 5,
+          "bullets": [
+            "🚀 Added analytics tracking around unit selection.",
+            "🐛 Fixed the selected background state for the unit button.",
+            "🐛 Reverted a prior map setup change that removed unit handling.",
+            "🔀 Synced the new unit styles branch with the latest mainline changes."
+          ]
+        },
+        {
+          "login": "Krishnan-E",
+          "name": "Krishnan-E",
+          "commit_count": 4,
+          "bullets": [
+            "🐛 Improved GPX sharing/import handling by adjusting exported and imported type declarations.",
+            "🐛 Added support for uppercase GPX file extensions in route file recognition.",
+            "♻️ Removed Siri interaction donation code from the share extension import flow.",
+            "🔧 Bumped the project build number across app and extension targets."
+          ]
+        },
+        {
+          "login": "Basith-P",
+          "name": "Basith-P",
+          "commit_count": 3,
+          "bullets": [
+            "🐛 Fixed current place labels so they hide in playback order and do not remain visible after the route moves on.",
+            "🚀 Increased sequence and focused flag render sizes for stronger visibility in previews and exports.",
+            "🔀 Synced the flag styles branch with the latest mainline changes."
+          ]
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 3,
+          "bullets": [
+            "🔧 Added manually triggered CI workflows for debug builds and App Store releases through shared automation.",
+            "📝 Added repository guidance for AI coding agents, including project architecture, build instructions, and conventions.",
+            "🔧 Added ignore rules for local IDE, generated, and configuration artifacts.",
+            "🚀 Released version 3.8.1 and merged the fix for free exports getting stuck with premium maps."
+          ]
+        },
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 1,
+          "bullets": [
+            "🚀 Added scene style analytics to export completion events, including style, zoom, angle, and intro direction buckets.",
+            "🔧 Bumped the app and extension marketing version to 3.8.2."
+          ]
+        }
+      ]
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 5,
+          "bullets": [
+            "🐛 Fixed the models carousel by rendering rows declaratively in React and using optimized Next.js images.",
+            "🔧 Added deployment automation to request central Vercel deployments on pushes.",
+            "🔧 Added baseline project setup files including ignore rules, ESLint configuration, and a README badge.",
+            "🚀 Added app association support for universal/deep links.",
+            "🌐 Added localized landing-page content for additional languages, including Arabic and Bengali."
+          ]
+        }
+      ]
+    }
+  ]
+}

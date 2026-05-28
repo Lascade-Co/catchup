@@ -1,7 +1,8 @@
 {
   "daily": [
     "daily/2026-05-26.json",
-    "daily/2026-05-27.json"
+    "daily/2026-05-27.json",
+    "daily/2026-05-28.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -25,7 +26,16 @@
     "Lascade-Co/travel-analytics-server",
     "Lascade-Co/travel-animator-android",
     "Lascade-Co/travel-animator-ios",
-    "Lascade-Co/travel-animator-lp"
+    "Lascade-Co/travel-animator-lp",
+    "Lascade-Co/AR-Measure-Android",
+    "Lascade-Co/AR-Measure-IOS",
+    "Lascade-Co/M4-hotel-ios-v2",
+    "Lascade-Co/M8-hotel-ios-v2",
+    "Lascade-Co/c1wh-hotelsoff",
+    "Lascade-Co/d1ah-hotels70",
+    "Lascade-Co/esim_airalo",
+    "Lascade-Co/flight-tracker-flutter",
+    "Lascade-Co/marine-api"
   ],
   "users": [
     {
@@ -147,6 +157,38 @@
     {
       "login": null,
       "name": "Vivek Venugopal"
+    },
+    {
+      "login": "akbar-lascade",
+      "name": "akbar lasecade"
+    },
+    {
+      "login": null,
+      "name": "Antony Mathew"
+    },
+    {
+      "login": "Ashiiq666",
+      "name": "ashiiq666"
+    },
+    {
+      "login": "devikasu",
+      "name": "devikalsu"
+    },
+    {
+      "login": "keith-james",
+      "name": "Keith James"
+    },
+    {
+      "login": null,
+      "name": "Konj Bot"
+    },
+    {
+      "login": null,
+      "name": "Vyshnav S"
+    },
+    {
+      "login": "vyshnavsmenon115",
+      "name": "vyshnavsmenon115"
     }
   ]
 }

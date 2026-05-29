@@ -80,11 +80,12 @@ function saveSet(lsKey, set) {
   localStorage.setItem(lsKey, JSON.stringify([...set]));
 }
 
-/* Deterministic avatar color from a key. */
+/* Deterministic avatar color from a key. Earthy saturation/lightness to sit
+   against the warm-cream surface without shouting. */
 function avatarColor(key) {
   let h = 0;
   for (let i = 0; i < key.length; i++) h = (h * 31 + key.charCodeAt(i)) >>> 0;
-  return `hsl(${h % 360} 55% 48%)`;
+  return `hsl(${h % 360} 38% 42%)`;
 }
 function initials(name) {
   const parts = name.trim().split(/\s+/);

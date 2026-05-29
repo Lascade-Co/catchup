@@ -1,0 +1,43 @@
+{
+  "date": "2026-05-29",
+  "repos": [
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": null,
+          "name": "Antony Mathew",
+          "commit_count": 1,
+          "bullets": [
+            "🚀 Added Android project build setup for the AR measurement app with Compose, Hilt, Firebase, billing, analytics, ads, and AR/camera dependencies.",
+            "🔧 Added central CI dispatch workflows for debug pull request builds, release builds, and Play Store publishing.",
+            "🔧 Added scheduled cleanup for old debug releases and tags to keep generated build artifacts under control.",
+            "🔧 Configured release and debug signing, BuildConfig fields, resource packaging, ProGuard, and native debug symbol packaging.",
+            "🧹 Added Git ignore rules for local Android, build, signing, and generated configuration artifacts."
+          ]
+        }
+      ]
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": [
+            "🔧 Marked the 2026-05-28 daily report as sent"
+          ]
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": [
+            "📝 Saved the 2026-05-28 daily report for GitHub Actions delivery"
+          ]
+        }
+      ]
+    }
+  ]
+}

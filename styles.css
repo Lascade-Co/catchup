@@ -625,7 +625,18 @@ a.dev-chip:hover { border-color: var(--ink); }
       "chips";
     padding: 16px 20px;
   }
-  .topbar__controls { justify-content: flex-start; }
+  .topbar__controls { justify-content: flex-start; position: relative; }
+
+  /* Drop dropdown panels from the full-width controls row, not the small
+     toggle — otherwise a right-anchored panel runs off the left edge. */
+  .dropdown { position: static; }
+  .dropdown__panel {
+    top: calc(100% + 6px);
+    left: 0;
+    right: 0;
+    width: auto;
+    max-width: none;
+  }
   .layout {
     grid-template-columns: 1fr;
     padding: 24px 20px 56px;

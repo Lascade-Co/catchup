@@ -6,11 +6,13 @@
       "developers": [
         {
           "login": "rohittp0",
-          "name": "Rohit",
-          "commit_count": 1,
-          "bullets": [
-            "🚀 Implemented a daily catchup email pipeline with automated report generation"
-          ]
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added a repo exclusion list to the daily catchup email workflow and landed the report-generation email pipeline."
+            ]
+          }
         }
       ],
       "prs": [
@@ -23,8 +25,7 @@
       "branches": [
         "origin"
       ],
-      "version": null,
-      "tags": []
+      "version": null
     },
     {
       "repo": "Lascade-Co/catchup",
@@ -33,20 +34,18 @@
           "login": "rohittp0",
           "name": "Rohit T P",
           "commit_count": 1,
-          "bullets": [
-            "🎨 Refined the Catchup visual theme to match Lascade's warm cream and near-black email style.",
-            "🔤 Switched typography to the Inter web font for more consistent rendering across platforms.",
-            "♻️ Cleaned up layout spacing, padding, and corner radii for a more polished interface.",
-            "🎨 Updated the favicon and avatar color palette to better fit the subdued brand direction."
-          ]
+          "bullets": {
+            "Published": [
+              "🎨 Refined the app’s visual system with warmer brand colors, Inter typography, cleaner spacing, an updated favicon, and more subdued avatar colors."
+            ]
+          }
         }
       ],
       "prs": [],
       "branches": [
         "origin"
       ],
-      "version": null,
-      "tags": []
+      "version": null
     },
     {
       "repo": "Lascade-Co/dashboard",
@@ -55,10 +54,11 @@
           "login": "rohittp0",
           "name": "Rohit",
           "commit_count": 1,
-          "bullets": [
-            "🚀 Added internal API key authentication for protected dashboard API access",
-            "🚀 Added an endpoint to list app instances by user ID or email"
-          ]
+          "bullets": {
+            "Published": [
+              "🚀 Added internal API key authentication and an endpoint to list app instances by user ID or email"
+            ]
+          }
         }
       ],
       "prs": [
@@ -71,10 +71,7 @@
       "branches": [
         "origin"
       ],
-      "version": null,
-      "tags": [
-        "catchup-mail"
-      ]
+      "version": null
     },
     {
       "repo": "Lascade-Co/lascade-routines",
@@ -83,25 +80,28 @@
           "login": "actions-user",
           "name": "GitHub Actions",
           "commit_count": 1,
-          "bullets": [
-            "🔧 Marked the 2026-05-29 daily report as sent."
-          ]
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Marked the 2026-05-29 daily report as sent."
+            ]
+          }
         },
         {
           "login": "claude",
           "name": "Claude",
           "commit_count": 1,
-          "bullets": [
-            "📝 Saved the 2026-05-29 daily report for GitHub Actions delivery."
-          ]
+          "bullets": {
+            "Work in Progress": [
+              "📝 Saved the 2026-05-29 daily report for GitHub Actions delivery."
+            ]
+          }
         }
       ],
       "prs": [],
       "branches": [
         "claude/failed-reports"
       ],
-      "version": null,
-      "tags": []
+      "version": null
     },
     {
       "repo": "Lascade-Co/travel-animator-ios",
@@ -110,32 +110,35 @@
           "login": "MushfiqHumayoon",
           "name": "mushfiq",
           "commit_count": 3,
-          "bullets": [
-            "🔧 Ignored local scene effects configuration to keep environment-specific config out of the repository.",
-            "🚀 Updated bearing behavior for lead and follow animation styles.",
-            "🐛 Fixed a zoom glitch in the route animation experience.",
-            "🔧 Added manual GitHub Actions dispatch workflows for debug builds and releases.",
-            "📝 Added repository guidance and baseline ignore rules for iOS development and automation tooling."
-          ]
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Added debug and App Store release workflow dispatchers for central iOS builds.",
+              "🔧 Expanded ignored local configuration and generated analysis files.",
+              "📝 Added repository guidance for AI coding assistants.",
+              "🐛 Updated bearing behavior for lead and follow animation styles and continued investigating a zoom glitch."
+            ]
+          }
         },
         {
           "login": "Krishnan-E",
           "name": "Krishnan-E",
           "commit_count": 2,
-          "bullets": [
-            "🐛 Fixed PathSnapManager distance calculation call arguments.",
-            "🔧 Added manual GitHub Actions dispatch workflows for TestFlight debug builds and App Store releases.",
-            "📝 Added repository guidance for AI coding agents, including app architecture, build steps, dependencies, and conventions.",
-            "🔧 Added iOS project ignore rules for generated Xcode state, local config, analytics config, and tooling output."
-          ]
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed the PathSnapManager distance calculation call to use the updated arguments.",
+              "🔀 Synced the Terra Ink cover style branch with main."
+            ]
+          }
         },
         {
           "login": "Mushf1qHumayoon",
           "name": "Mushfiq Humayoon",
           "commit_count": 1,
-          "bullets": [
-            "🐛 Fixed the sizing behavior for custom watermarks."
-          ]
+          "bullets": {
+            "Published": [
+              "🐛 Fixed custom watermark sizing."
+            ]
+          }
         }
       ],
       "prs": [
@@ -150,10 +153,7 @@
         "mushfiq/zoom-glitch-cover-image",
         "origin"
       ],
-      "version": null,
-      "tags": [
-        "catchup-mail"
-      ]
+      "version": null
     }
   ]
 }

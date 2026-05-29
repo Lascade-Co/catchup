@@ -2,20 +2,78 @@
   "date": "2026-05-29",
   "repos": [
     {
-      "repo": "Lascade-Co/AR-Measure-Android",
+      "repo": "Lascade-Co/actions",
       "developers": [
         {
-          "login": null,
-          "name": "Antony Mathew",
+          "login": "rohittp0",
+          "name": "Rohit",
           "commit_count": 1,
           "bullets": [
-            "🚀 Added Android project build setup for the AR measurement app with Compose, Hilt, Firebase, billing, analytics, ads, and AR/camera dependencies.",
-            "🔧 Added central CI dispatch workflows for debug pull request builds, release builds, and Play Store publishing.",
-            "🔧 Added scheduled cleanup for old debug releases and tags to keep generated build artifacts under control.",
-            "🔧 Configured release and debug signing, BuildConfig fields, resource packaging, ProGuard, and native debug symbol packaging.",
-            "🧹 Added Git ignore rules for local Android, build, signing, and generated configuration artifacts."
+            "🚀 Implemented a daily catchup email pipeline with automated report generation"
           ]
         }
+      ],
+      "prs": [
+        {
+          "number": 38,
+          "title": "feat: implement daily catchup email pipeline with report generation a…",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null,
+      "tags": []
+    },
+    {
+      "repo": "Lascade-Co/catchup",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": [
+            "🎨 Refined the Catchup visual theme to match Lascade's warm cream and near-black email style.",
+            "🔤 Switched typography to the Inter web font for more consistent rendering across platforms.",
+            "♻️ Cleaned up layout spacing, padding, and corner radii for a more polished interface.",
+            "🎨 Updated the favicon and avatar color palette to better fit the subdued brand direction."
+          ]
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null,
+      "tags": []
+    },
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit",
+          "commit_count": 1,
+          "bullets": [
+            "🚀 Added internal API key authentication for protected dashboard API access",
+            "🚀 Added an endpoint to list app instances by user ID or email"
+          ]
+        }
+      ],
+      "prs": [
+        {
+          "number": 60,
+          "title": "feat: Add internal API key authentication and endpoint to list app instances by user ID or email",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null,
+      "tags": [
+        "catchup-mail"
       ]
     },
     {
@@ -26,7 +84,7 @@
           "name": "GitHub Actions",
           "commit_count": 1,
           "bullets": [
-            "🔧 Marked the 2026-05-28 daily report as sent"
+            "🔧 Marked the 2026-05-29 daily report as sent."
           ]
         },
         {
@@ -34,9 +92,67 @@
           "name": "Claude",
           "commit_count": 1,
           "bullets": [
-            "📝 Saved the 2026-05-28 daily report for GitHub Actions delivery"
+            "📝 Saved the 2026-05-29 daily report for GitHub Actions delivery."
           ]
         }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null,
+      "tags": []
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 3,
+          "bullets": [
+            "🔧 Ignored local scene effects configuration to keep environment-specific config out of the repository.",
+            "🚀 Updated bearing behavior for lead and follow animation styles.",
+            "🐛 Fixed a zoom glitch in the route animation experience.",
+            "🔧 Added manual GitHub Actions dispatch workflows for debug builds and releases.",
+            "📝 Added repository guidance and baseline ignore rules for iOS development and automation tooling."
+          ]
+        },
+        {
+          "login": "Krishnan-E",
+          "name": "Krishnan-E",
+          "commit_count": 2,
+          "bullets": [
+            "🐛 Fixed PathSnapManager distance calculation call arguments.",
+            "🔧 Added manual GitHub Actions dispatch workflows for TestFlight debug builds and App Store releases.",
+            "📝 Added repository guidance for AI coding agents, including app architecture, build steps, dependencies, and conventions.",
+            "🔧 Added iOS project ignore rules for generated Xcode state, local config, analytics config, and tooling output."
+          ]
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 1,
+          "bullets": [
+            "🐛 Fixed the sizing behavior for custom watermarks."
+          ]
+        }
+      ],
+      "prs": [
+        {
+          "number": 589,
+          "title": "Fix: Size of custom watermark",
+          "author": "Krishnan-E"
+        }
+      ],
+      "branches": [
+        "feat/terra-ink-cover-style",
+        "mushfiq/zoom-glitch-cover-image",
+        "origin"
+      ],
+      "version": null,
+      "tags": [
+        "catchup-mail"
       ]
     }
   ]

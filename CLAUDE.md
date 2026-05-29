@@ -14,7 +14,7 @@ Everything renders from two layers of JSON, both fetched relative to the site ro
 - **`daily/<YYYY-MM-DD>.json`** — one file per day. Shape:
   ```json
   {
-    "date": "2026-05-26",
+    "date": "2026-05-29",
     "repos": [
       {
         "repo": "Lascade-Co/<name>",
@@ -23,18 +23,26 @@ Everything renders from two layers of JSON, both fetched relative to the site ro
             "login": "github-login-or-null",
             "name": "Display Name",
             "commit_count": 6,
-            "bullets": ["🚀 ...", "🐛 ..."]
+            "bullets": {
+              "Published": ["🚀 ...", "🐛 ..."],
+              "Testing": ["🐛 ..."],
+              "Work in Progress": ["🔧 ..."]
+            }
           }
-        ]
+        ],
+        "prs": [{ "number": 38, "title": "feat: ...", "author": "github-login" }],
+        "branches": ["origin", "feat/some-branch"],
+        "version": null
       }
     ]
   }
   ```
 
 Notes that affect rendering logic:
-- `developers[].login` can be `null` (commits not attributed to a GitHub account) — fall back to `name`.
+- `developers[].login` can be `null` (commits not attributed to a GitHub account) — fall back to `name`. Developer avatars use the GitHub profile picture (`https://github.com/<login>.png`), falling back to colored initials when `login` is null.
 - The same person may appear under multiple `login`/`name` casings across repos (e.g. `Mushf1qHumayoon` vs `MushfiqHumayoon`); treat logins as the identity key but don't assume they're normalized.
-- `bullets` are pre-generated human-readable summaries prefixed with an emoji that encodes commit type (🚀 feature, 🐛 fix, ♻️ refactor, ⚡ perf, 📝 docs, 🔧 chore, 💄/🎨 UI, 🧹 cleanup, 📊/📉 analysis). `commit_count` is independent of bullet count.
+- `bullets` is an **object keyed by status** (`Published`, `Testing`, `Work in Progress`); each value is an array of pre-generated, emoji-prefixed summaries. The leading emoji encodes commit type (🚀 feature, 🐛 fix, ♻️ refactor, ⚡ perf, 📝 docs, 🔧 chore, 💄/🎨 UI, 🧹 cleanup, 📊/📉 analysis). The feed renders statuses in the fixed order Published → Testing → Work in Progress. `commit_count` is independent of bullet count.
+- Each repo also carries `prs` (`[{ number, title, author }]`, rendered as linked titles), `branches` (`[string]`, present in the data but not rendered), and `version` (`string | null`, shown as a badge when present). The repo view ends with a compact commit breakdown (chips of avatar + name + commit count).
 
 Daily JSON files are produced upstream by the `Lascade-Co/actions` daily catchup workflow — this repo only stores and visualizes them; it does not generate them.
 

@@ -414,6 +414,110 @@ body {
 .bullets .b-emoji { flex: none; }
 .bullets .b-text { color: var(--text); }
 
+/* ===================== Feed links ===================== */
+.feed-link {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: color-mix(in srgb, currentColor 45%, transparent);
+}
+.feed-link:hover { text-decoration-color: currentColor; }
+
+/* GitHub profile picture used in place of the initials avatar. */
+.avatar--img {
+  object-fit: cover;
+  background: var(--surface-2);
+}
+
+/* ===================== Status / sub-labels ===================== */
+.status-label {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  margin: 18px 0 6px;
+}
+.status-label:first-child { margin-top: 0; }
+
+/* ===================== Developer chips ===================== */
+.dev-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 3px 11px 3px 3px;
+  background: var(--surface-2);
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+a.dev-chip:hover { border-color: var(--ink); }
+.dev-chip .avatar {
+  width: 22px;
+  height: 22px;
+  font-size: 9px;
+}
+.dev-chip__text {
+  display: inline-flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+.dev-chip__name {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text);
+}
+.dev-chip__count {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--text-faint);
+}
+/* Bullet attribution chip sits at the end of the bullet row. */
+.b-dev-chip {
+  margin-left: auto;
+  align-self: flex-start;
+  flex: none;
+}
+
+/* ===================== Pull requests ===================== */
+.pr-list { list-style: none; margin: 0; padding: 0; }
+.pr-item {
+  display: flex;
+  gap: 10px;
+  padding: 5px 0;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+}
+.pr-icon { flex: none; }
+.pr-body { color: var(--text); }
+.pr-author { color: var(--text-faint); }
+.pr-author .feed-link { color: var(--text-muted); }
+
+/* ===================== Commit breakdown (dev chips) ===================== */
+.commit-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 16px;
+}
+
+/* ===================== Version badge ===================== */
+.ver-badge {
+  align-self: center;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--ink-on);
+  background: var(--ink);
+  padding: 2px 9px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
 /* ===================== States ===================== */
 .state {
   text-align: center;

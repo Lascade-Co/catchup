@@ -93,6 +93,28 @@ function initials(name) {
   return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase();
 }
 
+/* A colored circle with the developer's initials — fallback identity. */
+function initialsAvatar(name, key) {
+  const span = document.createElement('span');
+  span.className = 'avatar';
+  span.style.background = avatarColor(key);
+  span.textContent = initials(name);
+  return span;
+}
+
+/* The developer's GitHub profile picture; falls back to initials when there's
+   no login or the image fails to load. */
+function avatarEl(name, login, key) {
+  if (!login) return initialsAvatar(name, key);
+  const img = document.createElement('img');
+  img.className = 'avatar avatar--img';
+  img.src = `https://github.com/${login}.png?size=64`;
+  img.alt = name;
+  img.loading = 'lazy';
+  img.addEventListener('error', () => img.replaceWith(initialsAvatar(name, key)));
+  return img;
+}
+
 /* ============================================================
    Data loading
    ============================================================ */
@@ -178,7 +200,14 @@ function visibleByRepo() {
   const out = [];
   for (const r of state.dayData.repos) {
     const devs = r.developers.filter((d) => isRowVisible(r.repo, d));
-    if (devs.length) out.push({ repo: r.repo, developers: devs });
+    if (devs.length) {
+      out.push({
+        repo: r.repo,
+        developers: devs,
+        prs: r.prs || [],
+        version: r.version || null,
+      });
+    }
   }
   return out;
 }
@@ -192,7 +221,12 @@ function visibleByDev() {
       if (!isRowVisible(r.repo, d)) continue;
       const k = devKey(d);
       if (!map.has(k)) map.set(k, { key: k, name: d.name, login: d.login, repos: [] });
-      map.get(k).repos.push({ repo: r.repo, commit_count: d.commit_count, bullets: d.bullets });
+      map.get(k).repos.push({
+        repo: r.repo,
+        commit_count: d.commit_count,
+        bullets: d.bullets,
+        prs: r.prs || [],
+      });
     }
   }
   return [...map.values()].sort((a, b) => a.name.localeCompare(b.name));
@@ -212,67 +246,195 @@ function renderState(msg, icon, sub) {
   el.feed.appendChild(div);
 }
 
-function bulletsList(bullets) {
+/* ---------- GitHub links ---------- */
+const GH = 'https://github.com/';
+const ghRepoUrl = (repo) => GH + repo;
+const ghUserUrl = (login) => (login ? GH + login : null);
+const ghPrUrl = (repo, number) => `${GH}${repo}/pull/${number}`;
+
+/* An <a> when url is truthy, otherwise a plain <span> (e.g. a null-login dev). */
+function linkEl(text, url, className) {
+  const node = document.createElement(url ? 'a' : 'span');
+  if (url) { node.href = url; node.target = '_blank'; node.rel = 'noopener'; }
+  if (className) node.className = className;
+  node.textContent = text;
+  return node;
+}
+
+/* ---------- Bullet statuses ---------- */
+const STATUS_ORDER = ['Published', 'Testing', 'Work in Progress'];
+
+/* Split a leading emoji (non-word, non-space run) from the bullet text. */
+function splitEmoji(line) {
+  const m = line.match(/^(\s*\S+?)\s+(.*)$/s);
+  return m ? { emoji: m[1].trim(), text: m[2] } : { emoji: '', text: line };
+}
+
+/* [status, lines[]] — STATUS_ORDER first, then any unknown status in encounter order. */
+function orderedStatuses(bullets) {
+  const present = (s) => Array.isArray(bullets?.[s]) && bullets[s].length;
+  const known = STATUS_ORDER.filter(present);
+  const rest = Object.keys(bullets || {}).filter((k) => !STATUS_ORDER.includes(k) && present(k));
+  return [...known, ...rest].map((s) => [s, bullets[s]]);
+}
+
+/* A small uppercase sub-label used for statuses, PRs, branches, and commits. */
+function sublabel(text) {
+  const d = document.createElement('div');
+  d.className = 'status-label';
+  d.textContent = text;
+  return d;
+}
+
+/* Developer chip: avatar + name, with an optional "commits - N" second line.
+   Links to the developer's GitHub profile when a login is known. */
+function devChip(name, login, key, count) {
+  const url = ghUserUrl(login);
+  const chip = document.createElement(url ? 'a' : 'span');
+  chip.className = 'dev-chip';
+  if (url) { chip.href = url; chip.target = '_blank'; chip.rel = 'noopener'; }
+  chip.appendChild(avatarEl(name, login, key));
+
+  const text = document.createElement('span');
+  text.className = 'dev-chip__text';
+  const nm = document.createElement('span');
+  nm.className = 'dev-chip__name';
+  nm.textContent = name;
+  text.appendChild(nm);
+  if (count != null) {
+    const ct = document.createElement('span');
+    ct.className = 'dev-chip__count';
+    ct.textContent = `commits - ${count}`;
+    text.appendChild(ct);
+  }
+  chip.appendChild(text);
+  return chip;
+}
+
+/* One bullet <li>: emoji + text, with a trailing dev chip when attributed. */
+function bulletLi({ emoji, text, dev }) {
+  const li = document.createElement('li');
+  const em = document.createElement('span');
+  em.className = 'b-emoji';
+  em.textContent = emoji;
+  const tx = document.createElement('span');
+  tx.className = 'b-text';
+  tx.textContent = text;
+  li.appendChild(em);
+  li.appendChild(tx);
+  if (dev) {
+    const chip = devChip(dev.name, dev.login, dev.login || 'name:' + dev.name);
+    chip.classList.add('b-dev-chip');
+    li.appendChild(chip);
+  }
+  return li;
+}
+
+/* Render [status, lines[]] groups as sub-label + bullet list. */
+function statusGroups(groups) {
+  const frag = document.createDocumentFragment();
+  for (const [status, lines] of groups) {
+    frag.appendChild(sublabel(status));
+    const ul = document.createElement('ul');
+    ul.className = 'bullets';
+    for (const ln of lines) ul.appendChild(bulletLi(ln));
+    frag.appendChild(ul);
+  }
+  return frag;
+}
+
+/* Repo view: merge every developer's bullets by status, attributing each line. */
+function repoStatusGroups(developers) {
+  const byStatus = new Map();
+  for (const d of developers) {
+    const dev = { name: d.name, login: d.login };
+    for (const [status, lines] of orderedStatuses(d.bullets)) {
+      if (!byStatus.has(status)) byStatus.set(status, []);
+      for (const line of lines) byStatus.get(status).push({ ...splitEmoji(line), dev });
+    }
+  }
+  const known = STATUS_ORDER.filter((s) => byStatus.has(s));
+  const rest = [...byStatus.keys()].filter((s) => !STATUS_ORDER.includes(s));
+  return [...known, ...rest].map((s) => [s, byStatus.get(s)]);
+}
+
+/* Dev view: one developer's own bullets by status, no attribution suffix. */
+function devStatusGroups(bullets) {
+  return orderedStatuses(bullets).map(([status, lines]) => [status, lines.map(splitEmoji)]);
+}
+
+/* PRs as linked titles; author shown (linked) only in the repo view. */
+function prList(repo, prs, withAuthor) {
   const ul = document.createElement('ul');
-  ul.className = 'bullets';
-  for (const b of bullets) {
+  ul.className = 'pr-list';
+  for (const pr of prs) {
     const li = document.createElement('li');
-    // Split a leading emoji (non-word, non-space run) from the text.
-    const m = b.match(/^(\s*\S+?)\s+(.*)$/s);
-    const emoji = m ? m[1].trim() : '';
-    const text = m ? m[2] : b;
-    li.innerHTML = `<span class="b-emoji">${emoji}</span><span class="b-text"></span>`;
-    li.querySelector('.b-text').textContent = text;
+    li.className = 'pr-item';
+    const icon = document.createElement('span');
+    icon.className = 'pr-icon';
+    icon.textContent = '🔀';
+    const body = document.createElement('span');
+    body.className = 'pr-body';
+    body.appendChild(linkEl(pr.title, ghPrUrl(repo, pr.number), 'feed-link'));
+    if (withAuthor && pr.author) {
+      const au = document.createElement('span');
+      au.className = 'pr-author';
+      au.appendChild(document.createTextNode(' '));
+      au.appendChild(linkEl('@' + pr.author, ghUserUrl(pr.author), 'feed-link'));
+      body.appendChild(au);
+    }
+    li.appendChild(icon);
+    li.appendChild(body);
     ul.appendChild(li);
   }
   return ul;
 }
 
-function devBlock({ name, login, commit_count, bullets }) {
-  const block = document.createElement('div');
-  block.className = 'dev-block';
-  const key = login || 'name:' + name;
-
-  const head = document.createElement('div');
-  head.className = 'dev-block__head';
-  const av = document.createElement('span');
-  av.className = 'avatar';
-  av.style.background = avatarColor(key);
-  av.textContent = initials(name);
-  head.appendChild(av);
-
-  const nameWrap = document.createElement('div');
-  const nm = document.createElement('span');
-  nm.className = 'dev-block__name';
-  nm.textContent = name;
-  nameWrap.appendChild(nm);
-  if (login && login.toLowerCase() !== name.toLowerCase()) {
-    const lg = document.createElement('span');
-    lg.className = 'dev-block__login';
-    lg.textContent = ' @' + login;
-    nameWrap.appendChild(lg);
+/* Compact commit chips — avatar + name + "commits - N" — busiest developer first. */
+function commitBreakdown(developers) {
+  const wrap = document.createElement('div');
+  wrap.className = 'commit-chips';
+  const sorted = [...developers].sort(
+    (a, b) => (b.commit_count || 0) - (a.commit_count || 0) || a.name.localeCompare(b.name)
+  );
+  for (const d of sorted) {
+    wrap.appendChild(devChip(d.name, d.login, devKey(d), d.commit_count));
   }
-  head.appendChild(nameWrap);
-
-  const badge = document.createElement('span');
-  badge.className = 'badge';
-  badge.textContent = `${commit_count} commit${commit_count === 1 ? '' : 's'}`;
-  head.appendChild(badge);
-
-  block.appendChild(head);
-  block.appendChild(bulletsList(bullets));
-  return block;
+  return wrap;
 }
 
-function repoHeader(repo, metaText) {
+/* Repo section header: linked org/name, optional version badge, meta line. */
+function repoHeader(repo, metaText, version) {
   const { org, name } = splitRepo(repo);
   const head = document.createElement('div');
   head.className = 'repo-section__head';
-  head.innerHTML =
-    `<span class="repo-section__name">` +
-    (org ? `<span class="repo-section__org">${org}/</span>` : '') +
-    `${name}</span>` +
-    (metaText ? `<span class="repo-section__meta">${metaText}</span>` : '');
+
+  const link = document.createElement('a');
+  link.className = 'repo-section__name feed-link';
+  link.href = ghRepoUrl(repo);
+  link.target = '_blank';
+  link.rel = 'noopener';
+  if (org) {
+    const o = document.createElement('span');
+    o.className = 'repo-section__org';
+    o.textContent = org + '/';
+    link.appendChild(o);
+  }
+  link.appendChild(document.createTextNode(name));
+  head.appendChild(link);
+
+  if (version) {
+    const v = document.createElement('span');
+    v.className = 'ver-badge';
+    v.textContent = version;
+    head.appendChild(v);
+  }
+  if (metaText) {
+    const m = document.createElement('span');
+    m.className = 'repo-section__meta';
+    m.textContent = metaText;
+    head.appendChild(m);
+  }
   return head;
 }
 
@@ -293,8 +455,22 @@ function renderFeed() {
       const section = document.createElement('section');
       section.className = 'repo-section';
       const commits = g.developers.reduce((s, d) => s + (d.commit_count || 0), 0);
-      section.appendChild(repoHeader(g.repo, `${g.developers.length} dev · ${commits} commits`));
-      for (const d of g.developers) section.appendChild(devBlock(d));
+      const devWord = g.developers.length === 1 ? 'dev' : 'devs';
+      section.appendChild(
+        repoHeader(g.repo, `${g.developers.length} ${devWord} · ${commits} commits`, g.version)
+      );
+
+      const card = document.createElement('div');
+      card.className = 'dev-block';
+      card.appendChild(statusGroups(repoStatusGroups(g.developers)));
+
+      if (g.prs.length) {
+        card.appendChild(sublabel('Pull requests'));
+        card.appendChild(prList(g.repo, g.prs, true));
+      }
+      card.appendChild(commitBreakdown(g.developers));
+
+      section.appendChild(card);
       el.feed.appendChild(section);
     }
   } else {
@@ -304,41 +480,40 @@ function renderFeed() {
       const section = document.createElement('section');
       section.className = 'repo-section';
       const commits = dev.repos.reduce((s, r) => s + (r.commit_count || 0), 0);
-      // Reuse repo header markup styling for the developer name.
+      const repoWord = dev.repos.length === 1 ? 'repo' : 'repos';
+
       const head = document.createElement('div');
       head.className = 'repo-section__head';
-      const av = document.createElement('span');
-      av.className = 'avatar';
-      av.style.background = avatarColor(dev.key);
-      av.textContent = initials(dev.name);
-      head.appendChild(av);
-      const nm = document.createElement('span');
-      nm.className = 'repo-section__name';
-      nm.textContent = dev.name;
-      head.appendChild(nm);
+      head.appendChild(avatarEl(dev.name, dev.login, dev.key));
+      head.appendChild(linkEl(dev.name, ghUserUrl(dev.login), 'repo-section__name feed-link'));
       const meta = document.createElement('span');
       meta.className = 'repo-section__meta';
-      meta.textContent = `${dev.repos.length} repo · ${commits} commits`;
+      meta.textContent = `${dev.repos.length} ${repoWord} · ${commits} commits`;
       head.appendChild(meta);
       section.appendChild(head);
 
       for (const r of dev.repos) {
-        const block = document.createElement('div');
-        block.className = 'dev-block';
-        const { org, name } = splitRepo(r.repo);
+        const card = document.createElement('div');
+        card.className = 'dev-block';
+
         const bhead = document.createElement('div');
         bhead.className = 'dev-block__head';
-        bhead.innerHTML =
-          `<span class="dev-block__name">` +
-          (org ? `<span class="repo-section__org">${org}/</span>` : '') +
-          `${name}</span>`;
+        const { name } = splitRepo(r.repo);
+        bhead.appendChild(linkEl(name, ghRepoUrl(r.repo), 'dev-block__name feed-link'));
         const badge = document.createElement('span');
         badge.className = 'badge';
         badge.textContent = `${r.commit_count} commit${r.commit_count === 1 ? '' : 's'}`;
         bhead.appendChild(badge);
-        block.appendChild(bhead);
-        block.appendChild(bulletsList(r.bullets));
-        section.appendChild(block);
+        card.appendChild(bhead);
+
+        card.appendChild(statusGroups(devStatusGroups(r.bullets)));
+
+        const myPrs = r.prs.filter((p) => dev.login && p.author === dev.login);
+        if (myPrs.length) {
+          card.appendChild(sublabel('Pull requests'));
+          card.appendChild(prList(r.repo, myPrs, false));
+        }
+        section.appendChild(card);
       }
       el.feed.appendChild(section);
     }

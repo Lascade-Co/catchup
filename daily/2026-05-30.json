@@ -1,0 +1,198 @@
+{
+  "date": "2026-05-30",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added a repo exclusion list for daily catchup emails.",
+              "🚀 Shipped the daily catchup email pipeline with report generation."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 38,
+          "title": "feat: implement daily catchup email pipeline with report generation a…",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": null,
+          "name": "Antony Mathew",
+          "commit_count": 9,
+          "bullets": {
+            "Testing": [
+              "🐛 Reverted breaking automated dependency and bitmap helper changes, including billing, Firebase KTX, Kotlin context parameters, and related conflicts.",
+              "🔧 Added lint configuration to prevent unwanted automated upgrades and reduce repeat lint churn.",
+              "🐛 Fixed lint issues in layouts and localized offer strings, including percent escaping across translated resources.",
+              "📝 Added localization strings and analytics coverage."
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "octopoocha",
+          "commit_count": 5,
+          "bullets": {
+            "Testing": [
+              "♻️ Reworked decibel camera capture and formatting code to satisfy lint, including locale-aware number/date display.",
+              "🔧 Switched debug logging across analytics, consent, login, ads, remote config, and measurement code from Android Log to Timber.",
+              "🔧 Updated Android dependency versions for billing, ads, Firebase-related libraries, Compose, Kotlin, Hilt, CameraX, and related SDKs.",
+              "🐛 Tightened Android compatibility and UI lint fixes, including scoped storage permission limits, backup extraction rules, localized settings text, and credential cancellation handling."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "bug_fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/catchup",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed dropdown panel positioning in the topbar controls.",
+              "🚀 Enhanced the daily catchup view with developer avatars, commit breakdowns, and pull request display.",
+              "📝 Removed outdated daily activity files for May 26 and 27.",
+              "🎨 Refined Catchup colors, typography, spacing, favicon, and avatar palette to match the Lascade style."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added internal API key authentication and an endpoint to list app instances by user ID or email"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 60,
+          "title": "feat: Add internal API key authentication and endpoint to list app instances by user ID or email",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "📝 Marked the 2026-05-29 daily report as sent."
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "📝 Saved the 2026-05-29 daily report for GitHub Actions delivery."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Ignored local scene effects configuration.",
+              "🚀 Updated bearing behavior for lead and follow animation styles.",
+              "🐛 Investigated a zoom glitch while carrying forward workflow, ignore, and agent guidance setup."
+            ]
+          }
+        },
+        {
+          "login": "Krishnan-E",
+          "name": "Krishnan-E",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed the distance calculation call in the path snapping manager.",
+              "🔧 Brought in central debug and release workflow dispatch setup, ignore rules, and agent guidance docs from main."
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed custom watermark sizing."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 589,
+          "title": "Fix: Size of custom watermark",
+          "author": "Krishnan-E"
+        }
+      ],
+      "branches": [
+        "feat/terra-ink-cover-style",
+        "mushfiq/zoom-glitch-cover-image",
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

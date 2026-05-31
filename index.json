@@ -1,7 +1,8 @@
 {
   "daily": [
     "daily/2026-05-29.json",
-    "daily/2026-05-30.json"
+    "daily/2026-05-30.json",
+    "daily/2026-05-31.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",

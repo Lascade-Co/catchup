@@ -2,7 +2,8 @@
   "daily": [
     "daily/2026-05-29.json",
     "daily/2026-05-30.json",
-    "daily/2026-05-31.json"
+    "daily/2026-05-31.json",
+    "daily/2026-06-02.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -36,7 +37,15 @@
     "Lascade-Co/esim_airalo",
     "Lascade-Co/flight-tracker-flutter",
     "Lascade-Co/marine-api",
-    "Lascade-Co/dashboard"
+    "Lascade-Co/dashboard",
+    "Lascade-Co/D1-car-ios-v2",
+    "Lascade-Co/D2-car-ios-v2",
+    "Lascade-Co/M4_sky_flutter",
+    "Lascade-Co/M5-car-ios-v2",
+    "Lascade-Co/d1af-flights70",
+    "Lascade-Co/marine_radar_blog",
+    "Lascade-Co/scratch",
+    "Lascade-Co/travel-animator-shared"
   ],
   "users": [
     {
@@ -190,6 +199,22 @@
     {
       "login": "vyshnavsmenon115",
       "name": "vyshnavsmenon115"
+    },
+    {
+      "login": "ajithsp-lascade",
+      "name": "ajithsp-lascade"
+    },
+    {
+      "login": "dingitha",
+      "name": "Nandita"
+    },
+    {
+      "login": "imadibrahimk",
+      "name": "imadibrahimk"
+    },
+    {
+      "login": "Vivek-4321",
+      "name": "Vivek Venugopal"
     }
   ]
 }

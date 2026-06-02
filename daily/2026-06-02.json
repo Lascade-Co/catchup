@@ -1,0 +1,748 @@
+{
+  "date": "2026-06-02",
+  "repos": [
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": null,
+          "name": "Antony Mathew",
+          "commit_count": 6,
+          "bullets": {
+            "Testing": [
+              "• disabled indian users benefits",
+              "• google login auth failure handling",
+              "• login flow changes for handling auth failure",
+              "• login button click action for apk",
+              "• height measurement improvements"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "bug_fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-IOS",
+      "developers": [
+        {
+          "login": "Basith-P",
+          "name": "Basith-P",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• feat: add Zoho SalesIQ push notification service"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/c1wh-hotelsoff",
+      "developers": [
+        {
+          "login": "devikasu",
+          "name": "devikalsu",
+          "commit_count": 5,
+          "bullets": {
+            "Testing": [
+              "• default metadataBase to https://hotelsoff.com for absolute OG/canonical URLs",
+              "• SEO: remove placeholder testimonials (avoid fake-review SEO risk)",
+              "• feat(home): add trust strip, travel guides teaser & FAQ accordion",
+              "• SEO: add 'How HotelsOff works' 3-step explainer to homepage across 13 locales",
+              "• SEO: rewrite hero subtitle to explain value prop across 13 locales"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "improvements"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-car-ios-v2",
+      "developers": [
+        {
+          "login": "imadibrahimk",
+          "name": "imadibrahimk",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• UI: Align logo and search card horizontal padding on Flight and Hotel screens to match Rental screen",
+              "• UI: Reduce horizontal padding of main search boxes on home screens",
+              "• Optimize bottom sheet presentation and image loading performance to eliminate stutters"
+            ]
+          }
+        },
+        {
+          "login": "Swalih60",
+          "name": "Swalih",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• feat:FB events success"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1af-flights70",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• change: Send all the user search parameters when creating the sessions"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "custom-web"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1ah-hotels70",
+      "developers": [
+        {
+          "login": "Ashiiq666",
+          "name": "ashiiq666",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Send all the user search parameters when creating the sessions"
+            ]
+          }
+        },
+        {
+          "login": "ajithsp-lascade",
+          "name": "ajithsp-lascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #24 from Lascade-Co/local_notification"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 25,
+          "title": "Send all the user search parameters when creating the sessions",
+          "author": "Ashiiq666"
+        },
+        {
+          "number": 24,
+          "title": "Local notification",
+          "author": "Ashiiq666"
+        }
+      ],
+      "branches": [
+        "local_notification",
+        "origin"
+      ],
+      "version": "3.0.15"
+    },
+    {
+      "repo": "Lascade-Co/D2-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat:Levels acheived fb event updated"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 15,
+          "title": "feat:Levels acheived fb event updated",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-Flight-Android",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "• change: add custom web",
+              "• change: webview",
+              "• change: remove airport locations filter on the flight auto complete"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "custom_web"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "• fixed auto topup rules issues",
+              "• Checkout now prefers widget.plan.displayCurrency, which is the currency returned by the Data Plans fetch, instead of always reading the   global/profile currency",
+              "• Fix auto topup modal lifecycle and refresh global promo currency"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/email-push-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• fix(push): idempotent sends + resumable bulk creation to stop duplicates and volume loss",
+              "• docs: streamline CLAUDE.md for clarity and conciseness"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #33 from Lascade-Co/dev"
+            ],
+            "Work in Progress": [
+              "• fix(otp): stringify expires_in_minutes so the email template renders it",
+              "• fix(pricing): reject non-finite CSV decimals and advance import progress per batch",
+              "• fix(otp): send per-recipient user_id and surface email-service 400s to clients"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 33,
+          "title": "Fix Token Refresh issue ",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-saily",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 8,
+          "bullets": {
+            "Published": [
+              "• refactor: migrate BackButtonListener to PopScope for improved navigation handling",
+              "• feat: dynamically fetch and display app version using package_info_plus in ProfilePage",
+              "• feat: update native splash screen assets and migrate configuration to native_splash.yaml"
+            ],
+            "Work in Progress": [
+              "• feat: add hero animations for country flags and region avatars across navigation flows",
+              "• feat: implement edit profile modal and update EditProfileSheet UI design",
+              "• refactor: convert NetworkOperatorCard to StatefulWidget and replace modal bottom sheet with inline expansion for viewing all operators",
+              "• feat: update native splash screen assets and color configuration",
+              "• style: update sheet grab handle dimensions and replace notification image asset"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Deploy on Vercel"
+            ]
+          }
+        },
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #48 from Lascade-Co/dev"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 48,
+          "title": "Release: UI and localization improvements; SEO improvements",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• mark: sent report 2026-06-01"
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-06-01 — delivery via GitHub Actions"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat:Button scale haptic set"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 17,
+          "title": "feat:Button scale haptic set",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M4_sky_flutter",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• integrated test firebase account"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "v2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M5-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• first commit"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #177 from Lascade-Co/PS-deploy-jun-1"
+            ]
+          }
+        },
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• updated whats new notification"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 177,
+          "title": "fix: minor ui changes and trip planner ios dark mode colour fix, EU consent form, chore: updated install referral",
+          "author": "AdarshLascade"
+        },
+        {
+          "number": 176,
+          "title": "minor ui changes and trip planner ios dark mode colour fix",
+          "author": "keith-james"
+        },
+        {
+          "number": 168,
+          "title": "EU consent form",
+          "author": "AdarshLascade"
+        },
+        {
+          "number": 157,
+          "title": "chore: updated install referral",
+          "author": "akbar-lascade"
+        }
+      ],
+      "branches": [
+        "keith/whats-new-notification",
+        "origin"
+      ],
+      "version": "debug-pr-177"
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 10,
+          "bullets": {
+            "Published": [
+              "• fix(seo): 404 robots dedupe, hub description ellipsis, homepage rating match",
+              "• fix(seo): decode HTML entities in sitemap image:title to prevent double-escaping",
+              "• refactor(seo): scale word-boundary threshold to maxLen in truncateMetaDescription",
+              "• feat(seo): add image sitemap entries for hub article featured images",
+              "• fix(seo): truncate meta descriptions at word boundaries"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 103,
+          "title": "Deploy",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 102,
+          "title": "Deploy",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/scratch",
+      "developers": [
+        {
+          "login": "dingitha",
+          "name": "Nandita",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Add files via upload"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-analytics-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• removed `exp_type` param from meta payload builder, changed default behaviour."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "google_csv_tweaks"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 7,
+          "bullets": {
+            "Testing": [
+              "• fix: disable paywall for 2D/3D view mode toggle",
+              "• ui: sort place labels and annotation frames to prioritize free styles",
+              "• feat: add recent models tab to model picker",
+              "• Restore pro model marker ordering",
+              "• Fix tutorial map gesture locking and optimize touch distance checks"
+            ]
+          }
+        },
+        {
+          "login": "rohittp0",
+          "name": "Rohit",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• Merge branch 'main' into feat/scene-style",
+              "• fix: include effect shared proto field and pass null waterMaterial in EffectNode",
+              "• Merge branch 'exp/water' into feat/effect"
+            ]
+          }
+        },
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #404 from Lascade-Co/fix/tutorial"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "Konj Bot",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• chore: trigger rebuild"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 404,
+          "title": "Fix/tutorial",
+          "author": "Vivek-4321"
+        }
+      ],
+      "branches": [
+        "feat/effect",
+        "feat/recent-models",
+        "feat/scene-style",
+        "feat/unit",
+        "nauman/feat/element-animations",
+        "origin"
+      ],
+      "version": "debug-pr-363"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "Basith-P",
+          "name": "Basith-P",
+          "commit_count": 5,
+          "bullets": {
+            "Work in Progress": [
+              "• perf: reduce unit overlay rendering work",
+              "• fix: constrain segmented flags to a single adaptive strip",
+              "• fix: prevent unit and flag overlays from sharing the same side",
+              "• fix: avoid restarting preview for unit style updates",
+              "• Merge remote-tracking branch 'origin/main' into feat/flag-styles"
+            ]
+          }
+        },
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• code refactoring",
+              "• under water"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/flag-styles",
+        "mushfiq/under-water-model"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #155 from Lascade-Co/deploy"
+            ],
+            "Work in Progress": [
+              "• seo fixes"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 155,
+          "title": "seo fixes",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• merge: bring in effect shared changes (RoutePoint.effect field)",
+              "• Update to v1.0.1"
+            ]
+          }
+        },
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• feat: add flag display configuration to animation state proto"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ios",
+        "merge/effect-water",
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

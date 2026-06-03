@@ -52,7 +52,10 @@
     "Lascade-Co/flight-backend",
     "Lascade-Co/rent80-revamp",
     "Lascade-Co/travel-animator-scene-effects",
-    "Lascade-Co/website"
+    "Lascade-Co/website",
+    "Lascade-Co/connector",
+    "Lascade-Co/hotel-backend",
+    "Lascade-Co/hotels70-web"
   ],
   "users": [
     {
@@ -230,6 +233,10 @@
     {
       "login": "ThePyWizard",
       "name": "Jishnu M M"
+    },
+    {
+      "login": "konj",
+      "name": "Konj"
     }
   ]
 }

@@ -1,0 +1,705 @@
+{
+  "date": "2026-06-03",
+  "repos": [
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": null,
+          "name": "Antony Mathew",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• magic login api integrated"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "bug_fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/car-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• fix(controller): remove stale admin.py shadowing the admin/ package",
+              "• fix(controller): seed Country in migration, permission-gate sync, robust path",
+              "• feat(autocomplete): add destination image (webp) to kayak marvel results"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1ac-rent80",
+      "developers": [
+        {
+          "login": "lascadeansal",
+          "name": "ansal",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• The trigger_time parameter in the schedule_notification event has a 3-minute mismatch."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1af-flights70",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• change: Trigger international_flight along with its parameters and remove unwanted imports from files"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "custom-web"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1ah-hotels70",
+      "developers": [
+        {
+          "login": "Ashiiq666",
+          "name": "ashiiq666",
+          "commit_count": 6,
+          "bullets": {
+            "Testing": [
+              "• Resolve the issue where the app is getting closed when clicking on the cross button in the custom web",
+              "• Send all the user search parameters when creating the sessions"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-Flight-Android",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 6,
+          "bullets": {
+            "Testing": [
+              "• change: secret variable naming",
+              "• change: fix issue with firing location notification when the redirection of custom web",
+              "• change: fix local notification triggering on onStop of app",
+              "• change1: Trigger local_notification event along with parameters",
+              "• change: Remove One-signal SDK and related parts from the app"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "custom_web"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge PR: searched hotel pin on filter refetch + KAYAK-API booking date   off-by-one"
+            ],
+            "Work in Progress": [
+              "• fix: pin searched hotel on filter refetch; send UTC-midnight check-in/out so KAYAK API booking dates don't roll back a day"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 20,
+          "title": "fix: searched hotel pin on filter refetch + KAYAK-API booking date   off-by-one",
+          "author": "akashkottil"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• refresh wallet balance on tab selection",
+              "• fix concurrent token refresh stampede and persist rotated refresh token"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/email-push-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #26 from Lascade-Co/dev"
+            ],
+            "Work in Progress": [
+              "• fix(push): finalize stats/token-status from merged results on resume; honor idempotency_suffix"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 26,
+          "title": "Fix celery memory issue and Improve Push recovery",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan-Shoukath",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• changed plan name from esim to appcode",
+              "• Setup Cart System Completely"
+            ]
+          }
+        },
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Merge pull request #34 from Lascade-Co/shaannew"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 34,
+          "title": "changed plan name from esim to appcode",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "shaan",
+        "shaannew"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-saily",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• refactor: simplify currency resolution to always default to USD and clean up redundant UI display logic",
+              "• feat: update splash screen assets, Android 12 icon padding, and brand color constants"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim_airalo",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• refactor: rebrand package namespace, implement .env support for API configuration, and update dependencies",
+              "• feat: implement home widget, migrate namespace, and add environment variable support via dotenv"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/flight-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Merge remote-tracking branch 'origin/dev' into dev"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• mark: sent report 2026-06-02"
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-06-02 — delivery via GitHub Actions"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 6,
+          "bullets": {
+            "Testing": [
+              "• fix: ios not switching themes",
+              "• reordering waypoints animation fix",
+              "• ios dark mode colour fixes",
+              "• updated whats new notification text",
+              "• reduced file size"
+            ]
+          }
+        },
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #178 from Lascade-Co/keith/ios_fixes"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• feat:magic login wip"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 178,
+          "title": "fix: ios dark mode background colour and scrolling physics in trip planner pages",
+          "author": "keith-james"
+        }
+      ],
+      "branches": [
+        "PS-magic-link",
+        "keith/ios_fixes",
+        "keith/trip-planner-reorder-waypoints",
+        "keith/whats-new-notification",
+        "origin"
+      ],
+      "version": "debug-pr-180"
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• reaudit issues fixed",
+              "• Merge pull request #104 from Lascade-Co/deploy",
+              "• cache revalidation bug fix"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 105,
+          "title": "reaudit issues fixed",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 104,
+          "title": "cache revalidation bug fix",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Add ta-newsletter skill to project skills",
+              "• Organize May 2026 newsletter into month-based folder structure"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/rent80-revamp",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #367 from Lascade-Co/server-error-fixes-and-cleanup"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 367,
+          "title": "Server error fixes and clean up",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/scratch",
+      "developers": [
+        {
+          "login": "dingitha",
+          "name": "Nandita",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "• Add files via upload"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• feat: remove map projection restriction and update resolution selection UI",
+              "• feat: decouple flag animations from system time for deterministic rendering",
+              "• feat: unhide Journey AI prompt bar in main screen"
+            ]
+          }
+        },
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• refactor: implement proportional vehicle spacing and tangent-based heading logic"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/prompt",
+        "feat/recent-models",
+        "feat/scene-style",
+        "feat/unit"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "• merge main into under-water branch"
+            ],
+            "Work in Progress": [
+              "• repo changed to org",
+              "• merge with main",
+              "• water shader for some maps"
+            ]
+          }
+        },
+        {
+          "login": "rahul028",
+          "name": "rahul028",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• feat(model-gallery): add Recents section showing last 10 used models"
+            ],
+            "Work in Progress": [
+              "• Merge branch 'main' into rahul/feat/CreatorChallengeContest"
+            ]
+          }
+        },
+        {
+          "login": "Basith-P",
+          "name": "Basith-P",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• chore(journey-ai): improve live backend debugging"
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #591 from Lascade-Co/mushfiq/zoom-glitch-cover-image"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 590,
+          "title": "Feat: Terra Ink cover image",
+          "author": "Krishnan-E"
+        }
+      ],
+      "branches": [
+        "journy_ai",
+        "mushfiq/effects",
+        "mushfiq/under-water-model",
+        "mushfiq/water-shader",
+        "origin",
+        "rahul/feat/CreatorChallengeContest",
+        "rahul/feat/recentModels"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #156 from Lascade-Co/deploy"
+            ],
+            "Work in Progress": [
+              "• seo fixes",
+              "• fix(footer): commit missing earth.webp asset that broke the production build"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 156,
+          "title": "Deploy",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-scene-effects",
+      "developers": [
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Update README.md"
+            ]
+          }
+        },
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• thumbnail update"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• refactor: implement proportional vehicle spacing and tangent-based heading logic"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "merge/effect-water"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/website",
+      "developers": [
+        {
+          "login": "ThePyWizard",
+          "name": "Jishnu M M",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Add role understanding question to hiring form; implement validation and database changes"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

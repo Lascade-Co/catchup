@@ -4,7 +4,8 @@
     "daily/2026-05-30.json",
     "daily/2026-05-31.json",
     "daily/2026-06-02.json",
-    "daily/2026-06-03.json"
+    "daily/2026-06-03.json",
+    "daily/2026-06-04.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -55,7 +56,8 @@
     "Lascade-Co/website",
     "Lascade-Co/connector",
     "Lascade-Co/hotel-backend",
-    "Lascade-Co/hotels70-web"
+    "Lascade-Co/hotels70-web",
+    "Lascade-Co/measuer-web"
   ],
   "users": [
     {
@@ -237,6 +239,10 @@
     {
       "login": "konj",
       "name": "Konj"
+    },
+    {
+      "login": "sajithlaldev",
+      "name": "sajithlaldev"
     }
   ]
 }

@@ -1,0 +1,681 @@
+{
+  "date": "2026-06-04",
+  "repos": [
+    {
+      "repo": "Lascade-Co/airline70-flutter",
+      "developers": [
+        {
+          "login": "sajithlaldev",
+          "name": "sajithlaldev",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Merged release work into the V2 branch, bringing in Flutter version pinning, project metadata, lints, editor settings, and ignore rules.",
+              "🔧 Added central debug and release build dispatch workflows for QA pull requests and merged release pull requests.",
+              "📝 Added environment setup documentation for dart-define JSON configuration and secret-backed CI builds.",
+              "♻️ Adjusted commit attribution while preserving the same V2 setup and build automation changes."
+            ]
+          }
+        },
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Merged the V2 Flutter app baseline with FVM version pinning, analyzer defaults, editor settings, and expanded gitignore coverage.",
+              "🔧 Added GitHub Actions dispatch workflows for debug PR builds and merged release builds through the central build repository.",
+              "📝 Documented the move to compile-time environment configuration using dart-define JSON files and secret-backed CI setup."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 74,
+          "title": "V2",
+          "author": "sajithlascade"
+        }
+      ],
+      "branches": [
+        "release",
+        "v2"
+      ],
+      "version": "v1.6.6+68"
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Triggered the CI build workflow.",
+              "🔧 Added keystore scripting and updated the Android package name and app version."
+            ]
+          }
+        },
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Added GitHub Actions workflows for debug builds, release builds, Play Store publishing, and cleanup of old debug releases.",
+              "🔧 Configured Android project build settings, signing setup, dependencies, and release artifact handling.",
+              "🔧 Added ignore rules for generated Android, build, signing, and local configuration files."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 19,
+          "title": "Bug fixes",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": "1.2.20"
+    },
+    {
+      "repo": "Lascade-Co/c1wh-hotelsoff",
+      "developers": [
+        {
+          "login": "devikasu",
+          "name": "devikalsu",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🐛 Addressed SEO review feedback around site URL consistency, locale routing, and error handling"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "improvements"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/connector",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Upgraded the Facebook API integration and package version."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1ac-rent80",
+      "developers": [
+        {
+          "login": "lascadeansal",
+          "name": "ansal",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Removed OneSignal integration, including app startup setup, notification tags, analytics constants, ProGuard rules, strings, and Gradle dependencies.",
+              "♻️ Refactored the search screen to move ad visibility checks, ad URL building, loader items, and search input handling into the view model.",
+              "♻️ Simplified Retrofit/network response handling with shared flow helpers and a reusable callback handler.",
+              "🚀 Updated the car autocomplete flow to V3."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "sky_api"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 8,
+          "bullets": {
+            "Published": [
+              "🚀 Added deeplink booking event tracking parity alongside broad app-wide UI polish.",
+              "🎨 Refined hotel search and results UI with white left-aligned headers, standardized back buttons, improved tab styling, deal-card accents, centered banners, and polished close controls.",
+              "🐛 Fixed foreground local notifications, recent search card sizing, and region/currency search so matches are prefix-based on names or codes.",
+              "✨ Improved interaction feel with toast-based validation prompts, sticky calendar month headers, autocomplete loading feedback, press animations, and haptic feedback on key booking and search actions."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 23,
+          "title": "Final touch complete ios 26 design removed",
+          "author": "akashkottil"
+        },
+        {
+          "number": 22,
+          "title": "PR: Deeplink booking event tracking (D1 parity) + app-wide UI polish",
+          "author": "akashkottil"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Bumped the app version and refreshed Flutter/Dart package lockfile dependencies.",
+              "🐛 Fixed keyboard dismissal behavior and OTP backspace handling issues."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan-Shoukath",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "💳 Added plan names to Stripe checkout product descriptions for clearer payment line items.",
+              "🐛 Hardened app code fallback handling for rollback snapshots and wallet auto top-up metadata.",
+              "♻️ Simplified brand/app-code fallback logic in wallet auto top-up flows.",
+              "🔧 Added repository setup, deployment, Docker build, email guard, ignore, submodule, and environment template configuration."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "shaannew"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Prepared deployment on Vercel"
+            ]
+          }
+        },
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Continued SEO improvements alongside home page and destinations redesign work"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 49,
+          "title": "SEO improvements + home page & destinations redesign",
+          "author": "jyothikrishna-06"
+        }
+      ],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim_airalo",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 12,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added notification permission status monitoring in the profile menu and configured iOS encryption settings.",
+              "🚀 Built out the checkout flow with expanded coverage, operator, promo code, payment, and plan detail widgets.",
+              "♻️ Refactored checkout-related pages, widgets, promo logic, and spec data into the checkout feature area.",
+              "🎨 Refined auth, onboarding, promo, empty-state, icon, OTP, orientation, localization, and plan filtering UI behavior."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotels70-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Prepared the user creation retry release from develop"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 122,
+          "title": "Release: User creation retries",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "📝 Marked the daily report for 2026-06-04 as sent."
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "📝 Saved the 2026-06-04 daily report for GitHub Actions delivery."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M4_sky_flutter",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added language and currency screens, plus standardized image display handling.",
+              "🐛 Fixed calendar price handling by tolerating missing prices and skipping unavailable fare entries.",
+              "🚀 Enhanced the calendar with departure and return fare loading, price labels, and loading states.",
+              "🔧 Added Flutter project and Android configuration updates while fixing multicity flow work."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "v2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added magic authentication work and crash fixes for the marine tracking app.",
+              "🔧 Added Flutter build dispatch workflows for debug PR builds and main-branch release builds.",
+              "📝 Added project guidance for architecture, GetX patterns, logging, dependencies, and build setup."
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Tested the magic login flow on iOS."
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Tested the magic login flow on iOS."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 185,
+          "title": "Ps magic auth, and crash fixes",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "PS-crash-fixes",
+        "PS-magic-link",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Added central Vercel deployment dispatch workflow and project ignore rules.",
+              "🚀 Seeded the MarineRadar app with lighthouse and port datasets plus agent-discovery skill metadata.",
+              "📝 Added initial Next.js README and ESLint configuration."
+            ],
+            "Work in Progress": [
+              "🔧 Added central Vercel deployment dispatch workflow and project ignore rules.",
+              "🚀 Seeded the MarineRadar app with lighthouse and port datasets plus agent-discovery skill metadata.",
+              "📝 Added initial Next.js README and ESLint configuration."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 106,
+          "title": "UI fixes",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "📝 Added a Marine Social Trends skill for turning search-interest data into social content packs.",
+              "📝 Reworked the social-content guidance toward a sober maritime news-desk voice, with news-first research, attribution, and current vessel-position checks.",
+              "📝 Tightened platform voice rules with separate news and light registers, reserving warmer posts for genuinely low-risk topics.",
+              "📝 Removed the Al Khoms lighthouse content pack and related generated images."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/measuer-web",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "rohittp0",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added an OpenCV-based edge detection build artifact."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "build"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Added an ad-revenue-opportunity skill for country-level ad analysis.",
+              "📝 Created Custom Watermark launch marketing assets across email, social, community, video, and blog channels, with a growth review.",
+              "♻️ Refactored the May 2026 newsletter HTML and styles to improve layout and readability."
+            ]
+          }
+        },
+        {
+          "login": "Iamfasna",
+          "name": "Iamfasna",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Added Cover Image growth-review context to prevent already-resolved launch critiques from being repeated.",
+              "🔧 Added an ad-spend-report skill with multi-channel ad platform reporting guidance and example configuration."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-analytics-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Added Docker, compose, environment sample, and CI workflows for deployment and centralized image builds.",
+              "🚀 Introduced external reporting support with credential-based application access and CSV download endpoints.",
+              "🔧 Added project ignore rules, an nginx proxy template, and a shared scripts submodule."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "google_csv_tweaks"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 10,
+          "bullets": {
+            "Published": [
+              "⚡ Cut export frame-loop cost by reducing encoder drain waits, incrementally tracking route lengths, and capping rotation-history work.",
+              "🚀 Added a settings Device Info page with copyable hardware, app, encoder, performance, and live network speed details.",
+              "🐛 Sent the real device ID in export feedback instead of the user ID.",
+              "📝 Updated GitNexus metadata and documented/reverted map snapshot downscaling after device testing showed no speed benefit."
+            ]
+          }
+        },
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 6,
+          "bullets": {
+            "Testing": [
+              "♻️ Moved carousel flag state ownership into the controller so animation restarts can clear overlays without losing rebuild data.",
+              "🚀 Preloaded flag assets for export and restored traversed flags during carousel rendering.",
+              "🐛 Refactored overlay distance rendering and improved flag collision handling.",
+              "🎨 Refined flag and distance previews, spacing, contrast, stacked sizing, carousel chooser visuals, and spotlight glow transitions."
+            ]
+          }
+        },
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed cover/outro 3D element handling and preserved model-only element annotations when changing models."
+            ]
+          }
+        },
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Added GitNexus workflow skills and repository guidance for CLI usage, debugging, exploration, impact analysis, and related codebase tasks."
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "octopoocha",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Applied lint cleanup for flag renderers, Compose state/parameter ordering, and localized the flag border color string."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 407,
+          "title": "Fix Bug",
+          "author": "rohittp0"
+        },
+        {
+          "number": 405,
+          "title": "feat/recent",
+          "author": "Vivek-4321"
+        }
+      ],
+      "branches": [
+        "exp/single",
+        "feat/unit",
+        "nauman/feat/element-animations",
+        "origin"
+      ],
+      "version": "4.0.103"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "Basith-P",
+          "name": "Basith-P",
+          "commit_count": 7,
+          "bullets": {
+            "Testing": [
+              "🚀 Updated JourneyAI real-route tooling to enable or disable road-following per segment while preserving logical route stops.",
+              "✅ Added regression coverage for JourneyAI route schema parity, invalid arguments, no-op states, route expansion, and disabling real-route geometry."
+            ],
+            "Work in Progress": [
+              "♻️ Consolidated native color picker UI into shared reusable controls across FlagMark, Unit, and Place Label customization sheets.",
+              "🚀 Improved Unit and FlagMark color picker layouts with consistent preset spacing, custom color handling, and native color wheel behavior.",
+              "🚀 Replaced static FlagMark style thumbnails with dynamic route-country previews that reflect detected countries, selected colors, and border shape.",
+              "🎨 Tightened sheet footer sizing and FlagMark sheet height for a more compact customization layout."
+            ]
+          }
+        },
+        {
+          "login": "rahul028",
+          "name": "rahul028",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed creator challenge sharing so the share flow is gated by the made-up-country contest flag.",
+              "🔧 Merged main branch updates including central debug and release workflow dispatch configuration plus repository setup files."
+            ]
+          }
+        },
+        {
+          "login": "Krishnan-E",
+          "name": "Krishnan-E",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Added manual GitHub workflows for TestFlight debug builds and App Store releases via the central iOS pipeline.",
+              "📝 Added repository guidance for AI coding agents, covering project architecture, build steps, dependencies, and conventions.",
+              "🔧 Added ignore rules for local Xcode, Firebase, Sentry, Graphify, and generated configuration files."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/flag-styles",
+        "journy_ai",
+        "krish/fix/UI",
+        "rahul/feat/CreatorChallengeContest"
+      ],
+      "version": null
+    }
+  ]
+}

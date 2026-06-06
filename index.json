@@ -6,7 +6,8 @@
     "daily/2026-06-02.json",
     "daily/2026-06-03.json",
     "daily/2026-06-04.json",
-    "daily/2026-06-05.json"
+    "daily/2026-06-05.json",
+    "daily/2026-06-06.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -59,7 +60,10 @@
     "Lascade-Co/hotel-backend",
     "Lascade-Co/hotels70-web",
     "Lascade-Co/measuer-web",
-    "Lascade-Co/D1-flight-ios-v2"
+    "Lascade-Co/D1-flight-ios-v2",
+    "Lascade-Co/D2-hotel-android",
+    "Lascade-Co/campaign-attribution-cf-worker",
+    "Lascade-Co/esim-helper"
   ],
   "users": [
     {

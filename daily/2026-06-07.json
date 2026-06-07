@@ -1,0 +1,182 @@
+{
+  "date": "2026-06-07",
+  "repos": [
+    {
+      "repo": "Lascade-Co/django-shared-base",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Added a production-ready Django shared base template with env-driven settings, health checks, logging utilities, validation helpers, pagination, and API docs.",
+              "🔧 Set up Docker, Docker Compose, Docker Swarm, and Gunicorn configuration for local and production deployments.",
+              "🔧 Added GitHub Actions workflows for central Docker build dispatch and PR comment branch deploys.",
+              "📝 Documented setup, architecture, deployment conventions, optional Celery/PostGIS support, and downstream extension guidance."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Deployed the site on Vercel"
+            ],
+            "Work in Progress": [
+              "🔧 Continued Vercel deployment work"
+            ]
+          }
+        },
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed a region pill slug mismatch"
+            ],
+            "Work in Progress": [
+              "🐛 Fixed hero quick-pick slugs for USA and UAE while preserving short labels"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 54,
+          "title": "hotfix: slug name mismatch from region pill",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Marked the 2026-06-07 daily report as sent."
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "📝 Saved the 2026-06-07 daily report for GitHub Actions delivery."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": "AdarshLascade",
+          "name": "AdarshLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Shipped release updates covering Keith quick actions, invalid ship ETA handling, iOS consent fixes, video SAR normalization for crash reduction, release annotations, and iOS UIScene adoption"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 195,
+          "title": "keith quick actions ,invalid ship eta ,Ios consent fix , trying to fix crashes by normalising videos' SAR,added posthog annotation on release,Ps ios uiscene adoptation",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/pnl",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Added the initial Django shared-base project scaffold with environment configuration, Docker setup, and deployment automation.",
+              "📝 Documented local development, Docker Swarm deployment, Celery, PostGIS support, and repository conventions.",
+              "🚀 Set up core Django infrastructure including shared settings, health checks, logging utilities, pagination, validation helpers, and optional Celery support."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed annotation marker updates by giving cached marker images stable identities and discarding stale async image loads.",
+              "🔧 Added manual TestFlight/App Store dispatch workflows plus repository ignore rules and agent guidance docs from main."
+            ]
+          }
+        },
+        {
+          "login": "Krishnan-E",
+          "name": "Krishnan-E",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Brought in manual TestFlight and App Store dispatch workflows, repository ignore rules, and agent guidance docs from main."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "krish/fix/UI",
+        "krish/fix/native-labels",
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

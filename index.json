@@ -8,7 +8,8 @@
     "daily/2026-06-04.json",
     "daily/2026-06-05.json",
     "daily/2026-06-06.json",
-    "daily/2026-06-07.json"
+    "daily/2026-06-07.json",
+    "daily/2026-06-08.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -66,7 +67,10 @@
     "Lascade-Co/campaign-attribution-cf-worker",
     "Lascade-Co/esim-helper",
     "Lascade-Co/django-shared-base",
-    "Lascade-Co/pnl"
+    "Lascade-Co/pnl",
+    "Lascade-Co/chat-synopsis",
+    "Lascade-Co/seo-backend",
+    "Lascade-Co/signalside_esim_web"
   ],
   "users": [
     {

@@ -9,7 +9,8 @@
     "daily/2026-06-05.json",
     "daily/2026-06-06.json",
     "daily/2026-06-07.json",
-    "daily/2026-06-08.json"
+    "daily/2026-06-08.json",
+    "daily/2026-06-09.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -70,7 +71,11 @@
     "Lascade-Co/pnl",
     "Lascade-Co/chat-synopsis",
     "Lascade-Co/seo-backend",
-    "Lascade-Co/signalside_esim_web"
+    "Lascade-Co/signalside_esim_web",
+    "Lascade-Co/D2-web-hotel-v2",
+    "Lascade-Co/hotel-helper",
+    "Lascade-Co/m4-web-flight",
+    "Lascade-Co/pixel-travelanimator"
   ],
   "users": [
     {
@@ -256,6 +261,10 @@
     {
       "login": "sajithlaldev",
       "name": "sajithlaldev"
+    },
+    {
+      "login": "actions",
+      "name": "marineradar-bot"
     }
   ]
 }

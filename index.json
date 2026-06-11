@@ -10,7 +10,8 @@
     "daily/2026-06-06.json",
     "daily/2026-06-07.json",
     "daily/2026-06-08.json",
-    "daily/2026-06-09.json"
+    "daily/2026-06-09.json",
+    "daily/2026-06-11.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -75,7 +76,11 @@
     "Lascade-Co/D2-web-hotel-v2",
     "Lascade-Co/hotel-helper",
     "Lascade-Co/m4-web-flight",
-    "Lascade-Co/pixel-travelanimator"
+    "Lascade-Co/pixel-travelanimator",
+    "Lascade-Co/Ingest-server",
+    "Lascade-Co/M1_hotel_android",
+    "Lascade-Co/d1-web-sflight-v2",
+    "Lascade-Co/m4-brandpage-idligames"
   ],
   "users": [
     {
@@ -265,6 +270,10 @@
     {
       "login": "actions",
       "name": "marineradar-bot"
+    },
+    {
+      "login": "Sanasabir12",
+      "name": "Sanasabir12"
     }
   ]
 }

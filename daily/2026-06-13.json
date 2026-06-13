@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-13",
+  "repos": [
+    {
+      "repo": "Lascade-Co/airline70-flutter",
+      "developers": [
+        {
+          "login": "sajithlaldev",
+          "name": "sajithlaldev",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Bootstrapped Flutter project configuration with FVM, analyzer settings, metadata, and ignore rules.",
+              "🔧 Added GitHub Actions triggers for central debug and release Flutter build dispatches.",
+              "📝 Documented environment setup using compile-time Dart defines and gitignored local config files.",
+              "📝 Added initial localization source material for the app."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "v2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan-Shoukath",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added low-margin warnings to the pricing CSV upload preview"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "issue"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "📝 Marked the daily report for 2026-06-13 as sent."
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "📝 Saved the 2026-06-13 daily report for GitHub Actions delivery."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "actions",
+          "name": "marineradar-bot",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "📝 Published new content packs for Dharma Kencana V, Dharma Kencana 7, Batam, and Piraeus/Athens."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added a Scene Styles feature video to the Kerala tourism page"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "🐛 Restored original styles when cancelling scene style choosers and key color selections",
+              "🐛 Reduced the default model size for a less oversized initial view",
+              "🚀 Added a custom color wheel picker across path, place label, and highlight choosers"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "fix/path"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Prepared flag style, FAQ, and marker updates for version 3.8.6.",
+              "🔧 Merged the 3.8.5 release branch into ongoing work."
+            ]
+          }
+        },
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Added manual GitHub workflows to dispatch TestFlight debug builds and App Store releases through the central iOS pipeline.",
+              "📝 Added repository guidance for AI-assisted development, including project architecture, build notes, and coding conventions.",
+              "🔧 Added baseline ignore rules for local Xcode, generated, analytics, and configuration files."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin",
+        "release",
+        "release_backup"
+      ],
+      "version": null
+    }
+  ]
+}

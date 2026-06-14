@@ -1,0 +1,92 @@
+{
+  "date": "2026-06-14",
+  "repos": [
+    {
+      "repo": "Lascade-Co/D1-flight-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• fix(search): clear selected flight locations on region change",
+              "• fix(session): create provider session on View Deal (api), not at API-mode search",
+              "• Merge PR: fix(session): session on View Deal (api)"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 10,
+          "title": "fix(search): clear selected flight locations on region change",
+          "author": "akashkottil"
+        },
+        {
+          "number": 9,
+          "title": "fix(session): session on View Deal (api)",
+          "author": "akashkottil"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• mark: sent report 2026-06-14"
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-06-14 — delivery via GitHub Actions"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "actions",
+          "name": "marineradar-bot",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• content packs: 2026-06-14-smyrtos, 2026-06-14-nggapulu",
+              "• content packs: 2026-06-14-hamburg-de",
+              "• content packs: 2026-06-14-dharma-kencana-v, 2026-06-14-hamburg-de",
+              "• content packs: 2026-06-13-90-km-off-london-gb"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

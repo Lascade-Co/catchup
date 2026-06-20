@@ -13,7 +13,8 @@
     "daily/2026-06-09.json",
     "daily/2026-06-11.json",
     "daily/2026-06-13.json",
-    "daily/2026-06-14.json"
+    "daily/2026-06-14.json",
+    "daily/2026-06-20.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -82,7 +83,8 @@
     "Lascade-Co/Ingest-server",
     "Lascade-Co/M1_hotel_android",
     "Lascade-Co/d1-web-sflight-v2",
-    "Lascade-Co/m4-brandpage-idligames"
+    "Lascade-Co/m4-brandpage-idligames",
+    "Lascade-Co/android-sdk"
   ],
   "users": [
     {

@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-20",
+  "repos": [
+    {
+      "repo": "Lascade-Co/android-sdk",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• CI: pin macOS runners to macos-26 (Xcode 26) for Compose 1.11 iOS link"
+            ],
+            "Work in Progress": [
+              "• Merge branch 'master' into interim-lascade-publish"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "interim-lascade-publish",
+        "origin"
+      ],
+      "version": "sdk-v0.1.0"
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• mark: sent report 2026-06-20"
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-06-20 — delivery via GitHub Actions"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• cache fix",
+              "• Merge pull request #123 from Lascade-Co/deploy",
+              "• summer crossing"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 124,
+          "title": "cache fix",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 123,
+          "title": "summer crossing",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "actions",
+          "name": "marineradar-bot",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• spike-alert: update dedup ledger"
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• humanise script"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 11,
+          "bullets": {
+            "Published": [
+              "• feat(ad-spend-report): realign annotation popover to style-guide overlay system",
+              "• fix(ad-spend-report): exact hostname parsing for DNS rebinding prevention",
+              "• docs(ad-spend-report): document --serve annotation workflow in SKILL.md",
+              "• feat(ad-spend-report): bottom intervention log with before/after delta and orphan section",
+              "• fix(ad-spend-report): remove unused _idx import in serve regen block"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-analytics-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• application admin update",
+              "• mail server timeout retry"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "push-notif-auth-update"
+      ],
+      "version": null
+    }
+  ]
+}

@@ -1,0 +1,861 @@
+{
+  "date": "2026-06-22",
+  "repos": [
+    {
+      "repo": "Lascade-Co/airline-apis",
+      "developers": [
+        {
+          "login": "hadibinnoor",
+          "name": "hadibinnoor",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat: upgrade Ethiopian Airlines scraper with sticky residential proxies, Akamai sensor integration, and improved session handling",
+              "• feat: document Etihad bot protection flow and initialize etihad.go implementation"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/airline70-flutter",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 5,
+          "bullets": {
+            "Testing": [
+              "• fixed notification",
+              "• added scheduled notification event",
+              "• added purchase initated adn purchase completed analytics event",
+              "• added account settings page in events",
+              "• migrated to v3 autocomplete"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "v2-prapanch"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": null,
+          "name": "Antony Mathew",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "• better surface detection and snap to the last point while drawing line",
+              "• decibel screen support on smaller screens",
+              "• compass view fixes"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "bug_fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1af-flights70",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "• change:version code increment",
+              "• Merge pull request #36 from Lascade-Co/dev"
+            ],
+            "Work in Progress": [
+              "• change: move a function to extension",
+              "• change: setup explore api",
+              "• change: explore designs",
+              "• change: package changing.",
+              "• change: version increment restarted after release 3.5.0"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 36,
+          "title": "Dev",
+          "author": "AjinLascade"
+        }
+      ],
+      "branches": [
+        "feat-explore",
+        "origin"
+      ],
+      "version": "3.5.0"
+    },
+    {
+      "repo": "Lascade-Co/d1ah-hotels70",
+      "developers": [
+        {
+          "login": "Ashiiq666",
+          "name": "ashiiq666",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Trigger param called \"text\" under purchase_initiated and purchase_completed"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "vertical-autocomplete"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• feat:Liquid glass removed"
+            ],
+            "Work in Progress": [
+              "• feat:Common update"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 18,
+          "title": "feat:Liquid glass removed",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-hotel-android",
+      "developers": [
+        {
+          "login": "Ashiiq666",
+          "name": "ashiiq666",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Update the local notification logic V2",
+              "• setup controller in verticals"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• pretty: capitalize guest/room words in stays search card (localized)",
+              "• pretty: detail address pin icon, lighter/smaller search card text, smaller location card titles",
+              "• imp: new tab bar icons + balanced spacing, debug app icon, whole-number prices, search & shimmer fixes",
+              "• Merge PR: new tab bar icons + balanced spacing, debug app icon, whole-number prices, search & shimmer fixes"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 29,
+          "title": "pretty: capitalize guest/room words in stays search card (localized)",
+          "author": "akashkottil"
+        },
+        {
+          "number": 28,
+          "title": "pretty: detail address pin icon, lighter/smaller search card text, smaller location card titles",
+          "author": "akashkottil"
+        },
+        {
+          "number": 27,
+          "title": "imp: new tab bar icons + balanced spacing, debug app icon, whole-number prices, search & shimmer fixes",
+          "author": "akashkottil"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• Update common/admin.py"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/ai-chat-model-views-forqlw"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Merge task/hide-bottom-nav-on-scroll: hide bottom nav bar on scroll"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/email-push-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #34 from Lascade-Co/dev"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 34,
+          "title": "feat(email): distributed Resend rate limiter across all send paths",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan-Shoukath",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Fix wallet email 400: send reason only for failure templates"
+            ]
+          }
+        },
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Merge pull request #50 from Lascade-Co/wallet"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 51,
+          "title": "Fix wallet email 400: send reason only for failure templates",
+          "author": "Shaan-Shoukath"
+        },
+        {
+          "number": 50,
+          "title": "refactor(notifications): centralize wallet email_type/event strings i…",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "wallet"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "jyothikrishna-06",
+          "name": "jyothikrishna-06",
+          "commit_count": 8,
+          "bullets": {
+            "Testing": [
+              "• blog page fix",
+              "• Update esim-helper submodule ref",
+              "• blog date update",
+              "• sign update",
+              "• blog subheading weight reduced"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "seo-updates-v4"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim_airalo",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "• refactor: centralize promo applied UI in PromoCodeSection and remove duplicate logic from PlanHeroCard while adding a new coupon icon.",
+              "• feat: add scroll-triggered collapse animation for supported devices description",
+              "• chore: update SVG icons to 20x20 uniform dimensions and add Secrets.xcconfig with app_links dependency"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/flight-helper",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• added IATA code to popular destinations"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• mark: sent report 2026-06-22"
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-06-22 — delivery via GitHub Actions"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m4-web-flight",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #29 from Lascade-Co/update"
+            ],
+            "Work in Progress": [
+              "• Trigger Deployment"
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• package audit and update"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 30,
+          "title": "Release: Submodule update including click id mapping fix and more",
+          "author": "mhdbk"
+        },
+        {
+          "number": 29,
+          "title": "Submodule ref update",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M4_sky_flutter",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• fixed notification logic",
+              "• added scheduled notificaiotn event",
+              "• added purchase initated and puchase completed analytics event"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "v2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M5-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "• feat:Filter updated",
+              "• feat:Splash and home updated",
+              "• feat:New loading set",
+              "• feat:Modify search updated",
+              "• feat:Native swipe back and detail screen shimmer set"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 3,
+          "title": "feat:Filter updated",
+          "author": "Swalih60"
+        },
+        {
+          "number": 2,
+          "title": "feat:Splash and home updated",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• build fail fix",
+              "• analytics and localisation"
+            ]
+          }
+        },
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #216 from Lascade-Co/PS-video-player-upgrade"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• chore:added logPurchase when subscribed and credit purchased"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 216,
+          "title": "video player update ",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "Meta-event",
+        "keith/image-upload",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• fixed unicode issues",
+              "• Merge pull request #125 from Lascade-Co/deploy",
+              "• added posthog events",
+              "• hub image size fix"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 126,
+          "title": "fixed unicode issues",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 125,
+          "title": "Deploy",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "actions",
+          "name": "marineradar-bot",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• spike-alert: update dedup ledger"
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• humaniser"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/pixel-travelanimator",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• images optimised"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "deploy"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/pnl",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• feat: refactor cloud storage access by moving imports and cleaning up code"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• ad-spend-report: fix annotation popover horizontal page-shift",
+              "• ad-spend-report: ad-set / ad-group breakdown under campaigns (HTML)",
+              "• feat(ad-spend-report): de-noise combined report — draw the frame once (Reichenstein)",
+              "• feat(ad-spend-report): unified reporting phases 2-3 + --each-app + --combined"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/scratch",
+      "developers": [
+        {
+          "login": "dingitha",
+          "name": "Nandita",
+          "commit_count": 33,
+          "bullets": {
+            "Published": [
+              "• Add files via upload"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/signalside_esim_web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Deploy on Vercel"
+            ]
+          }
+        },
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• refactor: update URL validation and replace default placeholder env values with descriptive sentinel constants"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• Merge remote-tracking branch 'origin/main' into feat/terra-ink-cover",
+              "• Merge origin/main into feat/speed"
+            ],
+            "Testing": [
+              "• fix: distinct unit size dots and stop highlight chooser auto-enabling",
+              "• Merge branch 'main' into fix/save-changes"
+            ]
+          }
+        },
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #431 from Lascade-Co/revert/pr-413-model-duration"
+            ],
+            "Testing": [
+              "• Merge branch 'main' into feat/mult"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 431,
+          "title": "Revert/pr 413 model duration",
+          "author": "rohittp0"
+        },
+        {
+          "number": 427,
+          "title": "feat/speed",
+          "author": "Vivek-4321"
+        },
+        {
+          "number": 401,
+          "title": "feat/terra-ink-cover",
+          "author": "Vivek-4321"
+        }
+      ],
+      "branches": [
+        "feat/mult",
+        "fix/save-changes",
+        "origin"
+      ],
+      "version": "4.0.113"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "Basith-P",
+          "name": "Basith-P",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• fix(avatar): exclude destination point from bulk avatar application",
+              "• fix(route-recorder): use real element shadows only"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/element-shadow",
+        "feat/multi-avatar"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/viral-challenge-travel-animator",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #24 from Lascade-Co/vyshnav"
+            ],
+            "Testing": [
+              "• update: removed profile approval"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 24,
+          "title": "Updated the rule book and terms of service",
+          "author": "vyshnavsmenon115"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

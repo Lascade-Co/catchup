@@ -15,7 +15,8 @@
     "daily/2026-06-13.json",
     "daily/2026-06-14.json",
     "daily/2026-06-20.json",
-    "daily/2026-06-21.json"
+    "daily/2026-06-21.json",
+    "daily/2026-06-22.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -85,7 +86,10 @@
     "Lascade-Co/M1_hotel_android",
     "Lascade-Co/d1-web-sflight-v2",
     "Lascade-Co/m4-brandpage-idligames",
-    "Lascade-Co/android-sdk"
+    "Lascade-Co/android-sdk",
+    "Lascade-Co/airline-apis",
+    "Lascade-Co/flight-helper",
+    "Lascade-Co/viral-challenge-travel-animator"
   ],
   "users": [
     {
@@ -279,6 +283,10 @@
     {
       "login": "Sanasabir12",
       "name": "Sanasabir12"
+    },
+    {
+      "login": "hadibinnoor",
+      "name": "hadibinnoor"
     }
   ]
 }

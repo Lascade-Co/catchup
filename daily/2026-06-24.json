@@ -1,0 +1,791 @@
+{
+  "date": "2026-06-24",
+  "repos": [
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": null,
+          "name": "Antony Mathew",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• profile view changes and model selection fixes after login",
+              "• Merge branch 'login' into bug_fixes"
+            ],
+            "Work in Progress": [
+              "• working on offer paywall push"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "bug_fixes",
+        "login"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/campaign-attribution-cf-worker",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• added match_percent stat",
+              "• added stats endpoint to check current stats"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/car-helper",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Add email unsubscribe/resubscribe hook and API util"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-flight-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• feat: offline UX (global toast, in-place retry, search guards) + picker search & profile refinements",
+              "• fix(meta): correct Facebook app events triggering and delivery",
+              "• Merge dev into main: Meta events, Instagram styled scree switch tab navigation, and search fixes"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 12,
+          "title": "merg dev to main: Offline UX overhaul, in-app picker search, and profile/search refinements",
+          "author": "akashkottil"
+        },
+        {
+          "number": 11,
+          "title": "Release: Meta app events, interactive tab navigation, and   search/session fixes",
+          "author": "akashkottil"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1ac-rent80",
+      "developers": [
+        {
+          "login": "lascadeansal",
+          "name": "ansal",
+          "commit_count": 8,
+          "bullets": {
+            "Published": [
+              "• fix lint issues",
+              "• fixes in events",
+              "• Trigger local notification after 3 min",
+              "• fixes in ga4 events",
+              "• improve recent search cards"
+            ]
+          }
+        },
+        {
+          "login": "ajithsp-lascade",
+          "name": "ajithsp-lascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #14 from Lascade-Co/dev"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 15,
+          "title": "dev",
+          "author": "lascadeansal"
+        },
+        {
+          "number": 14,
+          "title": "dev",
+          "author": "lascadeansal"
+        },
+        {
+          "number": 13,
+          "title": "sky_api",
+          "author": "lascadeansal"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": "4.0.0"
+    },
+    {
+      "repo": "Lascade-Co/d1af-flights70",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 12,
+          "bullets": {
+            "Work in Progress": [
+              "• change:fix padding on home page and change explore city name",
+              "• change:add image placeholder",
+              "• change:add error layouts",
+              "• change:fix ui thread issues",
+              "• change:fix issue with the explore click on HomeScreen"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat-explore"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d2-web-car-v2",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Add email unsubscribe page",
+              "• Merge branch 'dev' of github.com:Lascade-Co/d2-web-car-v2 into dev"
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Update components/unsubscribe.tsx"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 76,
+          "title": "Add email unsubscribe page",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-web-hotel-v2",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• feat: add email unsubscribe page"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/email-unsubscribe-page"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #56 from Lascade-Co/dev"
+            ],
+            "Work in Progress": [
+              "• chore: bump version to 1.1.6",
+              "• feat(esim): network-settings access for eSIM compatibility",
+              "• Merge task/fix-registration-complete-event: fire Complete Registration for all auth entry points (+ android install button)"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 56,
+          "title": "Dev",
+          "author": "sajithlascade"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Deploy on Vercel"
+            ]
+          }
+        },
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #68 from Lascade-Co/dev"
+            ],
+            "Work in Progress": [
+              "• Merge pull request #67 from Lascade-Co/seo-updates-v4"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 68,
+          "title": "Release: new blogs added; SEO improvements; image optimization and minor UI improvements",
+          "author": "rebin03"
+        },
+        {
+          "number": 67,
+          "title": "SEO & UI polish: wallet cleanup",
+          "author": "jyothikrishna-06"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin",
+        "try"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim_airalo",
+      "developers": [
+        {
+          "login": "Sanasabir12",
+          "name": "Sanasabir12",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• uodated secrets.xcconfig",
+              "• .",
+              "• updated version"
+            ]
+          }
+        },
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• chore: upgrade meta to 1.18.0 and test_api to 0.7.11",
+              "• Merge branch 'dev'"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotel-helper",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• feat: add email unsubscribe hook and api util"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/Ingest-server",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• made data in public endpoint consistent with trends"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• mark: sent report 2026-06-24"
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-06-24 — delivery via GitHub Actions"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M4-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• Limit M4-car-ios-v2 to the car vertical (remove Flight/Hotel/Offers)",
+              "• Port shared core + Car vertical to SwiftUI; M4 config; 5-tab shell",
+              "• Scaffold SwiftUI project with 5-tab shell (Car/Flight/Offers/Hotel/Profile)",
+              "• first commit"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M5-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• fix:Fixed all issues after testing",
+              "• feat:Ad fetch implemented"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 6,
+          "title": "fix:Fixed all issues after testing",
+          "author": "Swalih60"
+        },
+        {
+          "number": 5,
+          "title": "feat:Ad fetch implemented",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": "AdarshLascade",
+          "name": "AdarshLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #39 from Lascade-Co/keith/video-upload"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 39,
+          "title": "keith/video upload",
+          "author": "keith-james"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #130 from Lascade-Co/deploy"
+            ],
+            "Work in Progress": [
+              "• seo fixes and new graph flow",
+              "• seo fixes"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 130,
+          "title": "Deploy",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "actions",
+          "name": "marineradar-bot",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• spike-alert: update dedup ledger"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/pnl",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 5,
+          "bullets": {
+            "Testing": [
+              "• feat: add logic to back-fill recurring spends into existing months and restrict future month creation",
+              "• fix: correct fiscal year start calculation to align with Apple’s definition",
+              "• fix: convert manual Add-form amounts to USD client-side before save",
+              "• Update pnl/services/revenue/appstore.py",
+              "• Update pnl/tests/test_revenue.py"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "codex/fix-app-store-revenue-mismatch"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• feat(full-product-seo): add Google Search Console integration for crawl-health reconciliation"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/scratch",
+      "developers": [
+        {
+          "login": "dingitha",
+          "name": "Nandita",
+          "commit_count": 10,
+          "bullets": {
+            "Published": [
+              "• Add files via upload"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/signalside_esim_web",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 5,
+          "bullets": {
+            "Work in Progress": [
+              "• feat: implement eSIM top-up workflow with support for same-plan and different-plan selection.",
+              "• feat: implement dashboard page, add AppPromo and Dropdown UI components, and update auth redirects",
+              "• feat: update EsimCard to support plan images and use Globe2 icon as fallback",
+              "• feat: implement full-stack eSIM store with authentication, user dashboard, and checkout flow",
+              "• refactor: migrate project from Next.js to Nuxt 3 by porting components, pages, and data structures to the Nuxt framework."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "migrate-to-nuxt"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 6,
+          "bullets": {
+            "Testing": [
+              "• fix(model-picker): reset preview camera to initial pose on launch",
+              "• fix(elements): don't cast shadows in preview or export",
+              "• fix(atlas): lift tilted elements so large ones don't clip into the map",
+              "• Merge remote-tracking branch 'origin/main' into nauman/fix/dropdown-scenes-issues",
+              "• Merge remote-tracking branch 'origin/main' into nauman/feat/multiple-model-support"
+            ]
+          }
+        },
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #443 from Lascade-Co/fix/ui"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 443,
+          "title": "fix/ui",
+          "author": "Vivek-4321"
+        }
+      ],
+      "branches": [
+        "nauman/feat/multi-avatar",
+        "nauman/feat/multiple-model-support",
+        "nauman/fix/dropdown-scenes-issues",
+        "origin"
+      ],
+      "version": "4.0.115"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "Basith-P",
+          "name": "Basith-P",
+          "commit_count": 5,
+          "bullets": {
+            "Work in Progress": [
+              "• fix: show only photos in cover image picker",
+              "• fix(location-search): prevent destination icon from opening annotations",
+              "• Merge remote-tracking branch 'origin/main' into fix/avatar-and-placelabel-by-geethu",
+              "• fix(annotations): prevent element points from showing stale story media",
+              "• Merge remote-tracking branch 'origin/main' into feat/element-shadow"
+            ]
+          }
+        },
+        {
+          "login": "Krishnan-E",
+          "name": "Krishnan-E",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• refactor(ViewOrientation): replace force-unwrap range conversion with NSMutableString",
+              "• feat(FAQ): localize FAQ questions, answers, and aspect ratio numerals",
+              "• feat(creatorChallenge): localize MadeUpCountry contest UI strings across all locales"
+            ]
+          }
+        },
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• warning cleanup",
+              "• Merge branch 'main' into mushfiq/scene-bounce"
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #626 from Lascade-Co/fix/conver-image-issues"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 627,
+          "title": "Add localizations for creator challenge and FAQ",
+          "author": "Krishnan-E"
+        },
+        {
+          "number": 626,
+          "title": "Fix/cover image issues",
+          "author": "Basith-P"
+        }
+      ],
+      "branches": [
+        "feat/element-shadow",
+        "fix/avatar-and-placelabel-by-geethu",
+        "fix/avoid-placing-both-element-and-story-at-a-point",
+        "krish/fix/UI",
+        "mushfiq/cleanup",
+        "mushfiq/scene-bounce",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travelscript-esim-web",
+      "developers": [
+        {
+          "login": "ryyansafar",
+          "name": "ryyansafar",
+          "commit_count": 10,
+          "bullets": {
+            "Published": [
+              "• docs: redact the staging LAABHAM secret from DEPLOY.md",
+              "• env: collapse to a single backend var; use stg.simline.com (no localhost)",
+              "• env: clarify + correct all env vars (dev/staging/prod), enforce lint in CI",
+              "• Titles: proper browser-tab titles for account/orders/success (+ live per-tab)",
+              "• docs: add comprehensive root README"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Deploy"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

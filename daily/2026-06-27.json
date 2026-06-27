@@ -1,0 +1,173 @@
+{
+  "date": "2026-06-27",
+  "repos": [
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": null,
+          "name": "Antony Mathew",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• totla length lable hidden for line"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "bug_fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-flight-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 5,
+          "bullets": {
+            "Work in Progress": [
+              "• style(esim-bar): adopt iOS 26 native tab-bar indicator (draggable, press-scale lift, snap) per reference; remove debug logs; keep collapse/expand morph",
+              "• fix(esim-bar): scope tab gesture to its section (no accidental collapse), capsule hit-shapes, softer native glass highlight + restored hover",
+              "• debug(esim-bar): log tab tap / setMode / tabBarHidden to pinpoint the Profile-collapse cause",
+              "• fix(esim-bar): per-tab buttons + distinct glass sides to stop Profile tap collapsing; glass selection highlight",
+              "• feat(esim): add eSIM SDK, demo screens, and iOS 26 morphing liquid-glass tab bar"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "esim"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-flight-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Flight70 feature parity: filters, polling, analytics, force-update, push, auth, localization, ads"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• mark: sent report 2026-06-27"
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-06-27 — delivery via GitHub Actions"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "actions",
+          "name": "marineradar-bot",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• spike-alert: update dedup ledger"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/pnl",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #3 from Lascade-Co/codex/fix-app-store-revenue-mismatch"
+            ],
+            "Testing": [
+              "• feat: implement combined Sheets export with full rebuild for PNL and Worksheet tabs"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 3,
+          "title": "feat: update revenue fetching to use calendar-month net proceeds from Sales and Trends reports",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "feat/combined-sheets-export",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 6,
+          "bullets": {
+            "Testing": [
+              "• feat(full-product-seo): deterministic Pending SEO Tasks section + committed assembly pipeline",
+              "• feat(full-product-seo): split MarineRadar score into Site SEO vs Conversion/App",
+              "• fix(full-product-seo): open trend-chart URLs in a new tab",
+              "• feat(full-product-seo): clickable real URLs in GSC trend charts",
+              "• feat(full-product-seo): regenerate grounded report 2026-06-26 (validator-passed)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/seo-grounded-findings"
+      ],
+      "version": null
+    }
+  ]
+}

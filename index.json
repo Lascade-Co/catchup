@@ -18,7 +18,8 @@
     "daily/2026-06-21.json",
     "daily/2026-06-22.json",
     "daily/2026-06-24.json",
-    "daily/2026-06-26.json"
+    "daily/2026-06-26.json",
+    "daily/2026-06-27.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -95,7 +96,8 @@
     "Lascade-Co/M4-car-ios-v2",
     "Lascade-Co/car-helper",
     "Lascade-Co/d2-web-car-v2",
-    "Lascade-Co/travelscript-esim-web"
+    "Lascade-Co/travelscript-esim-web",
+    "Lascade-Co/D2-flight-ios-v2"
   ],
   "users": [
     {

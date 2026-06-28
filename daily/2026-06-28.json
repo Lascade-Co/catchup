@@ -1,0 +1,145 @@
+{
+  "date": "2026-06-28",
+  "repos": [
+    {
+      "repo": "Lascade-Co/airline-apis",
+      "developers": [
+        {
+          "login": "answarck",
+          "name": "Muhammed Answar C K",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Ethiopian mobile added."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• mark: sent report 2026-06-28"
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-06-28 — delivery via GitHub Actions"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #133 from Lascade-Co/deploy"
+            ],
+            "Work in Progress": [
+              "• regex fixed"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 133,
+          "title": "regex fixed",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #3 from Lascade-Co/feat/news-post-skill-and-humaniser"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 3,
+          "title": "Add on-demand news-post skill + humaniser; retire scheduled spike-alert Action",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "• refactor(marineradar-moodboard): rename folder to banner-type-system, drop Reichenstein attributions",
+              "• feat(marineradar-moodboard): de-blue chrome to warm paper + deepen §05 typography + retitle",
+              "• feat(marineradar-moodboard): migrate banner typography to Manrope×Outfit two-font system",
+              "• feat(marineradar-moodboard): realign to composited template system anchored to mb-11–14",
+              "• Merge feat/seo-grounded-findings into main"
+            ],
+            "Work in Progress": [
+              "• feat(full-product-seo): token-based CSS, deduplicated h2s, Opus synthesis, updated report 2026-06-26"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 5,
+          "title": "Deterministic grounded findings + scores + grounding validator (full-product-seo)",
+          "author": "cherian"
+        }
+      ],
+      "branches": [
+        "feat/seo-grounded-findings",
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

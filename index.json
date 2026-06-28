@@ -19,7 +19,8 @@
     "daily/2026-06-22.json",
     "daily/2026-06-24.json",
     "daily/2026-06-26.json",
-    "daily/2026-06-27.json"
+    "daily/2026-06-27.json",
+    "daily/2026-06-28.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -299,6 +300,10 @@
     {
       "login": "ryyansafar",
       "name": "ryyansafar"
+    },
+    {
+      "login": "answarck",
+      "name": "Muhammed Answar C K"
     }
   ]
 }

@@ -21,7 +21,8 @@
     "daily/2026-06-26.json",
     "daily/2026-06-27.json",
     "daily/2026-06-28.json",
-    "daily/2026-07-01.json"
+    "daily/2026-07-01.json",
+    "daily/2026-07-02.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -101,7 +102,8 @@
     "Lascade-Co/travelscript-esim-web",
     "Lascade-Co/D2-flight-ios-v2",
     "Lascade-Co/HotelSnap",
-    "Lascade-Co/M1-car-ios-v2"
+    "Lascade-Co/M1-car-ios-v2",
+    "Lascade-Co/locate"
   ],
   "users": [
     {

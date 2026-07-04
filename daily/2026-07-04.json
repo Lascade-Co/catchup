@@ -1,0 +1,115 @@
+{
+  "date": "2026-07-04",
+  "repos": [
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "📝 Marked the 2026-07-04 daily report as sent"
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "📝 Saved the 2026-07-04 daily report for GitHub Actions delivery"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/locate",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🐛 Reworked the GeoNames seed transform to use set-based aggregation and joins, avoiding full-dataset hangs and supporting recovery from interrupted runs.",
+              "🔧 Added loud seed warnings when transform staging tables are empty so no-op merges are visible."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "📝 Published multiple draft maritime news posts covering Hormuz-related incidents, fee proposals, and port activity.",
+              "📝 Added draft coverage of vessel events including damage assessments, safe arrivals, piracy prevention, seizure activity, and return voyages.",
+              "🔧 Updated trend and deduplication ledgers for the autonomous publishing runs."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travelscript-esim-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Deployed the site to Vercel.",
+              "🚀 Landed the homepage redesign with backend endpoints, analytics, GDPR consent, and UI polish."
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Updated the Vercel deploy action condition."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 3,
+          "title": "Homepage redesign, light backend endpoints, analytics + GDPR consent, and UI polish",
+          "author": "ryyansafar"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

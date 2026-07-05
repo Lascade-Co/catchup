@@ -1,0 +1,149 @@
+{
+  "date": "2026-07-05",
+  "repos": [
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Marked the 2026-07-05 daily report as sent"
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "📝 Saved the 2026-07-05 daily report for GitHub Actions delivery"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/locate",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "📝 Added API reference documentation.",
+              "🐛 Fixed search ranking so geographic and importance boosts scale multiplicatively with text relevance.",
+              "🔧 Reworked full reindexing to process places in bounded batches instead of resetting the entire table at once."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "📝 Published a draft on tanker U-turns near the Strait of Hormuz after reported VHF warnings and updated the deduplication ledger.",
+              "📝 Published a draft on MSC TiL acquiring a major stake in Adani Vizhinjam Port and recorded the story in the ledger.",
+              "🔧 Added Sail4th 250 post configuration, generated assets, tracking data, and ledger entry for the New York Harbor draft."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Switched search to the locate.lascade.com REST endpoint, added device-location result biasing, and covered result ordering with unit tests.",
+              "🚀 Added a permission-gated \"Use current location\" option for route point search with fresher location lookup and fallback handling.",
+              "♻️ Removed the visible map location puck while keeping device location available for search biasing.",
+              "🐛 Fixed repeated analytics page_view firing by registering the navigation destination listener with proper lifecycle cleanup."
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "octopoocha",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Updated Android, Firebase, Hilt, Mapbox, analytics, Compose, testing, and related dependency versions."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/mult"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Merged a gallery crash fix for saved route model gallery scrolling"
+            ]
+          }
+        },
+        {
+          "login": "rahul028",
+          "name": "rahul028",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Fixed model gallery scroll crashes by stabilizing cell identity, reducing layout measurement churn, and guarding redundant scroll updates"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 679,
+          "title": "fix(gallery): stop AttributeGraph churn crash in model gallery scroll",
+          "author": "rahul028"
+        }
+      ],
+      "branches": [
+        "mushfiq/code-optimisation",
+        "rahul/crashfix/savedroute"
+      ],
+      "version": null
+    }
+  ]
+}

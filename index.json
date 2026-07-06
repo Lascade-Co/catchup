@@ -24,7 +24,8 @@
     "daily/2026-07-01.json",
     "daily/2026-07-02.json",
     "daily/2026-07-04.json",
-    "daily/2026-07-05.json"
+    "daily/2026-07-05.json",
+    "daily/2026-07-06.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -105,7 +106,9 @@
     "Lascade-Co/D2-flight-ios-v2",
     "Lascade-Co/HotelSnap",
     "Lascade-Co/M1-car-ios-v2",
-    "Lascade-Co/locate"
+    "Lascade-Co/locate",
+    "Lascade-Co/location-autocomplete",
+    "Lascade-Co/react-email-templates"
   ],
   "users": [
     {
@@ -311,6 +314,10 @@
     {
       "login": "answarck",
       "name": "Muhammed Answar C K"
+    },
+    {
+      "login": "Geethukv03",
+      "name": "Geethu K V"
     }
   ]
 }

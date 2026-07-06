@@ -1,0 +1,595 @@
+{
+  "date": "2026-07-06",
+  "repos": [
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Added GitHub Actions workflows for QA APK builds, central debug build dispatches, and release build triggers.",
+              "🔧 Set up Flutter project metadata, ignore rules, SDK submodule configuration, and local launch profiles.",
+              "📝 Added design and development guidance for the travel eSIM app experience."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🔧 Removed the unused Beautiful Soup dependency from requirements.",
+              "🔧 Added a global configuration hard block."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 57,
+          "title": "Alerts ",
+          "author": "Shaan-Shoukath"
+        },
+        {
+          "number": 56,
+          "title": "Rate Limits Fixed",
+          "author": "Shaan-Shoukath"
+        },
+        {
+          "number": 55,
+          "title": "Added the Global Config hard Block ",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "slack"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🔧 Published Vercel deployment updates."
+            ]
+          }
+        },
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🔧 Updated sitemap handling, including segmented sitemap index work and a later revert.",
+              "🐛 Fixed sitemap URLs by adding trailing slashes."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotel-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🔧 Removed custom worker configuration.",
+              "🐛 Hardened CSV header parsing and guarded optional Sky details blocks."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "📝 Marked the 2026-07-06 report as sent."
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "📝 Saved the 2026-07-06 daily report for GitHub Actions delivery."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/location-autocomplete",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "♻️ Removed Google Maps API usage from the location search sequence"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M1-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🔧 Set up the iOS project structure, ignore rules, test targets, and core package dependencies for the Rental Cars app."
+            ],
+            "Work in Progress": [
+              "🚀 Updated car booking UI polish, including branded teal styling, system navigation icons, filter close behavior, and refined result chip borders.",
+              "⚡ Improved loading and search interactions with closer-matching skeleton rows, keyboard dismissal on scroll, and smoother crossfades from loading to results.",
+              "🚀 Added the splash animation experience.",
+              "🐛 Fixed navbar behavior on iOS 18."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 6,
+          "title": "UI updated",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m8-android-hotel",
+      "developers": [
+        {
+          "login": "lascadeansal",
+          "name": "ansal",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Fixed a RecyclerView crash in the Android app.",
+              "🔧 Added Android app setup with build configuration, dependencies, shrinker rules, and ignored local/generated files.",
+              "📝 Documented local setup requirements for environment configuration and Firebase services."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "🚀 Added route planner deep link support.",
+              "🐛 Applied review fixes for trip planner initialization, shared route links, and SharePlus image sharing."
+            ],
+            "Work in Progress": [
+              "📝 Added localized copy for ATD/ETA help text, satellite credit messaging, and related app promotions.",
+              "🚀 Added latitude and longitude details to marker pop-ups."
+            ]
+          }
+        },
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Added a reason parameter to analytics tracking."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "PS-share-routes",
+        "PS-ui-fixes",
+        "keith/image-upload"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🔧 Added central Vercel deployment dispatch for repository pushes.",
+              "🔧 Set up baseline project ignores, generated asset exclusions, and starter documentation.",
+              "📝 Documented the public trends KV contract, cache strategy, and page build guidance."
+            ],
+            "Work in Progress": [
+              "🐛 Hardened the hub hero so optional pills and byline segments do not render empty chips or stray separators.",
+              "🚀 Updated blog and news page UI work alongside deployment and project setup changes."
+            ]
+          }
+        },
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed icon rendering and sign-in connectivity policy issues."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 142,
+          "title": "Deploy",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "keith/leaderboard-icon-fix",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Published a Mitsui OSK Hormuz convoy post covering ten Japan-linked ships carrying 12 million barrels via an Iran-approved route.",
+              "🖼️ Added generated cover images and tracking data for the Hormuz convoy article.",
+              "📝 Drafted news coverage for the Marseille fire and Nirai Kanai II refloating stories."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/pnl",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "🚀 Added Salary and Common Expense block builders for the combined Sheets export.",
+              "🚀 Included Salary and Common Expense tabs in the combined Sheets export flow.",
+              "🎨 Color-coded Common Expense usage cells so tick and cross states are easier to scan."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/combined-sheets-export"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed app-health review items around bucket lookup fallback, review deduplication, area chart fills, and missing Chart.js handling.",
+              "🚀 Published the app-health upgrade with benchmark engine improvements and regenerated all-app reporting."
+            ],
+            "Work in Progress": [
+              "🔧 Merged main into the app-health branch, preserving both SEO-review and app-health sidebar entries while noting pre-existing validator failures."
+            ]
+          }
+        },
+        {
+          "login": "Iamfasna",
+          "name": "Iamfasna",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Added pre-push PPP price validation guidance covering monthly floors, yearly discount ratios, and cross-store consistency.",
+              "🔧 Added exchange-rate data and full App Store/Play Store PPP price sets for monthly and yearly subscriptions.",
+              "📊 Updated PPP pricing analysis inputs with revised country-level price tiers and removed obsolete sample price data.",
+              "📊 Added product revenue analysis data to support broader app pricing review."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 6,
+          "title": "feat(app-health): v2/v2.1/v3 skill upgrade + benchmark engine + all-app report regeneration",
+          "author": "cherian"
+        }
+      ],
+      "branches": [
+        "origin",
+        "worktree-app-health-v2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/react-email-templates",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added DailyV1 and DailyV2 email templates with updated content and schema"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/scratch",
+      "developers": [
+        {
+          "login": "dingitha",
+          "name": "Nandita",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Initialized the scratch repository with a README and uploaded initial 3D asset files."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 8,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed default route auto-save conflicts by serializing saves, refreshing stale baselines, and falling back to full-route sync when needed.",
+              "🚀 Improved route editing and plotting by allowing points on imported routes, preserving point models during reorder, and showing a loader while GPX routes plot.",
+              "🐛 Restored correct per-segment route line styles after no-model stops and kept annotation previews usable on wide or foldable screens.",
+              "🔧 Removed the tutorial gate from the stop icon, prevented duplicate page view events, and delayed the scene style survey prompt."
+            ]
+          }
+        },
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "📝 Refined KDoc notation for convoy gap calculations in MultiNode.",
+              "♻️ Centralized the normal pitch constant and changed the default camera pitch to a shallower angle."
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "octopoocha",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🔧 Applied lint cleanups to ViewModel teardown methods and annotation frame preview sizing defaults."
+            ]
+          }
+        },
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Published multiple model support."
+            ]
+          }
+        },
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Restyled the location points sheet header and list items, including updated typography and a smaller annotation badge."
+            ]
+          }
+        },
+        {
+          "login": "Geethukv03",
+          "name": "Geethu K V",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Merged main into the multi-avatar branch, bringing in GitNexus skill documentation and related project context updates."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 519,
+          "title": "Finetune v2",
+          "author": "naumshaz"
+        },
+        {
+          "number": 429,
+          "title": "Multiple Model Support",
+          "author": "naumshaz"
+        }
+      ],
+      "branches": [
+        "feat/mult",
+        "fix/link",
+        "nauman/feat/multi-avatar",
+        "origin"
+      ],
+      "version": "debug-pr-428"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Fixed cover image rendering for generated route visuals.",
+              "🔧 Added manual iOS debug and App Store release dispatch workflows with project-specific build metadata.",
+              "🔧 Added repository setup files and agent guidance for the iOS app.",
+              "🐛 Added low-memory toast and logging to improve diagnostics."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "mushfiq/code-optimisation"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-scene-effects",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Added new scene effect assets for rain, boat wake, cherry blossom, confetti, fireworks, fog, lens flare, and lightning.",
+              "🔧 Registered the new scene effects in the catalog with thumbnails, USDZ links, and free availability.",
+              "🐛 Corrected the lightning effect USDZ URL to point at the published asset."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travelscript-esim-web",
+      "developers": [
+        {
+          "login": "ryyansafar",
+          "name": "ryyansafar",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Updated CSP allowlists so Google-hosted locale webfonts load correctly for non-Latin languages.",
+              "🐛 Added localized error boundaries and polished auth and purchase analytics behavior."
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Prepared Vercel deployment setup."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    }
+  ]
+}

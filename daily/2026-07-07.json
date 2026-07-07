@@ -1,0 +1,799 @@
+{
+  "date": "2026-07-07",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🐛 Removed product-intelligence from the catchup exclusion list.",
+              "🐛 Made subprocess output handling tolerant of non-UTF-8 bytes."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": null,
+          "name": "Antony Mathew",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "📏 Improved height measurement stability with better wall hit detection, camera-orientation handling, smoothing, and cached height renderables so the guide line is less likely to disappear."
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "OpenClaw Bot",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Triggered a build."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "bug_fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-IOS",
+      "developers": [
+        {
+          "login": "Basith-P",
+          "name": "Basith-P",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added analytics for camera permission grants by home-screen entry point.",
+              "🔧 Moved Google Sign-In client configuration into shared environment settings and disabled the Google login button during testing.",
+              "🔧 Bumped the build version and enabled Firebase Analytics debug logging for release testing."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Updated Facebook event tracking for the iOS app"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1af-flights70",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Updated the results page to use a two-way trip icon.",
+              "🐛 Fixed explore search redirects so they only happen for Sky API searches."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat-explore"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-Flight-Android",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 5,
+          "bullets": {
+            "Testing": [
+              "🔧 Updated local notification scheduling so each notification state is triggered only once per app session.",
+              "🐛 Fixed destination recent searches so they stay visible when switching between departure and arrival fields.",
+              "🐛 Corrected traveler totals for larger adult, child, and infant combinations.",
+              "🐛 Preserved selected departure and arrival dates after app relaunch and stabilized recent search ordering."
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "octopoocha",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Added localized strings for traveler limit errors, same-airport validation, and recent locations."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/email-push-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Landed durable unsubscribe-all handling, push log rollups, always-active catch-up purging, and a slimmer SES webhook path"
+            ],
+            "Work in Progress": [
+              "🚀 Added monthly push log rollups, always-active catch-up purging for email and push, and streamlined SES webhook handling"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 35,
+          "title": "Durable unsubscribe-all; push log rollup + always-active catch-up purge; SES webhook slim-down",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan-Shoukath",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added a multi-tenant MCP chatbot relay with OAuth and OTP login, quote-bound purchasing, and admin brand management"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "mcp"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added Sign in with Apple across the auth page and checkout flow.",
+              "🐛 Exposed Apple sign-in popup pending state and hardened response handling."
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Prepared Vercel deployment setup."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 82,
+          "title": "Add Sign in with Apple to auth page and checkout",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "dev",
+        "feat/apple-signin-web"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim_airalo",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "🔧 Removed iOS build dependencies on generated Secrets.xcconfig files and cleaned up related config imports.",
+              "🐛 Added the plan_type parameter to plans API requests to prevent 400 errors and restore pricing data."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/flight-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🚀 Added v3 flight search and polling with Kayak IRIS and Skyscanner provider support.",
+              "🔧 Added a provider query parameter for search v2 to force Skyscanner or Kayak."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "📝 Marked the 2026-07-07 daily report as sent."
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "📝 Saved the 2026-07-07 daily report for GitHub Actions delivery."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M1-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Set up the iOS project configuration with app, unit test, and UI test targets plus required package dependencies.",
+              "🔧 Added repository ignores for Xcode, Swift Package Manager, dependency, macOS, and Fastlane generated files."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M4_sky_flutter",
+      "developers": [
+        {
+          "login": "shon400",
+          "name": "shon400",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Added Flutter project setup, analyzer rules, ignore patterns, and local launch configs.",
+              "🔧 Added CI dispatch workflows for debug PR builds and release builds.",
+              "🔧 Configured Android build settings with Firebase, signing support, ProGuard rules, and test orchestration."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "release"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added route planner deep-link support."
+            ],
+            "Work in Progress": [
+              "🔧 Added an analytics reason parameter for image uploads."
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Updated map icon behavior.",
+              "🔧 Added Flutter project setup, editor configuration, and build automation triggers.",
+              "📝 Added project guidance and basic repository documentation."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "map-icons",
+        "origin"
+      ],
+      "version": "debug-pr-228"
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed icons and adjusted connection security settings to restore sign-in"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "keith/leaderboard-icon-fix"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "📝 Published maritime news drafts covering the Al Rekayyat tanker strike, UK Carrier Strike Group activity, Mumbai tanker incidents, and a NJ fireboat whale incident.",
+              "🔧 Added generated covers, story configs, and tracking assets for newly drafted news posts.",
+              "🔧 Updated the published-news ledger after scheduled publishing runs and deduplication checks."
+            ],
+            "Work in Progress": [
+              "📝 Added urgent draft coverage, config, and generated assets for the July 7 Strait of Hormuz tanker attack.",
+              "🔧 Updated the published-news ledger with a deduplication entry for the Hormuz tanker attack draft."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "autonomous-pipeline-2026-07-07",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/plcashflow",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Imported P&L and cash-flow reconciliation tooling for comparing internal reports with revenue and bank statement data."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/pnl",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🔧 Exposed Postgres on host port 5454 for read-only access.",
+              "🚀 Implemented combined Google Sheets export with full rebuilds for the PNL and Worksheet tabs."
+            ],
+            "Work in Progress": [
+              "📝 Documented Salary and Common Sheets tabs across the four-tab context update and related ADRs."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 4,
+          "title": "feat: implement combined Sheets export with full rebuild for PNL and Worksheet tabs",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "feat/combined-sheets-export",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/react-email-templates",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🐛 Pinned React and disabled experimental Node webstorage to stop preview server crashes.",
+              "🚀 Added Flights70 daily email templates with a shared footer and Gmail dark-mode safeguards."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/signalside_esim_web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "🔧 Prepared repeated Vercel deployment updates for testing."
+            ]
+          }
+        },
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "🚀 Standardized Facebook pixel event tracking and added checkout re-entrancy guards.",
+              "♻️ Simplified checkout by replacing in-browser Stripe elements with hosted redirects.",
+              "♻️ Removed unused Firebase messaging and app ID config fields to reduce client bundle requirements."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 5,
+          "bullets": {
+            "Testing": [
+              "🎨 Restyled the models sheet grid, cards, texture picker, and search empty states for a more consistent responsive layout.",
+              "🚀 Added scroll-driven collapse and expansion for the 3D model preview so the grid gets more space while browsing.",
+              "🔧 Matched the models sheet height to the location points sheet."
+            ]
+          }
+        },
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed stops-only country highlight indexing and avoided unnecessary per-frame geocode lookups.",
+              "⚡ Moved temporary route point placement work off the UI thread, added cancellation guards, cached bounds, and made hot geometry checks cheaper."
+            ],
+            "Testing": [
+              "📊 Added route name context to save-route failure analytics.",
+              "🐛 Disabled scene style survey submission when no style is selected.",
+              "🚀 Added a billing issue banner for active subscriptions."
+            ]
+          }
+        },
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🔧 Temporarily excluded the Orbit animation style from preset style choices.",
+              "🐛 Made animation preview refresh when video duration changes.",
+              "🐛 Fixed 3D line scaling to stay uniform and made zoom-based width transitions smoother."
+            ],
+            "Testing": [
+              "🚀 Reintroduced Orbit in the preset animation styles list."
+            ]
+          }
+        },
+        {
+          "login": "Geethukv03",
+          "name": "Geethu K V",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "📝 Added GitNexus skill documentation for CLI usage, code exploration, debugging, guidance, and impact analysis."
+            ]
+          }
+        },
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Merged multiple avatar support."
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "octopoocha",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Updated the Hilt Android dependency as part of an automated lint fix."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 517,
+          "title": "fix/link",
+          "author": "Vivek-4321"
+        },
+        {
+          "number": 428,
+          "title": "feat/mult",
+          "author": "rohittp0"
+        },
+        {
+          "number": 426,
+          "title": "Multiple Avatar Support",
+          "author": "naumshaz"
+        }
+      ],
+      "branches": [
+        "feat/mult",
+        "feat/prompt",
+        "fix/issue",
+        "nauman/refactor/finetune-v3",
+        "origin"
+      ],
+      "version": "debug-pr-535"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "🚀 Bumped app and extension versioning to 3.8.9 with build 210.",
+              "🐛 Routed premium checks through live subscription status, including free-pro entitlements and alt-route gating.",
+              "🔧 Added a DEBUG-only premium override toggle in Settings for testing subscription states.",
+              "🐛 Hardened route, model-fetch, and Core Data paths against crashes from malformed routes, background-thread UI/state access, queue confinement, and oversized route plans."
+            ]
+          }
+        },
+        {
+          "login": "rahul028",
+          "name": "rahul028",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "🚀 Added a YouTube tutorial video webview to the FAQ section.",
+              "🚀 Added an Other Apps section in Settings with horizontal circular scrolling and supporting assets.",
+              "🔧 Added analytics tracking for app clicks.",
+              "🐛 Tuned the card carousel scroll behavior, spacing, icon sizing, and neighboring-card peek."
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed autocomplete failure analytics to include search text and status."
+            ],
+            "Work in Progress": [
+              "🔧 Added manual debug and App Store release workflows that dispatch centralized iOS builds.",
+              "📝 Added repository guidance for AI coding agents and project setup.",
+              "🚀 Prepared release 3.8.8."
+            ]
+          }
+        },
+        {
+          "login": "Krishnan-E",
+          "name": "Krishnan-E",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Merged main into the terra ink cover style branch, bringing in shared workflow and repository metadata updates.",
+              "🐛 Fixed autocomplete analytics key naming for search text.",
+              "🐛 Updated autocomplete failure analytics to track search text and status."
+            ]
+          }
+        },
+        {
+          "login": "Basith-P",
+          "name": "Basith-P",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🐛 Removed a production debug log that exposed a user identifier and restored Settings footer localization.",
+              "📝 Localized Creator Challenge card text and added base translation keys.",
+              "🔧 Merged main into the settings finetune branch, bringing in shared workflow and repository metadata updates."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 684,
+          "title": "feat : added youtube tutorial video in webview on Faq Section",
+          "author": "rahul028"
+        },
+        {
+          "number": 682,
+          "title": "Rahul/feat/665 cross promo",
+          "author": "rahul028"
+        },
+        {
+          "number": 681,
+          "title": "Fix: track search text and status on autocomplete failure",
+          "author": "Krishnan-E"
+        }
+      ],
+      "branches": [
+        "638-settings-finetune",
+        "666-add-tutorial-video-in-faq",
+        "feat/terra-ink-cover-style",
+        "krish/fix/autocomplete_event",
+        "mushfiq/code-optimisation",
+        "origin",
+        "rahul/feat/665-cross-promo",
+        "release",
+        "release_backup"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-scene-effects",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Added the initial scene effects catalog with USDZ assets and thumbnails for rain, boat wake, cherry blossom, confetti, fireworks, fog, lens flare, and lightning.",
+              "🚀 Added more scene effects for seagull, snow, and autumn, with catalog entries and asset files.",
+              "📝 Added a short README explaining where to upload USDZ effects and register them in the catalog."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travelscript-esim-web",
+      "developers": [
+        {
+          "login": "ryyansafar",
+          "name": "ryyansafar",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added localized competitor comparison pages for Simline vs Saily and aloSIM with balanced, substantiable claims.",
+              "🚀 Improved SEO on region and country pages with Product/AggregateOffer schema and localized sibling-destination links.",
+              "🚀 Enabled Google and Apple social sign-in.",
+              "🔧 Added a localized, dismissible promo announcement bar driven by public campaign configuration."
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Continued Vercel deployment setup work."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    }
+  ]
+}

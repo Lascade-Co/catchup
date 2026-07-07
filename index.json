@@ -25,7 +25,8 @@
     "daily/2026-07-02.json",
     "daily/2026-07-04.json",
     "daily/2026-07-05.json",
-    "daily/2026-07-06.json"
+    "daily/2026-07-06.json",
+    "daily/2026-07-07.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -108,7 +109,8 @@
     "Lascade-Co/M1-car-ios-v2",
     "Lascade-Co/locate",
     "Lascade-Co/location-autocomplete",
-    "Lascade-Co/react-email-templates"
+    "Lascade-Co/react-email-templates",
+    "Lascade-Co/plcashflow"
   ],
   "users": [
     {
@@ -318,6 +320,10 @@
     {
       "login": "Geethukv03",
       "name": "Geethu K V"
+    },
+    {
+      "login": null,
+      "name": "OpenClaw Bot"
     }
   ]
 }

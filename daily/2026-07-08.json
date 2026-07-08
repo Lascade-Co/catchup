@@ -1,0 +1,879 @@
+{
+  "date": "2026-07-08",
+  "repos": [
+    {
+      "repo": "Lascade-Co/D1-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Updated Facebook event tracking"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 14,
+          "title": "feat:FB events updated",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1-web-sflight-v2",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added the localized flight app shell with home, flight results, static policy pages, footer integration, and SEO metadata.",
+              "🔧 Set up project scaffolding including environment examples, ignore rules, shared flight-helper submodule wiring, global styling, and app error handling.",
+              "🚀 Integrated consent, user session, ad session, analytics script, and notification providers into the localized layout."
+            ],
+            "Work in Progress": [
+              "🚀 Prepared a release branch for delayed tab redirection behavior."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 46,
+          "title": "Release: Tab redirection delay",
+          "author": "mhdbk"
+        },
+        {
+          "number": 45,
+          "title": "Redirection deferring",
+          "author": "mhdbk"
+        },
+        {
+          "number": 44,
+          "title": "Redirection deferring",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Enabled multiple users to share the same app device instance while enforcing uniqueness for anonymous instances"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/Dashlytics",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed Adapty revenue reporting to use net revenue instead of proceeds or gross revenue"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 1,
+          "title": "Fix Adapty revenue: read net_revenue, not proceeds/revenue",
+          "author": "cherian"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Refreshed the empty-plans home state with floating country flags and updated “Get Connected Worldwide” messaging.",
+              "🐛 Fixed analytics screen-view duplication, restored checkout app-close tracking, and returned users to checkout after sign-in."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan-Shoukath",
+          "commit_count": 5,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Exposed the MCP swarm service through a configurable host port for external proxy access.",
+              "🔧 Consolidated MCP relay configuration into the root environment template and removed the redundant MCP-specific sample.",
+              "🐛 Hardened MCP host normalization for IPv6-safe, idempotent handling and improved resilience around brand builds and purchase polling.",
+              "🔧 Brought in deployment, Docker build, email guard, local environment, and repository guidance updates from the development branch."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "mcp"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-helper",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Adjusted checkout tracking by removing the GA4 begin_checkout event while keeping Pixel and Clarity signals.",
+              "🔧 Persisted marketing attribution across session recreation using consent-gated storage."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Released Apple authentication, signed-in password changes, and minor UI refinements.",
+              "🔧 Added deployment, local environment, and repository guidance configuration."
+            ],
+            "Work in Progress": [
+              "⚡ Removed the GA4 begin_checkout event from helper-driven analytics.",
+              "🔧 Added visit-route attribution cookies and durable session attribution support.",
+              "🚀 Added a change-password flow for signed-in users on the account page."
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🔧 Triggered a Vercel deployment."
+            ],
+            "Work in Progress": [
+              "🔧 Continued Vercel deployment updates."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 84,
+          "title": "Release: apple auth; password change and some minor ui change",
+          "author": "rebin03"
+        },
+        {
+          "number": 83,
+          "title": "Fix marketing attribution: durable route/click-ID persistence with server-side visit-route cookie",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim_airalo",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "Risal EA",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Added Flutter environment templates and ignore rules to keep generated files, local config, and signing material out of version control.",
+              "🔧 Added a GitHub Actions workflow to build and upload release APK artifacts from the dev branch.",
+              "📝 Documented localization conventions and deep link setup for the eSIM app.",
+              "🚀 Updated app-side deep link support and analytics-related configuration."
+            ]
+          }
+        },
+        {
+          "login": "Sanasabir12",
+          "name": "Sanasabir12",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Added Flutter environment templates and ignore rules to keep generated files, local config, and signing material out of version control.",
+              "🔧 Added a GitHub Actions workflow to build and upload release APK artifacts from the dev branch.",
+              "📝 Documented localization conventions and deep link setup for the eSIM app.",
+              "🚀 Updated app-side deep link support and analytics-related configuration."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 2,
+          "title": "Updated analytical events",
+          "author": "risal-ea"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/flight-helper",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Updated current-tab redirection to depend on tab focus"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/flights-70-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added app-only legal pages with eSIM70 disclosure sections.",
+              "📝 Integrated generic eSIM service provisions into the app legal content."
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Triggered a deployment."
+            ],
+            "Work in Progress": [
+              "🚀 Merged the develop release work for tab redirection deferring."
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🐛 Updated tab redirection so it runs only when the current tab is focused.",
+              "🔧 Patched package vulnerabilities."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 170,
+          "title": "feat: add app-only legal pages with integrated eSIM service provisions",
+          "author": "rebin03"
+        },
+        {
+          "number": 169,
+          "title": "Release: Tab redirection deferring",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotels70-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added deferred redirection behavior."
+            ],
+            "Work in Progress": [
+              "🚀 Prepared release work for delayed tab redirection."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 124,
+          "title": "Release: Tab redirection delaying",
+          "author": "mhdbk"
+        },
+        {
+          "number": 123,
+          "title": "Redirection deferring",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Marked the 2026-07-08 daily report as sent"
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "📝 Saved the 2026-07-08 daily report for GitHub Actions delivery"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M1-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Cleaned up unwanted project assets and added Xcode ignore rules for build, user, and tool output files.",
+              "🔧 Added the iOS project setup with app, test, and UI test targets plus package dependencies."
+            ],
+            "Work in Progress": [
+              "🔧 Disabled GA4 analytics events in debug builds."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 7,
+          "title": "Removed unwanted assets ",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m4-web-car",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Launched the initial localized car rental web app with landing components, support pages, and shared header/footer layout.",
+              "🔧 Added project setup files, environment templates, ignore rules, documentation, and a car-helper submodule.",
+              "🚀 Added currency selection that initializes from the user's region and supports desktop and mobile picker interactions."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 69,
+          "title": "Redirection deferring",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M4_sky_flutter",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 6,
+          "bullets": {
+            "Testing": [
+              "🔧 Fixed iOS build configuration issues around FlutterFire, deployment targets, and code signing.",
+              "🔧 Updated iOS dependency locks for Firebase, Facebook, Google utilities, and OneSignal packages.",
+              "🧹 Cleaned build artifacts and updated ignored files."
+            ],
+            "Work in Progress": [
+              "♻️ Made a minor whitespace cleanup in app startup code."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "staging",
+        "v2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m8-android-hotel",
+      "developers": [
+        {
+          "login": "lascadeansal",
+          "name": "ansal",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Bootstrapped the Android hotel app configuration with Gradle plugins, dependencies, ProGuard rules, and local secret handling.",
+              "📝 Added setup documentation for required local configuration and Firebase setup without committing generated service files.",
+              "🔧 Added ignore rules for Android Studio, Gradle, build outputs, Kotlin metadata, local properties, and Firebase config files."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 7,
+          "bullets": {
+            "Testing": [
+              "🚀 Added and wired in a refreshed ship icon set for map markers, including satellite variants.",
+              "🐛 Fixed record route icon display and upgrade card overflow issues.",
+              "🐛 Hardened map icon loading and SVG rasterization by safely disposing image resources and tolerating duplicate style image registration.",
+              "🔧 Cleaned up old ship image assets and added Flutter project setup, CI, and editor configuration files."
+            ]
+          }
+        },
+        {
+          "login": "AdarshLascade",
+          "name": "AdarshLascade",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🐛 Prevented subscription upgrade pricing text from overflowing by scaling it down from the start edge.",
+              "🐛 Made SVG marker scaling safer by handling zero-sized source images."
+            ]
+          }
+        },
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Added Flutter project setup, editor configuration, ignore rules, and Codex run metadata.",
+              "🔧 Added CI dispatch workflows for pull request debug builds and main-branch release builds.",
+              "📝 Added project guidance and starter documentation for the Marine Radar Flutter app."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 229,
+          "title": "re-deploy",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "PS-ship-icons",
+        "PS-upgrade-card-overflow-fix",
+        "origin"
+      ],
+      "version": "debug-pr-229"
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🔧 Added SANAR 1 configuration, generated post assets, and ledger tracking for a shadow fleet tanker strike story.",
+              "📝 Drafted and published automated maritime security posts covering Strait of Hormuz escalation and related vessel attack reports."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/motwr",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 26,
+          "bullets": {
+            "Published": [
+              "🚀 Built out the MOTWR video pipeline with job validation, TTS word timestamps, ASS title/caption rendering, ffmpeg wrappers, single-pass filter graph generation, outro concat, and CLI wiring.",
+              "🐛 Hardened video output by fixing ffmpeg filter escaping, adelay rounding, concat duration verification, fallback re-encoding, outro normalization, probe errors, sorted timestamps, and trim test coverage.",
+              "🚀 Added layout and media polish including balanced two-line title wrapping, shrink-to-fit font measurement, caption page grouping, gap-based bird scheduling, bundled fonts, runtime brand assets, and sample route metadata.",
+              "📝 Expanded project documentation and release infrastructure with pipeline specs, ADRs, README getting-started guidance, direct release download links, and cross-platform zipped tag releases."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": "v0.2.0"
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Created a TravelAnimator mood board."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/rent80-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Defer redirection tab focus changes to reduce premature focus loss."
+            ],
+            "Work in Progress": [
+              "🚀 Prepare release work for delayed tab redirection behavior."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 26,
+          "title": "Release: Tab redirection delaying",
+          "author": "mhdbk"
+        },
+        {
+          "number": 25,
+          "title": "Defer redirection tab focus loss",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/signalside_esim_web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Published GA4 implementation from the dev branch"
+            ],
+            "Testing": [
+              "🔧 Prepared Vercel deployment updates for testing"
+            ]
+          }
+        },
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🚀 Added focus-anchored store search dropdown with tracking tied to explicit selections",
+              "🚀 Added a popular destinations dropdown to hero search with translations"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 8,
+          "title": "feat: implement focus-anchored search dropdown in store and migrate s…",
+          "author": "risal-ea"
+        },
+        {
+          "number": 6,
+          "title": "GA4 implementation ",
+          "author": "risal-ea"
+        }
+      ],
+      "branches": [
+        "dev",
+        "feature/fb-events",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "🐛 Added a one-time export retry when the hardware video encoder dies mid-stream, with error mapping and regression coverage.",
+              "♻️ Simplified 3D route line scaling by switching to viewport-based sizing instead of manual zoom interpolation.",
+              "🚀 Scaled stop markers with route width and limited marker pulsing to the active stop dwell state."
+            ]
+          }
+        },
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Added central build and release dispatch workflows for debug APKs, Android releases, and Play Store publishing.",
+              "🔧 Added scheduled cleanup for old debug releases and tags.",
+              "🔧 Added repository setup files, ignore rules, submodule configuration, and SafeDK artifacts."
+            ]
+          }
+        },
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "♻️ Merged the latest main branch into the model fine-tuning refactor branch and resolved model UI conflicts."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 534,
+          "title": "Fix/banner",
+          "author": "Vivek-4321"
+        }
+      ],
+      "branches": [
+        "feat/mult",
+        "fix/export",
+        "nauman/refactor/finetune-v3",
+        "origin"
+      ],
+      "version": "debug-pr-543"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "Basith-P",
+          "name": "Basith-P",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed annotation media upload failures by sanitizing unsafe user identifiers before building storage paths.",
+              "🐛 Corrected telemetry byte-size reporting for large media files to avoid overflow above 2GB.",
+              "🔧 Added richer diagnostics to annotation media upload failure events, including media type, source availability, size, identity, and crop context."
+            ],
+            "Work in Progress": [
+              "🔧 Merged main into the multi-avatar branch, bringing in iOS release/debug workflow dispatch setup and repository guidance/configuration updates."
+            ]
+          }
+        },
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Updated Bounce route animation so air segments use the 3D arc line while real/ground routes keep the progressive flat route line and normal markers.",
+              "🔧 Switched the shared TravelRoute launch scheme to Release configuration.",
+              "♻️ Merged main into the Bounce branch after cleanup and crash fixes."
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🐛 Landed and then reverted the route photo save fix after it caused incorrect behavior."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 694,
+          "title": "fix(annotations): sanitize user ID in media storage path to stop upload permission failures",
+          "author": "Basith-P"
+        },
+        {
+          "number": 693,
+          "title": "telemetry(annotations): enrich media upload failure events",
+          "author": "Basith-P"
+        },
+        {
+          "number": 691,
+          "title": "fix(annotations): stop route photos from silently vanishing on save",
+          "author": "Basith-P"
+        }
+      ],
+      "branches": [
+        "686-real-route-issues",
+        "feat/multi-avatar",
+        "mushfiq/scene-bounce",
+        "origin",
+        "revert-691-fix/media-upload-failed"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travelscript-esim-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 11,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Repeatedly triggered Vercel deployments for the work-in-progress branch."
+            ]
+          }
+        },
+        {
+          "login": "ryyansafar",
+          "name": "ryyansafar",
+          "commit_count": 11,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Enabled Google and Apple social sign-in, including Apple SDK preload, CSRF state validation, and backend-compatible token handling.",
+              "🐛 Fixed Apple sign-in configuration by using stable public client IDs and browser-origin return URLs instead of fragile deploy environment values.",
+              "🔧 Updated API routing so staging can call the CORS-enabled backend directly while other hosts continue using the same-origin proxy fallback.",
+              "📝 Documented Apple web-domain verification behavior and cleaned up temporary Apple sign-in diagnostics after debugging."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    }
+  ]
+}

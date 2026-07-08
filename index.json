@@ -26,7 +26,8 @@
     "daily/2026-07-04.json",
     "daily/2026-07-05.json",
     "daily/2026-07-06.json",
-    "daily/2026-07-07.json"
+    "daily/2026-07-07.json",
+    "daily/2026-07-08.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -110,7 +111,11 @@
     "Lascade-Co/locate",
     "Lascade-Co/location-autocomplete",
     "Lascade-Co/react-email-templates",
-    "Lascade-Co/plcashflow"
+    "Lascade-Co/plcashflow",
+    "Lascade-Co/Dashlytics",
+    "Lascade-Co/m4-web-car",
+    "Lascade-Co/motwr",
+    "Lascade-Co/rent80-web"
   ],
   "users": [
     {

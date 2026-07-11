@@ -1,0 +1,210 @@
+{
+  "date": "2026-07-11",
+  "repos": [
+    {
+      "repo": "Lascade-Co/d2-web-car-v2",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• submodule ref update: company name fix"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• mark: sent report 2026-07-11"
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-07-11 — delivery via GitHub Actions"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "• fixed flashing bug",
+              "• added my fleet to onboarding tutorial",
+              "• Update lib/view/settings/settings_pages.dart",
+              "• Update lib/view/home/bottom_navigation_bar.dart"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "keith/fleet-tutorial"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "• Add 3 news drafts for July 11 2026: Hormuz backchannel, TIRRANNA wing sail, Kerch closure",
+              "• auto: add cover images and tracking data for posts 3089, 3092",
+              "• auto: 2 news drafts 2026-07-11 (Lake Victoria fire, GLOVIS CHALLENGE)",
+              "• auto: publish 3 news drafts 2026-07-11",
+              "• auto(news): add cover images and tracking data for post 3073"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat(app-health): platform-split Reported Issues Tracker (iOS/Android) + style-guide restyle",
+              "• docs(ta): align mood board typography to style-guide ratios, fix weight-role docs"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #551 from Lascade-Co/fix/zero"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 551,
+          "title": "fix/zero",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": "4.0.126"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #166 from Lascade-Co/claude/blog-pages-404-release-y5nqru"
+            ],
+            "Work in Progress": [
+              "• Revert \"Fix blog post 404 caching and build timeout issues\""
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 166,
+          "title": "Fix blog post 404 caching and build timeout issues",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "origin",
+        "revert-166-claude/blog-pages-404-release-y5nqru"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travelscript-esim-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• Deploy on Vercel"
+            ]
+          }
+        },
+        {
+          "login": "ryyansafar",
+          "name": "ryyansafar",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• copy: drop the \"unlimited-but-throttled\" self-claim from the \"What we're not\" section",
+              "• copy: drop Google Pay from the payment-methods line (not supported on web)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    }
+  ]
+}

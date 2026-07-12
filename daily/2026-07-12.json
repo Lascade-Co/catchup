@@ -1,0 +1,126 @@
+{
+  "date": "2026-07-12",
+  "repos": [
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• mark: sent report 2026-07-12"
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-07-12 — delivery via GitHub Actions"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/locate",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 10,
+          "bullets": {
+            "Published": [
+              "• feat(report): show passed-on count between request-path stages",
+              "• feat(report): HTML analytics digest delivered as a Telegram attachment",
+              "• docs(deploy): update plan+spec for OS container-health guard and run-as-ubuntu/ssh",
+              "• fix(deploy): guard on OpenSearch container health; run as ubuntu with ~/.ssh/github",
+              "• docs(deploy): correct infra-warning note (.env.example, not .env)"
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• docs(research): evaluate OSM/Photon/Nominatim/Pelias planet imports"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/geocoding-service-eval-j8ygxb",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• revalidation fix for homepage",
+              "• Merge pull request #146 from Lascade-Co/deploy",
+              "• revalidation webhook for trends and hub posts"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 147,
+          "title": "revalidation fix for homepage",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 146,
+          "title": "revalidation webhook for trends and hub posts",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Add draft: Qatar suspends all maritime activity amid Hormuz crisis (2026-07-12)",
+              "• Add draft: Iran declares Strait of Hormuz closed after GFS Galaxy attack (2026-07-11)",
+              "• auto: draft post — Chabahar port US strikes, India $120M investment hit (2026-07-08)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

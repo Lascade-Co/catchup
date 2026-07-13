@@ -1,0 +1,803 @@
+{
+  "date": "2026-07-13",
+  "repos": [
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": null,
+          "name": "Antony Mathew",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Trigger CI"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "bug_fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat:Region sheet updated"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 20,
+          "title": "feat:Region sheet updated",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• fixed status bar icon color issues"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan-Shoukath",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• feat(reviews): track reply publish status with auto Slack follow-up when Apple publishes",
+              "• fix(reviews): use reactions.get for reacted message + idiomatic store_account check",
+              "• chore(reviews): pass APP_REVIEWS_* env vars into docker containers"
+            ]
+          }
+        },
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #60 from Lascade-Co/dev"
+            ],
+            "Testing": [
+              "• Restrict region-catalog country prefetch to code column",
+              "• Remove pricing inlines from AppConfig admin to fix TooManyFieldsSent on save"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 60,
+          "title": "Country details for regions endpoint",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin",
+        "review"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-helper",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Add plan-variant switching: usePlanVariants, switchPlan, plan-scoped checkout origin"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• Deploy on Vercel"
+            ]
+          }
+        },
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Merge feat/cookie-banner-rework: prominent cookie consent banner",
+              "• Add inline data/duration plan switching on checkout spec table",
+              "• Merge pull request #87 from Lascade-Co/dev"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 88,
+          "title": "Release: consent banner ui",
+          "author": "rebin03"
+        },
+        {
+          "number": 87,
+          "title": "Release: few ui fix and checkout plan change option",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim_airalo",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "Risal EA",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #4 from Lascade-Co/dev"
+            ],
+            "Work in Progress": [
+              "• feat: update facebook_app_events to v0.30.3 and add dynamic fb_login_protocol_scheme resource"
+            ]
+          }
+        },
+        {
+          "login": "Sanasabir12",
+          "name": "Sanasabir12",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• version updated"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 4,
+          "title": "FB event update",
+          "author": "risal-ea"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/flight-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #22 from Lascade-Co/feature/disable-price-calendar"
+            ],
+            "Work in Progress": [
+              "• feat(explore): gate Skyscanner via ENABLE_SKY_EXPLORE flag (default off)"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 22,
+          "title": "Temporarily disable Skyscanner in price-calendar + explore (ENABLE_SKY_EXPLORE flag)",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "feature/disable-price-calendar",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• mark: sent report 2026-07-13"
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-07-13 — delivery via GitHub Actions"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M1-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat:Region sheet updated"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 9,
+          "title": "feat:Region sheet updated",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat:Region sheet updated"
+            ],
+            "Work in Progress": [
+              "• Merge branch 'main' into dev"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 19,
+          "title": "feat:Region sheet updated",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M4-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat:Region sheet updated"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 41,
+          "title": "feat:Region sheet updated",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M5-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• feat:Region sheet updated",
+              "• feat:Result screen padding issues fixed"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 16,
+          "title": "feat:Region sheet updated",
+          "author": "Swalih60"
+        },
+        {
+          "number": 15,
+          "title": "feat:Result screen padding issues fixed",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "origin",
+        "v3"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M8-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "• feat:Chevron.left updated",
+              "• feat:Matched geometry set",
+              "• feat:Onboarding updated",
+              "• feat:Overscroll set for search and profile"
+            ],
+            "Work in Progress": [
+              "• feat:Localization and UI updated"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 2,
+          "title": "feat:Matched geometry set",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "origin",
+        "v3"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M8-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat:Region sheet updated"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 17,
+          "title": "feat:Region sheet updated",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• wrapped in try except block for invalid UUIDs",
+              "• mmsi fallback for ship names in admin dashboard"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "keith/dashboard"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #148 from Lascade-Co/deploy"
+            ],
+            "Work in Progress": [
+              "• UI and SEO fixes",
+              "• SEO fixes"
+            ]
+          }
+        },
+        {
+          "login": "ThePyWizard",
+          "name": "Jishnu M M",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• Serve funnel video from R2 CDN; drop local video + source HTML",
+              "• Add web→app funnel landing page at /get"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 148,
+          "title": "Deploy",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "feat/web2app-get-landing",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "• feat: add cover images and tracking data for hormuz-ais-blackout post (2026-07-13)",
+              "• feat: draft post — Hormuz AIS blackout five-week low (2026-07-13)",
+              "• Add cover images and tracking data for 3 published drafts (2026-07-13 pipeline run)",
+              "• Auto-pipeline 2026-07-13: 3 draft posts (K2 Airways crash, Iran third strikes, Filipino seafarers)",
+              "• Add cover images and tracking data for July 13 pipeline posts"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "• feat(marine): impact-effort quadrant chart atop trends showcase report",
+              "• feat(marine): add Marine Radar full app health analysis report (12 Jul 2026)",
+              "• feat(ta): full app health analysis for TravelAnimator (2026-07-12)",
+              "• fix(full-app-health-analysis): scroll-shadow tables, re-query safety rule, config gap check",
+              "• feat(measure): add Jul 2026 Smart Ruler full app health analysis"
+            ]
+          }
+        },
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• export failure analysis"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/scratch",
+      "developers": [
+        {
+          "login": "dingitha",
+          "name": "Nandita",
+          "commit_count": 21,
+          "bullets": {
+            "Published": [
+              "• Add files via upload",
+              "• Delete effects.glb"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/signalside_esim_web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Deploy on Vercel"
+            ]
+          }
+        },
+        {
+          "login": "risal-ea",
+          "name": "Risal EA",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #11 from Lascade-Co/dev"
+            ],
+            "Work in Progress": [
+              "• feat: replace inline SVG store icons with external image assets and update components"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 11,
+          "title": "download button update",
+          "author": "risal-ea"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/simline-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #4 from Lascade-Co/dev"
+            ],
+            "Work in Progress": [
+              "• Deploy on Vercel"
+            ]
+          }
+        },
+        {
+          "login": "ryyansafar",
+          "name": "ryyansafar",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• fix(regions): bust the region-list fetch cache per deploy (fresh membership)",
+              "• feat(regions): include Global in the \"also available in\" links"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 4,
+          "title": "Release dev → main: deep-linking, region membership, wallet & account, SEO, payments copy",
+          "author": "ryyansafar"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• fix: keep media annotation pinned after it shows under Orbit (Multdev)",
+              "• feat: redesign stop-marker ripple — two overlapping ripples, no pulse",
+              "• feat: reveal annotations & 3D elements under Orbit (Multdev) style"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/mult"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• version bump",
+              "• fix(pathsnap): floor label cap scale to integers to avoid Mapbox dimension mismatch",
+              "• fix(pathsnap): cap label bitmap size and pool per-label allocations"
+            ],
+            "Work in Progress": [
+              "• fix(location search): read latestQuery only on main in LocationIQ callback"
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #704 from Lascade-Co/mushfiq/export-improvements"
+            ],
+            "Work in Progress": [
+              "• PR: Google Map, Autocomplete, Export resume etc",
+              "• Merge pull request #706 from Lascade-Co/release"
+            ]
+          }
+        },
+        {
+          "login": "Basith-P",
+          "name": "Basith-P",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Merge remote-tracking branch 'origin/main' into 649-model-page-finetune"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "649-model-page-finetune",
+        "mushfiq/pathsnap-memory-fix",
+        "mushfiq/prefetchapplecoordinates-fix",
+        "origin",
+        "release",
+        "release_backup"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "ThePyWizard",
+          "name": "Jishnu M M",
+          "commit_count": 5,
+          "bullets": {
+            "Testing": [
+              "• Serve hero video from Cloudflare R2 instead of the repo",
+              "• Review: clear the PostHog fallback timeout on poll success",
+              "• Review: align CTA sentinel to '#' and add noreferrer",
+              "• Address review: state-driven CTA href + cleanup leaks",
+              "• Add web2app ad landing page at /get"
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #168 from Lascade-Co/deploy"
+            ],
+            "Work in Progress": [
+              "• Ui fixes in hub page",
+              "• SEO fixes"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 168,
+          "title": "Deploy",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "claude/web2app-landing-get",
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

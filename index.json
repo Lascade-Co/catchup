@@ -31,7 +31,8 @@
     "daily/2026-07-09.json",
     "daily/2026-07-10.json",
     "daily/2026-07-11.json",
-    "daily/2026-07-12.json"
+    "daily/2026-07-12.json",
+    "daily/2026-07-13.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -125,7 +126,8 @@
     "Lascade-Co/M8-car-ios-v2",
     "Lascade-Co/c1wf-discounts70",
     "Lascade-Co/n4wh-hotelvisit",
-    "Lascade-Co/travel-helper"
+    "Lascade-Co/travel-helper",
+    "Lascade-Co/simline-web"
   ],
   "users": [
     {

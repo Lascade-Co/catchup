@@ -1,0 +1,807 @@
+{
+  "date": "2026-07-14",
+  "repos": [
+    {
+      "repo": "Lascade-Co/airline70-flutter",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• fixed language name & force update bottom sheet dismissible"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "v2-prapanch"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/c1wh-hotelsoff",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Merge pull request #34 from Lascade-Co/develop"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 34,
+          "title": "Release: module updates",
+          "author": "Lascadesevices"
+        }
+      ],
+      "branches": [
+        "main"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• docs: add OneUptime swarm agent design spec and implementation plan",
+              "• feat: add OneUptime swarm agent (global collector + manager inventory poller)",
+              "• feat: vendor OneUptime docker-swarm-agent files (upstream 44bb78f)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "uptime"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• added",
+              "• ss",
+              "• Merge task/cicd-env-fixes into dev"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/email-push-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• feat(automation): engagement audience filter (engaged_within_days) for deliverability recovery",
+              "• feat(agent-metrics): per-provider (SES vs Resend) breakdown + ?provider filter"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Add 'Global Lite' prefix to global region matching"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-helper",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Fire compatible-device event on Android via Client Hints",
+              "• Fix device matcher and add Client Hints Android detection",
+              "• Export device detect and match helpers from client barrel"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 8,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #89 from Lascade-Co/dev"
+            ],
+            "Work in Progress": [
+              "• Fire compatible-device analytics event on Android too",
+              "• Detect eSIM compatibility via Client Hints, fix false positives",
+              "• Show per-tier country counts on global region page with range header",
+              "• Remove entity-definition intro paragraph from country plan pages",
+              "• Span cookie bar full width so text and close sit at both ends"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "• Deploy on Vercel"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 89,
+          "title": "Promote dev: best-value ordering, eSIM badge + detection fix, minimal cookie banner, global per-tier counts",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotel-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #5 from Lascade-Co/dev"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 5,
+          "title": "v4 hotel API (synchronous Sky+Kayak search/details/reviews) + controller rules CSV import/export",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/HotelSnap",
+      "developers": [
+        {
+          "login": "lascadeansal",
+          "name": "ansal",
+          "commit_count": 6,
+          "bullets": {
+            "Work in Progress": [
+              "• fixes in date validation",
+              "• fixes in popular location",
+              "• ios optimisation",
+              "• add separate webview for about us and privacy policy",
+              "• improve bottom bar"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• mark: sent report 2026-07-14"
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-07-14 — delivery via GitHub Actions"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/locate",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 13,
+          "bullets": {
+            "Published": [
+              "• fix(observability): address final-review findings",
+              "• feat(deploy): oneuptime-docker-agent + telemetry env for locate",
+              "• feat(locate): initialize OneUptime telemetry + structured/OTLP logging",
+              "• feat(service): pipeline span + locate.search.answers/duration metrics",
+              "• feat(api): otelhttp server span + metrics for /v1/search"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M1-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• fix:Login issue fixed",
+              "• fix:Home Top locations click issue fixed"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 11,
+          "title": "fix:Login issue fixed",
+          "author": "Swalih60"
+        },
+        {
+          "number": 10,
+          "title": "fix:Home Top locations click issue fixed",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• feat:Home scroll experience improved",
+              "• feat:Home scroll set",
+              "• feat:Region and currency search updated"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 21,
+          "title": "feat:Home scroll experience improved",
+          "author": "Swalih60"
+        },
+        {
+          "number": 20,
+          "title": "feat:Region and currency search updated",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M4_sky_flutter",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• fixed languge name malay & force update strict"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "v2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M5-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat:Region and currency sheet search format updated"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 17,
+          "title": "feat:Region and currency sheet search format updated",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "origin",
+        "v3"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m8-android-hotel",
+      "developers": [
+        {
+          "login": "lascadeansal",
+          "name": "ansal",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• remove unused resources",
+              "• remove one signal"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• fix:translations"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "fixes-14jul"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #149 from Lascade-Co/feat/web2app-get-landing"
+            ]
+          }
+        },
+        {
+          "login": "ThePyWizard",
+          "name": "Jishnu M M",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Allow R2 media host in CSP so /get funnel video loads"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 149,
+          "title": "Add web?app funnel landing page at /get",
+          "author": "ThePyWizard"
+        }
+      ],
+      "branches": [
+        "feat/web2app-get-landing",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "• pipeline run 2026-07-14: 2 new drafts (Azov/Caspian flotilla, Turkish Navy Latakia)",
+              "• auto: publish draft — US sea drones Bandar Abbas July 2026",
+              "• chore(pipeline): publish 2 new drafts (2026-07-14 run)",
+              "• chore: add config files and cover assets from 2026-07-13 auto-run",
+              "• chore: publish GFS Galaxy IRGC attack draft (2026-07-13 run)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/mcp-server",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan-Shoukath",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• first commit"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/pixel-travelanimator",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• new banner for TA"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "deploy"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• feat(ta): add PPP pricing change CSVs for Android & iOS (2026-07-14)"
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• moodboard update"
+            ]
+          }
+        },
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• fix(marine): wire ASC key + add store_health/paid_acquisition/stability config"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/scratch",
+      "developers": [
+        {
+          "login": "dingitha",
+          "name": "Nandita",
+          "commit_count": 9,
+          "bullets": {
+            "Published": [
+              "• Add files via upload"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/signalside_esim_web",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 6,
+          "bullets": {
+            "Testing": [
+              "• refactor: use localePath for breadcrumb navigation and add safety guards for FAQ schema translation rendering",
+              "• refactor: migrate NuxtLink components to NuxtLinkLocale for i18n support and improve navigation handling.",
+              "• feat: implement structured data with nuxt-schema-org for site identity, WebSite search action, and homepage SoftwareApp/FAQ content",
+              "• fix: dynamically resolve og:url to the page canonical URL instead of site root",
+              "• feat: implement dynamic XML sitemap and robots.txt configuration via nuxt modules"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• Deploy on Vercel"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 9,
+          "bullets": {
+            "Testing": [
+              "• fix: handle expired sessions during route saves",
+              "• fix: sync place labels after route point moves",
+              "• fix(images): downsample by longest bitmap dimension",
+              "• fix(animation): preserve distance order in interpolated outro",
+              "• fix(routes): serialize frame colors as hex"
+            ]
+          }
+        },
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• feat: log analytics event when a location search result is tapped"
+            ]
+          }
+        },
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• refactor: multdev ripple opacity adjustment"
+            ]
+          }
+        },
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Merge branch 'main' into feat/mult"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "chore/search",
+        "feat/mult",
+        "fix/issues"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "Basith-P",
+          "name": "Basith-P",
+          "commit_count": 6,
+          "bullets": {
+            "Testing": [
+              "• fix(location-search): focus destination after selecting start location",
+              "• fix(location): route pasted Google Maps URLs to the link importer",
+              "• fix(location-sheet): prevent editing locked real-route locations",
+              "• fix(location): use LocationIQ results in refactored search UI",
+              "• fix(location): repair broken location-search build after sheet refactor"
+            ]
+          }
+        },
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• fix(search): address error-normalization review findings",
+              "• feat(search): normalize search_error to stable codes",
+              "• Merge branch 'main' into mushfiq/auto-complete"
+            ],
+            "Work in Progress": [
+              "• fix(export): clamp premium resolution for free users"
+            ]
+          }
+        },
+        {
+          "login": "rahul028",
+          "name": "rahul028",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• Fix  : fix stale alt-route overlays between segments. removed segment of real route on real route changed.",
+              "• fix(real route) :Fix default route for real-route alternates"
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #708 from Lascade-Co/mushfiq/free-export-watermark-paywall-fix"
+            ],
+            "Work in Progress": [
+              "• PR Search error normalisation, autocomplete fix, HD & 4K edge case"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "686-real-route-issues",
+        "fix/location-modal-issues",
+        "mushfiq/auto-complete",
+        "mushfiq/free-export-watermark-paywall-fix",
+        "mushfiq/search-error-normalization",
+        "origin",
+        "release"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #167 from Lascade-Co/claude/web2app-landing-get"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 167,
+          "title": "Add web2app ad landing page at /get",
+          "author": "ThePyWizard"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

@@ -1,0 +1,761 @@
+{
+  "date": "2026-07-15",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "sajithlaldev",
+          "name": "sajithlaldev",
+          "commit_count": 5,
+          "bullets": {
+            "Testing": [
+              "• fix(ios-signing): handle single-line buildSettings + tidy temp files",
+              "• fix(ios-signing): harden signing scripts per code review",
+              "• fix(ios): make NSE provisioning profile optional",
+              "• fix(ios): derive ExportOptions profiles from installed profiles",
+              "• fixed ios signing and certificate file to accomodate esim apps CI/CD"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/esim-compatible"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #22 from Lascade-Co/bug_fixes"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 22,
+          "title": "Bug fixes",
+          "author": "antonyjoemathew"
+        },
+        {
+          "number": 21,
+          "title": "login",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": "1.2.21"
+    },
+    {
+      "repo": "Lascade-Co/D1-flight-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "• Merge branch 'dev' into main"
+            ],
+            "Work in Progress": [
+              "• feat(auth): refetch eSIM + travels home on login/logout & profile changes",
+              "• fix(esim,search,login): clear button, no status pulse, default opt-in, loader tick timing",
+              "• feat(esim,nav,launch): stacked header flags, tap-vs-swipe transitions, home reset, tagline-once",
+              "• feat(esim): Deleted tab + auto-focus search + zoom press feedback",
+              "• feat(esim): status_qr-driven My Plans card + working-tree changes"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d2wf-lasthourflights",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #10 from Lascade-Co/updates"
+            ],
+            "Work in Progress": [
+              "• Merge pull request #11 from Lascade-Co/develop"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 11,
+          "title": "Release: submodule update and package upgrades",
+          "author": "mhdbk"
+        },
+        {
+          "number": 10,
+          "title": "Submodule update and package upgrades",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• feat: add new constants for note bubble and frame types"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "uptime"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/email-push-backend",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• update docker-compose db to stay stopped"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• Deploy on Vercel"
+            ]
+          }
+        },
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #90 from Lascade-Co/dev"
+            ],
+            "Work in Progress": [
+              "• Show full region names in miniapp grid and update search placeholder",
+              "• Replace search Cancel button with a back chevron in the miniapp search overlay",
+              "• Merge feat/miniapp-active-esim-card: active-eSIM home card, detail page, top-up fixes"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 90,
+          "title": "Release(miniapp): active esim card in home page, few ui improvements and fixes",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotel-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• feat(deeplink): occupancy param + HC path-format children; KYK/HTC parity; move occupancy to utils",
+              "• feat(deeplink): add HotelsCombined multiple-hotel-search provider (HTC_DL)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• mark: sent report 2026-07-15"
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-07-15 — delivery via GitHub Actions"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M8-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• feat:Other verticals added"
+            ],
+            "Work in Progress": [
+              "• feat:Removed unwanted assets",
+              "• feat:Flight and Hotel UI updated",
+              "• feat:Calendar updated"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 3,
+          "title": "feat:Other verticals added",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "origin",
+        "v3"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• WIP"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "PS-scanner"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #151 from Lascade-Co/deploy"
+            ],
+            "Work in Progress": [
+              "• add news sources display and enhance subscription component styling",
+              "• add subscription feature for maritime news with single opt-in",
+              "• update revalidation period to 12 hours for improved caching"
+            ]
+          }
+        },
+        {
+          "login": "ThePyWizard",
+          "name": "Jishnu M M",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Localize /get web→app funnel across 12 locales + OS badge swap"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 151,
+          "title": "Deploy",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "feat/get-localization",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 8,
+          "bullets": {
+            "Published": [
+              "• news: add cover images and tracking for post 3199 (Greater Tunb Island)",
+              "• news: draft post 3199 — Greater Tunb Island US airstrike (2026-07-15)",
+              "• Add 2026-07-15 pipeline run: Luni and Phu Quoc drafts",
+              "• Add dedup ledger entries for 2 new draft posts (July 15 run)",
+              "• news: publish 3 Jul 14 Hormuz/Gulf drafts"
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "• feat(telegram): email published news to Resend audience as a newsletter",
+              "• fix(trends): realistic growth % — floor tiny bases, cap headline at 300%"
+            ],
+            "Work in Progress": [
+              "• fix(telegram): guard mr_trends_images against non-array values",
+              "• fix(telegram): decode numeric HTML entities generically in email text",
+              "• fix(telegram): escape quotes in HTML attributes (escapeAttr)"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 16,
+          "title": "feat(telegram): email published news to Resend audience as a newsletter",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 15,
+          "title": "fix(trends): realistic growth % — floor tiny bases, cap headline at 300%",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "feat/news-post-skill-and-humaniser",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 27,
+          "bullets": {
+            "Published": [
+              "• feat(marine): product-surface tier (P1-P11) + build-order ranking on chart",
+              "• docs(full-app-health-analysis): feed back learnings from a live 21-section run",
+              "• style(marine): playbook example cards + plain-language pass on trends report",
+              "• fix(seo-task-board): localize malformed-spec crashes to a single check row",
+              "• feat(seo-task-board): seed classification cache (91 tasks, one-time run)"
+            ]
+          }
+        },
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• feat(ta): add PPP pricing change CSVs for Android & iOS (2026-07-14)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin",
+        "worktree-seo-task-board"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/scratch",
+      "developers": [
+        {
+          "login": "dingitha",
+          "name": "Nandita",
+          "commit_count": 9,
+          "bullets": {
+            "Published": [
+              "• Add files via upload",
+              "• Delete Octopus1.glb"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/signalside_esim_web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Deploy on Vercel"
+            ]
+          }
+        },
+        {
+          "login": "risal-ea",
+          "name": "Risal EA",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #12 from Lascade-Co/dev"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 12,
+          "title": "SEO updates",
+          "author": "risal-ea"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/simline-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• Deploy on Vercel"
+            ]
+          }
+        },
+        {
+          "login": "ryyansafar",
+          "name": "ryyansafar",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• fix(promo): scope WELCOME15 first-order orders check per account",
+              "• feat(regions,promo): Global Package/Lite tabs + first-order WELCOME15"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/tada",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• chore(assets): point mvt_pb2 gen comments at hatch_build.py",
+              "• feat(render): maplabels eyeball round — sparser, hysteresis, z-below-model"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-analytics-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #60 from Lascade-Co/push-notif-auth-update"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 60,
+          "title": "Push token registration API auth update",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• feat: lock duration control under Orbit (Multdev) style",
+              "• feat: snap duration to minimum when Orbit (Multdev) is confirmed",
+              "• fix: keep place label / media pin above the 3D route line under Orbit"
+            ]
+          }
+        },
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #533 from Lascade-Co/nauman/refactor/finetune-v3"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 557,
+          "title": "feat: log analytics event when a location search result is tapped",
+          "author": "rohittp0"
+        },
+        {
+          "number": 556,
+          "title": "Fix/issues",
+          "author": "Vivek-4321"
+        },
+        {
+          "number": 533,
+          "title": "Finetune v3",
+          "author": "naumshaz"
+        }
+      ],
+      "branches": [
+        "feat/mult",
+        "origin"
+      ],
+      "version": "4.0.127"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "Basith-P",
+          "name": "Basith-P",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "• refactor(home): use newStart reference instead of newOrder[0] when reordering",
+              "• fix(home): restore vehicle state correctly when undoing route reordering",
+              "• fix(home): keep vehicle at route start when the first point is moved down",
+              "• fix(home): show end flag only on the last location, not every point"
+            ],
+            "Work in Progress": [
+              "• Merge remote-tracking branch 'origin/main' into 649-model-page-finetune"
+            ]
+          }
+        },
+        {
+          "login": "Krishnan-E",
+          "name": "Krishnan-E",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• code refactoring",
+              "• fix(terraInkTheme): fix malformed roadMinorMid hex in Onyx preset"
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #715 from Lascade-Co/686-real-route-issues"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 715,
+          "title": "686 real route issues - Real Route Segment Default Route issue fix",
+          "author": "rahul028"
+        },
+        {
+          "number": 714,
+          "title": "703 end icon is incorrectly shown for all locations",
+          "author": "Basith-P"
+        },
+        {
+          "number": 695,
+          "title": "Feat/multi avatar",
+          "author": "Basith-P"
+        },
+        {
+          "number": 683,
+          "title": "638 settings finetune",
+          "author": "Basith-P"
+        },
+        {
+          "number": 667,
+          "title": "Fix/location modal issues",
+          "author": "Basith-P"
+        }
+      ],
+      "branches": [
+        "649-model-page-finetune",
+        "703-end-icon-is-incorrectly-shown-for-all-locations",
+        "717-text-in-no-frame-image-not-appearing-in-preview",
+        "feat/terra-ink-cover-style",
+        "krish/fix/undo-redo",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #170 from Lascade-Co/deploy"
+            ],
+            "Work in Progress": [
+              "• Ui fixes in hub page"
+            ]
+          }
+        },
+        {
+          "login": "ThePyWizard",
+          "name": "Jishnu M M",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Localize the /get web2app landing page"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 170,
+          "title": "Ui fixes in hub page",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "claude/web2app-localize",
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/website",
+      "developers": [
+        {
+          "login": "ThePyWizard",
+          "name": "Jishnu M M",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Add MarineRadar Reddit Community Marketing Intern hiring form"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

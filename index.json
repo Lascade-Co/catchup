@@ -34,7 +34,8 @@
     "daily/2026-07-12.json",
     "daily/2026-07-13.json",
     "daily/2026-07-14.json",
-    "daily/2026-07-15.json"
+    "daily/2026-07-15.json",
+    "daily/2026-07-16.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -132,7 +133,9 @@
     "Lascade-Co/simline-web",
     "Lascade-Co/mcp-server",
     "Lascade-Co/d2wf-lasthourflights",
-    "Lascade-Co/tada"
+    "Lascade-Co/tada",
+    "Lascade-Co/TARS",
+    "Lascade-Co/flight-helper-vue"
   ],
   "users": [
     {

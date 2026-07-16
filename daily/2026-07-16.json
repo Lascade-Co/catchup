@@ -1,0 +1,842 @@
+{
+  "date": "2026-07-16",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "sajithlaldev",
+          "name": "sajithlaldev",
+          "commit_count": 10,
+          "bullets": {
+            "Published": [
+              "• added esim apps cicd"
+            ],
+            "Work in Progress": [
+              "• fix(ios-signing): clean up temporary keychain on exit",
+              "• fix(ios-signing): flexible widget-extension suffix, utf-8, validate secrets",
+              "• fix(ios-signing): reusable local keychain + single-line missing-settings",
+              "• fix(ios-signing): also match .WidgetExtension target suffix",
+              "• fix(ios-signing): case-insensitive widget/live-activity target match"
+            ]
+          }
+        },
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "• fix(tada-wheel): publish GHCR via actions GITHUB_TOKEN, not the app token",
+              "• feat: add publish-wheel trigger template",
+              "• docs: correct ADR 0002 — workflow_dispatch lives on the trigger, not the central runner",
+              "• feat: central runner for TADA wheel publishing",
+              "• feat: add TADA wheel build/verify/push/prune scripts"
+            ],
+            "Testing": [
+              "• add central TARS delivery"
+            ]
+          }
+        },
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "• feat(cloudflare-trigger): add submodule repository to project slug configuration",
+              "• feat(vercel-trigger): remove submodule repository to project slug configuration",
+              "• feat(vercel-trigger): add submodule repository to project slug configuration",
+              "• fix(cloudflare-deploy): drop persist-credentials:false (breaks submodule checkout cleanup)",
+              "• chore: update secret path in Cloudflare deploy workflow for broader access"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 41,
+          "title": "added esim apps cicd",
+          "author": "sajithlascade"
+        }
+      ],
+      "branches": [
+        "agent/tars-central-delivery",
+        "feat/esim-cicd",
+        "feat/esim-compatible",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/connector",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Add explicit column types to esim_facebook insights resource"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-flight-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 19,
+          "bullets": {
+            "Published": [
+              "• fix(auth): hide id token in sign-in error; fix profile section; restore logs",
+              "• fix(launch): restore splash→home hero after moving notifications post-home",
+              "• chore(config): add staging/production AppConstants toggle",
+              "• fix(esim): derive eSIM support from device model, not CoreTelephony",
+              "• feat(notifications): post-home priming sheet; remove onboarding fade"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1-web-sflight-v2",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "• fix(deploy): update subproject commit reference in flight-helper-vue",
+              "• feat(deploy): add submodule_repos to deployment configuration",
+              "• Simplify development server instructions",
+              "• Update README to simplify installation instructions",
+              "• fix(deploy): update project_slug in deployment configuration"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 48,
+          "title": "test deploy",
+          "author": "Jenin82"
+        },
+        {
+          "number": 47,
+          "title": "feat(deploy): add GitHub Actions workflow for Cloudflare Pages deploy…",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "main",
+        "nuxt-migration",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-Flight-Android",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "AjinLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #52 from Lascade-Co/dev"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 52,
+          "title": "Dev",
+          "author": "AjinLascade"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• fixed build issue",
+              "• ss",
+              "• fixed issues"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #91 from Lascade-Co/dev"
+            ],
+            "Work in Progress": [
+              "• Refactor miniapp plans layout: enhance header display and remove country count from PlanRow",
+              "• Refactor miniapp components: update plan tab default state, enhance region grid layout, and add country count display in plan rows",
+              "• Fix miniapp region plans query and show full region names via shared helper",
+              "• Refactor miniapp layout: adjust padding and remove redundant labels for country and region selection"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Deploy on Vercel"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 91,
+          "title": "UI improvements and region plan query fix",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim_airalo",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "• feat: implement auto-top-up UI updates, optimistic state updates, and card-based layout for eSIM management.",
+              "• feat: redesign card picker bottom sheet and add payment method brand icons",
+              "• refactor: implement bottom sheet flows for auto-topup rule settings with minor unit state management",
+              "• feat: group transactions by month in list view and update UI components"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feature/wallet"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/flight-backend",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• fallback deeplink domain for KYK"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/flight-helper-vue",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• chore(data-store): remove redundant dependsOn declaration for pinia and persistedstate",
+              "• feat(data-store): defer hydration state update to onNuxtReady for improved SSR consistency"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/HotelSnap",
+      "developers": [
+        {
+          "login": "lascadeansal",
+          "name": "ansal",
+          "commit_count": 10,
+          "bullets": {
+            "Work in Progress": [
+              "• fix loader issue",
+              "• add country.json",
+              "• add deboune",
+              "• add voyagor api",
+              "• logo fixes"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• mark: sent report 2026-07-16"
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-07-16 — delivery via GitHub Actions"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M1-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat:Deal sheet updated"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 12,
+          "title": "feat:Deal sheet updated",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M8-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat:Updated overall UI"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 4,
+          "title": "feat:Updated overall UI",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "origin",
+        "v3"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "• auto: draft post — M/T Belma disabled by Hellfire near Kharg Island (2026-07-15)",
+              "• pipeline: add post asset dirs for Jul 16 drafts (tracking + placeholder covers)",
+              "• pipeline: 2 drafts Jul 16 — Hormuz escort refusals + UAE bypass port",
+              "• chore: add cover images and tracking for Gulf of Guinea piracy post",
+              "• chore: add Gulf of Guinea piracy ledger entry (post 3519)"
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• fix(telegram): link newsletter to /trends/<slug>, not WP post.link"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 17,
+          "title": "Feat/news post skill and humaniser",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "feat/news-post-skill-and-humaniser",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• feat(marine): progress-stamped trends report — verified statuses, dimmed done, appendices removed",
+              "• fix(app-health): ANR/crash threshold comparisons on user-perceived basis",
+              "• feat(full-app-health-analysis): add Skill Retrospective self-check",
+              "• feat(app-health): 15 Jul TA report + version-scoped mode (4.0.126 / 3.9.0)"
+            ]
+          }
+        },
+        {
+          "login": "Iamfasna",
+          "name": "Iamfasna",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• weather map"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 9,
+          "bullets": {
+            "Published": [
+              "• fix: add fetch timeout to API requests for improved reliability",
+              "• refactor: improve layout and text for hero and partners sections, enhance StoreBadge styling",
+              "• fix: update secondary link in hero section to point to the correct eSIM store URL",
+              "• custom not found page and dropdown index fix",
+              "• fix: hide hero Sign up CTA for signed-in users and point it to signup"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Deploy on Vercel"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/scratch",
+      "developers": [
+        {
+          "login": "dingitha",
+          "name": "Nandita",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Add files via upload"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/signalside_esim_web",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "Risal EA",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #13 from Lascade-Co/dev"
+            ],
+            "Work in Progress": [
+              "• refactor: optimize plan filtering logic to remove redundant list variable and simplify conditional flow",
+              "• feat: add hover tooltips to tier tabs displaying country count and update translations",
+              "• feat: add tier filtering UI to distinguish between Global and Global Lite plans",
+              "• feat: add show-less toggle to expanded country list on checkout page"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Deploy on Vercel"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 13,
+          "title": "global and global lite, UI filtration ",
+          "author": "risal-ea"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/simline-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 8,
+          "bullets": {
+            "Work in Progress": [
+              "• Deploy on Vercel"
+            ]
+          }
+        },
+        {
+          "login": "ryyansafar",
+          "name": "ryyansafar",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "• fix(regions): equal-width Global plan tabs so labels center correctly",
+              "• i18n(search): relabel hero-search region list to \"Also included in\"",
+              "• Merge pull request #5 from Lascade-Co/dev"
+            ],
+            "Work in Progress": [
+              "• feat(wallet): pick auto-top-up card; localized Coins; min/max; label fixes",
+              "• fix(wallet): direct top-up flow + currency conversion + layout",
+              "• feat(wallet): auto-top-up dropdowns (coins + custom) + currency-aware balance",
+              "• feat(wallet): coins-first wallet redesign + scrolling promo tweaks"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 6,
+          "title": "i18n: relabel hero-search region list to \"Also included in\"",
+          "author": "ryyansafar"
+        },
+        {
+          "number": 5,
+          "title": "Global Package/Lite tabs + first-order WELCOME15 promo",
+          "author": "ryyansafar"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/tada",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "• docs: clarify worker cache lifetimes",
+              "• feat: bound worker config input",
+              "• test: serve valid vector tiles in pipeline fixture",
+              "• feat: add TARS worker contract and secure asset ingress",
+              "• chore: update .gitignore and documentation for hatch_build.py; improve progress reporting in CLI"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/TARS",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit",
+          "commit_count": 10,
+          "bullets": {
+            "Published": [
+              "• update setup go action runtime",
+              "• update checkout action runtime",
+              "• implement production render service",
+              "• implement render control plane contracts",
+              "• initial TARS architecture scaffold"
+            ],
+            "Testing": [
+              "• Update deploy/deploylib.py",
+              "• Update infra/scripts/lib.sh",
+              "• bootstrap central TARS CI dispatch",
+              "• implement production delivery infrastructure"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "agent/full-implementation",
+        "agent/tars-ci-bootstrap",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 16,
+          "bullets": {
+            "Testing": [
+              "• docs: define Effect (live effect + effect trail) and record rotation design",
+              "• test: pass effect to AnimationState in RotationHistoryBuilderTest",
+              "• feat: rotate the live effect to match the model rotation",
+              "• feat: orient the effect trail by the vehicle's travel bearing",
+              "• Merge branch 'main' into feat/effect"
+            ]
+          }
+        },
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• Restyle preview top bar, view toggle, and bottom bar controls",
+              "• fix: hoist Orbit duration-lock warning via stringResource",
+              "• Merge remote-tracking branch 'origin/main' into feat/mult"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/effect",
+        "feat/mult",
+        "feat/tars-cloud-render-fallback",
+        "fix/crash",
+        "nauman/refactor/finetune-v4"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "Basith-P",
+          "name": "Basith-P",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• fix(annotations): drop No Frame full-bleed and align it with other story frames",
+              "• fix(annotations): make No Frame behave like every other story frame"
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #719 from Lascade-Co/feat/terra-ink-cover-style"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 719,
+          "title": "Feat: Add route color driven theme palette with new presets",
+          "author": "Krishnan-E"
+        }
+      ],
+      "branches": [
+        "717-text-in-no-frame-image-not-appearing-in-preview",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "ThePyWizard",
+          "name": "Jishnu M M",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #169 from Lascade-Co/claude/web2app-localize"
+            ],
+            "Work in Progress": [
+              "• Use per-locale /get videos and lock the hero to a 1:1 ratio"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 169,
+          "title": "Localize the /get web2app landing page",
+          "author": "ThePyWizard"
+        }
+      ],
+      "branches": [
+        "claude/web2app-localize",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• feat(tars): add token field to UserPrefs proto"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/tars-cloud-render-fallback"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/website",
+      "developers": [
+        {
+          "login": "ThePyWizard",
+          "name": "Jishnu M M",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Remove Reddit-history and marine-interest questions from hiring form"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

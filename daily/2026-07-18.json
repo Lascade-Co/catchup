@@ -1,0 +1,318 @@
+{
+  "date": "2026-07-18",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 8,
+          "bullets": {
+            "Published": [
+              "• document TARS deploy timeout budget",
+              "• bound TARS rollback window",
+              "• calibrate TARS HD render estimates",
+              "• fix(tars): delegate locked stateful bootstrap",
+              "• fix(tars): resume incomplete stateful bootstrap"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "• feat:Basic UI changes done"
+            ],
+            "Work in Progress": [
+              "• feat:Search sheet and all updated",
+              "• feat:Button color changed from gradient",
+              "• feat:Star Rating in filtersheet position set",
+              "• feat:Map working updated"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 79,
+          "title": "feat:Basic UI changes done",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-07-18 — delivery via GitHub Actions"
+            ]
+          }
+        },
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• mark: sent report 2026-07-17"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #152 from Lascade-Co/deploy"
+            ],
+            "Work in Progress": [
+              "• gemini code review changes",
+              "• trends changes"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 152,
+          "title": "Deploy",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "• news: add post assets for irgc-mines-gulf-oman-hormuz-july17-2026",
+              "• news: IRGC mines Hormuz approach, stops 4 ships July 17 2026",
+              "• chore: add config files and generated assets for July 18 pipeline posts",
+              "• chore: add dedup ledger entries for July 18 autonomous pipeline run",
+              "• Auto-publish 2 drafts: Kuwait desalination strike + Indonesia Bima boat capsize (2026-07-17)"
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• changed to chatgpt image"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 19,
+          "title": "changed to chatgpt image",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "feat/news-post-skill-and-humaniser",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/pixel-travelanimator",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• TravelAnimator/MarineRadar banners: ChatGPT metadata, bg2 + random globe, AI-drawn vehicle"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "deploy"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• 3.9.0 analysis",
+              "• PPP yearly offer pricing",
+              "• Involuntary churn analysis"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/TARS",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 14,
+          "bullets": {
+            "Published": [
+              "• match OneUptime monitor normalization",
+              "• identify deployment smoke downloads",
+              "• store deployment scalars without newlines",
+              "• make cache rule updates idempotent",
+              "• move CDN to a TLS-covered hostname"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 15,
+          "title": "Match OneUptime's canonical monitor representation",
+          "author": "rohittp0"
+        },
+        {
+          "number": 14,
+          "title": "Identify CDN requests from the deployment smoke",
+          "author": "rohittp0"
+        },
+        {
+          "number": 13,
+          "title": "Store deployment transport scalars without trailing newlines",
+          "author": "rohittp0"
+        },
+        {
+          "number": 12,
+          "title": "Move TARS CDN to a TLS-covered hostname",
+          "author": "rohittp0"
+        },
+        {
+          "number": 11,
+          "title": "Fix Garage uploads from workers",
+          "author": "rohittp0"
+        },
+        {
+          "number": 10,
+          "title": "fix production render smoke calibration",
+          "author": "rohittp0"
+        },
+        {
+          "number": 9,
+          "title": "Fix application service startup",
+          "author": "rohittp0"
+        },
+        {
+          "number": 8,
+          "title": "fix Swarm service convergence",
+          "author": "rohittp0"
+        },
+        {
+          "number": 7,
+          "title": "fix Garage single-node health check",
+          "author": "rohittp0"
+        },
+        {
+          "number": 6,
+          "title": "fix Garage tmpfs permissions",
+          "author": "rohittp0"
+        },
+        {
+          "number": 5,
+          "title": "fix production Garage bootstrap",
+          "author": "rohittp0"
+        },
+        {
+          "number": 4,
+          "title": "fix Docker stack secret interpolation",
+          "author": "rohittp0"
+        },
+        {
+          "number": 3,
+          "title": "fix delivery secret delegation",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "agent/fix-service-convergence",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "Krishnan-E",
+          "name": "Krishnan-E",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• fix(gmap): call didClickPreview exactly once when naming waypoints",
+              "• fix(gmap): resolve display names for gmap route waypoints"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "krish/fix/gmap"
+      ],
+      "version": null
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "date": "2026-07-19",
+  "repos": [
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-07-19 — delivery via GitHub Actions"
+            ]
+          }
+        },
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• mark: sent report 2026-07-18"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• Update home/utils.py",
+              "• fix:persist ship on first AIS sighting instead of via redis flush"
+            ]
+          }
+        },
+        {
+          "login": "AdarshLascade",
+          "name": "AdarshLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #41 from Lascade-Co/keith/dashboard"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 41,
+          "title": "fix:mmsi fallback for ship names in admin dashboard",
+          "author": "keith-james"
+        }
+      ],
+      "branches": [
+        "keith/missing-ships",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "• auto: add cover images and tracking for FREEDOM ferry post",
+              "• auto: publish draft — FREEDOM ferry grounding Nantucket 2026-07-14",
+              "• news: Libya migrant boat off Tobruk + Russia double strike on Odesa port, July 19 run",
+              "• news: IRGC strikes maritime radar at Quoin Island / Strait of Hormuz entrance, July 17 2026",
+              "• chore: commit remaining assets and ledger update from July 18 run"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "Krishnan-E",
+          "name": "Krishnan-E",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• fix(extractCoordinates): use percentEncodedQueryItems to avoid mangling +",
+              "• fix(locationManager): mutate waypoint name on MainActor, not background thread"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "krish/fix/gmap"
+      ],
+      "version": null
+    }
+  ]
+}

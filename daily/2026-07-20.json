@@ -1,0 +1,602 @@
+{
+  "date": "2026-07-20",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #43 from Lascade-Co/task/fix-android-package-extraction-kts"
+            ]
+          }
+        },
+        {
+          "login": "sajithlaldev",
+          "name": "sajithlaldev",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• fixed package name issue (build.gradle.kts is not supported in current workflow)"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 43,
+          "title": "fixed package name issue (build.gradle.kts is not supported in curren…",
+          "author": "sajithlascade"
+        }
+      ],
+      "branches": [
+        "origin",
+        "task/fix-android-package-extraction-kts"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/airline-apis",
+      "developers": [
+        {
+          "login": "hadibinnoor",
+          "name": "hadibinnoor",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• fixed etihad",
+              "• feat: import decompiled source code and resources for KLM version 16.5.1"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat:Memory leak check & Performance improved"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 80,
+          "title": "feat:Memory leak check & Performance improved",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-Flight-Android",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "AjinLascade",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #53 from Lascade-Co/gradle-fix"
+            ],
+            "Work in Progress": [
+              "• change:version code increment"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 53,
+          "title": "change:version code increment",
+          "author": "AjinLascade"
+        }
+      ],
+      "branches": [
+        "gradle-fix",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 10,
+          "bullets": {
+            "Published": [
+              "• downgraded version",
+              "• fixed keystore issue",
+              "• fix: move patrol to regular dependency to fix release build",
+              "• testsing",
+              "• testing release"
+            ],
+            "Testing": [
+              "• feat(analytics): mirror all GA4 events to PostHog",
+              "• feat(esim): show price-per-GB for standard plans, price-per-day for unlimited",
+              "• feat(esim): strip \"unlim\" token from displayed plan names",
+              "• feat(esim): Global / Global Lite tabs on the Global region plans page"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 67,
+          "title": "downgraded version",
+          "author": "sajithlascade"
+        },
+        {
+          "number": 66,
+          "title": "fixed keystore issue",
+          "author": "sajithlascade"
+        },
+        {
+          "number": 65,
+          "title": "fix: move patrol to regular dependency to fix release build",
+          "author": "sajithlascade"
+        },
+        {
+          "number": 64,
+          "title": "testsing",
+          "author": "sajithlascade"
+        },
+        {
+          "number": 63,
+          "title": "testing release",
+          "author": "sajithlascade"
+        },
+        {
+          "number": 62,
+          "title": "Dev",
+          "author": "sajithlascade"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": "debug-pr-68"
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan-Shoukath",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Add Facebook data deletion callback (verified no-op)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "Enter"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-helper",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Add cf-ipcountry geo support with shared normalizeCountry helper"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Add OpenNext Cloudflare hosting adapter"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/opennext-cloudflare"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim_airalo",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "Risal EA",
+          "commit_count": 10,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #6 from Lascade-Co/dev"
+            ],
+            "Work in Progress": [
+              "• feat: disable validity block display on data usage card",
+              "• refactor: decouple no-plan cache expiry by using key-specific timestamps and add error handling for malformed cache entries",
+              "• refactor: centralize plan name formatting and add error handling to store browse page",
+              "• feat: add Global and Global Lite plan variant toggle to plans page with localized descriptions",
+              "• feat: update best value scoring to prioritize price-per-day for unlimited plans"
+            ]
+          }
+        },
+        {
+          "login": "Sanasabir12",
+          "name": "Sanasabir12",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• updated version to 1.0.6",
+              "• updated version"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 6,
+          "title": "bug fixes and improvements ",
+          "author": "risal-ea"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/HotelSnap",
+      "developers": [
+        {
+          "login": "Jasifkasif",
+          "name": "jasifkashim",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• local commit",
+              "• Merge remote-tracking branch 'origin/dev'"
+            ]
+          }
+        },
+        {
+          "login": "lascadeansal",
+          "name": "ansal",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• fixes in currency",
+              "• update json file"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-07-20 — delivery via GitHub Actions"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• fix:View heirarchy fixed",
+              "• feat:Bottom tab updated"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 23,
+          "title": "fix:View heirarchy fixed",
+          "author": "Swalih60"
+        },
+        {
+          "number": 22,
+          "title": "feat:Bottom tab updated",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m8-android-hotel",
+      "developers": [
+        {
+          "login": "lascadeansal",
+          "name": "ansal",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• add AlertDialog"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M8-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• fix:Map issue in detail screen fixed"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 5,
+          "title": "fix:Map issue in detail screen fixed",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "origin",
+        "v3"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• graph and cover image optimised"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "deploy"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "• Add news drafts: Hormuz ship fire + KM Nurul Salsa survivors (2026-07-20)",
+              "• chore: publish 2 draft posts for 2026-07-20 pipeline run",
+              "• auto: publish draft – Muara Angke harbour fire, Jakarta 2026-07-19",
+              "• add cover images and tracking data from 2026-07-19 pipeline run",
+              "• autonomous run 2026-07-19: publish Hormuz seventh strike night draft"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat(ta): TA profit on actual store earnings, Jul vs Jun 2026"
+            ],
+            "Work in Progress": [
+              "• feat(absolute-profit): skill skeleton, apps.json, profit_windows.py"
+            ]
+          }
+        },
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• feat(ta): iOS funnel diagnosis + remove unreliable autocomplete attempt events"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin",
+        "worktree-absolute-profit-skill"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• feat: replace scene style thumbnail gifs",
+              "• fix: keep Orbit video duration at its minimum"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/mult"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 8,
+          "bullets": {
+            "Work in Progress": [
+              "• removed debug prints",
+              "• fix: drive GID refresh on main thread, dedicated session-refresh event",
+              "• fix: preserve retry failure reason in analytics, isolate tests from shared singleton, add coverage for double-failure and CSRF rotation",
+              "• feat: retry saved-route save/update once after silent session refresh",
+              "• feat: dismiss saved routes screen on silent session expiry"
+            ]
+          }
+        },
+        {
+          "login": "Basith-P",
+          "name": "Basith-P",
+          "commit_count": 7,
+          "bullets": {
+            "Testing": [
+              "• fix(route-import): harden validation and JSON serialization",
+              "• fix(location-search): keep route import cards the same height",
+              "• fix(routes): preserve imported distance after simplification",
+              "• fix(routes): preserve Google Maps waypoints in mixed routes",
+              "• fix(routes): preserve curved connectors when reopening mixed imports"
+            ]
+          }
+        },
+        {
+          "login": "Krishnan-E",
+          "name": "Krishnan-E",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• refactor(sceneStyleFeedback): remove unused customizationError state and convert isFormComplete to validateForm method",
+              "• version change to main",
+              "• Removed added print statement"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "722-location-sheet-add-multiple-gpx-google-maps",
+        "krish/fix/gmap",
+        "krish/fix/scene-style",
+        "mushfiq/re-auth-saveroute"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #171 from Lascade-Co/deploy"
+            ],
+            "Work in Progress": [
+              "• made revalidate in 12h"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 171,
+          "title": "made revalidate in 12h",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

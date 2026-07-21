@@ -1,0 +1,716 @@
+{
+  "date": "2026-07-21",
+  "repos": [
+    {
+      "repo": "Lascade-Co/airline-apis",
+      "developers": [
+        {
+          "login": "hadibinnoor",
+          "name": "hadibinnoor",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• added unknown proxy in qantas",
+              "• qantas optimised"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": null,
+          "name": "Antony Mathew",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• set mode crash fixes",
+              "• sceneform crash fixea"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "bug_fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat:Memory leak check & Performance improved"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 80,
+          "title": "feat:Memory leak check & Performance improved",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-web-hotel-v2",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "• refactor: rename destination city_id prop to cityId (camelCase)",
+              "• fix: always send city_id in top-places card deeplink",
+              "• add city_id to destinations",
+              "• update placeid and entity id",
+              "• fix: use provider-based id type for top-places card deeplink"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Trigger Deployment",
+              "• Merge pull request #79 from Lascade-Co/updates"
+            ],
+            "Work in Progress": [
+              "• Merge pull request #80 from Lascade-Co/develop"
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• top desctination redirection bug fix"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 81,
+          "title": "fix: top-places card deeplink (provider id type + city_id)",
+          "author": "rebin03"
+        },
+        {
+          "number": 80,
+          "title": "Release: redirection delay, top dest redirection and provider logo update",
+          "author": "Lascadesevices"
+        },
+        {
+          "number": 79,
+          "title": "Updates: Provider list update and package version upgrades",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 6,
+          "bullets": {
+            "Testing": [
+              "• added template",
+              "• fixed recommend plans logic",
+              "• perf(esim): load full countries/regions only on the browse list page",
+              "• feat(esim): stop best-value sorting/badge in plan list",
+              "• feat(esim): cap home active-plans carousel to 5"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Merge pull request #63 from Lascade-Co/pending"
+            ]
+          }
+        },
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan-Shoukath",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Return only countries with active plans from /api/countries/"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 63,
+          "title": "Add abandoned wallet top-up reconciler (reaper) with singleton lock",
+          "author": "Shaan-Shoukath"
+        },
+        {
+          "number": 61,
+          "title": "Review",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "countries",
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim_airalo",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "• fix: prevent state emissions on closed cubits after asynchronous repository calls",
+              "• feat: implement purchase quote flow and checkout confirmation page with wallet/card payment selection",
+              "• feat: replace raw payment error messages with localized strings in checkout bloc",
+              "• refactor: centralize error handling by introducing a dedicated Dio error mapper and custom failure messages across remote data sources."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 7,
+          "title": "Feature/wallet",
+          "author": "risal-ea"
+        }
+      ],
+      "branches": [
+        "dev",
+        "feature/wallet"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotel-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• fix(deeplink): harden parse_child_ages against non-ASCII digits"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotel-helper",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• fix: always include city_id in deeplink params",
+              "• fix: select deeplink id type by provider for place redirect"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotels70-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Trigger Deployment",
+              "• Merge pull request #127 from Lascade-Co/updates"
+            ],
+            "Work in Progress": [
+              "• Merge pull request #128 from Lascade-Co/develop"
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• added currency param to deeplink redirect",
+              "• provider logo list update"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 128,
+          "title": "Release: Redirection fixes, image optimisation and more",
+          "author": "mhdbk"
+        },
+        {
+          "number": 127,
+          "title": "Updates: image size reduction and package version upgrades",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-07-21 — delivery via GitHub Actions",
+              "• Save daily report for 2026-07-20 — delivery via GitHub Actions"
+            ]
+          }
+        },
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• mark: sent report 2026-07-20"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• conflict fixed"
+            ],
+            "Work in Progress": [
+              "• added cookie jar"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "SSO-v2",
+        "keith/sso-login"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• removed old deployment workflow"
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #153 from Lascade-Co/deploy"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 153,
+          "title": "Deploy",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "• chore: add Hormuz standstill config and assets from 2026-07-21 pipeline run",
+              "• Add cover images and tracking data for post 3680",
+              "• Pipeline run 2026-07-21: publish Hormuz 10th night strikes draft",
+              "• add cover images and tracking for post 3677 (Houthi Saudi embargo)",
+              "• publish draft: Houthis maritime embargo Saudi Arabia — Bab el-Mandeb (July 20)"
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• feat(social): auto-post to X on Telegram Publish tap + pre-render graph image"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 20,
+          "title": "feat(social): auto-post to X on Telegram Publish tap + pre-render gra…",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "feat/news-post-skill-and-humaniser",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 25,
+          "bullets": {
+            "Published": [
+              "• feat(measure): Smart Ruler app health reports, Jul 2026",
+              "• fix(absolute-profit): note double-attribution in ROAS caveat, guard revenue sum against None",
+              "• feat(absolute-profit): render ROAS tile, profit bridge, daily chart (Task 4)",
+              "• feat(absolute-profit): assemble per-day profit series with availability semantics (Task 3)",
+              "• fix(absolute-profit): add schema-version suffix to spend cache key"
+            ]
+          }
+        },
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat(app-health): version-scoped health check — Android 4.0.128 / iOS 3.9.0",
+              "• feat(ta): iOS funnel diagnosis + remove unreliable autocomplete attempt events"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin",
+        "worktree-absolute-profit-skill"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "• feat: add magazine and how-it-works pages, nav routes, scroll-to-top",
+              "• feat: redesign landing hero and deep-link store categories",
+              "• adjusted height in the. magazine card",
+              "• feat: replace popular-locations grid with interactive world map"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Deploy on Vercel"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "feat/pages-redesign"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/scratch",
+      "developers": [
+        {
+          "login": "dingitha",
+          "name": "Nandita",
+          "commit_count": 12,
+          "bullets": {
+            "Published": [
+              "• Add files via upload"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/simline-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• Deploy on Vercel"
+            ]
+          }
+        },
+        {
+          "login": "ryyansafar",
+          "name": "ryyansafar",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• feat(search): show true region coverage count (Global = 120)",
+              "• feat(search): surface matching regions as \"Available in regional plans\""
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "• fix: make imported route endpoints and waypoints non-draggable",
+              "• fix: show import cards instead of stale results on Add Location",
+              "• feat: log billing_issue_popup analytics event when banner is shown",
+              "• fix: address code-review suggestions on route import UI"
+            ]
+          }
+        },
+        {
+          "login": "Geethukv03",
+          "name": "Geethu K V",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Merge branch 'main' into feat/tars-cloud-render-fallback"
+            ]
+          }
+        },
+        {
+          "login": "rohittp0",
+          "name": "Rohit",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Merge branch 'main' into feat/effect"
+            ]
+          }
+        },
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• feat: replace scene style thumbnail gifs"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/effect",
+        "feat/mult",
+        "feat/tars-cloud-render-fallback",
+        "fix/ui"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "• version update",
+              "• feat(search): single autocomplete outcome event + align Locate gate tests",
+              "• login gating for load routes",
+              "• removed debug prints"
+            ],
+            "Work in Progress": [
+              "• Merge branch 'main' into mushfiq/scene-bounce",
+              "• Merge branch 'main' into mushfiq/engagement-nudges",
+              "• fix(gmap): drop duplicate SinglePlaceLink success analytics"
+            ]
+          }
+        },
+        {
+          "login": "Basith-P",
+          "name": "Basith-P",
+          "commit_count": 5,
+          "bullets": {
+            "Work in Progress": [
+              "• fix(annotations): make image cropping pixel-safe",
+              "• feat(debug): add complete app reset to developer settings",
+              "• fix(annotations): prevent invalid media references after save failures",
+              "• fix(storage): save images atomically and verify persistence",
+              "• fix(annotations): classify media upload failures accurately"
+            ]
+          }
+        },
+        {
+          "login": "Krishnan-E",
+          "name": "Krishnan-E",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "• fix(undo): move undo checkpoint out of shared didUpdateRealRouteSegment callback",
+              "• fix(undo): push undo checkpoint when selecting alt route for real-route segment",
+              "• fix(undo): refresh alt-route popup after undo/redo in case of gmap routes",
+              "• fix(undo): refresh alt-route popup after undo/redo in case of real routes"
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #726 from Lascade-Co/krish/fix/scene-style"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 726,
+          "title": "Feat: Add required-field validation to scene-style feedback page",
+          "author": "Krishnan-E"
+        },
+        {
+          "number": 724,
+          "title": "Feat: Reverse geocode coordinates to display origin, waypoint, destination",
+          "author": "Krishnan-E"
+        }
+      ],
+      "branches": [
+        "feat/toggle-flag-visibility-in-placelabels",
+        "fix/annotation-encoding-failed",
+        "krish/fix/gmap",
+        "krish/fix/undo-redo",
+        "mushfiq/autocomplete-event-updates",
+        "mushfiq/engagement-nudges",
+        "mushfiq/re-auth-saveroute",
+        "mushfiq/scene-bounce",
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

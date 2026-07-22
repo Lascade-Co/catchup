@@ -40,7 +40,8 @@
     "daily/2026-07-18.json",
     "daily/2026-07-19.json",
     "daily/2026-07-20.json",
-    "daily/2026-07-21.json"
+    "daily/2026-07-21.json",
+    "daily/2026-07-22.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -140,7 +141,11 @@
     "Lascade-Co/d2wf-lasthourflights",
     "Lascade-Co/tada",
     "Lascade-Co/TARS",
-    "Lascade-Co/flight-helper-vue"
+    "Lascade-Co/flight-helper-vue",
+    "Lascade-Co/M2_TP_Flight_New",
+    "Lascade-Co/d3-android-car",
+    "Lascade-Co/d3-android-hotel",
+    "Lascade-Co/m1-android-flight"
   ],
   "users": [
     {

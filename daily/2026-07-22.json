@@ -1,0 +1,874 @@
+{
+  "date": "2026-07-22",
+  "repos": [
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #23 from Lascade-Co/bug_fixes"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 23,
+          "title": "crash fixes",
+          "author": "antonyjoemathew"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": "1.2.22"
+    },
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "• feat:Map implementation updated"
+            ],
+            "Work in Progress": [
+              "• feat:Top picks image quality increased",
+              "• feat:Map implementation optimized",
+              "• feat:Map zoom in out set",
+              "• feat:Map zoom out and in set"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 81,
+          "title": "feat:Map implementation updated",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-Flight-Android",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "• change: targetSdk = 36",
+              "• change: version increment restarted after release 1.8.0",
+              "• change:Update the API level to 36"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "gradle-upgrade"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-web-hotel-v2",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Trigger Deployment"
+            ],
+            "Work in Progress": [
+              "• Merge pull request #82 from Lascade-Co/develop"
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• merge fix"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 82,
+          "title": "Release: Top places card deeplink fix",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d3-android-car",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Update the API level to 36"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d3-android-hotel",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• change:Update the API level to 36"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 8,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #64 from Lascade-Co/uptime"
+            ],
+            "Testing": [
+              "• fix: defensively validate decoded retention payload types",
+              "• feat: add Apple Get Retention Message endpoint at v0/retention/<package_name>",
+              "• feat: add RetentionMessage model with selection logic and admin",
+              "• docs: add Apple retention messaging implementation plan",
+              "• docs: grill retention messaging spec; add CONTEXT terms and ADR 0003"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 64,
+          "title": "uptime",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "origin",
+        "retention"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 7,
+          "bullets": {
+            "Testing": [
+              "• chore(ui): tighten eSIM compatibility spacing + dart format wallet views",
+              "• fix(ui): overflow fixes, compact cards, top-up & auto-topup redesign",
+              "• feat(wallet): remove billing currency dropdown from top-up",
+              "• feat(checkout): gradient icon chips, wallet fold animation, badge on title",
+              "• fixed wallet amount issue in checkout page"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan-Shoukath",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "• Default abandoned top-up reaper to on (env kill-switch retained)",
+              "• Revert country flags to Yesim CDN default (keep switchable template)",
+              "• Fix duplicate Slack review reposts and enforce proxy egress guarantee",
+              "• Add catalog image URLs: FlagCDN country flags + configurable region template"
+            ]
+          }
+        },
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• Update requests package to include socks support and specify PyJWT version",
+              "• Add balance_display (wallet balance in requested currency) to purchase-quote"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 66,
+          "title": "Default abandoned top-up reaper to on",
+          "author": "Shaan-Shoukath"
+        },
+        {
+          "number": 65,
+          "title": "Reviews duplicate-Slack-post fix + proxy egress guarantee + countries catalog (Yesim flags)",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "countries",
+        "dev",
+        "review"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "ryyansafar",
+          "name": "ryyansafar",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "• Plan pages back to card grid, nav cleanup, highlighted days",
+              "• Global family labels at checkout + clickable regional-plan countries",
+              "• Esim70 rework: home finale, plan-page list redesign, region/global switcher"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ryyan-esim70-work"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim_airalo",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #8 from Lascade-Co/dev"
+            ],
+            "Work in Progress": [
+              "• feat: add sliding window functionality to PageIndicator with support for max visible dots and edge scaling",
+              "• feat: add low balance notification strings to auto top-up settings",
+              "• feat: implement wallet feature and add global plan filters with updated translations",
+              "• feat: add guest-specific wallet view and update login navigation to pushReplacement",
+              "• feat: add wallet cost display to checkout UI and fix bottom safe-area spacing"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 8,
+          "title": "wallet ",
+          "author": "risal-ea"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-07-22 — delivery via GitHub Actions"
+            ]
+          }
+        },
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• mark: sent report 2026-07-21"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m1-android-flight",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• change:Update the API level to 36"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M2_TP_Flight_New",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• change:Update the API level to 36"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "gradle-fix"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m4-web-car",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Trigger Deployment",
+              "• Merge pull request #71 from Lascade-Co/view-deal-button-fix"
+            ],
+            "Work in Progress": [
+              "• Merge pull request #72 from Lascade-Co/develop"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 72,
+          "title": "Release: View deal button fix",
+          "author": "mhdbk"
+        },
+        {
+          "number": 71,
+          "title": "View deal button fix",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M4_sky_flutter",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• fixed recent search db issue"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "v2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m8-android-hotel",
+      "developers": [
+        {
+          "login": "lascadeansal",
+          "name": "ansal",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• change gradle to kts"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• jwt auth",
+              "• jwt completed"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "jwt_auth"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• jwt sso"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "sso-jwt"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• implemented KV for trends and blog posts",
+              "• Merge pull request #154 from Lascade-Co/deploy",
+              "• trends: harden share proxy, add corrections page, fix llms.txt wording"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 155,
+          "title": "implemented KV for trends and blog posts",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 154,
+          "title": "trends: harden share proxy, add corrections page, fix llms.txt wording",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 8,
+          "bullets": {
+            "Published": [
+              "• chore: add cover images and tracking data for 2026-07-22 pipeline posts",
+              "• chore: publish 3 draft posts — Kavomaleas Hormuz, Neustrashimy Channel, Golden Leo Odesa (2026-07-22 run)",
+              "• Auto-publish 2 drafts: Gulf of Aden U-turn + Acheloos VLCC strike (2026-07-22)",
+              "• chore: add cover images and tracking data for 2026-07-21 pipeline posts",
+              "• feat: draft post — Kaifan tanker abandoned in Strait of Hormuz (2026-07-21)"
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "• feat(social): auto-post an Instagram carousel via Postiz on Telegram Publish tap",
+              "• fix(graph): render the tracking-graph card browserless (resvg, no Chrome)",
+              "• chore: stop tracking generated content/ packs",
+              "• feat(telegram): add Reddit post link to the Publish confirmation",
+              "• feat(social): auto-post to own subreddit via Postiz on Telegram Publish tap"
+            ],
+            "Work in Progress": [
+              "• feat(telegram): always include an Instagram link in the Publish confirmation"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 22,
+          "title": "Feat/news post skill and humaniser",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 21,
+          "title": "feat(social): auto-post to own subreddit via Postiz on Telegram Publi…",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "feat/news-post-skill-and-humaniser",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 8,
+          "bullets": {
+            "Published": [
+              "• feat(app-health): Sentinel Users — fixed 10-user early-warning panel (Step 3.8)",
+              "• feat(ta): instrumentation gap analysis report + style-guide-aligned report CSS",
+              "• feat(marine): app-health social thumbnail + clear sidebar registration debt",
+              "• feat(ta-mailer): value-gate Scene Style Survey emails via content filter + Gemini",
+              "• feat(app-health): social thumbnails + OG meta for app-health reports"
+            ]
+          }
+        },
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• feat(autocomplete-failure): skill + Android 4.0.128 & iOS 3.9.0 reports"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/scratch",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "• Generalize to ring C_n; answer the 11-node case",
+              "• Add typeset PDF of the algorithm writeup + build script",
+              "• Add formal algorithm writeup in mathematical notation",
+              "• Add C10 geodesic labeling solver, exhaustive search, and search-tree visualization"
+            ]
+          }
+        },
+        {
+          "login": "dingitha",
+          "name": "Nandita",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Add files via upload"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/graph-edge-weight-labeling-ribcrl",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/simline-web",
+      "developers": [
+        {
+          "login": "ryyansafar",
+          "name": "ryyansafar",
+          "commit_count": 5,
+          "bullets": {
+            "Testing": [
+              "• fix(catalogue): drop retired UAE + stop global stealing region grouping",
+              "• fix(checkout): hydration mismatch on the success page",
+              "• fix(wallet): stop wallet vanishing on currency switch",
+              "• fix(wallet): top-up dialog shows the selected currency, not EUR",
+              "• Merge remote-tracking branch 'lascade/dev' into dev"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• Deploy on Vercel"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/tada",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• feat: add deterministic offline render bundles"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 7,
+          "bullets": {
+            "Testing": [
+              "• Redesign location import cards as compact horizontal cards",
+              "• fix: add translations for place-label flag toggle strings",
+              "• feat: add place-label hide-flag toggle",
+              "• Optimize model lookup for large routes",
+              "• perf: batch real-route undo and redo"
+            ]
+          }
+        },
+        {
+          "login": "Geethukv03",
+          "name": "Geethu K V",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Merge branch 'main' into nauman/feat/saved-routes-search"
+            ]
+          }
+        },
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Log previous Android process exits"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "chore/log",
+        "feat/flag",
+        "fix/ui",
+        "nauman/feat/saved-routes-search"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "• event for once preview completed",
+              "• feat(analytics): log sign_in_successful/failed with login_method",
+              "• 68 more events excluded",
+              "• gif updates, animated points"
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #730 from Lascade-Co/feat/toggle-flag-visibility-in-placelabels"
+            ]
+          }
+        },
+        {
+          "login": "Basith-P",
+          "name": "Basith-P",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Merge remote-tracking branch 'origin/main' into 717-text-in-no-frame-image-not-appearing-in-preview"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 730,
+          "title": "feat(place-labels): add flag visibility toggle",
+          "author": "Basith-P"
+        }
+      ],
+      "branches": [
+        "717-text-in-no-frame-image-not-appearing-in-preview",
+        "mushfiq/event-updates",
+        "mushfiq/scene-bounce",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #172 from Lascade-Co/deploy"
+            ],
+            "Work in Progress": [
+              "• localisation build error",
+              "• bug fixes",
+              "• UI changes"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 172,
+          "title": "Deploy",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• feat(proto): add place_label_hide_flag field to AnimationState"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

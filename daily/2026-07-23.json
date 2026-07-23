@@ -1,0 +1,700 @@
+{
+  "date": "2026-07-23",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 8,
+          "bullets": {
+            "Published": [
+              "• fix(tars): encode absent endpoint as empty",
+              "• fix(tars): accept live registry descriptors",
+              "• fix(tars): reuse immutable release images",
+              "• fix(tars): match live Runpod release API",
+              "• fix(tars): use Runpod-compatible immutable image refs"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1ac-rent80",
+      "developers": [
+        {
+          "login": "lascadeansal",
+          "name": "ansal",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Update the local notification logic V2"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-flight-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Set Last Minute Flights privacy URL and support email",
+              "• Fix QA bugs across search, results, detail, i18n, nav and loader"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "fix/qa-fixes-round1-10",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #67 from Lascade-Co/retention"
+            ],
+            "Testing": [
+              "• feat: add JWT token to user response and support callback redirection"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 67,
+          "title": "feat: Apple Retention Messaging Get Retention Message endpoint",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "callback",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 5,
+          "bullets": {
+            "Testing": [
+              "• feat(promo): show first-purchase welcome banner to guests too",
+              "• added dertele accoiunt message",
+              "• feat(promo): first-purchase welcome promo (home banner + checkout)",
+              "• remove to plan price from wallet card",
+              "• Merge task/persist-detected-currency: first-launch currency fix + search Hero overflow fix"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan-Shoukath",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Add multi-brand MCP eSIM purchasing"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "integeration"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-helper",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Map compatible-device pixel event to AddToWishlist"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "• Geo-block UAE visitors with a self-contained not-available page",
+              "• Refresh hero headline/description copy and localize across all locales",
+              "• Bump esim-helper to d090571 (AddToWishlist compatible-device pixel event)",
+              "• Merge pull request #96 from Lascade-Co/dev",
+              "• Merge pull request #95 from Lascade-Co/ryyan-esim70-work"
+            ],
+            "Work in Progress": [
+              "• Geo-block UAE visitors in Cloudflare middleware with not-available page"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "• Deploy on Vercel"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 98,
+          "title": "geo block UAE visitors.",
+          "author": "rebin03"
+        },
+        {
+          "number": 97,
+          "title": "add AddToWishlist fb event for compatible devices ",
+          "author": "rebin03"
+        },
+        {
+          "number": 96,
+          "title": "UI improvements",
+          "author": "rebin03"
+        },
+        {
+          "number": 95,
+          "title": "Esim70 conversion/retention rework + marketing & plan-page redesign",
+          "author": "ryyansafar"
+        }
+      ],
+      "branches": [
+        "dev",
+        "open-next",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim_airalo",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #9 from Lascade-Co/dev"
+            ],
+            "Work in Progress": [
+              "• feat: update account deletion confirmation to include wallet balance and eSIM count with a 6-second delay",
+              "• refactor: update wallet cost display logic to force EUR currency settlement for quotes and UI consistency",
+              "• feat: implement promo code retention and prevent checkout abandonment during active offers",
+              "• chore: update localization strings for low balance auto top-up notifications"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 9,
+          "title": "wallet improvement",
+          "author": "risal-ea"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-07-23 — delivery via GitHub Actions"
+            ]
+          }
+        },
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• mark: sent report 2026-07-22"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m1-android-flight",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• change:fix issue with Android lint"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #233 from Lascade-Co/keith/subscription"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 233,
+          "title": "feat: google play in app message for involuntary churn",
+          "author": "keith-james"
+        },
+        {
+          "number": 222,
+          "title": "google sso login",
+          "author": "keith-james"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• chore: update published-news.json ledger after 2026-07-23 pipeline run",
+              "• news: publish 4 drafts for 2026-07-22 run",
+              "• pipeline 2026-07-22: 2 drafts published (Taiwan boat fire, Second Thomas Shoal clash)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/mcp-server",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan-Shoukath",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Fix authenticated eSIM quote contract",
+              "• Add provider auth, safe purchases, and MCP helper"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "• feat(portfolio): absolute profit report for all apps, Jul 1-21 2026",
+              "• feat(ta): problem statement + original Adapty screenshots in conversion report",
+              "• feat(ta): install→paid conversion decline root-cause report (22 Jul)",
+              "• fix(style): enforce #222 prose color rule at every source",
+              "• feat(ta): DAU & new-user decline investigation report (22 Jul)"
+            ]
+          }
+        },
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• feat(billing): weekly rates report + Play Store billing lifecycle reference"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "• feat: blend roamjoy wordmark into footer",
+              "• feat: figma search bar, why-choose doodle/arrow + smooth independent card hover",
+              "• refactor : redesigned landing page with new ui"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/pages-redesign"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/scratch",
+      "developers": [
+        {
+          "login": "dingitha",
+          "name": "Nandita",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Add files via upload"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/simline-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• Deploy on Vercel"
+            ]
+          }
+        },
+        {
+          "login": "ryyansafar",
+          "name": "ryyansafar",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #7 from Lascade-Co/dev"
+            ],
+            "Work in Progress": [
+              "• Merge remote-tracking branch 'lascade/dev' into dev"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 7,
+          "title": "Coins-first wallet redesign, promo marquee + device search",
+          "author": "ryyansafar"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/TARS",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• docs: make release image tags write-once",
+              "• fix: verify Runpod tagged image digest",
+              "• fix: install Runpod handler as an importable package",
+              "• feat: move rendering to Runpod Serverless"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-analytics-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• `purchase_sale` event addition to google CSV"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 14,
+          "bullets": {
+            "Published": [
+              "• fix: remove stale lastSearchQuery reference after merge",
+              "• feat: expand analytics event tracking",
+              "• fix: preserve alternate routes through undo and redo"
+            ],
+            "Testing": [
+              "• Update and expand tutorial videos",
+              "• fix: show flag style in highlight chooser",
+              "• fix(search): handle coordinate queries locally",
+              "• fix: resolve paywall notification merge regression",
+              "• Merge remote-tracking branch 'origin/main' into feat/mult"
+            ]
+          }
+        },
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "• Move version properties to the end of gradle.properties",
+              "• Update androidApplication to 9.3.0",
+              "• Update shared submodule and enable parallel Gradle sync"
+            ],
+            "Testing": [
+              "• refactor: clean up FileLoggingTree",
+              "• fix(export): recover from encoder ERROR_INSUFFICIENT_RESOURCE via degrade chain",
+              "• Merge branch 'main' into feat/prompt"
+            ]
+          }
+        },
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #568 from Lascade-Co/nauman/feat/saved-routes-search"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 574,
+          "title": "Fix/events",
+          "author": "Vivek-4321"
+        },
+        {
+          "number": 572,
+          "title": "Log previous Android process exits",
+          "author": "rohittp0"
+        },
+        {
+          "number": 569,
+          "title": "Fix/ui",
+          "author": "Vivek-4321"
+        },
+        {
+          "number": 568,
+          "title": "Saved Routes Page - Search functionality",
+          "author": "naumshaz"
+        }
+      ],
+      "branches": [
+        "feat/chat",
+        "feat/deeplink",
+        "feat/effect",
+        "feat/flag",
+        "feat/mult",
+        "feat/prompt",
+        "feat/tars-cloud-render-fallback",
+        "fix/export-encoder-insufficient-resource-degrade",
+        "fix/loc",
+        "origin"
+      ],
+      "version": "debug-pr-372"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 17,
+          "bullets": {
+            "Work in Progress": [
+              "• fix(analytics): serialize app_close session counters on main",
+              "• fix(analytics): dedupe preview-screen observers, bound preview_failed error",
+              "• chore(analytics): prune retired long-press/add-location events",
+              "• new event editor session summary",
+              "• property to identify location added source (drag or search)"
+            ]
+          }
+        },
+        {
+          "login": "Basith-P",
+          "name": "Basith-P",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "• fix(saved-routes): prevent duplicate routes during concurrent sync"
+            ],
+            "Work in Progress": [
+              "• fix(annotations): harden JPEG encoding for media uploads",
+              "• fix(annotations): make upload image resizing pixel-safe",
+              "• Merge remote-tracking branch 'origin/main' into fix/annotation-encoding-failed"
+            ]
+          }
+        },
+        {
+          "login": "rahul028",
+          "name": "rahul028",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "• refactor: removed debug prints",
+              "• fix (undo) : prevent phantom markers during undo and redo",
+              "• feat(undo): add segment-scoped undo and redo for real routes"
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #735 from Lascade-Co/mushfiq/event-updates"
+            ],
+            "Work in Progress": [
+              "• PR Event Updates",
+              "• Merge pull request #734 from Lascade-Co/release"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "717-text-in-no-frame-image-not-appearing-in-preview",
+        "fix/annotation-encoding-failed",
+        "krish/feat/export-banner",
+        "mushfiq/event-updates",
+        "origin",
+        "rahul/performance/realroute",
+        "release",
+        "release_backup"
+      ],
+      "version": null
+    }
+  ]
+}

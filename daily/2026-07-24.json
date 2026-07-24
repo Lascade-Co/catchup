@@ -1,0 +1,699 @@
+{
+  "date": "2026-07-24",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 13,
+          "bullets": {
+            "Published": [
+              "• feat(tars): add ADA 24 capacity fallback",
+              "• fix(tars): harden interrupted rollout recovery",
+              "• fix(tars): couple app and Runpod image identities",
+              "• fix(tars): accept Runpod empty command serialization",
+              "• fix(tars): accept sparse Runpod template reads"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/car-helper",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• fix: attribute email visits for returning users and stop route downgrade"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1ac-rent80",
+      "developers": [
+        {
+          "login": "lascadeansal",
+          "name": "ansal",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• fix lint issues"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-flight-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Brand-colour deeplink web view header with centered logo",
+              "• Hide login section; hide Hotel/Rental tabs"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #68 from Lascade-Co/callback"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 68,
+          "title": "feat: add JWT token to user response and support callback redirection",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #68 from Lascade-Co/dev"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 68,
+          "title": "Dev",
+          "author": "sajithlascade"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": "v1.1.9+68"
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #62 from Lascade-Co/dev"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 62,
+          "title": "Merge dev → main: Global Lite region fix + accumulated dev changes",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "• Use local region map SVGs for popular destinations region tiles",
+              "• Rework hero into search-led layout with popular destinations panel, global tab, and live pricing",
+              "• Merge plan finder into dark How Esim70 works section and localize copy",
+              "• Redesign popular destinations section and localize new copy"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• Deploy on Vercel"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim_airalo",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #10 from Lascade-Co/dev"
+            ],
+            "Testing": [
+              "• refactor: migrate environment configuration from flutter_dotenv to build-time --dart-define-from-file",
+              "• feat: implement system-wide haptics, relocate documentation, and update localization strings"
+            ]
+          }
+        },
+        {
+          "login": "Sanasabir12",
+          "name": "Sanasabir12",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• updated version"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 10,
+          "title": "UX improvement",
+          "author": "risal-ea"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotel-helper",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• use client on ad tags"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/HotelSnap",
+      "developers": [
+        {
+          "login": "lascadeansal",
+          "name": "ansal",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• library updates"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-07-24 — delivery via GitHub Actions"
+            ]
+          }
+        },
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• mark: sent report 2026-07-23"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m1-android-flight",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• change:fix issue with status bar"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m8-web-hotel",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #16 from Lascade-Co/update"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 16,
+          "title": "Update",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• fixed migration number",
+              "• telegram media moderation"
+            ]
+          }
+        },
+        {
+          "login": "AdarshLascade",
+          "name": "AdarshLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #40 from Lascade-Co/keith/video-upload"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 42,
+          "title": "fix:persist ship on first AIS sighting instead of via redis flush",
+          "author": "keith-james"
+        },
+        {
+          "number": 40,
+          "title": "fix:R2 image paths changed to URLs",
+          "author": "keith-james"
+        }
+      ],
+      "branches": [
+        "keith/telegram-workflow",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• fixed ios google -signin",
+              "• WIP"
+            ]
+          }
+        },
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• sending contentType metadata on image/video upload for telegram"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ios-signin-google",
+        "keith/image-upload"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• google sso login"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "keith/leaderboard-update"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• chore: update published-news ledger after autonomous run 2026-07-24",
+              "• chore: add 2 dedup ledger entries for 2026-07-24 pipeline run",
+              "• auto: update published-news ledger after scarborough-shoal-water-cannon draft"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/rent80-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• fix: bump car-helper to email attribution fix; gitignore .claude"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "fix/email-attribution-cookie-overwrite"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/scratch",
+      "developers": [
+        {
+          "login": "dingitha",
+          "name": "Nandita",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "• Add files via upload"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/simline-web",
+      "developers": [
+        {
+          "login": "ryyansafar",
+          "name": "ryyansafar",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "• Analytics: complete GA4 ecommerce funnel + inline eSIM compatibility check",
+              "• Warn about wallet/eSIM loss on delete; keep wallet top-up in EUR"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• Deploy on Vercel"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "feature/analytics-funnel-and-compat-checker"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/TARS",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 11,
+          "bullets": {
+            "Published": [
+              "• diagnose: identify Runpod GPU qualification stage",
+              "• feat: add ADA 24 Runpod fallback",
+              "• fix: support verified drained dispatcher recovery",
+              "• docs: make Runpod migration zsh-safe",
+              "• feat: stabilize Runpod GPU delivery"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 6,
+          "bullets": {
+            "Testing": [
+              "• Fix appended junction vehicle preservation",
+              "• Fix appended closed-loop GPX animation",
+              "• style: adjust place label chooser spacing",
+              "• feat(model-picker): enable search in multi-model mode",
+              "• fix(model-picker): restore recent tab for recent model"
+            ]
+          }
+        },
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 5,
+          "bullets": {
+            "Testing": [
+              "• fix: correctly toggle Orbit animation style via debug flag",
+              "• feat: refactor debug inputs into a centralized registry",
+              "• Update Android lint script URL in CLAUDE.md",
+              "• fix(animation): sample one path segment per interior route point",
+              "• Merge remote-tracking branch 'origin/main' into fix/export-encoder-insufficient-resource-degrade"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/flag",
+        "feat/mult",
+        "fix/export-encoder-insufficient-resource-degrade",
+        "fix/loc"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "rahul028",
+          "name": "rahul028",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• feat(saved-routes): rank search results by relevance",
+              "• feat(saved-routes): add route search and filtering"
+            ]
+          }
+        },
+        {
+          "login": "Basith-P",
+          "name": "Basith-P",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Merge remote-tracking branch 'origin/main' into 722-location-sheet-add-multiple-gpx-google-maps"
+            ]
+          }
+        },
+        {
+          "login": "Krishnan-E",
+          "name": "Krishnan-E",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• feat(watermark): localize and polish Pro/Free export sheet buttons"
+            ]
+          }
+        },
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• reviewed fixes"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "722-location-sheet-add-multiple-gpx-google-maps",
+        "738-search-on-load-route-sheet",
+        "krish/feat/export-banner",
+        "mushfiq/log-files"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #173 from Lascade-Co/deploy"
+            ],
+            "Work in Progress": [
+              "• add travel map animation page and layout styles",
+              "• implemented KV, ui fixes"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 173,
+          "title": "Deploy",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

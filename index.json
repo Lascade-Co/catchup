@@ -43,7 +43,8 @@
     "daily/2026-07-21.json",
     "daily/2026-07-22.json",
     "daily/2026-07-23.json",
-    "daily/2026-07-24.json"
+    "daily/2026-07-24.json",
+    "daily/2026-07-25.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -148,7 +149,8 @@
     "Lascade-Co/d3-android-car",
     "Lascade-Co/d3-android-hotel",
     "Lascade-Co/m1-android-flight",
-    "Lascade-Co/m8-web-hotel"
+    "Lascade-Co/m8-web-hotel",
+    "Lascade-Co/pa"
   ],
   "users": [
     {

@@ -1,0 +1,58 @@
+{
+  "date": "2026-07-26",
+  "repos": [
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-07-26 — delivery via GitHub Actions"
+            ]
+          }
+        },
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• mark: sent report 2026-07-25"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• chore: add 3 draft news posts to published-news ledger (2026-07-26 run)",
+              "• chore: ledger entry for Christiana B Black Sea explosion draft (2026-07-24)",
+              "• chore: add 3 draft posts to published-news ledger (2026-07-25 run)",
+              "• chore: add indonesia-speedboat-tomini-bay to published-news ledger (postId 3843)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

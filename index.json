@@ -46,7 +46,8 @@
     "daily/2026-07-24.json",
     "daily/2026-07-25.json",
     "daily/2026-07-26.json",
-    "daily/2026-07-27.json"
+    "daily/2026-07-27.json",
+    "daily/2026-07-28.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -153,7 +154,8 @@
     "Lascade-Co/m1-android-flight",
     "Lascade-Co/m8-web-hotel",
     "Lascade-Co/pa",
-    "Lascade-Co/m8-web-car"
+    "Lascade-Co/m8-web-car",
+    "Lascade-Co/Marine-timelapse-studio"
   ],
   "users": [
     {

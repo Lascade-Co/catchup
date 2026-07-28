@@ -1,0 +1,645 @@
+{
+  "date": "2026-07-28",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "sajithlaldev",
+          "name": "sajithlaldev",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• also fixed the release worklflow",
+              "• fixed crashlytics issue in flutter workflow"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "• feat:Updated splash & search card collapse",
+              "• feat:Scroll to collapse set",
+              "• feat:Splash to home transition set",
+              "• feat:Car overall update"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-flight-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Use completion-handler form for no-redirect delegate in DeeplinkVerifier"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "• feat(offers): auto-generate offers feed from promos + cashback rules; drop legacy bulk fields",
+              "• docs(api): offers placement enum + response-field descriptions for frontend devs",
+              "• feat(wallet,controller): top-up cashback rate endpoint; Offer.placement dropdown choices (+ cart_modal->cart migration)",
+              "• feat(payments): stack automatic tier + entered promo (per-source discount breakdown); reset promo on cart clear"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-helper",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "• feat(offers): normalized offer data envelope + placements[] types",
+              "• feat: top-up cashback api + useTopupCashback hook",
+              "• feat: offers feed api/hook; cart discount breakdown types; cart-store identity merge + no-persist promo + reprice"
+            ]
+          }
+        },
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• perf: cache plan catalogue fetches for one hour"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "cart",
+        "cart-integration",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 11,
+          "bullets": {
+            "Published": [
+              "• Add streaming loading skeleton to /esim/[slug] for instant plan-page navigation",
+              "• perf: limit landing page link prefetching",
+              "• fix: prevent promo checkout overflow on mobile",
+              "• feat: add welcome promo checkout messaging",
+              "• Add /global-esims marketing landing page with Global Package hero and one-tap-buy plan listing"
+            ],
+            "Work in Progress": [
+              "• cache plan catalogue fetches for one hour",
+              "• perf: disable landing product card prefetch",
+              "• Revert \"ref update to 2d92996\"",
+              "• ref update to 2d92996",
+              "• Fix SSR crash from persist.hasHydrated on plan pages after cart merge"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 9,
+          "bullets": {
+            "Work in Progress": [
+              "• Deploy on Vercel"
+            ]
+          }
+        },
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "• feat(offers): render normalized offers feed (new offer_type taxonomy + i18n)",
+              "• feat(cart): top-up cashback preview in top-up dialog; mount offers renderer at all placements",
+              "• fix(cart): promo applies only on Apply/Enter (local draft), Apply button always available, drop authoritative-total notice",
+              "• feat: offers UI (per-placement renderer), cart promo Apply + auto-pricing, stacked per-source discount lines"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 104,
+          "title": "add loading.tsx for instant plan page redirection and link prefetch limiting",
+          "author": "rebin03"
+        },
+        {
+          "number": 103,
+          "title": "prevent promo checkout overflow on mobile",
+          "author": "rebin03"
+        },
+        {
+          "number": 102,
+          "title": "welcome promo banner and global plan marketing page",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "cart",
+        "dev",
+        "feat/cart-integration",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim_airalo",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "• test",
+              "• docs: remove placeholder test text from CI build documentation",
+              "• chore: remove GitHub Actions workflow for building Android APKs",
+              "• feat: implement Android release signing, add automated versioning script, and enable loading states for social buttons",
+              "• Merge pull request #12 from Lascade-Co/dev"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 14,
+          "title": "test",
+          "author": "risal-ea"
+        },
+        {
+          "number": 13,
+          "title": "test",
+          "author": "risal-ea"
+        },
+        {
+          "number": 12,
+          "title": "ci/cd release test",
+          "author": "risal-ea"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": "debug-pr-14"
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-07-28 — delivery via GitHub Actions"
+            ]
+          }
+        },
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• mark: sent report 2026-07-27"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m1-android-flight",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "• The traveler count can be selected up to 9 instead of 15 (Adult=8 and children & infant=7).",
+              "• Remove the Expedia logo present in the loading screen.",
+              "• Removing the typed query from the search bar, still showing the suggested list of locations based on the previously typed query.",
+              "• Change the labeling of the age category of adult to 18+ and children to 2-17."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m8-web-hotel",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Trigger Deployment"
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• support mail update"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "main"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 6,
+          "bullets": {
+            "Testing": [
+              "• fix: close stale DB connection in within_radius_v2 thread",
+              "• fix: reduce scanner rate limit to 1 req/sec",
+              "• debug: log api/db timing in within_radius_v2",
+              "• datalatic apikey fix",
+              "• WIP"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "PS-ship-scanner"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/Marine-timelapse-studio",
+      "developers": [
+        {
+          "login": "Iamfasna",
+          "name": "Iamfasna",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• first commit"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #232 from Lascade-Co/within_radius_v2"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge branches 'main' and 'keith/cross-app' of github-lascade:Lascade-Co/marine-tracking-flutter into PS-fix-jul28"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• fixed ios crash issue"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 242,
+          "title": "Deploy jul 28",
+          "author": "AdarshLascade"
+        },
+        {
+          "number": 241,
+          "title": "fixed ios crash issue",
+          "author": "AdarshLascade"
+        },
+        {
+          "number": 232,
+          "title": "within_radius_v2",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": "debug-pr-242"
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• chore: add 3 new news drafts (2026-07-28 run)",
+              "• chore: update published-news ledger with 2026-07-28 autonomous run",
+              "• pipeline: add 2 draft posts (2026-07-28 run)",
+              "• chore(news): autonomous pipeline run 2026-07-27 — 3 drafts published"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat(app-health): Measure Jul-27 version report; sentinel panels for marine+measure; retro spec patches",
+              "• feat(app-health): sentinel panel live in version mode; marine Jul-27 report"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/rent80-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #28 from Lascade-Co/fix/email-attribution-cookie-overwrite"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 28,
+          "title": "fix: attribute email visits (returning users + no route downgrade)",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 7,
+          "bullets": {
+            "Work in Progress": [
+              "• feat: localize editorial data content; hide magazine + app-download",
+              "• feat: add Contact, Supported Devices, and Glossary pages",
+              "• feat: localization, SEO, analytics/geo wiring, and legal pages",
+              "• feat: redesign currency/language selectors",
+              "• feat: redesign account (profile) page from Figma \"Profile\" frame"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/pages-redesign"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/simline-web",
+      "developers": [
+        {
+          "login": "ryyansafar",
+          "name": "ryyansafar",
+          "commit_count": 13,
+          "bullets": {
+            "Work in Progress": [
+              "• feat(cart): multi-item cart, offers, guest checkout + trip/orders/wallet polish",
+              "• Checkout: always surface the wallet option; Top up on low balance",
+              "• Trip planner: drop redundant 'covers all N' under Separate country eSIMs",
+              "• Checkout notes: hyperlink refund policy + compatibility",
+              "• Trip cart: drop the permanent Hide; collapsing to the pill is enough"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 5,
+          "bullets": {
+            "Work in Progress": [
+              "• Deploy on Vercel"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "Basith-P",
+          "name": "Basith-P",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• feat(gpx): rebalance imported routes within the shared point budget",
+              "• Merge remote-tracking branch 'origin/main' into 722-location-sheet-add-multiple-gpx-google-maps"
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #742 from Lascade-Co/krish/feat/export-banner"
+            ]
+          }
+        },
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• orbit locked when there is real route, gpx and gmap links"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 742,
+          "title": "feat(watermark): localize and polish Pro/Free export sheet buttons",
+          "author": "Krishnan-E"
+        },
+        {
+          "number": 741,
+          "title": "search feature on Load route sheet",
+          "author": "rahul028"
+        },
+        {
+          "number": 737,
+          "title": "Rahul/performance/multi realroute segment - Undo",
+          "author": "rahul028"
+        }
+      ],
+      "branches": [
+        "722-location-sheet-add-multiple-gpx-google-maps",
+        "mushfiq/scene-bounce",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• add comparison page for Travel Animator vs Mult.dev with localized content and feature details",
+              "• Merge pull request #175 from Lascade-Co/deploy",
+              "• Merge remote-tracking branch 'origin/main' into deploy"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 176,
+          "title": "add comparison page for Travel Animator vs Mult.dev with localized co…",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 175,
+          "title": "add localization support for download and plans pages, update layout …",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

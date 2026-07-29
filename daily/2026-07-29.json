@@ -1,0 +1,619 @@
+{
+  "date": "2026-07-29",
+  "repos": [
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": null,
+          "name": "Antony Mathew",
+          "commit_count": 6,
+          "bullets": {
+            "Testing": [
+              "• surface detection improvements",
+              "• fixed a bug in selecting premium mode for non premium user",
+              "• crash fixes improvements",
+              "• dismissing login view for 2 consecutive failure",
+              "• adapty updated to support 8.0.0"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "bug_fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "• feat:Flight and Car tab set",
+              "• feat:Hotel home UI updated",
+              "• feat:UI updated"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-flight-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "• Constants reorg, Flight70-parity fixes: deeplink loader, result errors, profile",
+              "• Detail: white page bg so pull-down shows white (not gray) + gray backdrop for cards; Standard Economy info bottom sheet; results status-bar visible on black header (dark scheme, light on sheets)",
+              "• Match Flight70 user-session + Meta events: create session at intent-to-book (deeplink/api/ads) with country_code, drop launch session; add completedRegistration on View-deal, defer Facebook init to first foreground",
+              "• Reorganize constants into Constants/ (+URLConstants); filter close button, result card date fix, multicity remove min-2, prices-expired Ignore/Refresh, stronger slider + splash-zoom haptics",
+              "• Force-update sheet, whole-number prices, 7 result error UIs + conditions, light theme lock, faster loaders, round-trip time-filter fix, first-launch push prompt, native swipe-back for pickers, lossy poll decoding, detail no-pull, filter Clear-all header, slider/swap haptics"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/django-shared-base",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• feat: enhance Gunicorn logging to include client IP in access logs"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "• fixed status bar issue",
+              "• feat(offers): implement GET /api/offers/ across all placements",
+              "• ss",
+              "• Merge task/checkout-legal-notice: purchase-consent notice on checkout"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Add cart wallet affordability response"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-helper",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Fix stuck cart pending state, refresh-queue deadlock, and add cart wallet affordability types with shared wallet display formatter",
+              "• Add per-request timeouts to cart reconcile chain and drop unused preview from useReconcileCart",
+              "• Merge cart/offers feature line into main"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 12,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #105 from Lascade-Co/dev"
+            ],
+            "Work in Progress": [
+              "• add to cart button position fix",
+              "• Share checkout guest sign-in panel with cart page, attempt-triggered promo sign-in hint",
+              "• Localize cart and offers namespaces across all 15 non-English locales",
+              "• ui tweak",
+              "• Show bulk offer on checkout page and render full tier ladder in bulk deal pill"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 6,
+          "bullets": {
+            "Work in Progress": [
+              "• Deploy on Vercel"
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• PageView tracking"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 106,
+          "title": "Cart integration: multi-eSIM cart, backend-driven offers & wallet display, promo/UX fixes",
+          "author": "rebin03"
+        },
+        {
+          "number": 105,
+          "title": "esim plan caching and fix PageView and Search fb pixel firing",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "dev",
+        "feat/cart-dev-integration",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/flight-backend",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• null check on cache_search"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-07-29 — delivery via GitHub Actions"
+            ]
+          }
+        },
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• mark: sent report 2026-07-28"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m1-android-flight",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 5,
+          "bullets": {
+            "Testing": [
+              "• change: localization.",
+              "• change: Fix crash during language fetching.",
+              "• change: fix background color.",
+              "• change: The loading screen persists for a long time after the search button is clicked when the internet connection is off.",
+              "• The recent search list and predictive location list is not able to scroll."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• feat: extend within_radius_v2 with disable_upstream_api param and 2h db cutoff",
+              "• fix: resolve scanner_writer deadlock and position_writer unique violation",
+              "• WIP"
+            ]
+          }
+        },
+        {
+          "login": "AdarshLascade",
+          "name": "AdarshLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #44 from Lascade-Co/keith/telegram-workflow"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 44,
+          "title": "feat:telegram media moderation",
+          "author": "keith-james"
+        }
+      ],
+      "branches": [
+        "PS-ship-scanner",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• within-radius-v2"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "within_radius_new_v2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• Auto-publish: Oman/Iran Hormuz proposal draft (post 3981)",
+              "• chore: add NCC GHAZAL Houthi missile attack to published-news ledger (2026-07-29)",
+              "• news: publish 2 drafts for 2026-07-29 run",
+              "• chore: add 2 news drafts — Chikyu rare earth / Black Marlin (2026-07-28 run)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 10,
+          "bullets": {
+            "Testing": [
+              "• style: unify accent color to brand blue across sections",
+              "• feat(navbar): logged-in navbar with wallet pill + profile avatar",
+              "• feat: enhance store locations UI with new layout and localization updates",
+              "• style: make About/Help hero title accents white",
+              "• style: replace elevation shadows with borders across the UI"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/pages-redesign"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/signalside_esim_web",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "• refactor: remove FIFA World Cup 2026 campaign assets and promo logic",
+              "• remove: remove FifaOffer component and associated translation keys and assets",
+              "• refactor: add ss_auth cookie to support client-side auth re-verification on edge-cached pages and make the site header consistently opaque",
+              "• feat: implement wallet module with card management, auto-topup rules, and transaction history"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "• Deploy on Vercel"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/simline-web",
+      "developers": [
+        {
+          "login": "ryyansafar",
+          "name": "ryyansafar",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "• feat(offers): reusable OfferTeasers; add reward teasers to cart + checkout; fix plans-page chip position",
+              "• feat(offers/checkout): render reward copy from real offers schema; merged consent line; top-up cashback; fix promo banner flash",
+              "• feat(home/wallet/pricing): mobile hero rings, currency-aware top-up, resilient pricing tiers",
+              "• feat(trip): dismissible pill + account-authoritative purchase state; cart & icon polish"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "• Deploy on Vercel"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/tada",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• docs: enhance context and clarify Export Config and Render Bundle details"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-analytics-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• added \"Subscribe\" Meta event"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 6,
+          "bullets": {
+            "Testing": [
+              "• fix localized text watermark resources",
+              "• Fix text watermark state unit tests",
+              "• fix route drag hit area at high zoom",
+              "• fix cover refresh after route edits",
+              "• refactor: standardize color wheel icons"
+            ]
+          }
+        },
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• feat: show Orbit in the scene style chooser unconditionally",
+              "• Merge remote-tracking branch 'origin/main' into feat/mult"
+            ]
+          }
+        },
+        {
+          "login": "rohittp0",
+          "name": "Rohit",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Merge branch 'main' into feat/chat"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/chat",
+        "feat/mult",
+        "feat/watermark",
+        "fix/issues"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "Basith-P",
+          "name": "Basith-P",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "• fix(map): prevent orphan markers after route point removal",
+              "• fix(journey-ai): explain Real Route export limit in AI responses",
+              "• feat(journey-ai): support up to 2,000 editable route points",
+              "• Merge remote-tracking branch 'origin/main' into journy_ai"
+            ]
+          }
+        },
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• image at the starting point"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "journy_ai",
+        "mushfiq/scene-bounce"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #177 from Lascade-Co/deploy"
+            ],
+            "Work in Progress": [
+              "• add Polarsteps comparison to OtherComparisons, update sitemap and competitor pages"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 177,
+          "title": "add Polarsteps comparison to OtherComparisons, update sitemap and com…",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

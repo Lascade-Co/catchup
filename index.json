@@ -48,7 +48,8 @@
     "daily/2026-07-26.json",
     "daily/2026-07-27.json",
     "daily/2026-07-28.json",
-    "daily/2026-07-29.json"
+    "daily/2026-07-29.json",
+    "daily/2026-07-30.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -156,7 +157,9 @@
     "Lascade-Co/m8-web-hotel",
     "Lascade-Co/pa",
     "Lascade-Co/m8-web-car",
-    "Lascade-Co/Marine-timelapse-studio"
+    "Lascade-Co/Marine-timelapse-studio",
+    "Lascade-Co/roamjoy-flutter",
+    "Lascade-Co/seobot"
   ],
   "users": [
     {
@@ -378,6 +381,10 @@
     {
       "login": "Riyaaaaan",
       "name": "Riyaaaaan"
+    },
+    {
+      "login": "shamseena-08",
+      "name": "shamseena-08"
     }
   ]
 }

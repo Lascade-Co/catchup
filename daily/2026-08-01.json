@@ -1,0 +1,278 @@
+{
+  "date": "2026-08-01",
+  "repos": [
+    {
+      "repo": "Lascade-Co/airline-apis",
+      "developers": [
+        {
+          "login": "hadibinnoor",
+          "name": "hadibinnoor",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• chore: initialize python virtual environment and add search result data files"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-flight-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Fix Release/archive compiler crash: un-nest InteractivePopContainer's coordinator",
+              "• Search-card locations as \"Name (IATA)\"; fix malformed User-Agent OS version"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "• refactor(cart): Cupertino icons, a switch for the wallet, and two new states",
+              "• i18n: relabel hold_captured as Purchase, and charge *from* the wallet",
+              "• fix(cart): price the cart in the user's currency, not the backend default"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Deploy on Vercel"
+            ]
+          }
+        },
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #108 from Lascade-Co/dev"
+            ],
+            "Work in Progress": [
+              "• fix: retry legal page hash scrolling"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 108,
+          "title": "allow dismissing suggested plan and fix legal page hash scrolling issue",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/HotelSnap",
+      "developers": [
+        {
+          "login": "lascadeansal",
+          "name": "ansal",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• fixes in webview"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-08-01 — delivery via GitHub Actions"
+            ]
+          }
+        },
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• mark: sent report 2026-07-31"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• chore: add dedup ledger entry for Black Marlin July 31 2026 story",
+              "• chore: add aegean-gale-wildfire-july2026 to dedup ledger",
+              "• news: publish 4 draft stories for July 31, 2026 run",
+              "• chore: update published-news ledger for 2026-07-31 run"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• feat(seo): hub.travelanimator.com access-log audit + regression checks"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• fix(mobile): navbar, plan cards, and checkout mobile polish"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/pages-redesign"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #585 from Lascade-Co/feat/mult"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 585,
+          "title": "feat: decouple 3D line node length and thickness scaling",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": "4.0.133"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #181 from Lascade-Co/deploy"
+            ],
+            "Work in Progress": [
+              "• add new fixes page for dead links and URL updates in Travel Animator hub"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 181,
+          "title": "add new fixes page for dead links and URL updates in Travel Animator hub",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

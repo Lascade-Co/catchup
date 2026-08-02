@@ -1,0 +1,133 @@
+{
+  "date": "2026-08-02",
+  "repos": [
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-08-02 — delivery via GitHub Actions"
+            ]
+          }
+        },
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• mark: sent report 2026-08-01"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• chore: publish Taiwan CCG east-patrol draft (post 4192)",
+              "• Autonomous run 2026-08-02: 2 draft posts published",
+              "• news: publish 4 draft posts from autonomous run 2026-08-01",
+              "• chore: ledger update for 3 new draft posts (2026-08-01)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/tada",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat: enhance ocean shimmer functionality with new tile preparation and mapping logic",
+              "• perf(render): drop serial vector fetches and the duplicate walk in globe tile planning"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-analytics-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 7,
+          "bullets": {
+            "Testing": [
+              "• tracking param parsing fixes",
+              "• respect 0 revenue",
+              "• included missed aggregation",
+              "• temporarily turned off auto conv upload",
+              "• used rev with constant factor instead of commission"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "reporting-api-integration"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #182 from Lascade-Co/deploy"
+            ],
+            "Work in Progress": [
+              "• update Instagram link to new handle in multiple sections"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 182,
+          "title": "update Instagram link to new handle in multiple sections",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

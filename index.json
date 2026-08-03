@@ -52,7 +52,8 @@
     "daily/2026-07-30.json",
     "daily/2026-07-31.json",
     "daily/2026-08-01.json",
-    "daily/2026-08-02.json"
+    "daily/2026-08-02.json",
+    "daily/2026-08-03.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -388,6 +389,10 @@
     {
       "login": "shamseena-08",
       "name": "shamseena-08"
+    },
+    {
+      "login": null,
+      "name": "Swalih"
     }
   ]
 }

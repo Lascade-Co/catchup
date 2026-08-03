@@ -1,0 +1,507 @@
+{
+  "date": "2026-08-03",
+  "repos": [
+    {
+      "repo": "Lascade-Co/connector",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat: enhance ad_creatives resource with Meta rate-limit-aware retry logic",
+              "• feat: ingest multi-cart order analytics"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1af-flights70",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• change:The price symbol is not showing in the result card.(new-api)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "new-api"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-web-hotel-v2",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Merge pull request #87 from Lascade-Co/develop"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 87,
+          "title": "Release: Deeplink language and currency params",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• feat(esim): surface regional eSIM limits in the supported devices list",
+              "• Merge task/install-before-activate: install the eSIM first, activate when ready"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #68 from Lascade-Co/dev"
+            ],
+            "Work in Progress": [
+              "• feat: export multi-cart order analytics"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 68,
+          "title": "Multi-eSIM cart, flexible promos, wallet cashback & admin offers feed",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/flight-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Return detailed currency metadata in poll responses"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-08-03 — delivery via GitHub Actions"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M4-car-ios-v2",
+      "developers": [
+        {
+          "login": null,
+          "name": "Swalih",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Initial commit"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Merge remote-tracking branch 'origin/main' into keith/telegram-workflow"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "keith/telegram-workflow"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "• fix:reomoved ship path cache",
+              "• removed version check code",
+              "• google play billing library updated",
+              "• android 16 target sdk"
+            ]
+          }
+        },
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #225 from Lascade-Co/saved-routes"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 225,
+          "title": "Saved routes",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "origin",
+        "target-api-36"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• add multi-language support for download page, implement preconnect for map and AIS origins",
+              "• Merge pull request #159 from Lascade-Co/keith/leaderboard-update"
+            ]
+          }
+        },
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• allow recaptcha and token exchange in csp"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 160,
+          "title": "add multi-language support for download page, implement preconnect fo…",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 159,
+          "title": "allow recaptcha and token exchange in csp",
+          "author": "keith-james"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "keith/leaderboard-update",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• chore: add Khasab three-tanker attack story to dedup ledger (2026-08-02)",
+              "• chore: update published-news.json dedup ledger after 2026-08-03 run",
+              "• news: 3 drafts — Caroline Bezengi oil spill, Filipino Black Sea deaths, Khoi Nguyen 18 sinking [2026-08-02]"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• feat(marine): competitor review analysis — MarineRadar vs MarineTraffic & VesselFinder"
+            ]
+          }
+        },
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• feat(measure): group Jul 30 reports into Strategic Analysis set, add Impact-Effort"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/signalside_esim_web",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 6,
+          "bullets": {
+            "Work in Progress": [
+              "• feat: implement standardized wallet balance formatting with leading currency symbols",
+              "• feat: reorder Faq component to appear before HowItWorks on index page",
+              "• refactor: remove flight animation assets and update associated translations and Hero component",
+              "• feat: implement cart discount breakdown with tier nudges, rename buy CTA to add to cart, and improve wallet shortfall currency handling.",
+              "• Merge branch 'dev', remote-tracking branch 'origin' into feature/cart"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• Deploy on Vercel"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 15,
+          "title": "Feature/cart",
+          "author": "risal-ea"
+        }
+      ],
+      "branches": [
+        "dev",
+        "feature/cart"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-analytics-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• reports not ready exception"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "reporting-api-integration"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• fix: restore current location selection flows",
+              "• Refine current location selection UI",
+              "• Merge branch 'main' into fix/mail"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "fix/mail"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• merged main animation changes into orbit",
+              "• take off and landing tuning"
+            ]
+          }
+        },
+        {
+          "login": "Krishnan-E",
+          "name": "Krishnan-E",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• fix(watermarkSheet): raise export sheet height to avoid clipping longer locales",
+              "• fix(watermarkSheet): guard title overflow, restore Pro export button position"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "krish/feat/export-banner",
+        "mushfiq/flight-animations",
+        "mushfiq/scene-bounce"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #183 from Lascade-Co/deploy"
+            ],
+            "Work in Progress": [
+              "• refactor SEO metadata handling to utilize fallback images and streamline Open Graph integration"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 183,
+          "title": "refactor SEO metadata handling to utilize fallback images and streaml…",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/website",
+      "developers": [
+        {
+          "login": "ThePyWizard",
+          "name": "Jishnu M M",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Retitle MarineRadar hiring role to Social Media Intern"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

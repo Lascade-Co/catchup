@@ -1,0 +1,718 @@
+{
+  "date": "2026-08-06",
+  "repos": [
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": null,
+          "name": "Antony Mathew",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Attach adapty_id to all PostHog events as super property"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "bug_fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "• style(esim): enlarge the plan card gauge, shrink its inner text",
+              "• feat(cart): offer a top-up link when the wallet is short",
+              "• fix(cart): judge wallet sufficiency in all currencies, not just EUR",
+              "• Merge task/local-guest-cart: keep a local guest cart, sync on sign-in"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #70 from Lascade-Co/dev"
+            ],
+            "Work in Progress": [
+              "• Persist Yesim identity email and harden deferred activation"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 70,
+          "title": "Fix paid-cart eSIM issuance and activation lifecycle",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-helper",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge remote-tracking branch 'origin/main'"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Deploy on Vercel"
+            ]
+          }
+        },
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Merge branch 'feat/delete-account' into dev"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-08-06 — delivery via GitHub Actions"
+            ]
+          }
+        },
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• mark: sent report 2026-08-05"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m1-android-flight",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• change: app logo"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "new-api"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M4-car-ios-v2",
+      "developers": [
+        {
+          "login": null,
+          "name": "Swalih",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "• feat: update sheet to Figma, sheet close buttons, smooth tab bar slide-in",
+              "• feat: rebuild About Us to the Figma design",
+              "• chore: ignore Xcode per-user state",
+              "• feat: pin the calendar month header while scrolling",
+              "• fix: make the calendar time wheel legible"
+            ]
+          }
+        },
+        {
+          "login": "Swalih60",
+          "name": "Swalih",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• feat:Navbar animation set",
+              "• feat: Figma search-field icons for region and currency",
+              "• feat:Major UI change"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 2,
+          "title": "feat:Navbar animation set",
+          "author": "Swalih60"
+        },
+        {
+          "number": 1,
+          "title": "feat:Major UI change",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M4_sky_flutter",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• Merge pull request #24 from Lascade-Co/v2",
+              "• removed unusedloader"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 24,
+          "title": "removed unusedloader",
+          "author": "prapanch-lascade"
+        }
+      ],
+      "branches": [
+        "release",
+        "v2"
+      ],
+      "version": "v3.0.8+32"
+    },
+    {
+      "repo": "Lascade-Co/M8-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat:General update"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 18,
+          "title": "feat:General update",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• WIP",
+              "• scanner_redesign",
+              "• Merge branch 'main' of github.com:Lascade-Co/marine-api into scannerV2"
+            ]
+          }
+        },
+        {
+          "login": "AdarshLascade",
+          "name": "AdarshLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #49 from Lascade-Co/scannerV2"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 51,
+          "title": "search validation",
+          "author": "AdarshLascade"
+        },
+        {
+          "number": 49,
+          "title": "scanner optimizations",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "origin",
+        "scannerV2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• fix:eta to my location ui fix",
+              "• fix:fixed login flow reset issue"
+            ]
+          }
+        },
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• 50% offer mail"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ETA-to-mylocation",
+        "keith/subscription-mail",
+        "login-flow-fix"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #161 from Lascade-Co/deploy"
+            ],
+            "Work in Progress": [
+              "• enhance accessibility and performance: add a11y rules for anchors, optimize WebMCP tools loading"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 161,
+          "title": "enhance accessibility and performance: add a11y rules for anchors, op…",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• chore: update published-news ledger — 2 stories Aug 6 2026 run",
+              "• publish: NCC WAFA — Houthi missile strike on Saudi tanker, Red Sea, Aug 5 2026",
+              "• pipeline: publish USCGC Healy engine casualty + Meghna Group fraud stories (2026-08-05)"
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• fix(news): never write a source URL, only copy one",
+              "• fix(news): refuse to publish a post citing a URL that does not exist"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• docs(app-health): add TA version-scoped health reports (4.0.133 / 4.0.134)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy-flutter",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• refactor: improve styling in MyPlanCard widget"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/new_ui",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/scratch",
+      "developers": [
+        {
+          "login": "dingitha",
+          "name": "Nandita",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Add files via upload"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/simline-web",
+      "developers": [
+        {
+          "login": "ryyansafar",
+          "name": "ryyansafar",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "• Offers: available promo-codes picker in cart + checkout dialog",
+              "• Activation: evaluate failure before success so a failed eSIM stays retryable",
+              "• Analytics: GA4 login on returning sign-in + Pixel Search in trip planner",
+              "• Map compatible-device Pixel event to AddToWishlist (spec update)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/analytics-spec-compliance"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/tada",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 13,
+          "bullets": {
+            "Published": [
+              "• fix: catalog resolve agent models (#5)",
+              "• CLI improvements (#4)"
+            ],
+            "Work in Progress": [
+              "• release: 0.2.0a4, for the MCP model-resolution and globe render fixes",
+              "• fix: clamp mercator latitude, cap globe model size, reject zero-length routes",
+              "• fix(mcp): treat an empty model payload as unset, and report a texture fallback",
+              "• fix(render): light globe vehicles in the local tangent frame, not the flat world",
+              "• fix(mcp): catalog-resolve agent-supplied models, not just the origin autofill"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 5,
+          "title": "fix: catalog resolve agent models",
+          "author": "vaishnav-0"
+        },
+        {
+          "number": 4,
+          "title": "CLI improvements",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "cli-improvements",
+        "feat/windows-support",
+        "fix/catalog-resolve-agent-models",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/TARS",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "• release: pin tada bundle 0.2.0a4 at revision 34deeb5",
+              "• feat: bundle preparation timing metrics (#19)",
+              "• release: pin tada bundle 0.2.0a3 at revision 7adeaa5",
+              "• deploy: look the smoke render up by its request id",
+              "• render: surface the failure detail a collapsed code hides"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 19,
+          "title": "feat: bundle preparation timing metrics",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-analytics-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• conversion upload trigger order changed",
+              "• skipping exact duplicates in P1 report transactions"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "reporting-api-integration"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 8,
+          "bullets": {
+            "Testing": [
+              "• feat(analytics): add journeyai_clicked event",
+              "• Merge remote-tracking branch 'origin/main' into feat/effect",
+              "• fix(lint): remove unused string annotation_content_desc_selected_story_image",
+              "• feat(location): offer current location while inline-editing a point",
+              "• feat(paywall): give the text watermark its own placement"
+            ]
+          }
+        },
+        {
+          "login": "Geethukv03",
+          "name": "Geethu K V",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Merge branch 'main' into feat/tars-cloud-render-fallback"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/effect",
+        "feat/prompt",
+        "feat/tars-cloud-render-fallback",
+        "origin"
+      ],
+      "version": "debug-pr-406"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• deinit crash fix",
+              "• Merge remote-tracking branch 'refs/remotes/origin/649-model-page-finetune'"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "mushfiq/redeem-code",
+        "mushfiq/route-recording-deinit-crash"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #186 from Lascade-Co/deploy"
+            ],
+            "Work in Progress": [
+              "• refactor: replace page flight with feature route plane and update date modified handling",
+              "• drop the render-time internal link injector"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 186,
+          "title": "Deploy",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• feat(proto): annotate remaining flag, distance and avatar fields"
+            ]
+          }
+        },
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• added defaults for lat,long"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

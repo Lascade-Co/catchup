@@ -1,0 +1,634 @@
+{
+  "date": "2026-08-07",
+  "repos": [
+    {
+      "repo": "Lascade-Co/airline70-flutter",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "• price calendar only to sky",
+              "• fixed filter times issue",
+              "• bug fixes"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "v2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": null,
+          "name": "Antony Mathew",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• adapty fallback mechanism added",
+              "• onboarding survery",
+              "• Attach adapty_id to all PostHog events as super property"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "bug_fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1af-flights70",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• fix:issue with delete search"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "fix-api"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "• docs: flesh out Swagger for wallet, payments and web-auth endpoints",
+              "• fix: read Stripe webhook fields via bracket access (StripeObject has no .get)",
+              "• feat: add web JWT auth (bearer tokens, Google/Apple web login, refresh)",
+              "• feat: add wallet (credits) and payments (Stripe) apps"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• fix(wallet): require auto top-up amount to exceed the low balance threshold"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/email-push-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #39 from Lascade-Co/dev"
+            ],
+            "Work in Progress": [
+              "• feat(push-agent): agent_ready flag gating agent apps/preview/send + admin bulk toggle"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 39,
+          "title": "feat(push-agent): agent_ready flag gating agent apps/preview/send + admin bulk toggle",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #70 from Lascade-Co/dev"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 70,
+          "title": "Fix paid-cart eSIM issuance and activation lifecycle",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-08-07 — delivery via GitHub Actions"
+            ]
+          }
+        },
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• mark: sent report 2026-08-06"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M4-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• feat:Swap animation set",
+              "• feat:Removed unwanted assets"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 4,
+          "title": "feat:Swap animation set",
+          "author": "Swalih60"
+        },
+        {
+          "number": 3,
+          "title": "feat:Removed unwanted assets",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M4_sky_flutter",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• fixes & price calendar only for sky api"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "v2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• fix:redis dependency",
+              "• feat:datalastic throttler completed"
+            ]
+          }
+        },
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• fixing merge conflict and changing email type"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "datalastic_throttler",
+        "keith/leaderboard-mail"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• fix:removed hardcoded constants for colours"
+            ],
+            "Work in Progress": [
+              "• Show inline Free-vs-Pro paywall after onboarding survey",
+              "• refactor and logging"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• Merge branch 'keith/subscription' of github-lascade:Lascade-Co/marine-tracking-flutter into release-07-aug"
+            ],
+            "Work in Progress": [
+              "• WIP",
+              "• fix:eta to my location ui fix"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "keith/light-mode-fix",
+        "keith/onboarding-paywall",
+        "keith/subscription-mail",
+        "login-flow-fix",
+        "release-07-aug"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #161 from Lascade-Co/deploy"
+            ],
+            "Work in Progress": [
+              "• enhance accessibility and performance: add a11y rules for anchors, optimize WebMCP tools loading"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 161,
+          "title": "enhance accessibility and performance: add a11y rules for anchors, op…",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Add 3 published-news entries from 2026-08-07 run",
+              "• chore: publish Hormuz in-principle agreement story (2026-08-06)",
+              "• dedup: mark 3 Aug-6 stories as published"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• docs(app-health): add TA version re-check report (4.0.134 global, 06 Aug)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/rent80-revamp",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #371 from Lascade-Co/feat/port-email-attribution"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 371,
+          "title": "Port email collection and attribution from rent80-web into utils/",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy-flutter",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• feat: rebuild home tab with Figma empty/active hero states"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/new_ui"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/tada",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• maintainance: performance optimizations (#6)"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 6,
+          "title": "maintainance: performance optimizations",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/TARS",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• maintainance: performance optimizations (#20)"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 20,
+          "title": "maintainance: performance optimizations",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• chore: bump shared after main merge",
+              "• refactor(app): remove Filament renderer path",
+              "• feat(app): route preview and export through shared renderer"
+            ]
+          }
+        },
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• chore: trivial comment tweak in RealRouteSegmentAction"
+            ]
+          }
+        },
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #406 from Lascade-Co/feat/prompt"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 590,
+          "title": "fix/build",
+          "author": "Vivek-4321"
+        },
+        {
+          "number": 406,
+          "title": "feat/prompt",
+          "author": "Vivek-4321"
+        }
+      ],
+      "branches": [
+        "feat/angel",
+        "origin"
+      ],
+      "version": "4.0.135"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #765 from Lascade-Co/mushfiq/route-recording-deinit-crash"
+            ]
+          }
+        },
+        {
+          "login": "rahul028",
+          "name": "rahul028",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Merge branch 'main' into rahul/mutipleGpx"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin",
+        "rahul/mutipleGpx"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• refactor: enhance article layout and spacing for improved readability",
+              "• Merge pull request #186 from Lascade-Co/deploy",
+              "• refactor: replace page flight with feature route plane and update date modified handling"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 187,
+          "title": "refactor: enhance article layout and spacing for improved readability",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 186,
+          "title": "Deploy",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Merge origin/main into feat/angel"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/angel"
+      ],
+      "version": null
+    }
+  ]
+}

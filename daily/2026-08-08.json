@@ -1,0 +1,273 @@
+{
+  "date": "2026-08-08",
+  "repos": [
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan-Shoukath",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Add .gitattributes to enforce LF line endings"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "integeration"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• mark: sent report 2026-08-07"
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-08-07 — delivery via GitHub Actions"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m1-android-flight",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• change: cloned"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "new-api"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M4-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• fix:Issues fixed"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 5,
+          "title": "fix:Issues fixed",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #254 from Lascade-Co/release-07-aug"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 254,
+          "title": "Release 07 aug",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• fix: coerce mmsi and entityId to strings for strict equality checks in API responses",
+              "• Merge pull request #162 from Lascade-Co/deploy",
+              "• refactor image upload logic: enforce file size limit and update path schema for storage security"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 163,
+          "title": "fix: coerce mmsi and entityId to strings for strict equality checks i…",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 162,
+          "title": "refactor image upload logic: enforce file size limit and update path …",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• fix(net): route proxy detection log to stderr to prevent stdout JSON corruption",
+              "• Publish 3 maritime news stories (Aug 8 run)",
+              "• chore: ledger update for 2026-08-07 pipeline run",
+              "• chore: publish Saipem 7000 Bosphorus transit story (2026-08-07)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-analytics-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• updated `is_sale` logic"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "reporting-api-integration"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 20,
+          "bullets": {
+            "Testing": [
+              "• fix: hilight",
+              "• fix: preserve preview progress across updates",
+              "• feat: window Rentile preview and reuse rendered maps",
+              "• feat: add route effect picker",
+              "• test: add Rentile Android initialization regression"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/angel"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• route curve for gmap single point plots"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "mushfiq/deeplinking-gmap-improvements"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 13,
+          "bullets": {
+            "Work in Progress": [
+              "• fix: hilight",
+              "• feat: preserve replay position and highlight coverage",
+              "• feat: cache Rentile outputs across render sessions",
+              "• test: verify Rentile Android initialization",
+              "• feat: integrate Rentile basemap rendering"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/angel"
+      ],
+      "version": null
+    }
+  ]
+}

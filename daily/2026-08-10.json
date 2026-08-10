@@ -1,0 +1,505 @@
+{
+  "date": "2026-08-10",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 12,
+          "bullets": {
+            "Published": [
+              "• style(marketing-net): drop the photo caption",
+              "• feat(marketing-net): deliver the report as a rendered PNG card",
+              "• style(marketing-net): use Telegram's HTML properly, not one big <pre>",
+              "• fix(marketing-net): the head key is \"INFLUENCER MARKETING\", with a space",
+              "• fix(marketing-net): close eight holes found in code review"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": null,
+          "name": "OpenClaw Bot",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• chore: trigger build"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "bug_fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 6,
+          "bullets": {
+            "Testing": [
+              "• fix: drop checkout return-url override, add magic-link fallback domain",
+              "• fix: allow overriding Stripe Checkout return URL for local frontends",
+              "• feat: prefill Stripe Checkout email from the signed-in user",
+              "• refactor: drop web id_token login endpoints, use existing /google/ redirect",
+              "• feat: web Google + Apple login via id_token (session cookie, no JWT)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge task/checkout-email-otp-only: email OTP at checkout with social sign-in"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 71,
+          "title": "Dev",
+          "author": "sajithlascade"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": "v1.1.12+71"
+    },
+    {
+      "repo": "Lascade-Co/esim_airalo",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• chore: disable Swift Package Manager, update facebook_app_events, and add haptic_feedback plugin",
+              "• Merge pull request #15 from Lascade-Co/dev"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 16,
+          "title": "chore: disable Swift Package Manager, update facebook_app_events, and…",
+          "author": "risal-ea"
+        },
+        {
+          "number": 15,
+          "title": "Auth bug fix and eSIM installation flow change",
+          "author": "risal-ea"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": "debug-pr-16"
+    },
+    {
+      "repo": "Lascade-Co/flights-70-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• feat: add email unsubscribe page with single-type and all-emails scopes"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/unsubscribe-page"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Save daily report for 2026-08-10 — delivery via GitHub Actions"
+            ]
+          }
+        },
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• mark: sent report 2026-08-09"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m1-android-flight",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 17,
+          "bullets": {
+            "Work in Progress": [
+              "• change:Flight Destination page preview",
+              "• change:LogoutBottomSheet page preview",
+              "• change:calendar page",
+              "• change:icons change",
+              "• change:profile page designs."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "new-api"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M4-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "• feat:Cut issue in home gradient set",
+              "• feat:Custom font removed",
+              "• feat:Ad button color fixed",
+              "• feat:IPad view set"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 8,
+          "title": "feat:Cut issue in home gradient set",
+          "author": "Swalih60"
+        },
+        {
+          "number": 7,
+          "title": "feat:Ad button color fixed",
+          "author": "Swalih60"
+        },
+        {
+          "number": 6,
+          "title": "feat:IPad view set",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M4_sky_flutter",
+      "developers": [
+        {
+          "login": "sajithlaldev",
+          "name": "sajithlaldev",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• changed Airlines70 to Flight deals and removed share option"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "v2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• feat:datalastic throttler"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "integrations"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• publish: Houthi drone strike on Aramco Jazan refinery (2026-08-09)",
+              "• publish: Philippines habagat/Typhoon Dolphin + Caroline Bezengi oil spill (2026-08-10)",
+              "• publish: Malaysia container seizure + Scarborough Shoal deaths (2026-08-09)",
+              "• news(ledger): 2026-08-09 run — Indonesia MV King Sun ketamine bust published"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/pnl",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #5 from Lascade-Co/feat/audit-trail-commit"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 5,
+          "title": "feat: audit trail, employee spend logins, and a daily Subscription net to Telegram",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-analytics-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• CSV caching optimisation",
+              "• P1 report drift monitor and re trigger"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "reporting-api-integration"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 41,
+          "bullets": {
+            "Testing": [
+              "• docs(adr): re-audit the four ADRs the renderer cutover left stale",
+              "• refactor(tunables): read the route/boundary tunables from :shared",
+              "• chore: point shared submodule at the picker plan move and the TARenderHost fix",
+              "• docs: align the cutover plan's header and open questions with direct wiring",
+              "• docs: wire the renderer straight into the shipping UI, no debug switch"
+            ]
+          }
+        },
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Merge remote-tracking branch 'origin/main' into feat/chat"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/angel",
+        "feat/chat",
+        "feat/single-process-export"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 12,
+          "bullets": {
+            "Work in Progress": [
+              "• fix: serialize the vocabulary suite and pin TAShared with ANGLE",
+              "• refactor: adopt the proto's vocabulary for the animation settings",
+              "• feat: build an ExportConfig and drive AnimationBuilder from it",
+              "• feat: express route points as the shared RoutePoint proto",
+              "• feat: hold the animation settings in one AnimationState proto"
+            ]
+          }
+        },
+        {
+          "login": "Krishnan-E",
+          "name": "Krishnan-E",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "• Merge remote-tracking branch 'origin/main' into krish/feat/text-watermark",
+              "• version back to main",
+              "• style(current-location): increase horizontal padding on current location row",
+              "• fix(altRoute): stop GMap waypoints being lost on alt-route selection"
+            ]
+          }
+        },
+        {
+          "login": "rahul028",
+          "name": "rahul028",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Merge branch 'main' into rahul/mutipleGpx"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/angel",
+        "krish/feat/current_location",
+        "krish/feat/text-watermark",
+        "krish/fix/undo-redo",
+        "rahul/mutipleGpx"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #188 from Lascade-Co/deploy"
+            ],
+            "Work in Progress": [
+              "• feat: add Google sign-in, account page and navbar profile button"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 188,
+          "title": "feat: add Google sign-in, account page and navbar profile button",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "rohittp0",
+          "commit_count": 44,
+          "bullets": {
+            "Published": [
+              "• chore: bump SPM version to v1.0.10 [skip ci]",
+              "• chore: bump SPM version to v1.0.9 [skip ci]",
+              "• chore: bump SPM version to v1.0.8 [skip ci]",
+              "• chore: bump SPM version to v1.0.7 [skip ci]",
+              "• chore: bump SPM version to v1.0.6 [skip ci]"
+            ],
+            "Work in Progress": [
+              "• Update to v1.0.10",
+              "• Update to v1.0.9",
+              "• Update to v1.0.8",
+              "• Update to v1.0.7",
+              "• Update to v1.0.6"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ios",
+        "origin"
+      ],
+      "version": "v1.0.10"
+    }
+  ]
+}

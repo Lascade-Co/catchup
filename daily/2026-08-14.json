@@ -1,0 +1,858 @@
+{
+  "date": "2026-08-14",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Added configurable Infisical domain support to the authentication workflow",
+              "🧹 Removed a generated Python cache artifact"
+            ]
+          }
+        },
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Allowed Stadia Maps tile assets during map bundle preparation, restoring satellite and watercolor renders"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 51,
+          "title": "fix(tars): allow stadiamaps host",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": null,
+          "name": "Antony Mathew",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🐛 Improved AR measurement stability by smoothing live points and keeping completed shapes aligned with tracking updates.",
+              "🚀 Made measurement cursors, lines, and marker dots easier to see by scaling their thickness with camera distance.",
+              "🔧 Added automated debug, release, store-publishing, and stale debug-release cleanup workflows.",
+              "📝 Set up the Android project configuration, dependencies, secret-handling guidance, and generated-artifact exclusions."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ar_core_updates"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-car-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🔧 Updated the home-screen app label and added explicit bundle metadata for both build configurations.",
+              "🔧 Organized staging and production app constants to make environment switching clearer and more complete.",
+              "♻️ Removed an unnecessary hardcoded authentication header from controller requests and cleaned up related constants."
+            ],
+            "Work in Progress": [
+              "🔧 Bumped the build number for the app release resubmission after validating the existing privacy manifest setup."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🚀 Added package and pack names to Stripe payment descriptions",
+              "🚀 Added an internal-key endpoint for spending wallet credits"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed an app startup issue and pinned the Flutter SDK version for consistent launches.",
+              "🔧 Added centralized debug and release build triggers for pull requests and main-branch updates.",
+              "🔧 Added project configuration, dependency setup, and safeguards against committing local environments or signing credentials.",
+              "📝 Documented the app architecture, development conventions, and product design direction."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e2wh-hotelsnap",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added an app installation banner to the user interface"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 15,
+          "title": "add app install banner",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed a brand primary-key collision in concurrent cart reconciliation tests",
+              "🔧 Rebased the abandoned-checkout migration onto the deployed migration chain and separated its index operation",
+              "🚀 Integrated email-trigger functionality and supporting service configuration"
+            ],
+            "Work in Progress": [
+              "🔧 Renumbered promotional-fix migrations to follow the deployed payments migration chain"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 72,
+          "title": "Emailtriggers",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "task/promofix-migration-renumber"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Deployed the application on Vercel"
+            ],
+            "Work in Progress": [
+              "🚀 Continued Vercel deployment work"
+            ]
+          }
+        },
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added PostHog analytics and the initial user flow",
+              "🐛 Added an account deletion option and delivered UI updates"
+            ],
+            "Work in Progress": [
+              "🔧 Synced the development branch with main while preserving the intended submodule version"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 109,
+          "title": "add posthog, install first flow, delete account option and few UI updates",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/HotelSnap",
+      "developers": [
+        {
+          "login": "lascadeansal",
+          "name": "ansal",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "⚡ Improved app responsiveness by moving preference persistence and search analytics off the main thread and caching app configuration in memory",
+              "♻️ Simplified search navigation and loader rendering by removing shared-element transitions, while shortening the local notification scheduling delay",
+              "🐛 Corrected home and web screen system-bar spacing for more consistent layouts",
+              "🐛 Fixed search result sorting"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Marked the 2026-08-13 report as sent"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m1-android-flight",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 9,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Redesigned the car rental search, destination, and calendar experiences with updated styling, reusable content components, and previews.",
+              "🚀 Refreshed the stays home, destination search, and date-selection interfaces, including simplified fields and updated visual theming.",
+              "♻️ Converted stay guest selection from a standalone navigation screen into an in-context bottom sheet and added previewable UI state.",
+              "🔧 Added Android project configuration and centralized debug and release build workflows, while excluding local build and signing artifacts."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "new-api"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Refined the launch experience with a larger splash icon and shorter static display time",
+              "🐛 Updated launch branding assets and notification setup"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M1_hotel_android",
+      "developers": [
+        {
+          "login": "Ashiiq666",
+          "name": "ashiiq666",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🐛 Prevented a staggered-grid gap check from crashing the home screen after scrolling.",
+              "🐛 Fixed Google sign-in configuration and updated the associated backend service setup.",
+              "🚀 Standardized the Hotel Discountly branding across locales, constants, and the web view toolbar.",
+              "🔧 Updated Android project and packaging configuration to resolve app bundle generation issues."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m1wh-hoteldiscountly",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Launched the initial Hotel Discountly web app with a rebranded interface",
+              "♻️ Reused the static page shell across legal pages",
+              "🐛 Updated the date picker to open on the previously selected month"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added satellite credit support for web users"
+            ]
+          }
+        },
+        {
+          "login": "AdarshLascade",
+          "name": "AdarshLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added satellite credit support for the web experience"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added satellite credit support for web users"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 55,
+          "title": "Satellite credit web",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "origin",
+        "satellite-credit-web"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added within-radius management for marine tracking."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 246,
+          "title": "Within radius manager",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 9,
+          "bullets": {
+            "Published": [
+              "🚀 Launched public sign-in and satellite-credit purchasing, with per-vessel satellite lookups that refresh vessel data across the page.",
+              "📝 Clarified the satellite-data experience with plainer, outcome-focused copy, accurate recency claims, and context-aware action labels.",
+              "📊 Added end-to-end analytics for the satellite-credit funnel, including deduplication and identity continuity across sign-in and sign-out.",
+              "🔧 Enabled targeted PostHog surveys and added deployment guidance for web-to-app attribution and public trends data delivery."
+            ],
+            "Work in Progress": [
+              "🚀 Added trustworthy credit-package descriptions to checkout receipts, using server-side catalogue data and rejecting unknown packages before checkout."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 166,
+          "title": "Deploy",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 165,
+          "title": "Deploy",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🚀 Published reports on a grounded container ship and attacks on two vessels in the Strait of Hormuz.",
+              "🚀 Published a report on an oil spill affecting beaches near Pattaya.",
+              "🔧 Updated the published-news ledger with deduplication records for recent maritime stories.",
+              "🔧 Removed a duplicate lockfile entry introduced during dependency installation."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added informational SEO findings for cross-page duplicate headings and images missing dimensions, with safeguards against boilerplate and incomplete legacy data",
+              "📝 Published a reconciliation report explaining crawl discrepancies, false positives, and confirmed SEO issues",
+              "✅ Added comprehensive JavaScript and Python coverage for extraction, aggregation, counts, severity, and scoring exclusions",
+              "🔧 Updated the collector version while preserving the scoring methodology version because no scored rules changed"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/signalside_esim_web",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 12,
+          "bullets": {
+            "Published": [
+              "🚀 Added plan tiering and a dedicated Global plans experience across the store and home pages",
+              "♻️ Improved mobile plan browsing with horizontally scrollable tabs, clearer pricing alignment, and consistent CTA sizing",
+              "🚀 Expanded offer and bulk-discount presentation, added Vietnam support, and localized the Buy Now CTA",
+              "🐛 Strengthened checkout pricing and validation with stacked discounts, consistent currency quotes, auto top-up minimums, and a streamlined cart flow"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🔧 Triggered Vercel deployments for the latest published changes"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 18,
+          "title": "Global lite fix and UX improvement ",
+          "author": "risal-ea"
+        },
+        {
+          "number": 17,
+          "title": "UI, UX, Bug fixes and improvements",
+          "author": "risal-ea"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/tada",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 13,
+          "bullets": {
+            "Published": [
+              "🚀 Added client-version reporting, automatic package upgrades, clearer outdated-client errors, and synchronized stable release metadata.",
+              "🐛 Restored coastal place labels, fixed globe-intro validation and raster TileJSON resolution, and completed the shared enum and renderer migration.",
+              "🐛 Fixed Windows render teardown so completed videos finalize correctly, with safer process cleanup and release updates.",
+              "🔧 Hardened packaging, rendering, caching, bundle security, analytics privacy and lifecycle reporting, documentation, licensing notices, and pre-release delivery checks."
+            ],
+            "Work in Progress": [
+              "🐛 Improved coastal country detection so near-boundary route points retain place labels.",
+              "🔧 Updated the shared renderer for broader place-label coverage and correct sRGB texture decoding, while documenting the indexing constraints.",
+              "🐛 Added TileJSON-backed raster source resolution so affected map styles use their intended imagery.",
+              "🐛 Prepared a Windows teardown fix and release update so completed renders finalize without unsafe process-tree cleanup."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 17,
+          "title": "Report the client version to TARS, and keep the installed wheel current",
+          "author": "vaishnav-0"
+        },
+        {
+          "number": 16,
+          "title": "fix: country snap",
+          "author": "vaishnav-0"
+        },
+        {
+          "number": 15,
+          "title": "fix: gate globe intro projection",
+          "author": "vaishnav-0"
+        },
+        {
+          "number": 14,
+          "title": "Fix every Windows render dying in teardown: signal.SIGKILL",
+          "author": "vaishnav-0"
+        },
+        {
+          "number": 13,
+          "title": "Fix the 0.2.0a8 publish, and land the remaining unpublished tada changes",
+          "author": "vaishnav-0"
+        },
+        {
+          "number": 12,
+          "title": "Pre-release hardening for 0.2.0a8 (everything except credential removal)",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "fix/resolve-tilejson-raster-source",
+        "origin",
+        "worktree-fix-windows-sigkill",
+        "worktree-tada-country-snap"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/TARS",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Updated and documented the pinned renderer releases, including enum-compatible smoke configuration and support for tile-less bundles and persistent render caching.",
+              "🐛 Hardened dispatcher and worker failure handling to contain protocol errors, avoid wasteful retries, preserve permanent verdicts, and tolerate supported GPU environments.",
+              "🔧 Improved operational reliability with usable claim and cleanup indexes, clearer error context, surfaced state-write failures, reproducible image references, and pinned workflow dependencies.",
+              "🔒 Added configurable retention that redacts route configuration from completed renders while preserving accounting records and database integrity."
+            ],
+            "Work in Progress": [
+              "🔒 Added a configurable minimum-version gate for CLI and MCP clients, with safe mobile exclusions, startup validation, telemetry, and non-retryable upgrade responses."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 22,
+          "title": "harden the dispatcher, the worker's verdicts, and two unusable indexes",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "client-version-floor",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-analytics-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🔧 Updated Kayak drift tolerance",
+              "🐛 Skipped transactions with null click IDs"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "reporting-api-integration"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "🔧 Updated the shared module dependency to v1.0.26 and bumped the app version.",
+              "♻️ Moved the text watermark policy into shared code.",
+              "🔧 Added centralized automation for debug builds, releases, Play Store publishing, and stale debug-release cleanup."
+            ]
+          }
+        },
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Updated the fallback paywall configuration."
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "octopoocha",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🧹 Removed unused color and drawable resources.",
+              "🐛 Cleared hardcoded export-notification preview text and improved its accessibility label."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/angel",
+        "fix/notification"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🔧 Set the rage-click detection minimum to five taps."
+            ],
+            "Work in Progress": [
+              "🐛 Refined route-line node inset behavior and fixed a pulse animation regression."
+            ]
+          }
+        },
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Prevented duplicate notification delivery when timeout and SDK completion paths race, with regression coverage for sequential and concurrent callbacks.",
+              "🔧 Merged main into the shared Preview migration and updated the shared package dependency."
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Integrated fixes for banner closing and current-location behavior, plus undo/redo support for alternate routes and real route segments.",
+              "🔧 Updated the app version to 3.9.4."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "mushfiq/scene-bounce",
+        "origin",
+        "preview-kmp-final",
+        "release"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "rohittp0",
+          "commit_count": 9,
+          "bullets": {
+            "Published": [
+              "🚀 Shared the text watermark renderer policy across consumers",
+              "🔧 Advanced the Swift Package Manager release from v1.0.24 through v1.0.27"
+            ],
+            "Work in Progress": [
+              "🔧 Updated the packaged iOS framework and debug symbols through v1.0.27",
+              "🐛 Corrected device and simulator metadata in the XCFramework package",
+              "📝 Added Swift Package Manager distribution setup and integration guidance, including required rendering dependencies"
+            ]
+          }
+        },
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed place labels so every genuine route stop is included without changing route segmentation",
+              "🐛 Corrected lighting colors by decoding sRGB vehicle textures before applying linear material factors",
+              "🐛 Added missing JVM implementations for analytics locking and cover-image encoding so the JVM target compiles",
+              "🐛 Prevented DefaultIntro from opening below zoom level zero on long, fast routes"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 15,
+          "title": "fix: label every real stop, and decode sRGB textures before lighting",
+          "author": "vaishnav-0"
+        },
+        {
+          "number": 14,
+          "title": "fix: supply the missing jvmMain actuals so the JVM target compiles",
+          "author": "vaishnav-0"
+        },
+        {
+          "number": 13,
+          "title": "fix(builder): floor DefaultIntro's opening zoom at 0",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "feat/place-label-domain-and-srgb-decode",
+        "ios",
+        "origin"
+      ],
+      "version": "v1.0.27"
+    },
+    {
+      "repo": "Lascade-Co/travelanimator-mcp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Added the project's MIT license"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

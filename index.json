@@ -63,7 +63,8 @@
     "daily/2026-08-10.json",
     "daily/2026-08-11.json",
     "daily/2026-08-12.json",
-    "daily/2026-08-13.json"
+    "daily/2026-08-13.json",
+    "daily/2026-08-14.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -175,7 +176,9 @@
     "Lascade-Co/roamjoy-flutter",
     "Lascade-Co/seobot",
     "Lascade-Co/M8-flight-ios-v2",
-    "Lascade-Co/e2wh-hotelsnap"
+    "Lascade-Co/e2wh-hotelsnap",
+    "Lascade-Co/m1wh-hoteldiscountly",
+    "Lascade-Co/travelanimator-mcp"
   ],
   "users": [
     {

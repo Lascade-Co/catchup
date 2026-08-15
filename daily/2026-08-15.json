@@ -1,0 +1,415 @@
+{
+  "date": "2026-08-15",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "⚡ Improved TADA CI performance by caching JARs, JVM test verdicts, and platform wheels",
+              "🚀 Automated MCP listing metadata updates after PyPI releases"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 53,
+          "title": "perf(tada-ci): cache the JARs, the jvmTest verdict and the platform wheels",
+          "author": "vaishnav-0"
+        },
+        {
+          "number": 52,
+          "title": "feat(pypi): bump the MCP listing's server.json after a release",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": null,
+          "name": "Antony Mathew",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🐛 Improved AR Core line sizing behavior"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ar_core_updates"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e2wh-hotelsnap",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added an app install banner and triggered deployment"
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Fixed lint formatting in the search autosuggest interface"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 15,
+          "title": "add app install banner",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "📝 Marked the 2026-08-14 report as sent"
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "📝 Saved the 2026-08-14 daily report for delivery via GitHub Actions"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m1-android-flight",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🌐 Added Arabic localization across the travel and account experiences, with mirrored navigation icons for right-to-left layouts.",
+              "🚀 Redesigned the redirection pages and supporting Android app experience.",
+              "🔧 Set up centralized debug and release build dispatch workflows alongside Android build and signing configuration."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "new-api"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M1_hotel_android",
+      "developers": [
+        {
+          "login": "Ashiiq666",
+          "name": "ashiiq666",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed a token handling issue"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🐛 Kept lighthouse markers and their tap targets in sync when toggling map visibility.",
+              "🔧 Added Flutter project tooling, development guidance, and centralized debug and release build automation."
+            ]
+          }
+        },
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Removed the in-app billing issue notification event."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 258,
+          "title": "fix:removing billing in app message shown event",
+          "author": "keith-james"
+        }
+      ],
+      "branches": [
+        "insert-affiliate",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "🚀 Published coverage of the Aegean meltemi sailing ban and the Hilli Episeyo FLNG departure from Cameroon.",
+              "🚀 Published reports on the Flores earthquake and tsunami warning, a Lombok Strait ferry fire, and a fatal shipyard gas leak in Bangladesh.",
+              "🚀 Published updates on the Caroline Bezengi salvage operation off Oman and a successful maritime rescue during a Croatian wildfire.",
+              "🔧 Added the Sharp image-processing dependency used by the publishing pipeline."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added deterministic product risk indicators that account for severe findings, adverse trends, and incomplete data without changing the existing composite score.",
+              "🚀 Introduced a script-rendered scorecard with consistent severity coloring, muted missing scores, and clear partial-data disclosures.",
+              "♻️ Integrated scorecard rendering into report assembly and freshness checks while consolidating duplicated grading logic.",
+              "✅ Added comprehensive risk, scorecard, data-availability, and score-history isolation test coverage."
+            ]
+          }
+        },
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added a Claude skill for marketing finance workflows."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy-flutter",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Ensured the iOS app framework declares a minimum OS version of 15.0."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/new_ui"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/tada",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🔧 Prepared the 1.0.1 release with MCP registry ownership metadata, public documentation links, and synchronized package versions.",
+              "🚀 Added client version reporting and automatic updates to keep the installed package current."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 18,
+          "title": "Mcp registry name marker",
+          "author": "vaishnav-0"
+        },
+        {
+          "number": 17,
+          "title": "Report the client version to TARS, and keep the installed wheel current",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/TARS",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added a configurable minimum-version gate for supported clients, with safe handling for mobile callers and invalid versions",
+              "🔧 Pinned the Tada and travel animator bundle to version 1.0.0 with deployment metadata verification"
+            ],
+            "Work in Progress": [
+              "🔧 Pinned the Tada and travel animator bundle to version 1.0.0 with deployment metadata verification"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 23,
+          "title": "Refuse tada clients below a configured minimum version",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "origin",
+        "pin-tada-1.0.0"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "🔧 Integrated debug inputs and switched to the published DebugInput 0.1.0 release"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/angel"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Integrated the published DebugInput plugin and added debug inputs"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/angel"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travelanimator-mcp",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🔧 Automated MCP registry publishing when the server manifest changes.",
+              "📝 Refined the server description for a clearer, more concise overview.",
+              "🚀 Published the initial public page."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 2,
+          "title": "CD: Publish to the MCP registry when server.json changes",
+          "author": "vaishnav-0"
+        },
+        {
+          "number": 1,
+          "title": "Initial version",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

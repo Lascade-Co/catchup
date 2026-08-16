@@ -1,0 +1,80 @@
+{
+  "date": "2026-08-16",
+  "repos": [
+    {
+      "repo": "Lascade-Co/lascade-routines",
+      "developers": [
+        {
+          "login": "actions-user",
+          "name": "GitHub Actions",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Marked the August 15 daily report as sent"
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Saved the August 15 daily report for delivery through GitHub Actions"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "claude/failed-reports"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "🚀 Published maritime incident coverage on a passenger-overboard fatality, a ferry fire, and attacks affecting shipping near Hormuz.",
+              "🚀 Distributed Hormuz route and bulk-carrier incident coverage across the website, social, newsletter, and messaging channels.",
+              "🔧 Updated image-processing dependencies and synchronized the package lock.",
+              "🔧 Recorded newly published maritime stories in the publication ledger."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed Scorecard stat grids overflowing when displaying long brand labels.",
+              "♻️ Centralized stat-grid rendering with validated column layouts across Scorecard, audit, and hub views.",
+              "✅ Added coverage for grid validation and layout invariants across all stat-grid renderers."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "date": "2026-08-17",
+  "repos": [
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": null,
+          "name": "OpenClaw Bot",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🔧 Triggered a rebuild for the testing branch"
+            ],
+            "Work in Progress": [
+              "🔧 Triggered a rebuild for the work-in-progress branch"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ar_core_updates",
+        "bug_fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/c1wh-hotelsoff",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Updated Ads API fetching to use full URLs and refreshed the submodule"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 36,
+          "title": "Ads API full url fetch and submodule update",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added event-driven email triggers through the shared email queue service.",
+              "🔧 Added deployment and centralized container-build workflows.",
+              "📝 Documented the backend architecture, development workflow, and email delivery conventions.",
+              "🔧 Added environment templates and repository configuration for local and deployed environments."
+            ],
+            "Testing": [
+              "🐛 Added safe compensation and replacement handling for eSIM support workflows."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 75,
+          "title": "Email triggers ",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotel-helper",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Updated ad fetching to include full URLs"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m1-android-flight",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🌐 Expanded Arabic localization across navigation, booking, onboarding, account, consent, and error flows",
+              "🐛 Fixed the home screen startup animation",
+              "🔧 Added centralized debug and release build workflows with secure handling of local configuration and signing files"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "new-api"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m1wh-hoteldiscountly",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🎨 Updated provider branding assets, including replacing the Agoda logo format.",
+              "🔧 Updated the site URL.",
+              "📝 Removed incorrect company information pending corrected details."
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Updated the project name in the README."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 1,
+          "title": "Site URL update",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": "AdarshLascade",
+          "name": "AdarshLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Spread Celery upstream API requests to reduce rate-limit pressure"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Spread Celery upstream API requests to reduce rate-limit pressure"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Spread Celery upstream API requests to reduce rate-limit pressure"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 56,
+          "title": "fix:celery upstream api spreaded",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "celery-ratelimit-fix",
+        "one_up_time",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added MMSI as the vessel-page heading fallback when an IMO number is unavailable.",
+              "✅ Explicitly hid decorative homepage images from assistive technology while preserving meaningful alt text.",
+              "🐛 Prevented broken news tracking CTAs and citation links, safely enabled authored body links, and added source-link integrity checks.",
+              "🔧 Made every hub guide visibly accessible from the main listing and expanded structured data to cover the full catalog."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "deploy"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "🚀 Added contextual links to related earlier coverage and backfilled them across the published archive with relevance safeguards.",
+              "🔧 Expanded publishing checks to validate every reader-facing URL, blocking broken internal links and tracking calls to action.",
+              "✅ Added anchor-claim audits that verify linked stories support referenced figures, dates, and names before publication.",
+              "🐛 Improved related-story matching by excluding duplicate-event coverage, self-links, and misleading generic maritime terms."
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "📝 Published maritime coverage spanning severe weather disruption, tanker and shipping developments, wildfire rescue, and ferry incidents.",
+              "🔧 Added the image-processing dependency required by the data retrieval workflow.",
+              "📝 Updated the publication ledger with newly released regional shipping stories."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added August 2026 maritime analyses covering mini-tool monetization, sanctions checking, a knowledge bank, and web feedback strategy",
+              "📝 Proposed WhatsApp vessel alerts with UI mockups and updated navigation and the web revenue plan"
+            ]
+          }
+        },
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Published version-scoped health reports for all three apps, including fallback handling, supporting metadata, thumbnails, and navigation entries",
+              "✅ Strengthened the report layout gate to detect overflow, inactive styling, and collapsed-state full-bleed issues, then verified the repaired reports",
+              "📝 Documented retrospective improvements for version mapping, stale-data checks, fallback semantics, billing diagnostics, capability gates, and scope matching",
+              "🐛 Fixed existing Marine sidebar validation failures by repairing report registrations and removing a dead navigation entry"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy-flutter",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Updated the home hero to show consumed data in MB below 1 GB or GB above it, with the plan total shown even when usage is unavailable.",
+              "🎨 Refreshed logged-out wallet and profile cards with dedicated image assets."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/new_ui"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Refreshed Live Activity layouts with branded visuals, route details, clearer calls to action, and responsive Dynamic Island presentation.",
+              "⚡ Added custom progress rings and bars with distinct active and paused states for video exports."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "mushfiq/engagement-nudges"
+      ],
+      "version": null
+    }
+  ]
+}

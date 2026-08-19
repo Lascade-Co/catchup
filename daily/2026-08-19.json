@@ -1,0 +1,958 @@
+{
+  "date": "2026-08-19",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "⚡ Keyed the wheel cache to Tada revisions so releases can reuse built wheels",
+              "🔧 Ensured the JDK is configured even when the JAR cache is hit"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": null,
+          "name": "octopoocha",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🌐 Added localized height-measurement guidance for Turkish, Ukrainian, Vietnamese, and Chinese users",
+              "🔧 Cleaned up the Android service configuration"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "Antony Mathew",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "♻️ Synced the bug-fix branch with the latest main-branch changes"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "bug_fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/car-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "⚡ Added pagination to Kayak car polling responses"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-car-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Enabled nearby-car exploration using the device location and the existing rental search flow, with permission and failure handling.",
+              "🚀 Added a free-cancellation benefit chip and tailored icon geometry per chip for more accurate visuals.",
+              "🐛 Improved home-screen touch feedback and refined spacing, logo, promotional content, and chip styling."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1af-flights70",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Restarted the version increment sequence."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "fix-api"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Integrated the page header gradient work into the development branch"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e2wh-hotelsnap",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Released the app install banner, three-letter hint, and package upgrades",
+              "🔧 Triggered the deployment"
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added the ability to reset the search input"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 16,
+          "title": "Release: App install banner, 3 letter hint and package upgrades",
+          "author": "Lascadesevices"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "🚀 Rebuilt the eSIM support console UI while bounding query costs"
+            ],
+            "Testing": [
+              "🚀 Rebuilt the eSIM support console UI and optimized its Stripe payload lookups to control query costs",
+              "🔐 Made cross-brand support access an opt-in permission",
+              "🐛 Improved sign-in guidance by identifying the account's actual authentication method",
+              "⚡ Indexed case-insensitive email lookups and added signup throttling"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 77,
+          "title": "Rebuild eSIM support console UI and bound its query cost",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "♻️ Simplified the cart sign-in panel by removing its heading and unused copy.",
+              "🚀 Expanded the bulk offer to fill the row on plan pages without adjacent tabs.",
+              "📝 Linked the unlimited-plan FUP note to the service availability terms."
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Configured Vercel deployment."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim_airalo",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 9,
+          "bullets": {
+            "Testing": [
+              "🚀 Added multi-currency wallet and checkout pricing support with dynamic currency symbols.",
+              "🚀 Added regional suggestions with localized content and improved auto top-up threshold validation across all locales.",
+              "♻️ Refined eSIM activation and active eSIM filtering, and improved post-auth navigation back to protected routes.",
+              "🐛 Improved payment and activity UX with capture transaction support and keyboard-aware pay button visibility."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m1-android-flight",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Updated ProGuard and R8 rules to preserve networking, serialization, Firebase, and other runtime-dependent classes in optimized builds",
+              "🔧 Added Android build configuration and centralized debug and release build dispatch workflows"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "new-api"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m4h-web-hotel",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Updated the hotel helper module to support revised ad URLs and redirect behavior"
+            ],
+            "Work in Progress": [
+              "🔧 Prepared a release with module updates and package upgrades"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 52,
+          "title": "Release: Module update and package upgrades",
+          "author": "mhdbk"
+        },
+        {
+          "number": 51,
+          "title": "module update: adapt to hotel-helper ad url and place redirect changes",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M5-hotel-ios-v2",
+      "developers": [
+        {
+          "login": null,
+          "name": "Swalih",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Established the initial iOS app project with application, unit test, and UI test targets",
+              "🔧 Added networking, image loading, analytics, authentication, messaging, social sign-in, and observability dependencies"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m8-web-car",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🔧 Upgraded project modules and packages.",
+              "🚀 Triggered a new deployment."
+            ],
+            "Work in Progress": [
+              "🚀 Built the localized car-rental experience, including search, results, provider redirects, and static content pages.",
+              "🚀 Added authentication, account management, favorites, booking history, and app-promotion flows.",
+              "🔧 Integrated the shared car-helper module, internationalization, analytics, consent controls, and deployment configuration.",
+              "♻️ Established the responsive design system and reusable UI components for forms, navigation, dialogs, and feedback."
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Refined the app promotion banner."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 9,
+          "title": "Release: Submodule update and patches",
+          "author": "mhdbk"
+        },
+        {
+          "number": 8,
+          "title": "Module and package upgrades",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m8-web-hotel",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Set up the localized hotel web experience with core layout, styling, metadata, and home routing.",
+              "🚀 Added informational and policy pages with shared templates and SEO metadata.",
+              "🔧 Integrated the shared hotel helper module, ad session handling, and supporting app services.",
+              "🔧 Triggered a deployment for the updated application."
+            ],
+            "Work in Progress": [
+              "🔧 Updated advertising URLs and upgraded the shared module and package dependencies for the next release."
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Added an example environment configuration.",
+              "🐛 Updated the app promotion banner links."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 20,
+          "title": "Release: Ads url update, submodule and package upgrades",
+          "author": "Lascadesevices"
+        },
+        {
+          "number": 19,
+          "title": "Submodule update and fixes",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Added automatic image rejection"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "keith/auto-moderation"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed light-mode colors on the video export page by removing hardcoded color values"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 262,
+          "title": "Release aug 19",
+          "author": "AdarshLascade"
+        },
+        {
+          "number": 261,
+          "title": "feat:auto generating translation files",
+          "author": "keith-james"
+        },
+        {
+          "number": 260,
+          "title": "search fix,satellite ship ",
+          "author": "AdarshLascade"
+        },
+        {
+          "number": 259,
+          "title": "Insert affiliate",
+          "author": "AdarshLascade"
+        },
+        {
+          "number": 257,
+          "title": "fix:duplicate video export",
+          "author": "AdarshLascade"
+        },
+        {
+          "number": 251,
+          "title": "fix:removed hardcoded constants for colours in video export page",
+          "author": "keith-james"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Deployed the Marine Radar blog foundation and supporting project configuration.",
+              "📝 Documented web-to-app attribution setup, campaign tracking, hosting, and QA guidance.",
+              "📝 Defined the public trends data contract, caching strategy, and rendering architecture.",
+              "📝 Added research on optimizing the satellite purchase experience."
+            ],
+            "Work in Progress": [
+              "🐛 Capped edge-cache lifetimes to route revalidation windows to prevent stale pages and long-lived cached errors.",
+              "🐛 Added early validation for leading-zero MMSIs so invalid vessel identifiers return 404 responses instead of upstream errors.",
+              "🚀 Added login-failure analytics with detailed failure reasons while filtering stale or unrelated callbacks."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 169,
+          "title": "Deploy",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🚀 Published maritime incident coverage of the Ocean Porter drug seizure and AMARA tanker detention.",
+              "🚀 Published reports on the Dalmacija ferry disruption, Starship Ship 40 recovery, and Strait of Hormuz developments.",
+              "🔧 Updated publishing deduplication records and added an image-processing dependency."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/n4wh-hotelvisit",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Fixed ad URL handling and integrated ad-session and tracking support",
+              "🚀 Built the localized hotel comparison experience with themed search routes and responsive booking flows",
+              "🚀 Added informational and policy pages with SEO and social-sharing metadata",
+              "🔧 Updated the shared hotel helper module and deployment configuration"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 17,
+          "title": "Release: Ad URL fix and module update",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added cross-product homepage completeness checks for store calls to action, key internal links, FAQs, how-to content, and social proof.",
+              "🐛 Improved SEO collection for content links and icon-only ratings, reducing false positives across varied page structures.",
+              "📊 Added TravelAnimator conversion scoring and marked pre-v1.7 trend data as non-comparable after the methodology change.",
+              "✅ Added 25 fixture tests and regenerated the latest SEO report after production verification."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/rent80-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Triggered a deployment."
+            ],
+            "Work in Progress": [
+              "🚀 Prepared a release with helper updates and an advertising URL fix."
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed advertising URLs and provider redirect handling.",
+              "🚀 Integrated the localized car-rental web experience, including themed routes, static content, metadata, consent, and advertising support.",
+              "🔧 Added project configuration, shared helper integration, and environment-aware search indexing rules."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 29,
+          "title": "Release: Helper update and Ads URL fix",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/simline-web",
+      "developers": [
+        {
+          "login": "ryyansafar",
+          "name": "ryyansafar",
+          "commit_count": 19,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Improved purchase and eSIM flows with in-checkout wallet top-ups, cashback messaging, web-based QR installation, activation gating, and clearer completion states.",
+              "🐛 Made search, sign-in, plan loading, promo entry, device detection, recent destinations, and payment processing more reliable with clearer recovery and error feedback.",
+              "♻️ Refined responsive layouts across plan tables, menus, compatibility prompts, announcement bars, modals, hero stats, and eSIM actions.",
+              "📝 Updated wallet, account-deletion, activation, refund, and legal copy, including localized strings and direct refund-policy navigation."
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 15,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Iterated on the Vercel deployment configuration."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/store-reviews",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "♻️ Consolidated provider posting logic and standardized function naming",
+              "🔧 Added environment selection to payloads, defaulting to production"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/tada",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 9,
+          "bullets": {
+            "Published": [
+              "🚀 Added secure in-band MCP login, selectable scene-style presets, and clear behavior hints across all tools.",
+              "🐛 Fixed blank-label tooltips and duplicate markers on photo-annotated stops, then returned the shared renderer dependency to its main branch.",
+              "🚀 Made animation-state reads report friendly scene style and zoom values, including safe handling for custom configurations.",
+              "📝 Updated renderer and MCP documentation, stabilized the auth expiry test, and released version 1.0.2."
+            ],
+            "Work in Progress": [
+              "🐛 Made loaded account routes resolve vehicle models correctly and added concurrent, visible media-fetch progress for large routes.",
+              "✅ Replaced date-sensitive authentication fixtures so cookie-expiry tests remain stable over time.",
+              "🚀 Made animation-state reads return friendly scene style and zoom values with validated round-trip behavior.",
+              "📝 Updated renderer and MCP guidance, aligned the shared renderer dependency with merged fixes, and prepared version 1.0.2."
+            ]
+          }
+        },
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Raised the aggregate remote-asset fetch limit to 3 GiB and improved fetch reporting."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 19,
+          "title": "mcp login tool and bugfixes",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "feat/mercator-tile-cull",
+        "fix-model-resolve-and-fetch",
+        "origin",
+        "worktree-mcp-login-tool"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/TARS",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Pinned the Tada dependency to version 1.0.2 for release."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 25,
+          "title": "release: pin tada 1.0.2",
+          "author": "app/octo-poocha"
+        }
+      ],
+      "branches": [
+        "origin",
+        "tada-pin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🔧 Removed the unused shared JVM target and its GLES conformance suite after dependency artifacts made it unbuildable.",
+              "♻️ Integrated main-branch cover gating, paywall analytics, export notifications, and translations into the restructured shared module."
+            ]
+          }
+        },
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "✨ Polished the default animation presets with a smaller model size and longer video duration."
+            ]
+          }
+        },
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Migrated the app to Adapty SDK 4."
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "octopoocha",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Updated Jackson and OkHttp networking dependencies to their latest patch releases."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 598,
+          "title": "Migrate to Adapty SDK 4",
+          "author": "Vivek-4321"
+        }
+      ],
+      "branches": [
+        "feat/angel",
+        "fix/ui",
+        "origin"
+      ],
+      "version": "debug-pr-600"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added frame-level completion percentages to make long-running exports visibly trackable.",
+              "🐛 Corrected annotation image scaling to honor pixel limits, reducing oversized uploads and export cache pressure.",
+              "🐛 Prevented the duration controls from offering times the animation plan cannot achieve by using measured traversal costs and conservative pre-plan estimates.",
+              "✅ Added regression coverage for image dimensions and duration floors."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "mushfiq/duration-floor-fix"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "📝 Updated the privacy policy and adjusted font sizing.",
+              "📝 Refined the hero section paragraph."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 193,
+          "title": "privacy policy change and font size change",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 192,
+          "title": "privacy policy change and font size change",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 191,
+          "title": "changed hero paragraph",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "mcp",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🔧 Bumped the Swift Package Manager release version to v1.0.28."
+            ],
+            "Work in Progress": [
+              "♻️ Removed the unsupported JVM target and its JVM-only graphics tests and dependencies while retaining ANGLE rendering for iOS.",
+              "🚀 Added Pro gating for premium cover layouts and export, plus paywall initiation analytics shared across Android and iOS.",
+              "🔧 Integrated the latest main-branch build, publishing, repository hygiene, and contributor documentation updates.",
+              "🚀 Updated the iOS Swift package to v1.0.28 with the shared framework and required ANGLE runtime frameworks."
+            ]
+          }
+        },
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Prevented blank place labels from rendering empty tooltips or fallback flags across imported and generated configurations.",
+              "🐛 Eliminated duplicate markers when a route stop has both a place label and a photo annotation, while preserving its annotation card.",
+              "✅ Added coverage for blank-label normalization and route-point-based marker suppression."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 16,
+          "title": "fix: blank place label renders no tooltip",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "feat/angel",
+        "ios",
+        "origin"
+      ],
+      "version": "v1.0.28"
+    }
+  ]
+}

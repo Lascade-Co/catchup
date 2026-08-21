@@ -1,0 +1,282 @@
+{
+  "date": "2026-08-21",
+  "repos": [
+    {
+      "repo": "Lascade-Co/connector",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🐛 Made analytics schema compatibility resilient to additive minor-version changes while continuing to reject unsafe major-version drift.",
+              "🔧 Added scheduled ETL failure alerts and enabled the test suite in CI.",
+              "⚡ Made ClickHouse merge retries fail fast when blocked by mutations."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1ac-rent80",
+      "developers": [
+        {
+          "login": "lascadeansal",
+          "name": "ansal",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Redesigned the flight experience with shared Compose layouts, refreshed search controls, and popular destination content.",
+              "🐛 Added support for removing individual items from recent flight searches.",
+              "🐛 Refined the hotel screen experience and related UI behavior.",
+              "🔧 Added centralized Android build workflows, secure local configuration guidance, and safeguards against committing generated credentials."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "compose"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "🚀 Added automatic wallet top-ups using the default saved card, with a fallback to the full payment flow if the direct charge fails.",
+              "🐛 Integrated session attribution updates so routes can reflect campaign sources and safely fall back when attribution is unavailable.",
+              "🐛 Integrated order-status and cashback fixes.",
+              "🔧 Added centralized debug and release build triggers alongside Flutter project and contributor configuration."
+            ],
+            "Work in Progress": [
+              "🐛 Updated session routing to use Android campaign attribution when available and default to unknown instead of incorrectly reporting organic traffic."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "task/ios-session-route-unknown"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🚀 Added offer placements for plans and automatic top-ups",
+              "🔧 Documented the analytics schema-version contract across repositories"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🔧 Deployed the application on Vercel"
+            ],
+            "Work in Progress": [
+              "🔧 Continued Vercel deployment work"
+            ]
+          }
+        },
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🐛 Prevented iOS Safari from zooming when form fields receive focus",
+              "🐛 Updated guest messaging to clarify when a bulk discount is still pending"
+            ],
+            "Work in Progress": [
+              "🐛 Refined guest messaging to show pending bulk discounts accurately",
+              "🐛 Prevented iOS Safari from zooming when form fields receive focus"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 111,
+          "title": "fix iOS input zoom on focus and show guests their pending bulk discount",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M1-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Started adding verticals to the iOS rental car app and established the supporting project setup and dependencies"
+            ],
+            "Work in Progress": [
+              "🚀 Began ongoing work to add verticals to the iOS rental car app"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 13,
+          "title": "feat:Verticals adding started",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🚀 Published reports on a covert Strait of Hormuz oil corridor and tanker fleet suspensions across key Middle Eastern waterways",
+              "🔧 Added deduplication safeguards to prevent the tanker suspension stories from being republished",
+              "🔧 Updated optional image-processing dependencies to restore data pipeline startup"
+            ],
+            "Work in Progress": [
+              "🚀 Prepared and distributed coverage of major Chinese tanker operators halting transit through key Middle Eastern waterways"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "auto/2026-08-20-cosco-hormuz-halt",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/TARS",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Pinned the Tada dependency to version 1.0.4 for the release."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 31,
+          "title": "release: pin tada 1.0.4",
+          "author": "app/octo-poocha"
+        },
+        {
+          "number": 26,
+          "title": "Charge one credit per render bundle",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Added centralized automation for debug builds, release builds, and Play Store publishing",
+              "🔧 Added scheduled cleanup for expired debug releases and tags",
+              "🔧 Set up the Android development environment, repository exclusions, and shared-code integration",
+              "📝 Added comprehensive repository development and testing guidance"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 600,
+          "title": "fix/ui",
+          "author": "Vivek-4321"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": "4.0.140"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Fixed oversized landscape exports and refined H.264 keyframe settings without increasing high-resolution memory pressure.",
+              "🚀 Aligned saved-route payloads with Android, including resilient decoding, annotation duration, crop metadata, and place labels.",
+              "🔧 Added guarded original-media uploads, cross-client payload diagnostics, and tracking for complete image-upload failures."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "mushfiq/oversized-landscape-mode",
+        "mushfiq/route-save-parity"
+      ],
+      "version": null
+    }
+  ]
+}

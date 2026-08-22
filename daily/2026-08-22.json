@@ -1,0 +1,26 @@
+{
+  "date": "2026-08-22",
+  "repos": [
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed the related-posts audit to exit successfully when there are no internal links",
+              "🔧 Added ledger deduplication guards for two maritime security incidents"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

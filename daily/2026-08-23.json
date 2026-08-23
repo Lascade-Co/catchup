@@ -1,0 +1,47 @@
+{
+  "date": "2026-08-23",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Enhanced internal link checks with aria-label support"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "📝 Published coverage of three major maritime incidents involving a sinking bulk carrier and attacks on two grain and cargo vessels.",
+              "📝 Reported the suspension of trade between the UAE and Iran following missile strikes.",
+              "🔧 Removed a stale dependency entry from the package lockfile."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

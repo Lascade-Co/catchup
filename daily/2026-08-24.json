@@ -1,0 +1,706 @@
+{
+  "date": "2026-08-24",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #56 from Lascade-Co/worktree-tada-pin-push"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 56,
+          "title": "Push the tada re-pin to TARS main instead of opening a PR",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/airline70-flutter",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• updated scheduling review trigger to daily 10 am and 5 pm"
+            ],
+            "Work in Progress": [
+              "• updated review trigger to scheduled for exactly 10 am and 5 pm"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin",
+        "v2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #29 from Lascade-Co/measure_fixes"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 29,
+          "title": "Measure fixes",
+          "author": "antonyjoemathew"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": "1.2.26"
+    },
+    {
+      "repo": "Lascade-Co/car-helper",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• fix: move top-places and provider redirects off the retired /deeplink/0/ endpoint"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat:Same date choosing for return set"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 21,
+          "title": "feat:Same date choosing for return set",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• fix: clear stale session on /google/ so account switch does not 500"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/email-push-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #40 from Lascade-Co/dev"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 40,
+          "title": "restart policy updated to any for beat",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #79 from Lascade-Co/dev"
+            ],
+            "Testing": [
+              "• Allow automatic Yesim webhook URL generation",
+              "• Add Yesim webhook registration admin action",
+              "• Support multiple Yesim accounts per brand"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 79,
+          "title": "Add offers placements and analytics schema contract",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• Deploy on Vercel"
+            ]
+          }
+        },
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Derive eSIM install state from status_qr instead of a per-browser record",
+              "• Restore locale keys the unused-key sweep wrongly deleted",
+              "• Merge pull request #112 from Lascade-Co/dev"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 113,
+          "title": "esim states update issue fix",
+          "author": "rebin03"
+        },
+        {
+          "number": 112,
+          "title": "UI fix and add missing locales",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m1-android-flight",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "• fix: issue with firebase crash (tiktok library)",
+              "• fix: issue with firebase crash (MainActivity throws a NullPointerException)",
+              "• fix: issue with firebase crash (Resources$NotFoundException)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M1-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• feat:Other verticals added"
+            ],
+            "Work in Progress": [
+              "• .",
+              "• feat:Other Verticals UI updated"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 14,
+          "title": "feat:Other verticals added",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m8-web-car",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #10 from Lascade-Co/fix/top-places-deeplink-endpoint"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 10,
+          "title": "fix: point destination cards at the working deeplink endpoint",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "• fix:journey started fix",
+              "• fix:departure and arrival validations",
+              "• Merge branch 'main' of github.com:Lascade-Co/marine-api into ps/alert-fixes"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/alert-fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-route-planner-web",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "• Move Mapbox token to env variable",
+              "• Add Vercel deployment support",
+              "• Convert backend from Python to Node.js",
+              "• Improve dash controls, video export labels, and default route",
+              "• Initial commit: Marine Route Planner web app"
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Ignore .idea/",
+              "• Point Vercel routes at the real function output paths",
+              "• Fix Vercel 404 on all routes"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 5,
+          "title": "Vercel deploy",
+          "author": "Angelrose19"
+        },
+        {
+          "number": 4,
+          "title": "Fix/vercel static routing",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 3,
+          "title": "Fix Vercel 404 on all routes",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 2,
+          "title": "Update section title to 'Quick Start Guide'",
+          "author": "Angelrose19"
+        },
+        {
+          "number": 1,
+          "title": "Add Vercel deployment support",
+          "author": "Angelrose19"
+        }
+      ],
+      "branches": [
+        "Angelrose19-patch-1",
+        "fix/vercel-static-routing",
+        "origin",
+        "vercel-deploy"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #171 from Lascade-Co/deploy"
+            ],
+            "Work in Progress": [
+              "• fix(seo): unify canonical and Open Graph URLs to prevent conflicts"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 171,
+          "title": "Deploy",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "• chore: update package-lock.json after npm install",
+              "• Add dedup ledger entries for Aug 24 Black Sea news posts",
+              "• publish: FORTE arrives at Christmas Island to load SpaceX Starship Ship 40",
+              "• chore: add sharp to package-lock.json",
+              "• chore: publish 2 trending stories (2026-08-23 run)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/pixel-travelanimator",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Blog Checker: audit the newest posts on both hubs daily, report to Telegram"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "deploy"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 18,
+          "bullets": {
+            "Published": [
+              "• feat(seo): full-product-seo report for Aug 23, 2026 (first gated run)",
+              "• feat(seo): add FlightBot-derived hub checks — og-incomplete, img-alt-unmarked",
+              "• docs(seo): last-wave review fixes — deferred-gap note, resolved rows, stale line refs",
+              "• fix(seo): complete PROBE_ELIGIBLE enumeration in SKILL.md v1.8 paragraph",
+              "• docs(seo): document rubric v1.8 verification-gate bump in SKILL.md"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/store-reviews",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 8,
+          "bullets": {
+            "Published": [
+              "• Add review.md onboarding guide; keep internal planning docs local-only",
+              "• cleared state",
+              "• updated format",
+              "• updated state",
+              "• updated scheduling to only 10 am and 5pm"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/tada",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "• Detect uv tool and pipx by their marker files, not the path shape",
+              "• Update the MCP server too, and stop claiming upgrades that did not happen (#25)"
+            ],
+            "Work in Progress": [
+              "• Release 1.1.0",
+              "• Fold the update decisions into ADR 0010 and 0011 instead of a new ADR",
+              "• Update the MCP server too, and stop claiming upgrades that did not happen"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 25,
+          "title": "Update the MCP server too, and stop claiming upgrades that did not happen",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "origin",
+        "worktree-update-check-hardening"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• feat: localize non-lifetime custom paywalls",
+              "• Fix language switching"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "Konj Bot",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• chore: trigger rebuild"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/angel",
+        "fix/issue"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "rahul028",
+          "name": "rahul028",
+          "commit_count": 7,
+          "bullets": {
+            "Testing": [
+              "• fix: updated custom paywall methods to adapty 4.0.3 version support",
+              "• made the replacement cover image to none",
+              "• made cover image paywall to gated export",
+              "• Added paywall check on 2 cover image style (imageGrid,terraInk) and  cover image download  button",
+              "• changed close button size to 36 from 24"
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #791 from Lascade-Co/mushfiq/adapty-4-upgrade"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "chore/rahul/coverImagePro",
+        "feat/rahul/customPaywall",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #194 from Lascade-Co/mcp"
+            ],
+            "Work in Progress": [
+              "• image alt issues"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 194,
+          "title": "image alt issues",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "mcp",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travelanimator-mcp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "• Compare registry versions as strings, not as patterns",
+              "• Mark the review account provisioned, and say where its credential lives",
+              "• Track travel-animator 1.1.0 in the bundle",
+              "• Record the release steps in the runbook",
+              "• Package the server as an MCP Bundle for Claude Desktop"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 5,
+          "title": "Compare registry versions as strings, not as patterns",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 4,
+          "title": "Package the server as an MCP Bundle for Claude Desktop",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "fix/registry-skip-check",
+        "mcpb-bundle",
+        "origin"
+      ],
+      "version": "mcpb-v1.1.0"
+    }
+  ]
+}

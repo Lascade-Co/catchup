@@ -1,0 +1,577 @@
+{
+  "date": "2026-08-25",
+  "repos": [
+    {
+      "repo": "Lascade-Co/airline70-flutter",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• fix for slack bot rate limit"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin",
+        "v2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-IOS",
+      "developers": [
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "• chore: version bump",
+              "• feat(onboarding): collect free text for the survey's \"Other\" option",
+              "• fix(onboarding): do not preselect an option on the intent survey"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/car-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• Add AutoRentals deeplinks; harden Kayak poll parsing",
+              "• Add Kayak subbrand deeplinks with per-country validation"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-car-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "• feat(splash): SVG logo, supersampled dive, hole that covers the counter",
+              "• feat(region): prompt for language on multi-language regions, and trace the selection",
+              "• feat(home): popular destinations and ultra-fast booking search; fix the blank screen on the way back from results",
+              "• fix(rental): stop the results screen erroring on a search that is working",
+              "• feat(search): pickers become native pushed screens"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1ac-rent80",
+      "developers": [
+        {
+          "login": "lascadeansal",
+          "name": "ansal",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "• update ui of Homescreen",
+              "• move loader to search main screen",
+              "• update ui of modify search"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "compose"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• feat: gate admin wallet credits on a permission instead of superuser",
+              "• feat: admin page to add or adjust wallet credits"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "• sss",
+              "• fix(checkout): show the purchase total on the Top Up & Pay button",
+              "• feat(wallet,offers): top-up-and-pay flow + offers bearer token on auth change"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #80 from Lascade-Co/dev"
+            ],
+            "Testing": [
+              "• Personalize offers by promo eligibility",
+              "• feat: add selectable currency to transaction histories"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 80,
+          "title": "Support multiple Yesim accounts per brand",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/flight-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #21 from Lascade-Co/dev"
+            ],
+            "Testing": [
+              "• Restrict brand deeplink tabs to their supported countries",
+              "• Add momondo, HotelsCombined, SWOODOO, checkfelix, Mundi deeplinks"
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• append tracking value to P1 booking URLS"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 21,
+          "title": "feat(explore): add roundtrip query param to /api/explore/",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotel-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Add Kayak subbrand deeplinks with per-country validation"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m8-web-car",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• chore: block crawling of location pages while content is placeholder",
+              "• feat: add programmatic SEO location pages for US, Canada and Mexico"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/seo-location-pages"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• wip"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/alert-fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• feat:notification extra info",
+              "• chore: added extra subscription events"
+            ]
+          }
+        },
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• paywall not closing fix"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "keith/onboarding-paywall",
+        "ps/subscription_event",
+        "release-aug-25"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• chore: add sharp dep and update news ledger (Aug 25 run)",
+              "• chore: add 3 published stories to dedup ledger (2026-08-24)",
+              "• publish: SIBU 1 hijacking story, update dedup ledger"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/pixel-travelanimator",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• Blog Checker: run the daily audit at 17:00 IST",
+              "• Blog Checker: the daily audit takes the newest 2 posts per hub, not 5",
+              "• Blog Checker: the daily report leads with the defect, not the rule name"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "deploy"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• feat: full version-scoped app health reports for TA and Marine Radar",
+              "• feat: add version-scoped app health reports for TA and Marine Radar",
+              "• feat(marketing-finance): opt-in per-app breakdown + daily HTML report vs March"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• chore: ignore .vscode and untrack committed editor settings",
+              "• feat(checkout): remove guest login and align wallet/deps with updated helper"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/pages-redesign"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/store-reviews",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• fixed slack rate limit issue"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• Merge branch 'main' into feat/chat",
+              "• fix: handle canceled Adapty purchases without showing an error",
+              "• fix: translate free vs pro comparison strings"
+            ]
+          }
+        },
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Merge branch 'main' into feat/angel"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/angel",
+        "feat/chat",
+        "fix/issue"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "• fix: lifetime paywall price and promo-code paywall",
+              "• fix: make the bundled fallback paywall work offline"
+            ],
+            "Work in Progress": [
+              "• chore: prepare Live Activity assets for Retina and de-noise Info.plist",
+              "• fix: repair nudge funnel state and localize Live Activity copy",
+              "• place label",
+              "• fix(api): trust attached media over a declared annotation type",
+              "• fix(api): correct crop, coordinate order and models in saved routes"
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #793 from Lascade-Co/feat/rahul/customPaywall"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 793,
+          "title": "Custom Onboarding Paywall",
+          "author": "rahul028"
+        },
+        {
+          "number": 792,
+          "title": "implemented Gated cover image styles and made download cover image to Pro feature",
+          "author": "rahul028"
+        }
+      ],
+      "branches": [
+        "749-real-route-button-missing",
+        "mushfiq/adapty-4-upgrade",
+        "mushfiq/engagement-nudges",
+        "mushfiq/route-save-parity",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• Retrigger build",
+              "• Merge pull request #195 from Lascade-Co/mcp",
+              "• Add /gpx route library, new hero headline, GPX nav + footer links"
+            ],
+            "Work in Progress": [
+              "• og image added"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 196,
+          "title": "Retrigger build",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 195,
+          "title": "Add /gpx route library, new hero headline, GPX nav + footer links",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "mcp",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• fix: sync comparison paywall and animation defaults",
+              "• Merge branch 'main' into feat/angel"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/angel"
+      ],
+      "version": null
+    }
+  ]
+}

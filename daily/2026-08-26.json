@@ -1,0 +1,369 @@
+{
+  "date": "2026-08-26",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat(marketing): update marketing net report to include cumulative and per-day charts",
+              "• feat(marketing): update daily Telegram report to include cumulative and per-day revenue charts"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1ac-rent80",
+      "developers": [
+        {
+          "login": "lascadeansal",
+          "name": "ansal",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "• improve api call",
+              "• improve loader animation",
+              "• add sticky header in all vertical",
+              "• add blur option in sticky header"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "compose"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d2-web-car-v2",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #80 from Lascade-Co/fix/top-places-deeplink-endpoint"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 80,
+          "title": "fix: point destination cards at the working deeplink endpoint",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #72 from Lascade-Co/dev"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 72,
+          "title": "Dev",
+          "author": "sajithlascade"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": "v1.2.1+75"
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• feat(wallet): support local-currency top-ups"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M5-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat:Localization set"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 1,
+          "title": "feat:Localization set",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m8-web-car",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #11 from Lascade-Co/feat/seo-location-pages"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 11,
+          "title": "SEO programmatic pages",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• adding adapty profile id and credit balance as super properties for analytics"
+            ]
+          }
+        },
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #266 from Lascade-Co/release-aug-25"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 266,
+          "title": "paywall not closing fix +feat:notification extra info",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "keith/event-properties",
+        "origin"
+      ],
+      "version": "debug-pr-267"
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 8,
+          "bullets": {
+            "Published": [
+              "• chore: sync package-lock.json (remove stale sharp entry)",
+              "• chore: update published-news ledger with 4 new stories (2026-08-26 run)",
+              "• chore: add sharp package (required by publish-news.mjs image processing)",
+              "• chore: update published-news ledger after 2026-08-26 pipeline run",
+              "• news: publish ITS Giuseppe Garibaldi departs for Indonesia (KRI Gajah Mada) 2026-08-25"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/pnl",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat: add spent_on field to manual spends and update attribution logic",
+              "• feat: add support for daily spend attribution in head spend API"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "Iamfasna",
+          "name": "Iamfasna",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• data fix"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/TARS",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• Cover the database and OneUptime paths with tests",
+              "• Report TARS failures as OneUptime incidents"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "tars-failure-reporting"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #601 from Lascade-Co/fix/issue"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 601,
+          "title": "Fix/issue",
+          "author": "Vivek-4321"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": "4.0.141"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #798 from Lascade-Co/mushfiq/route-save-parity"
+            ],
+            "Work in Progress": [
+              "• Merges of Live Activities, New custom paywall, Saved-route fixes, Adapty upgrade etc.",
+              "• Merge pull request #797 from Lascade-Co/release"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin",
+        "release",
+        "release_backup"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Stop losing journey time to intro/outro styles that don't use it"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "worktree-fix-outro-intro-journey-time"
+      ],
+      "version": null
+    }
+  ]
+}

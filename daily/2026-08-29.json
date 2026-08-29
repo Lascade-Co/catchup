@@ -1,0 +1,130 @@
+{
+  "date": "2026-08-29",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• fix(ios): normalize embedded framework versions",
+              "• fix(ios): include widget profile in exports"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• news(sirius-csv-contract): publish Sirius Design & Integration CSV contract story",
+              "• chore: add 2 published stories to dedup ledger (2026-08-29 run)",
+              "• Remove trailing newline from package-lock.json",
+              "• publish: Progress IV sinks in Romania's Black Sea EEZ 2026-08-28"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #603 from Lascade-Co/fix/paywall"
+            ]
+          }
+        },
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• chore: update shared to v1.0.34"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 603,
+          "title": "Fix/paywall",
+          "author": "Vivek-4321"
+        }
+      ],
+      "branches": [
+        "feat/angel",
+        "origin"
+      ],
+      "version": "4.0.143"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Merge remote-tracking branch 'origin/feat/angel' into feat/angel"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/angel"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "rohittp0",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• chore: bump SPM version to v1.0.34 [skip ci]"
+            ],
+            "Work in Progress": [
+              "• Update to v1.0.34"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ios",
+        "origin"
+      ],
+      "version": "v1.0.34"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "date": "2026-08-30",
+  "repos": [
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "• chore: add sharp to package-lock.json (added during pipeline run)",
+              "• publish news: FILO JET ferry capsize (Kyrenia, urgent) + MARANELLO trawler sinking (English Channel)",
+              "• news: publish 2 stories Aug 30 — Typhoon Saudel / Ningbo shutdown and Zambales lake capsize",
+              "• chore: publish 2 news posts from 2026-08-30 pipeline run",
+              "• chore: record 2 published stories in dedup ledger (2026-08-29 run)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "ThePyWizard",
+          "name": "Jishnu M M",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• feat(skills): meta-product-analysis — daily Meta + PostHog report"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-analytics-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• report key length alter migration"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "reporting-api-integration"
+      ],
+      "version": null
+    }
+  ]
+}

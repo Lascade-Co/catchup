@@ -1,0 +1,609 @@
+{
+  "date": "2026-09-02",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Improved Codex session token refresh with device login support"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/airline70-flutter",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Added automated QA and release build workflows for Flutter Android artifacts, including team notifications.",
+              "🔧 Added centralized triggers for pull-request builds, releases, and scheduled store-review synchronization.",
+              "🔧 Established Flutter project metadata and ignore rules for generated files, local environments, and build outputs."
+            ],
+            "Work in Progress": [
+              "🔧 Adjusted the store-review synchronization schedule."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin",
+        "v2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": null,
+          "name": "octopoocha",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Cleaned up authentication configuration and simplified frozen-shape diagnostic logging"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "Antony Mathew",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Improved the drawing experience",
+              "🔧 Added centralized debug, release, and app-store publishing automation",
+              "🔧 Added scheduled cleanup for stale debug releases and tags",
+              "📝 Documented local secret setup and configured Android build, signing, and dependency management"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "drawing_fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1af-flights70",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed screen event names firing incorrectly",
+              "🐛 Fixed the splash screen animation",
+              "🚀 Added local-notification redirects to the exited screen"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "fix-api"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1ah-hotels70",
+      "developers": [
+        {
+          "login": "Ashiiq666",
+          "name": "ashiiq666",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🚀 Integrated an animated splash loader with smooth transitions, one-time playback, and graceful fallback navigation",
+              "🔧 Added centralized debug and release build automation with secure local secrets setup",
+              "♻️ Established the Android app foundation, including dependency injection, networking, persistence, analytics, localization, and hotel search flows"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "vertical-autocomplete"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/Dashlytics",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added multi-account Stripe revenue ingestion with migration safeguards."
+            ],
+            "Work in Progress": [
+              "🚀 Built multi-account revenue aggregation that safely combines overlapping migration-day transactions.",
+              "✅ Added account attribution and cutover checks to detect unexpected or post-migration charges.",
+              "📝 Corrected deployment documentation for configuring Stripe accounts."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 3,
+          "title": "Ingest Stripe revenue from multiple accounts, with a time-bounded mig…",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "feat/stripe-revenue-ingest",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Updated bottom navigation tabs with distinct active and inactive SVG icons",
+              "🎨 Polished checkout and wallet UI spacing and standardized dialog borders",
+              "♻️ Simplified the wallet payment row by removing unused shortfall and footer presentation logic"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/flight-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Hardened Price Insights logging and worker setup"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotel-backend",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Appended the user tracking ID to booking URIs"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotels70-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Triggered a deployment."
+            ],
+            "Work in Progress": [
+              "🐛 Prepared a release with a UI overlap fix, a three-character minimum message requirement, and controller-backed popular destinations."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 133,
+          "title": "Release: UI overlap fix, min 3 char message and controller use for popular destination",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/kayak-main-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "✅ Tested appending the p parameter to Iris Ads API requests"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "new-api-integration"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M4_sky_flutter",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🔧 Added the store review trigger workflow and corrected its directory structure",
+              "🔧 Updated the store review scheduling time"
+            ],
+            "Work in Progress": [
+              "🔧 Added a store review trigger workflow and updated its scheduling time"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin",
+        "v2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M8-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added AutoRentals support and configured its network integration"
+            ],
+            "Work in Progress": [
+              "🚀 Continued AutoRentals support and network integration work"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 10,
+          "title": "feat:Autorentals supported and network set",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "origin",
+        "v3"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M8-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Added a new animated transition from the splash screen to the home screen",
+              "🐛 Addressed camera and network issues"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 20,
+          "title": "feat:new Animation from splash to home set",
+          "author": "Swalih60"
+        },
+        {
+          "number": 19,
+          "title": "feat:Camera and network issue set",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 6,
+          "bullets": {
+            "Testing": [
+              "🚀 Added vector-tile support for vessel map data",
+              "⚡ Optimized vessel tile lookups with zoom-based caps, shared Redis access, freshness filters, and timing diagnostics",
+              "🐛 Removed unnecessary serialization from the response path",
+              "🔧 Added environment templates, container and deployment automation, repository safeguards, and project documentation"
+            ],
+            "Work in Progress": [
+              "⚡ Improved upstream API call performance"
+            ]
+          }
+        },
+        {
+          "login": "AdarshLascade",
+          "name": "AdarshLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "⚡ Improved upstream API call performance"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 66,
+          "title": "fix:improved upstream api call speed",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "origin",
+        "ps-redis-mvt",
+        "ps/scanner_redis",
+        "ps/upstream-optimization"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Updated the purchase buttons for satellite credits"
+            ],
+            "Work in Progress": [
+              "🚀 Updating the purchase buttons for satellite credits"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 175,
+          "title": "changed satellite credits buy buttons",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "📝 Published an analysis of China's record-paced August 2026 ship deployments around Taiwan, backed by verified sources.",
+              "📝 Published coverage of a Marmara Sea cargo-ship collision and the continuing Filo Jet wreck search off Kyrenia.",
+              "📝 Published a report on the TCG İzmir beginning sea acceptance trials, supported by MarineRadar activity data."
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added an end-to-end news pipeline that carries MarineRadar trend keys from discovery through candidate selection and publishing.",
+              "🔧 Documented autonomous publishing safeguards, including deduplication, source and link verification, content checks, and per-run limits.",
+              "📝 Clarified candidate-list formatting and the configuration required to flag genuinely urgent stories.",
+              "🐛 Made invalid cover aspect filters fail once as a clear command-line usage error instead of repeating failures for every post."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 15,
+          "bullets": {
+            "Published": [
+              "🚀 Built a rolling daily-history layer with atomic persistence, retention handling, UTC+4 report dates, reusable funnel metrics, and a safe 14-day backfill workflow.",
+              "🚀 Redesigned benchmark reporting around accessible dot-in-band rows, 14-day sparklines, hover details, stat-tile deltas, status indicators, and a graphics-first layout.",
+              "🐛 Added funnel drop flags and tightened day-over-day comparison safeguards to prevent misleading deltas when funnel steps change or reorder.",
+              "🐛 Improved SEO link checking by re-probing cached dead links and using GET fallbacks for servers that mishandle HEAD requests."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin",
+        "worktree-meta-benchmark-layer"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 13,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added a multi-eSIM cart with quantity controls, live pricing, discounts, tax, promo codes, wallet support, and checkout routing.",
+              "🚀 Enabled passwordless email-code authentication within the checkout flow.",
+              "🚀 Added live plan offers and streamlined plan cards, cart lines, checkout calls to action, and header cart access.",
+              "✨ Improved mobile navigation and visual polish with a floating plans call to action, clearer scroll controls, a slimmer scrollbar, and an updated footer watermark."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/pages-redesign"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/store-reviews",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🔧 Added the centralized review-sync workflow with provider jobs, state reconciliation, pruning, and retry-safe updates.",
+              "🔧 Fixed the Slack bot credential configuration.",
+              "♻️ Reset the stored App Store review state for a clean sync.",
+              "📝 Removed an obsolete AI suggested-replies planning document."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Added centralized automation for pull-request debug builds, release builds, and Play Store publishing.",
+              "🔧 Added scheduled cleanup of stale debug releases and tags.",
+              "🔧 Set up the Android development environment, shared-code integration, and repository ignore rules.",
+              "📝 Added comprehensive contributor guidance covering project architecture, development practices, and testing expectations."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 607,
+          "title": "Fix/issues",
+          "author": "Vivek-4321"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": "4.0.144"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 8,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Routed paywall placements, promo flows, and unknown non-empty placement IDs to in-app screens while preserving bespoke screens and remote fallback controls.",
+              "🚀 Added dedicated maps and watermark paywall families, feature-specific export-gate screens, new artwork, and responsive hero sizing and spacing.",
+              "♻️ Introduced a typed placement registry and a testable paywall session abstraction covering product loading, purchases, restores, retries, subscription state, and analytics.",
+              "🐛 Restored paywall analytics parity, corrected impression timing and failure reporting, expanded routing and session tests, and documented the migration design."
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Restored the real-route toggle for manually added segments following GPX or Google Maps imports."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 805,
+          "title": "fix: show real-route toggle for manually added segments after gpx/gmap",
+          "author": "rahul028"
+        }
+      ],
+      "branches": [
+        "mushfiq/generic-paywall",
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

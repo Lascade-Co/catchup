@@ -1,0 +1,693 @@
+{
+  "date": "2026-09-03",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Add a KMP runner, and let it gate the merge it is checking"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ci/kmp-pipeline"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/airline70-flutter",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• fixed crashes"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "v2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/c1wf-discounts70",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #15 from Lascade-Co/session-keepalive"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 15,
+          "title": "Session keepalive and package upgrades",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1af-flights70",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "AjinLascade",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #41 from Lascade-Co/fix-api"
+            ],
+            "Work in Progress": [
+              "• fix:First-time users are redirected to a blank screen after tapping “View Deal” from a local notification, instead of returning to the screen they exited from."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 41,
+          "title": "Fix api",
+          "author": "AjinLascade"
+        }
+      ],
+      "branches": [
+        "fix-api",
+        "origin"
+      ],
+      "version": "3.6.1"
+    },
+    {
+      "repo": "Lascade-Co/D2-flight-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• fix(results): stable card identity, D1-style autocomplete, error-gated controls",
+              "• Merge dev into main: push notifications end-to-end"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d2-web-car-v2",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #82 from Lascade-Co/session-keepalive"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 82,
+          "title": "Session keepalive",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "• fixed architecure issues and code optimiziations",
+              "• refactor: align home/my-plans/profile with Clean Architecture",
+              "• style(plans): increase usage progress bar height",
+              "• feat(cart): use new cart icon and update discount/total colors"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "task/clean-architecture-rest-of-app"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• feat(payments): harden checkout amounts and saved methods",
+              "• feat(payments): add reusable saved payment methods"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-helper",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• feat: migrate checkout and wallet clients to v2"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "v2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• feat: migrate payments and account flows to v2"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "v2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/flights-70-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Trigger Deployment",
+              "• Merge pull request #175 from Lascade-Co/session-keepalive"
+            ],
+            "Work in Progress": [
+              "• Merge pull request #176 from Lascade-Co/develop"
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• triptype toggle animation cleanup",
+              "• 3 character hint"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 176,
+          "title": "Release: Session call keepalive, 3char hint and triptype toggle animation edit",
+          "author": "mhdbk"
+        },
+        {
+          "number": 175,
+          "title": "Session keepalive",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/kayak-main-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• non `full_url` transform for iris API",
+              "• atag tracking param experiment"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "new-api-integration"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M8-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat:Feedback button updated"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 11,
+          "title": "feat:Feedback button updated",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "origin",
+        "v3"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M8-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat:Dubug banner and Launch screen set"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 21,
+          "title": "feat:Dubug banner and Launch screen set",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m8-web-car",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• package vulnerability patches",
+              "• submodule update; session keepalive"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "session-keepalive"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "• fix:optimized and tested the scanner",
+              "• feat:scanner redesign completed",
+              "• feat:scanner redis code review1"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/scanner_redis"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Merge branch 'main' of github-lascade:Lascade-Co/marine-tracking-flutter into ps/ship-cache"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/ship-cache"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #176 from Lascade-Co/deploy"
+            ],
+            "Work in Progress": [
+              "• paginate trends archive, add related stories to news articles"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 176,
+          "title": "paginate trends archive, add related stories to news articles",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• publish: Hormuz drops to 4 ships as Iran hits US bases in Kuwait and Bahrain (2026-09-02)",
+              "• chore: add 2 published stories to dedup ledger (2026-09-03 run)",
+              "• publish: USS Abraham Lincoln arrives Thailand after 286-day deployment (2026-09-02)"
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Add a Related stories section to every trends-news post"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 15,
+          "bullets": {
+            "Published": [
+              "• chore(seo): full-product-seo report for 2026-09-02, rubric 2.1",
+              "• feat(full-product-seo): hub collector follow-ups — full-corpus schema, /trends/ sampling, ISR staleness, page-level link graph",
+              "• chore(full-product-seo): commit rubric-2.0 hub-collector baseline",
+              "• chore(seo): full-product-seo report for 2026-09-02, rubric-2.0 verification re-run",
+              "• feat(full-product-seo): fix Notion vs strategic-roadmap verification disagreements"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 23,
+          "bullets": {
+            "Work in Progress": [
+              "• feat(hero): send the search globe to the destination wall",
+              "• fix(motion): start entrances before they reach the fold",
+              "• feat(home): port the prototype's copy and card entrances",
+              "• fix(home): restore the reference size for the pace scene",
+              "• fix(home): fit \"Pick your pace\" into one screen"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "renewed-design"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-backend",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan-Shoukath",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• docs: accurate parameter and behaviour reference for the public deals feed"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "scraper"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 5,
+          "bullets": {
+            "Testing": [
+              "• Dismiss resolution popup on re-tap or option select",
+              "• Hide tap tutorial spotlight until quadrant menu closes after hold selection",
+              "• Keep current zoom when centering hold/tap tutorial on a point",
+              "• Add swipe-down-to-dismiss to preview chooser sheets",
+              "• Add terms/privacy/restore links to yearly paywall"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "fix/issue"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 17,
+          "bullets": {
+            "Published": [
+              "• fix: stop showing the Avatar What's New sheet",
+              "• fix: two pre-ship defects in the diagnostics work",
+              "• fix: give the alt-route gate a working, attributable paywall",
+              "• refactor: remove ReleasePrintSilencing",
+              "• feat: add a Send Diagnostic Data row to Settings"
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #809 from Lascade-Co/mushfiq/generic-paywall"
+            ],
+            "Work in Progress": [
+              "• Merge pull request #811 from Lascade-Co/release"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin",
+        "release",
+        "release_backup"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• fix(builder): stop the intro camera over-rotating and snapping into the journey"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "fix/intro-camera-seams"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-helper",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Improved session reliability by adding a keepalive call"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-tools",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan-Shoukath",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• feat(deals): client deals feed endpoint, swagger fixes and multi-env Insomnia collection"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "scraper"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/tutor",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• add audio generation and processing for tutorial music, including Edge TTS integration",
+              "• add initial implementation of Tutor app walkthrough utilities and scripts"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

@@ -1,0 +1,643 @@
+{
+  "date": "2026-09-04",
+  "repos": [
+    {
+      "repo": "Lascade-Co/connector",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added support for session attribution analytics"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-car-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Added AutoRentals deep-link support with secure provider URL handling and redirect-loop protection.",
+              "🐛 Replaced the system tab container to eliminate an empty glass tab-bar artifact on iOS 26 while preserving navigation and status-bar behavior.",
+              "🚀 Refined region and currency settings with sheet-based pickers, clearer ordering, and shared square selection controls.",
+              "🎨 Introduced new light, dark, and tinted app icons, plus a distinct DEBUG build icon."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Updated the search experience."
+            ],
+            "Work in Progress": [
+              "🐛 Fixed the modified tab shadow behavior.",
+              "🐛 Corrected screen titles and related UI updates."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 88,
+          "title": "feat:Modify search updated",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1af-flights70",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Added centralized debug and release build dispatch workflows with safeguards for untrusted forks and concurrent runs.",
+              "🔧 Expanded repository ignore rules for local build artifacts, IDE settings, service configuration, and signing files.",
+              "📝 Added guidance for the WorkManager-based local notification system, including setup, testing, troubleshooting, and migration details."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "new-price-calendar"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Brought Meta event tracking to parity with D1, including standard events, country context, SKAdNetwork attribution, and booking tracking."
+            ],
+            "Work in Progress": [
+              "🚀 Standardized Meta add-to-cart and subscription events, added achieved-level tracking, and expanded search tracking across stays, flights, and rentals.",
+              "🔧 Added country context to conversion events and configured Meta SKAdNetwork attribution.",
+              "🐛 Consolidated registration tracking and strengthened booking navigation tracking with filtering, re-arming, deduplication, and event-order safeguards.",
+              "🔧 Added debug-only Meta event diagnostics and timed flushing for live event validation."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 5,
+          "bullets": {
+            "Testing": [
+              "🚀 Added authenticated session attribution funnels",
+              "🔧 Unified the mock eSIM simulator and aligned mock ICCID lengths with real-world values",
+              "📝 Tagged payment method v2 endpoints in the OpenAPI schema",
+              "♻️ Centralized OTP email types and purpose-specific copy"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-helper",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Improved session attribution and funnel tracking"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "v2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Integrated authenticated session funnels"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "v2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/geoanimator",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 25,
+          "bullets": {
+            "Published": [
+              "🚀 Reworked auto-framing into always-available, per-reframe controls with durable enablement, style overrides, clearer generated-key actions, and visible disabled reframes.",
+              "🐛 Fixed reframe generation and camera timing edge cases involving rounded region boundaries, manual keys, holds, paused scrubbing, and unresolved geometry.",
+              "🐛 Made project-library updates and long lists reliably visible by refreshing after committed edits and adding scrollable card browsing.",
+              "♻️ Unified pinned-playhead behavior across camera lanes, removed misleading bookend and zero-hold affordances, and documented the remaining interaction gaps and terminology."
+            ],
+            "Work in Progress": [
+              "🔧 Moved the renderer baseline to published 0.5.0, removed dependencies on unpublished APIs, and forward-ported compatible performance fixes for evaluation.",
+              "⚡ Benchmarked renderer regressions and isolated repeated tile rasterization and image decoding as major causes of slow frames, while documenting memory and label-rendering tradeoffs.",
+              "🐛 Restored the GPU verification harness and confirmed unreleased resource leases can retain multiple content generations without being covered by the existing memory guard.",
+              "📝 Audited and documented the local renderer fork's four substantive patches, its gap from upstream, and which changes require design decisions before porting."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "home-rename-and-scroll",
+        "origin",
+        "reng-0.5.0"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/kayak-main-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🚀 Added label support to impression URLs.",
+              "♻️ Reverted an experiment and restored the server deployment baseline."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "new-api-integration"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": "AdarshLascade",
+          "name": "AdarshLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed Redis-backed AIS scanner behavior and added supporting deployment configuration and project documentation."
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Improved AIS stream reconnection handling."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 64,
+          "title": "fix:redis_scanner",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "origin",
+        "ps/scanner_redis"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "♻️ Refined SEO title handling to preserve branding on flag pages"
+            ],
+            "Work in Progress": [
+              "♻️ Refined SEO title handling to preserve branding on flag pages"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 177,
+          "title": "refactor SEO title handling to maintain branding for flag pages",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "📝 Published coverage of allegations that COSCO ships gathered military intelligence for US officials.",
+              "📝 Reported Turkey’s detention of the ALSU crew following a collision in the Marmara Sea.",
+              "📝 Published a sourced report on the first US strikes against Iranian government tankers under a tanker-for-tanker policy."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "📝 Restyled two TravelAnimator leak-analysis reports to the canonical reading experience and added them to the analysis navigation.",
+              "🚀 Added a mobile-friendly Telegram digest for persistent RED/AMBER product outliers, with clearer report-date handling and corrected funnel annotations.",
+              "🔧 Regenerated the daily meta-product report and began tracking digest state so metric persistence counters survive future runs.",
+              "🐛 Refreshed SEO audit classifications and reran the full-product SEO report after live-site fixes, confirming improved results and a clean pipeline."
+            ]
+          }
+        },
+        {
+          "login": "rohittp0",
+          "name": "Rohit",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📊 Added a TravelAnimator funnel-forensics report analyzing preview-to-export drop-off by platform, including route behavior, export reliability, and likely abandonment causes."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/react-email-templates",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added email templates for Roamjoy, eSIM70, Simline, and Signalside"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 6,
+          "bullets": {
+            "Work in Progress": [
+              "📝 Documented safeguards for keeping local eSIM helper submodule changes from being committed accidentally",
+              "🐛 Streamlined the mobile header and repositioned search and hero content to prevent overlap",
+              "🐛 Corrected wallet payment setup to use the intent-specific Stripe configuration and request cards directly",
+              "🔧 Renamed Flexi plans to Prepaid and updated the pinned pnpm version"
+            ]
+          }
+        },
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🚀 Released the Roam Joy redesign, multi-eSIM cart, and email code login"
+            ],
+            "Work in Progress": [
+              "🚀 Integrated the Roam Joy redesign, multi-eSIM cart, and email code login",
+              "🔧 Updated the eSIM helper submodule reference",
+              "🔧 Removed the pnpm version pin to restore dependency installation behavior",
+              "🐛 Restored wallet build compatibility by reading the intent-specific Stripe key without newer helper types"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Deployed the application to Vercel"
+            ],
+            "Work in Progress": [
+              "🔧 Continued Vercel deployment work"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 4,
+          "title": "release: Roam Joy redesign, multi-eSIM cart, and email code login",
+          "author": "rebin03"
+        },
+        {
+          "number": 3,
+          "title": "feat: Roam Joy redesign, multi-eSIM cart, and email code login",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin",
+        "renewed-design"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/simline-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 5,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Iterated on the Vercel deployment."
+            ]
+          }
+        },
+        {
+          "login": "ryyansafar",
+          "name": "ryyansafar",
+          "commit_count": 5,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Migrated the My eSIMs experience to the v2 account APIs and lifecycle statuses, including clearer install, activation, setup, support, and history states.",
+              "🚀 Upgraded saved payment methods and auto-top-up flows to v2, including eligible-card filtering and guidance for paused rules that need re-authentication.",
+              "🐛 Allowlisted the new v2 account, wallet, payment-method, and auto-top-up endpoints in the same-origin proxy to prevent request failures.",
+              "📝 Added localized eSIM status and auto-top-up messaging across 10 locales."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-analytics-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Integrated the P1 Reporting API"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 61,
+          "title": "P1 Reporting API integration",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 15,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed globe surface lift and close-range rendering issues, adding a close-route performance fixture and documenting a local-origin transform strategy for projection precision.",
+              "⚡ Optimized label measurement and placement with per-value sizing, style and row memoization, bounded caching, non-boxing sorting, and copy-free placement.",
+              "♻️ Improved playback and projection handling with a compilable driver, per-window camera resolution, cursor-preserving rebuilds, and shared surface and lighting frames.",
+              "🐛 Removed accidentally restored, unused localization strings to prevent missing-translation and unused-resource errors."
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "octopoocha",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🔧 Updated the SLF4J and Kotlin Symbol Processing dependency versions."
+            ]
+          }
+        },
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Added centralized Android debug, release, and Play Store delivery workflows, including automated cleanup of aging debug releases.",
+              "🔧 Added local development setup, repository guidance, shared-module configuration, and generated-artifact exclusions."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 609,
+          "title": "Fix/issues",
+          "author": "Vivek-4321"
+        }
+      ],
+      "branches": [
+        "feat/angel",
+        "origin"
+      ],
+      "version": "4.0.145"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Added centralized workflows for pull-request TestFlight builds, manual debug builds, and App Store releases",
+              "📝 Added repository guidance for AI-assisted development, covering architecture, dependencies, and project conventions",
+              "🔧 Expanded ignored generated, local configuration, and developer-specific files"
+            ],
+            "Work in Progress": [
+              "🐛 Added Crashlytics logging equivalent to the Android implementation"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin",
+        "release"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added an interactive MCP render-settings preview studio."
+            ],
+            "Work in Progress": [
+              "🚀 Built a responsive preview studio for configuring models, maps, place labels, and scene styles.",
+              "♿ Added reduced-motion-aware scene previews with playback limited to selections and user interactions.",
+              "🔧 Integrated server-side catalogue loading and renderer-aligned model scaling, including GLB support.",
+              "🔍 Added grouped, searchable, expandable model and map catalogues while keeping the preview pinned."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 201,
+          "title": "Add /mcp/preview render studio",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "mcp",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Integrated the main branch’s Kotlin Multiplatform build, dependency, testing, and iOS XCFramework configuration into the preparation-progress work.",
+              "🔧 Added automation to request centralized Swift Package Manager publishing after main-branch updates.",
+              "📝 Added contributor and consumer documentation covering project layout, builds, Android integration, resources, code generation, versioning, and APIs.",
+              "🔧 Added repository ignore rules for generated builds, local IDE state, and downloaded platform artifacts."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/preparation-progress"
+      ],
+      "version": null
+    }
+  ]
+}

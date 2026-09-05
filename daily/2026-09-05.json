@@ -1,0 +1,136 @@
+{
+  "date": "2026-09-05",
+  "repos": [
+    {
+      "repo": "Lascade-Co/esim-db",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan-Shoukath",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added the eSIM catalogue foundation with database-enforced data rules and structured source-data decoding.",
+              "🔧 Added SSRF and credential protections plus a serial crawler client with durable request throttling.",
+              "✅ Added 99 tests covering the catalogue foundation.",
+              "📝 Documented design decisions, remaining work, blockers and unverified assumptions."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/geoanimator",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Ported far-plane clipping to a local build for parity with the fork; kept the default dependency unchanged.",
+              "📝 Documented local build tradeoffs, including two additional test failures from changed clipping expectations and no measured speedup on the app’s cameras."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "reng-0.5.0"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "📝 Updated the published-news ledger with five stories covering carrier suspensions, oil transfers, vessel incidents, and offshore wind construction progress."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Reviewed MarineRadar and TravelAnimator SEO, identifying content hub and technical weaknesses and a completed task that failed live verification.",
+              "🔧 Updated search performance ledgers, SEO score history, and link-status and task-classification caches."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 7,
+          "bullets": {
+            "Testing": [
+              "🐛 Integrated shared rendering precision fixes for vehicle black patches, flat ground shake, and globe depth artifacts.",
+              "🐛 Integrated shared vehicle grounding fix to prevent cars from sinking into the globe.",
+              "🔧 Applied shared highlight settings for extrusion height, flash duration, and fill opacity.",
+              "📝 Completed the rendering coordinate migration and documented its corrections and findings."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/angel"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 8,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Improved rendering precision for vehicles, routes, terrain, and highlights to address black patches, flicker, and ground shake; added regression coverage.",
+              "🐛 Corrected globe vehicle placement so the model’s lowest point rests above the surface instead of sinking below it.",
+              "🚀 Shortened highlight flashes, lowered extrusion height, and capped fill opacity using shared cross-platform settings.",
+              "🐛 Reduced watermark size and adjusted the dismiss icon’s size, position, and background."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/preparation-progress"
+      ],
+      "version": null
+    }
+  ]
+}

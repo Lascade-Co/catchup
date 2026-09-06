@@ -1,0 +1,110 @@
+{
+  "date": "2026-09-06",
+  "repos": [
+    {
+      "repo": "Lascade-Co/geoanimator",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 10,
+          "bullets": {
+            "Published": [
+              "🐛 Corrected first-key transition guidance, hid inactive motion controls, and updated tests to exercise effective transitions.",
+              "🐛 Made selected keyframe outlines follow the diamond shape and dim with disabled reframes.",
+              "🔧 Aligned the app and renderer harness on an unpublished local RenG build and clarified tile-size behavior and performance tradeoffs.",
+              "♻️ Improved editor persistence and state ownership, simplified tests and comments, and integrated shared formatting rules."
+            ],
+            "Work in Progress": [
+              "🐛 Increased region distance fields to 16-bit precision to reduce border stepping with wide effects; updated atlas packing and cache format, with GPU validation pending."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin",
+        "reng-0.5.0",
+        "worktree-sdf-16-bit"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "📝 Published maritime news covering the Lady Mariia drone attack, HMS Queen Elizabeth’s NATO deployment, and US strikes on Iranian tankers.",
+              "🔧 Updated the published-news ledger to record stories on the Dover ferry port blockade and Penang ferry collision."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 22,
+          "bullets": {
+            "Testing": [
+              "⚡ Integrated preview improvements for progressive first frames, cursor-following prefetch, prioritized tile rendering, and labels that load without blocking playback.",
+              "⚡ Enabled prepared preview assets to persist across sessions, with Android memory-pressure handling to release retained assets.",
+              "✅ Updated preview test doubles and wrappers for new session arguments; added skipped-prefetch and missing-label metrics and fixed switch-time reporting.",
+              "📝 Documented device performance results, remaining cold-start stalls, preview buffering and asset lifetimes, and iOS integration follow-ups."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/angel"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "rohittp0",
+          "commit_count": 12,
+          "bullets": {
+            "Published": [
+              "⚡ Reduced preview startup delays by deferring background tile work until the first frame is drawn and removing upfront asset counting for progress.",
+              "🚀 Added a half-second delay before showing preview loading indicators to reduce brief flashes.",
+              "Reverted optimizations that skipped initial label preparation and restarted globe scheduling near seek targets.",
+              "🔧 Added central Swift Package Manager publishing automation and setup documentation; bumped package versions through v1.0.37."
+            ],
+            "Work in Progress": [
+              "🔧 Updated the prebuilt iOS package through v1.0.37, including bundled rendering dependencies and the preview indicator delay setting."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 21,
+          "title": "Feat/preparation progress",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "ios",
+        "origin"
+      ],
+      "version": "v1.0.37"
+    }
+  ]
+}

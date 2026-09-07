@@ -1,0 +1,715 @@
+{
+  "date": "2026-09-07",
+  "repos": [
+    {
+      "repo": "Lascade-Co/airline70-flutter",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Merged a crash fix from the v2 branch.",
+              "🔧 Added automated triggers for QA debug builds, release builds, and store review syncing.",
+              "📝 Documented compile-time environment configuration and development and production setup."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 93,
+          "title": "crash fix",
+          "author": "prapanch-lascade"
+        }
+      ],
+      "branches": [
+        "release"
+      ],
+      "version": "v1.7.12+83"
+    },
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "Updated Modify Search and result card spacing; removed travel from the expanded Modify Search view."
+            ],
+            "Work in Progress": [
+              "Reduced spacing between cards and removed travel from the expanded Modify Search view."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 89,
+          "title": "feat:Modify search expansion travel removed",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1af-flights70",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Updated same-day departure and return styling and revised the price calendar API.",
+              "🔧 Added central debug and release build triggers and ignore rules for local configuration and signing files.",
+              "📝 Added local notification setup, testing, and troubleshooting guides."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "new-price-calendar"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added a debug banner and set up the splash-to-home flow."
+            ],
+            "Work in Progress": [
+              "🚀 Added a debug banner and set up the splash-to-home flow."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 23,
+          "title": "feat:Debug banner and splash to home set",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-flight-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 13,
+          "bullets": {
+            "Published": [
+              "⚡ Added server filtering while results stream and instant local filtering/sorting once complete, with stable filter ranges and corrected local-time filters.",
+              "🐛 Fixed searches getting stuck before polling, preserved results when opening flight details, and discarded unsubmitted Modify Search edits.",
+              "🐛 Smoothed loading bars to bounce at constant speed and finish at the left before showing Done; restored location placeholder and status-bar visibility.",
+              "🎨 Added provider names beside logos, restyled fare information, unified airline placeholder colors and About branding, and cleaned up assets and emblem fallbacks."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d2wf-lasthourflights",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Added session call keepalive.",
+              "🚀 Added a three-letter hint and updated the provider logo."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 12,
+          "title": "Session call keepalive, 3 letter hint, provider logo update",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "🐛 Prevented duplicate checkout orders and unsafe request retries; fixed wallet top-up retries and fallback-card completion.",
+              "🐛 Fixed expired-session handling, password-change recovery, and background token refresh to keep authentication state consistent.",
+              "✅ Added regression coverage for checkout, request retries, wallet top-ups, and session transitions.",
+              "🔧 Integrated centralized debug and release build triggers, Flutter version pinning, and development guidance."
+            ],
+            "Work in Progress": [
+              "🚀 Added accounts and wallet v2 data layers; updated order status, plan management, and per-item eSIM activation.",
+              "🐛 Fixed saved-card top-ups and required a saved card when saving auto-top-up rules.",
+              "♻️ Clarified delayed-balance messaging and auto-top-up confirmations; removed the EUR-only cashback badge from purchase success.",
+              "📝 Updated API documentation and translations; added top-up diagnostics."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 76,
+          "title": "fixed architecure issues and code optimiziations",
+          "author": "sajithlascade"
+        }
+      ],
+      "branches": [
+        "dev",
+        "task/clean-architecture-rest-of-app"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Added a Facebook data deletion callback."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-db",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan-Shoukath",
+          "commit_count": 15,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added an FX display service and feed adapter boundary; corrected comparison currency and exchange-rate age reporting.",
+              "🐛 Hardened crawl recovery, retries and cleanup; bounded promotion memory and preserved the catalogue during scoped runs.",
+              "🐛 Adapted ingestion to live payloads, bounded metadata fields, and corrected money precision, currency validation and fingerprints.",
+              "📝 Documented benchmarks, live crawl findings and progress: 14 of 17 steps complete, with three blocked on contracts."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Migrated payments to v2 and made wallet top-ups always save the entered card.",
+              "📝 Refreshed the backend OpenAPI specification."
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Added Vercel deployment work."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 115,
+          "title": "Migrate payments to v2 and always save the top-up card",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "dev",
+        "v2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/geoanimator",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 36,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed runtime baking so border chases use boundary arcs instead of the angular fallback.",
+              "🚀 Added dashed borders with screen-pixel dash and gap controls and adjustable march speed.",
+              "✅ Strengthened chase checks with CPU, GPU and preview/export comparisons, correcting earlier unsupported conclusions.",
+              "⚡ Improved benchmark warm-up and measured arc baking overhead at about 8.4%."
+            ],
+            "Work in Progress": [
+              "🚀 Added touch and place-search path authoring, curve controls and editing guides; fixed endpoint dragging and handle alignment.",
+              "🐛 Fixed zoomed-out path shading and high-zoom glow spread; added shape-relative stripes with rotation options and staged blurred glow data for renderer integration.",
+              "🚀 Added playback reviews after adjustments and single-undo slider drags; improved crowded keyframe highlights and closed the area sheet after insertion.",
+              "♻️ Extracted a reusable assistant UI library and added assistant-driven caption editing."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 1,
+          "title": "A region distance is sixteen bits, so the band stops costing precision",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "origin",
+        "path-feature",
+        "path-render-fixes",
+        "review-playback",
+        "worktree-border-arc"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotels70-web",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Added user identification to Clarity analytics.",
+              "🐛 Added stale session deletion when creating users."
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Triggered deployment."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "Merged the ship-cache pull request.",
+              "🔧 Added central build triggers for pull requests and main-branch releases.",
+              "📝 Added development guidance and Flutter environment configuration."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 270,
+          "title": "Ps/ship cache",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "📝 Added coverage of Norway’s vessel seizure at Svalbard, Portsmouth migrants, and Malaysia’s shadow fleet activity.",
+              "📝 Published stories on a collision in Greece, Iran’s Hormuz exclusion zone, and Krakatau shipping warnings.",
+              "📝 Covered APM Terminals’ Laldia groundbreaking in Bangladesh."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/mixroutes-web",
+      "developers": [
+        {
+          "login": "ryyansafar",
+          "name": "Ryyan Safar",
+          "commit_count": 16,
+          "bullets": {
+            "Published": [
+              "🚀 Imported the Mixroutes app and design system, including trip planning, metro routing, Google sign-in and account screens.",
+              "🚀 Added live location and saved-trip tracking, first-visit onboarding, place photos, company and legal pages, and a geocoder fallback.",
+              "🐛 Redesigned mobile search and navigation, added phone sign-out, improved hero readability and refined theme transitions to prevent flashes.",
+              "🔧 Updated Vercel build and transit-data packaging, added deployment and Firebase domain helpers, and refreshed API and handoff documentation."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Fixed the landing page’s how-it-works heading to fade out after the first animation scene."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "renewed-design"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-backend",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Added branch deployment and centralized Docker build workflows.",
+              "🔧 Added sample environment settings for ingestion, currency conversion, price alerts, and route pages.",
+              "📝 Documented the travel SEO backend architecture, ingestion contracts, flight pricing, and deals API."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 9,
+          "title": "Scraper",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/signalside_esim_web",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 6,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Built a multi-country trip planner with destination selection, timeline visualization, and plan comparison logic.",
+              "♻️ Renamed the trip planner to Plan Guider and added popular-country starters and plan suggestions to its landing page.",
+              "🚀 Added trip sharing to Plan Guider.",
+              "📝 Updated the multi-country trip heading and traveler guidance."
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Added Vercel deployment."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "plan-guider"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/tada",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🐛 Aligned video duration limits with the render service's 180-second cap, added route-based recommendations, and checked minimum durations before charging.",
+              "🐛 Improved render failure diagnostics and added one automatic retry for transient transport failures without a second credit hold.",
+              "🚀 Added configurable video save locations and preview-setting imports; corrected smoothing defaults, resolution aliases, and preview label mapping.",
+              "🔧 Improved update notifications and recovery of stalled update helpers, refreshed setup documentation, and released package updates through 1.2.2."
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "Vaishnav",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Fixed route-stop photo cropping, sequencing, and display duration, and enabled local photos through MCP.",
+              "🔧 Added validation for unsupported media, expanded nested-field schema overrides, documented the approach, and bumped both packages to 1.3.0."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 29,
+          "title": "Raise the duration cap to 180s, the limit the render service enforces",
+          "author": "vaishnav-0"
+        },
+        {
+          "number": 28,
+          "title": "Make a published update actually reach the user",
+          "author": "vaishnav-0"
+        },
+        {
+          "number": 27,
+          "title": "MCP 1.2: effective defaults, failure reporting, duration floor and output location",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "feat/mcp-photo-annotations",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-analytics-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Disabled the SFTP mount for report files."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "slack-logging"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 19,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed silently discarded animation updates and concurrent route edits losing points.",
+              "🐛 Prevented duplicate Preview screens, bounded renderer teardown waits, and integrated paused-frame, annotation, watermark and rendering fixes.",
+              "⚡ Reduced export scheduling overhead and integrated trail reuse, country-highlight caching and tile retirement improvements.",
+              "🔧 Added copyable build identifiers to Debug Options and documented device performance measurements and route-feature audits."
+            ]
+          }
+        },
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🔧 Capped AI model size at 1.0.",
+              "🐛 Fixed real-route reset for unsupported vehicle models."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/angel",
+        "fix/issue"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "rahul028",
+          "name": "rahul028",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Added a paywall for selecting Pro models in the model view."
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Merged the version 3.9.9 update from main into the branch."
+            ]
+          }
+        },
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Bumped the app version to 3.9.9."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin",
+        "rahul/modelGalleryPaywall",
+        "release"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 25,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed Preview stalls and crashes involving paused updates, annotations, missing elements, trail growth and short animations; added scene-style duration coverage.",
+              "🐛 Fixed globe tile gaps, abrupt detail transitions, black outro frames and Follow camera snaps; disabled unsafe tile retirement after playback failures.",
+              "⚡ Reduced Preview preparation and rendering work through highlight caching, incremental trails, bounded avatar decoding, deduplicated asset fetches and faster tile processing.",
+              "🚀 Moved the Preview watermark into the UI so dismissal avoids rebuilding the render session, while preserving export watermark rendering."
+            ],
+            "Work in Progress": [
+              "🔧 Updated iOS framework distribution through v1.0.39, including Swift Package setup with required graphics frameworks and integration documentation."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ios",
+        "origin"
+      ],
+      "version": "v1.0.39"
+    },
+    {
+      "repo": "Lascade-Co/travelanimator-mcp",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🐛 Updated install instructions to fetch the latest version on launch and bumped the version to 1.2.1."
+            ],
+            "Work in Progress": [
+              "🔧 Updated registry and desktop bundle pins to 1.2.1, bringing in update-delivery fixes and restoring desktop channel attribution.",
+              "📝 Updated install snippets to resolve the latest version on each launch."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 7,
+          "title": "Stop pinning users to the version they first installed",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "fix/uvx-latest-and-bundle-pin",
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

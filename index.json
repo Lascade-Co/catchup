@@ -86,7 +86,8 @@
     "daily/2026-09-03.json",
     "daily/2026-09-04.json",
     "daily/2026-09-05.json",
-    "daily/2026-09-06.json"
+    "daily/2026-09-06.json",
+    "daily/2026-09-07.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -208,7 +209,8 @@
     "Lascade-Co/geoanimator",
     "Lascade-Co/travel-tools",
     "Lascade-Co/tutor",
-    "Lascade-Co/esim-db"
+    "Lascade-Co/esim-db",
+    "Lascade-Co/mixroutes-web"
   ],
   "users": [
     {

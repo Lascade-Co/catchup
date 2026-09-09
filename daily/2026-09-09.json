@@ -1,0 +1,882 @@
+{
+  "date": "2026-09-09",
+  "repos": [
+    {
+      "repo": "Lascade-Co/car-helper",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "♻️ Renamed the Arabic locale from ar-AE to ar-SA."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/chat-synopsis",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed reindexing and live search deleting user pins while refreshing automatic chat aliases.",
+              "✅ Added regression tests for pin preservation and automatic alias updates after group renames.",
+              "🔧 Corrected stale package paths in CI type and import checks."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Added iOS project configuration with app and test targets and dependencies for networking, authentication, analytics, and messaging.",
+              "🔧 Added ignore rules for local tooling, build outputs, and Xcode user settings."
+            ],
+            "Work in Progress": [
+              "🔧 Added iOS project configuration with app and test targets and dependencies for networking, authentication, analytics, and messaging.",
+              "🔧 Added ignore rules for local tooling, build outputs, and Xcode user settings."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 90,
+          "title": "feat:Https safety set",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1ac-rent80",
+      "developers": [
+        {
+          "login": "lascadeansal",
+          "name": "lascadeansal",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Added workflows to request central Android debug builds for pull requests and release builds for main and release pushes.",
+              "🔧 Configured Android builds with Jetpack Compose, signing, Firebase integration, and native debug symbol packaging.",
+              "📝 Documented Infisical-based local secrets setup and excluded signing keys and service configuration from version control."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 17,
+          "title": "compose",
+          "author": "lascadeansal"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": "4.0.1"
+    },
+    {
+      "repo": "Lascade-Co/d1af-flights70",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 5,
+          "bullets": {
+            "Work in Progress": [
+              "🌐 Localized app strings.",
+              "🚀 Implemented a calendar price information sheet.",
+              "🐛 Fixed illegal-argument and activity teardown null-pointer crashes.",
+              "🐛 Fixed a missing-resource crash during onboarding."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "new-price-calendar"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1ah-hotels70",
+      "developers": [
+        {
+          "login": "Ashiiq666",
+          "name": "ashiiq666",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "♻️ Addressed Android lint warnings with Kotlin helpers, explicit locale formatting, and targeted suppressions.",
+              "🔧 Added workflows requesting central debug builds for pull requests and release builds for main and release branches.",
+              "🔧 Added Android build configuration, signing setup, and ignore rules for local secrets and build artifacts.",
+              "📝 Documented local secret setup with Infisical and added workspace configuration."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "vertical-autocomplete"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d2-web-car-v2",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Filtered language options to include only supported locales."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 83,
+          "title": "Add support for filtering languages based on supported locales",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Added storage for canonical saved route payloads."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/canonical-route-payload"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "🚀 Added inline editing for auto top-up amounts and scrolling to keep fields accessible above the keyboard.",
+              "🐛 Allowed auto top-up amounts equal to the balance threshold, updated translations, and added validation and saving tests.",
+              "🐛 Matched wallet top-up suggestions to checkout shortfalls, fixed maximum-limit deadlocks and repeat shortfall handling, and improved steps for large-value currencies.",
+              "🔧 Integrated central debug and release build triggers, Flutter version pinning, and development setup documentation."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Deployed the site on Vercel."
+            ]
+          }
+        },
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the release migrating payments to v2 and always saving the top-up card."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 116,
+          "title": "Release: Migrate payments to v2 and always save the top-up card ",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/flight-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "🚀 Exposed place_id in autocomplete and Price Insights, and prioritized placeId for Price Insights location inputs.",
+              "📝 Documented Price Insights identifier precedence in Swagger."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m8-web-car",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Updated locale handling to use supported languages and improved routing."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 13,
+          "title": "fix: update locale handling to use supported languages and improve routing",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "🚀 Completed email alerts.",
+              "🚀 Added JWT authentication alongside API keys for V2 ship tracking, with email populated from the token when omitted.",
+              "🐛 Required an email address or push token."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/email-alerts"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/Marine-timelapse-studio",
+      "developers": [
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed ships moving over land."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "keith/bug-fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🐛 Reported UI fixes; the supplied diff does not show the specific interface changes.",
+              "🔧 Added triggers for centralized PR debug builds and release builds.",
+              "🔧 Added Flutter version pinning and local development configuration.",
+              "📝 Added guidance on app architecture, coding conventions, and build workflows."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/email-alerts"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "📝 Added a runbook for both blog workflows covering setup, publishing requirements, keyword selection, quality checks, scheduling, costs, and limitations."
+            ],
+            "Work in Progress": [
+              "📝 Added a runbook for both blog workflows covering setup, publishing requirements, keyword selection, quality checks, scheduling, costs, and limitations."
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Recorded two published stories in the deduplication ledger to prevent repeat coverage."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 27,
+          "title": "Add BLOG-WRITER-RUNBOOK.md: how to run both blog flows",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "blog-writer-runbook",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Added a blog writer runbook for MarineRadar and TravelAnimator SEO pipelines, covering setup, publishing workflows, scheduling, costs, and limitations."
+            ]
+          }
+        },
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Added the September 8 product analysis report, flagging a severe TravelAnimator iOS attribution failure.",
+              "🔧 Manually restored the report’s sidebar link and content wrapper."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/react-email-templates",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed Gmail dark mode on iOS by removing forced light-panel backgrounds."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/rent80-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Merged Arabic (ar-AE) localization with right-to-left support and localized date pickers."
+            ],
+            "Work in Progress": [
+              "🔧 Merged release changes for Arabic localization and a minimum-character message."
+            ]
+          }
+        },
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "♻️ Renamed the Arabic locale from ar-AE to ar-SA.",
+              "🚀 Added a minimum-character hint to the location search dropdown."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 34,
+          "title": "Release: Arabic localisation, and minimum character message",
+          "author": "mhdbk"
+        },
+        {
+          "number": 33,
+          "title": "refactor: rename Arabic locale from ar-AE to ar-SA",
+          "author": "rebin03"
+        },
+        {
+          "number": 32,
+          "title": "show minimum character hint in location search dropdown",
+          "author": "rebin03"
+        },
+        {
+          "number": 31,
+          "title": "Add Arabic (ar-AE) locale with RTL support and localized date pickers",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Fixed card saving by matching payment methods to the setup intent and keeping validation errors inline.",
+              "🚀 Updated the account’s My eSIMs header to open the full eSIM list with a View all link.",
+              "🐛 Migrated eSIM screens to accounts v2 to fix empty lists and missing details, with translated lifecycle statuses, updated usage data, and Android installation links."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "renewed-design"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🔧 Added build and publishing support for a pgvector PostgreSQL image on GHCR, with the latest tag published only from dev."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/signalside_esim_web",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 5,
+          "bullets": {
+            "Work in Progress": [
+              "♻️ Reorganized wallet features and shared utilities, removed legacy components, and centralized upstream API paths in a typed registry.",
+              "🚀 Added v2 eSIM and wallet endpoints, updated payment method types, and switched auto-topup updates to PUT.",
+              "🚀 Moved eSIM installation data to the detail endpoint and added one-tap installation support.",
+              "🐛 Migrated account updates and deletion to API v2, fixed unintended name clearing and stale session data, and clarified deletion consequences across 16 locales."
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Added Vercel deployment work."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/simline-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Worked on Vercel deployments."
+            ]
+          }
+        },
+        {
+          "login": "ryyansafar",
+          "name": "ryyansafar",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added explicit save-card consent and checkout preference API support, with labels in 10 locales.",
+              "♻️ Grouped cart and account navigation, improved cart drawer spacing, and polished the save-card consent row.",
+              "🐛 Improved wallet checkout errors and balance checks, cleared the cart after wallet checkout, and added inline invalid-promo errors."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/store-reviews",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added workflows to sync App Store and Google Play reviews, publish dashboard data, and post replies from the dashboard.",
+              "🔧 Coordinated per-app workflows and added state merging, pruning, and push retries to handle concurrent updates.",
+              "📝 Documented centralized review syncing and safe contribution practices."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 5,
+          "bullets": {
+            "Testing": [
+              "🔧 Updated the shared-module dependency."
+            ],
+            "Work in Progress": [
+              "⚡ Updated the shared module to include bounded video decoding and posters, streaming decoding, and decoder limits with fallback.",
+              "🐛 Included shared-module fixes for invalid Orbit cameras and incorrect destinations on zero-length final legs.",
+              "📝 Documented video annotation performance findings, device validation results, and decoder design decisions.",
+              "📝 Corrected poster memory estimates and clarified decode-timeout behavior and Android-specific poster seeking."
+            ]
+          }
+        },
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Merged workflows for centralized debug and release builds, Play Store publishing, and cleanup of old debug releases.",
+              "🔧 Added local development setup and shared-module configuration, plus ignore rules for generated files.",
+              "📝 Added coding guidance covering testing and shared utility organization."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 610,
+          "title": "Fix/issues",
+          "author": "Vivek-4321"
+        }
+      ],
+      "branches": [
+        "feat/angel",
+        "feat/video-annotation-perf",
+        "origin"
+      ],
+      "version": "4.0.146"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-custom-models",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed model requests to accept at least one reference image and show validation errors without reloading or losing selected files.",
+              "🐛 Prevented blocked analytics scripts from breaking form submission and handled expired sessions during submission.",
+              "⚡ Merged a fix for slow Largest Contentful Paint (LCP).",
+              "🔧 Replaced deprecated authentication settings and required email at signup to resolve configuration warnings."
+            ],
+            "Testing": [
+              "🔧 Added a deployment-trigger commit for the branch deployment workflow; no code changes."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 22,
+          "title": "chore: replace deprecated allauth ACCOUNT_* settings",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 21,
+          "title": "fix: unblock model request submission and show errors in place",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 20,
+          "title": "Fix: LCP taking more time to load -> Fixed",
+          "author": "vyshnavsmenon115"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 11,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed tutorial pin alignment, skipped unavailable editing steps, remembered lessons, and integrated clipboard route imports with improved link parsing.",
+              "⚡ Downsampled and cached gallery thumbnails, fixed texture selection updates, and removed false low-memory alerts.",
+              "🚀 Updated preview defaults for model size, path thickness, globe projection, speed, and labels; hid avatar scaling on routes without avatars.",
+              "🔧 Added TestFlight and App Store workflow dispatches and project guidance; refreshed paywall copy and kept pricing, purchase, and restore controls visible."
+            ]
+          }
+        },
+        {
+          "login": "rahul028",
+          "name": "rahul028",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Added a paywall for the real-route limit.",
+              "🌐 Localized cover-image data and labels for distance, days, and visited countries."
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Merged central TestFlight and App Store build workflows, repository ignore rules, and project guidance."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 822,
+          "title": "paywall for real route limit",
+          "author": "rahul028"
+        },
+        {
+          "number": 820,
+          "title": "Cover image titles localisation",
+          "author": "rahul028"
+        },
+        {
+          "number": 819,
+          "title": "Rahul/debug analytics",
+          "author": "rahul028"
+        },
+        {
+          "number": 818,
+          "title": "Feat rahul - journey ai",
+          "author": "rahul028"
+        },
+        {
+          "number": 817,
+          "title": "added paywall for pro model selection through model view",
+          "author": "rahul028"
+        },
+        {
+          "number": 490,
+          "title": "Journy ai",
+          "author": "Basith-P"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "🔧 Added comparison review dates and disclosures, expanded press-kit links, and fixed duplicate localized page titles.",
+              "🔧 Hardened the WordPress hub against public account enumeration and disabled XML-RPC while preserving author bylines.",
+              "🐛 Capped oversized hub comparison images and aligned thumbnails and captions across grid columns.",
+              "🔧 Merged deployment automation and web-to-app attribution setup documentation."
+            ],
+            "Work in Progress": [
+              "🐛 Replaced the iOS backend map-link handoff with clipboard transfer and reduced the install flow to one screen before the App Store.",
+              "🐛 Pointed Android map links at the verified host so installed apps can open instead of falling through to Google Play."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 203,
+          "title": "Seo and hub fixes",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 202,
+          "title": "Ios gmap clipboard",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "ios-gmap-clipboard",
+        "origin",
+        "seo-and-hub-fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "rohittp0",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🔧 Added centralized Swift Package Manager publishing on main-branch updates and bumped the version to v1.0.42.",
+              "🔧 Made dependency configuration self-contained and configured native graphics support for host tests.",
+              "📝 Added shared-library build, integration, and API documentation."
+            ],
+            "Work in Progress": [
+              "🔧 Updated the iOS Swift package distribution to v1.0.42."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 22,
+          "title": "Feat/video annotation perf",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "ios",
+        "origin"
+      ],
+      "version": "v1.0.42"
+    }
+  ]
+}

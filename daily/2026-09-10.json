@@ -1,0 +1,678 @@
+{
+  "date": "2026-09-10",
+  "repos": [
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": null,
+          "name": "Antony Mathew",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "⚡ Shortened surface detection waits and enabled measurement placement on tracked depth points.",
+              "🐛 Reduced endpoint marker drift and made measurements follow anchor corrections faster.",
+              "🚀 Added line measurements to plan previews, saving, and export, with preview updates after undo."
+            ]
+          }
+        },
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the home page Pro icon update."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 33,
+          "title": "fix:watermark in export pdf",
+          "author": "keith-james"
+        },
+        {
+          "number": 32,
+          "title": "changing purpose survey analytics event",
+          "author": "keith-james"
+        },
+        {
+          "number": 31,
+          "title": "updated pro user sign up prompts",
+          "author": "keith-james"
+        },
+        {
+          "number": 30,
+          "title": "pro icon home page",
+          "author": "keith-james"
+        }
+      ],
+      "branches": [
+        "drawing_fixes",
+        "origin"
+      ],
+      "version": "debug-pr-34"
+    },
+    {
+      "repo": "Lascade-Co/car-helper",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Skip fetching ads and ad sessions when the noa cookie is set."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-car-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 19,
+          "bullets": {
+            "Published": [
+              "🐛 Opened first launch directly on onboarding, deferred automatic prompts until home, fixed notification permission handling, and refined onboarding animations while restoring the original notification illustration.",
+              "🚀 Added an independent language picker with 28 searchable languages, simplified picker labels, and fixed profile title behavior and tab-bar overlap.",
+              "🐛 Distinguished location search failures from empty results, preserved full place names, and removed duplicate airport codes from picker rows.",
+              "🚀 Added looping home chips, clearer car-type counts and default dates in collapsed search; unified location pins, styled results controls, and fixed rental-card collapse alignment after swiping."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Reoffer the notification introduction every three app opens until the user grants or denies system permission.",
+              "🚀 Updated the search pill's stretching behavior.",
+              "🔧 Added Xcode project configuration and ignore rules for local tooling, build outputs, and user settings."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 92,
+          "title": "feat:Notification req repeat set",
+          "author": "Swalih60"
+        },
+        {
+          "number": 91,
+          "title": "feat:Search stretching pill set",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1af-flights70",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "AjinLascade",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Added workflows to request centralized debug and release builds.",
+              "📝 Added WorkManager notification setup, testing, and troubleshooting guides.",
+              "🔧 Added ignore rules for local build files and sensitive configuration."
+            ],
+            "Work in Progress": [
+              "♻️ Changed the price calendar API structure."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 48,
+          "title": "Crash fix",
+          "author": "AjinLascade"
+        }
+      ],
+      "branches": [
+        "new-price-calendar",
+        "origin"
+      ],
+      "version": "3.6.2"
+    },
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Integrated canonical saved-route payloads into the development branch alongside pay-as-you-go support."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/flight-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Normalized the Price Insights API and categorized calendar prices."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/flight-helper",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added price calendars for city and metro routes using remembered KAYAK place IDs.",
+              "🐛 Aligned price insights with the snake_case contract and prevented terminal failures from triggering redispatch."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/geoanimator",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 9,
+          "bullets": {
+            "Published": [
+              "🚀 Added satellite imagery as the default basemap for new projects while preserving older projects' appearance.",
+              "🚀 Expanded canvas space with a hideable timeline, added precision trimming, pinch zoom and keyframe snapping, and fixed interrupted retime drags and snapping tests.",
+              "🐛 Audited and refined edit previews to show static changes in one frame, play animated changes at the right time, and support review and undo grouping across more controls.",
+              "🔧 Centralized assistant contracts, added an assistant library publishing workflow, standardized formatting rules, and preserved disabled CI definitions for migration."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m1-android-flight",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🐛 Corrected the fallback user identifier for flight, stay, and car rental links and inline ads.",
+              "🔧 Added central debug build requests for pull requests and release build requests for main and release branches.",
+              "📝 Documented local secrets setup with Infisical and excluded sensitive local files from version control.",
+              "🔧 Added Android build configuration covering signing, dependencies, release optimization, and lint settings."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 32,
+          "title": "change:fix fallback",
+          "author": "AjinLascade"
+        },
+        {
+          "number": 31,
+          "title": "Dev",
+          "author": "AjinLascade"
+        }
+      ],
+      "branches": [
+        "fixes",
+        "origin"
+      ],
+      "version": "3.2.1"
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Completed email alerts."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/email-alerts"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "📝 Updated the published-news ledger with five stories covering RNLI volunteer harassment, Suez Canal traffic recovery, a vessel drone strike, claimed ship attacks near Hormuz, and a ferry fire."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Added guidance for profit reports using store earnings, ad spend, and influencer costs, including data-quality labels and report navigation.",
+              "📝 Documented Cover Image launch context to prevent false-positive marketing review feedback."
+            ]
+          }
+        },
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added Meta campaign alerts for mismatched objectives and stopped delivery, including cases with no benchmark data.",
+              "🐛 Corrected purchase counting to avoid duplicates across Meta action types.",
+              "🔧 Automated daily digests and added a watchdog to alert when no digest runs for 36 hours.",
+              "🐛 Fixed generated reports losing sidebar navigation and layout; verified changes with 455 passing tests."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/rent80-web",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🐛 Patched package vulnerabilities.",
+              "🔧 Restricted ad fetching."
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Triggered a deployment."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🔧 Added Vercel deployment automation and environment configuration templates.",
+              "📝 Documented Flutter mobile app requirements, user journeys, and backend integration."
+            ],
+            "Work in Progress": [
+              "🐛 Preserved rounded corners on focused menus and selectors.",
+              "🐛 Added browser-side catalog recovery after server fetch failures, capped loading time, and prevented false destination 404s.",
+              "🚀 Updated catalog pricing to respect the visitor's selected currency and billing country.",
+              "🚀 Integrated V2 wallet enhancements."
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🔧 Triggered Vercel deployment."
+            ],
+            "Work in Progress": [
+              "🔧 Triggered Vercel deployments."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 7,
+          "title": "feat(pricing): price the catalog in the visitor's currency, recover it client-side",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 6,
+          "title": "Dev",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 5,
+          "title": "Enhance wallet functionality using V2",
+          "author": "Riyaaaaan"
+        }
+      ],
+      "branches": [
+        "dev",
+        "feat/test",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/store-reviews",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Replaced the existing OpenAI integration with Codex."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-analytics-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Added an advertiser tracking flag to the app user model and user creation API."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "att-signal-collection"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed release startup crashes by preserving Skia JNI names and Kotlin callbacks during shrinking; added regression tests.",
+              "🔧 Updated the shared module revision.",
+              "Merged main into the feature branch, incorporating build and release automation and development guidance."
+            ]
+          }
+        },
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Merged changes covering centralized debug and release builds, Play Store release triggers, and cleanup of old debug releases.",
+              "📝 Included development environment setup and coding and testing guidance in the merge."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 611,
+          "title": "Fix/issue",
+          "author": "Vivek-4321"
+        },
+        {
+          "number": 589,
+          "title": "feat/angel",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "origin",
+        "release"
+      ],
+      "version": "5.0.2"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-custom-models",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 10,
+          "bullets": {
+            "Testing": [
+              "🐛 Protected paid and verification-pending models from stale payment failures or expirations and prevented duplicate payment notification emails.",
+              "🚀 Required user approval after the third redo, enforced redo limits and review-stage checks, and fixed the remaining-requests counter.",
+              "🚀 Added redo-in-progress notices and emails when updated assets are ready for review, retaining notification flags for retry after send failures.",
+              "🚀 Limited Recent custom models to public models already added to the app."
+            ],
+            "Work in Progress": [
+              "🚀 Added emails when redone assets are ready for review, clearing the notification trigger after successful delivery and retaining it for retry on failure.",
+              "🚀 Limited Recent custom models to public models already added to the app."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "deploy",
+        "feat/notify-user-on-redo-upload",
+        "feat/recent-models-added-to-app"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed default route names to use the next unused Trip number, avoiding duplicate-name save failures.",
+              "🐛 Improved tutorial smoothness and tap handling, and fixed tutorial skipping after returning from preview.",
+              "🔧 Bumped the app version and added central TestFlight and App Store build workflows.",
+              "📝 Added repository guidance covering architecture and development workflows."
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Merged analytics tracking for the custom onboarding paywall and Journey AI."
+            ],
+            "Work in Progress": [
+              "🔧 Synced main's 3.9.9 updates into the working branch, including build workflows and development guidance."
+            ]
+          }
+        },
+        {
+          "login": "rohittp0",
+          "name": "Rohit",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed crash issues reported in Crashlytics for version 3.9.8."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 827,
+          "title": "added analytics for Custom Onboarding Paywall and Journey Ai ",
+          "author": "rahul028"
+        },
+        {
+          "number": 826,
+          "title": "Fix Crashlytics 3.9.8 issue clusters",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "origin",
+        "release"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Merged SEO and user experience improvements, including updated aggregate ratings."
+            ],
+            "Work in Progress": [
+              "🚀 Updated aggregate ratings for SEO, improved the map intro layout, and added sections for clarity."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 204,
+          "title": "Enhance SEO and user experience: update aggregate ratings, improve ma…",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "origin",
+        "seo-and-hub-fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "rohittp0",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🐛 Integrated route policy and cover localization.",
+              "🔧 Bumped the Swift Package Manager version to v1.0.43."
+            ],
+            "Work in Progress": [
+              "🔧 Updated the prebuilt iOS Swift package to v1.0.43."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ios",
+        "origin"
+      ],
+      "version": "v1.0.43"
+    }
+  ]
+}

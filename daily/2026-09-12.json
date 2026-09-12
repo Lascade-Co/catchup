@@ -1,0 +1,146 @@
+{
+  "date": "2026-09-12",
+  "repos": [
+    {
+      "repo": "Lascade-Co/esim-db",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan-Shoukath",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "• fix: declare the db service in the swarm override so it is never blank",
+              "• fix: keep the override minimal, reverting the env additions",
+              "• fix: shape the swarm override like esim-backend and pass the missing env",
+              "• fix: keep the swarm override a valid mapping so the deploy can parse it"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/geoanimator",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "• Name the timeline's rows after what is on them",
+              "• Hold the edge still for the whole hold-and-resize, both ways",
+              "• docs: consolidate project documentation",
+              "• Make terrain the default map, after measuring the style it names"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "worktree-timeline-layer-groups"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "• Add dedup ledger entries for two Sep 12 autonomous-run publishes",
+              "• Add ledger entry for Eastern Cape South Africa vessel surge (2026-09-12)",
+              "• publish: Oil Tanker Rates Hit Record Highs as Strait of Hormuz Conflict Intensifies",
+              "• publish: KMAX Emperor / True Mariner collision off Kandla, Sep 11 2026",
+              "• publish: Houthis Seize Perim Island, Putting Bab el-Mandeb in Jeopardy (2026-09-11)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• trigger build even when there is conflict",
+              "• shared bump"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "fix/crash"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• [skip ci] Change pull_request to pull_request_target in workflow"
+            ],
+            "Testing": [
+              "• Merge pull request #835 from Lascade-Co/feat/shared-route-workflow-ios"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 835,
+          "title": "Migrate route workflow to shared",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "feat/angel",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• fix(render): preserve highlight pattern continuity"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

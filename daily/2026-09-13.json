@@ -1,0 +1,126 @@
+{
+  "date": "2026-09-13",
+  "repos": [
+    {
+      "repo": "Lascade-Co/geoanimator",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• Float the bottom bar, and put the header on the design's ground",
+              "• Give the lanes their colours, and the names give way to playback"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "worktree-editor-chrome-style",
+        "worktree-timeline-lane-style"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• chore: update dedup ledger with 2026-09-13 Hormuz ship strike story",
+              "• chore: update dedup ledger — Virgo Transport 8 Java Sea story (2026-09-13)",
+              "• publish: MV Matui Vanuatu ferry sinking + AM Pride Mossel Bay fire (2026-09-12)",
+              "• chore: add June Aster ferry fire (Coron, Palawan) to published-news ledger"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #614 from Lascade-Co/fix/crash"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 614,
+          "title": "fix: harden export diagnostics and stabilize map patterns",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": "5.0.3"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• chore: pin TAShared v1.0.45 artifact",
+              "• Merge latest origin/main into feat/angel"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/angel"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "rohittp0",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "• chore: bump SPM version to v1.0.46 [skip ci]",
+              "• chore: bump SPM version to v1.0.45 [skip ci]",
+              "• fix(render): preserve the first handled OOM allocation context",
+              "• feat(preview): expose shared automation state bridge",
+              "• chore: recover SPM version after tag collision [skip ci]"
+            ],
+            "Work in Progress": [
+              "• Update to v1.0.46",
+              "• Update to v1.0.45"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ios",
+        "origin"
+      ],
+      "version": "v1.0.46"
+    }
+  ]
+}

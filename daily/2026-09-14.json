@@ -1,0 +1,171 @@
+{
+  "date": "2026-09-14",
+  "repos": [
+    {
+      "repo": "Lascade-Co/d1ac-rent80",
+      "developers": [
+        {
+          "login": "lascadeansal",
+          "name": "ansal",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• fix firebase crashes"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "compose"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-db",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan-Shoukath",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• feat: resolve capacity=0 as unlimited and fold it to NULL at the boundary"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/geoanimator",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Put the assistant back in the bar when nothing is selected"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "worktree-assistant-in-create-bar"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• fix:worker config changes"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• feat:gevent"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/gevent"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• chore: update dedup ledger — Garibaldi Colombo stop + BYD fleet expansion (2026-09-14)",
+              "• publish: Two Ships Hit by Projectiles Near the Strait of Hormuz (2026-09-13)"
+            ],
+            "Work in Progress": [
+              "• fix(keyword-plan): surface DataForSEO per-task errors instead of silently dropping volumes"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "fix/keyword-plan-dataforseo-task-status",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• chore(full-product-seo): update GSC caches + link archive for 2026-09-14 run"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/i18n-audit-layer"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #834 from Lascade-Co/658-icon-change-none-icon-to-given-icon"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 834,
+          "title": "asset and preview line for element changed",
+          "author": "rahul028"
+        },
+        {
+          "number": 833,
+          "title": "fix: fixed issue \"GPX uploaded route doesnt have curve when adding ex…",
+          "author": "rahul028"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

@@ -1,0 +1,484 @@
+{
+  "date": "2026-09-15",
+  "repos": [
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat:Att postion, calendar & Autocomplete animation updated"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 94,
+          "title": "feat:Att postion, calendar & Autocomplete animation updated",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1ac-rent80",
+      "developers": [
+        {
+          "login": "lascadeansal",
+          "name": "lascadeansal",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #18 from Lascade-Co/compose"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 18,
+          "title": "compose",
+          "author": "lascadeansal"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": "4.0.2"
+    },
+    {
+      "repo": "Lascade-Co/d1af-flights70",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• change:remove the library 'com.bytedance.ies.ugc.aweme:opensdk-oversea-external'.not need the tiktok event firing",
+              "• change:Implement tiktok events"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "crash-fix"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1ah-hotels70",
+      "developers": [
+        {
+          "login": "Ashiiq666",
+          "name": "ashiiq666",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Added tiktok utm source"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "snap_event"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• feat: implement opaque protobuf storage for saved routes and animation states"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/canonical-route-payload"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "• feat(sessions): attribution capture, funnel events, session lifecycle",
+              "• fixed auth page ui issues",
+              "• fix(analytics): fire Facebook/GA4 checkout events on all payment paths",
+              "• Merge branch 'task/auth-welcome-email-otp-redesign' into dev"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/HotelSnap-E2",
+      "developers": [
+        {
+          "login": "lascadeansal",
+          "name": "ansal",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• fixes in push token",
+              "• fixes in ios push token"
+            ]
+          }
+        },
+        {
+          "login": "Jasifkasif",
+          "name": "jasifkashim",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• local commit"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• changed the freshness window"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/ship-freshness"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #272 from Lascade-Co/ps/ship-history"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 272,
+          "title": "feat:ship history",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #182 from Lascade-Co/deploy"
+            ],
+            "Work in Progress": [
+              "• feat: enhance auto top-up functionality and improve credit balance handling",
+              "• feat: add satellite credit auto top-up and refine vessel controls",
+              "• add vessel page and update layout for multiple locales"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 182,
+          "title": "Deploy",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• chore: update published-news ledger after 2026-09-15 pipeline run",
+              "• publish 3 stories: El Gaia Hormuz explosion, Virgo Transport 8 wreckage found, MV Matui Vanuatu accountability (2026-09-15)",
+              "• publish: MV Sward Somalia piracy release (2026-09-11)",
+              "• chore: ledger — houthis-seize-hanish-islands-red-sea-2026-09-14"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 14,
+          "bullets": {
+            "Published": [
+              "• feat(app-health): version-scoped health reports for TA, MarineRadar, Smart Ruler",
+              "• style(meta-product-analysis): red triangle for worse, plain for better",
+              "• revert(meta-product-analysis): send the digest as text again",
+              "• feat(meta-product-analysis): deliver the digest as a rendered PNG",
+              "• chore(deps): add firebase-tools"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Add vinext migration path for Cloudflare Workers"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "vinext-migration"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/signalside_esim_web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Deploy on Vercel"
+            ]
+          }
+        },
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• feat: enhance SEO, structured data, canonical URL redirection, and SSR error handling"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/store-reviews",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• updated doc",
+              "• updated documentation"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Update version and version code in gradle.properties"
+            ]
+          }
+        },
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Merge pull request #612 from Lascade-Co/fix/issues"
+            ]
+          }
+        },
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Merge branch 'release' into feat/chat"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 612,
+          "title": "fix: lower default model size to 0.27",
+          "author": "Vivek-4321"
+        }
+      ],
+      "branches": [
+        "feat/chat",
+        "release"
+      ],
+      "version": "4.0.148"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "• fix(models): point fallback JSON at the new default usdz",
+              "• switched default model to the new one",
+              "• version update"
+            ],
+            "Work in Progress": [
+              "• fix(models): stop claiming a rendered model is corrupted",
+              "• feat(models): report model load failures instead of failing silently"
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Merge pull request #837 from Lascade-Co/main"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "mushfiq/low-config-device-fixes",
+        "origin",
+        "release"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #207 from Lascade-Co/seo-and-hub-fixes"
+            ],
+            "Work in Progress": [
+              "• feat: localize public pages and improve hub navigation"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 207,
+          "title": "feat: localize public pages and improve hub navigation",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "origin",
+        "seo-and-hub-fixes"
+      ],
+      "version": null
+    }
+  ]
+}

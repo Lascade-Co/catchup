@@ -1,0 +1,673 @@
+{
+  "date": "2026-09-16",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• fix: retry Vinext control download transport errors",
+              "• feat: add reusable Vinext Cloudflare deployment workflow"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/ads-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #10 from Lascade-Co/tracking-auth-and-more"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 10,
+          "title": "Tracking fix, Auth addition, workflow fix, package upgrades and more",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": null,
+          "name": "Antony Mathew",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• drawing improvements"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "drawing_fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-car-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 8,
+          "bullets": {
+            "Published": [
+              "• chore(deps): firebase 12.19.2",
+              "• feat(rental): ultra fast booking picks up a location and searches straight away",
+              "• Merge branch 'dev' into main",
+              "• chore(i18n): add push-permission and view-all strings in 27 languages",
+              "• style(filter): car type and policies as rows, per Figma 8764:1673"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• feat:Detail screen ios 17 issue and current locaiton fixed"
+            ],
+            "Work in Progress": [
+              "• feat:Current location and detail screen fixed",
+              "• feat:Profile set",
+              "• feat:Fav tab title updated"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 95,
+          "title": "feat:Detail screen ios 17 issue and current locaiton fixed",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1af-flights70",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "AjinLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #51 from Lascade-Co/crash-fix"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 51,
+          "title": "Crash fix",
+          "author": "AjinLascade"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": "3.6.3"
+    },
+    {
+      "repo": "Lascade-Co/Dashlytics",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #4 from Lascade-Co/feat/stripe-revenue-ingest"
+            ],
+            "Work in Progress": [
+              "• Fold Stripe revenue at the settlement currency of the day, not the account"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 4,
+          "title": "Fold Stripe revenue at the settlement currency of the day, not the ac…",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "feat/stripe-revenue-ingest",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 8,
+          "bullets": {
+            "Published": [
+              "• empty cart issue and add to cart speed increased",
+              "• Fire Facebook ViewContent at checkout/cart; unify checkout login screen",
+              "• fixed icon in purchase",
+              "• Merge pull request #77 from Lascade-Co/dev",
+              "• Fix false \"insufficient wallet balance\" on eSIM top-up checkout"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 79,
+          "title": "Dev",
+          "author": "sajithlascade"
+        },
+        {
+          "number": 78,
+          "title": "ui fixes done, not tested properly",
+          "author": "sajithlascade"
+        },
+        {
+          "number": 77,
+          "title": "Dev",
+          "author": "sajithlascade"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin",
+        "task/misc-ui-fixes"
+      ],
+      "version": "v1.2.6+81"
+    },
+    {
+      "repo": "Lascade-Co/email-push-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Prioritize immediate transactional emails over background tasks"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #117 from Lascade-Co/dev"
+            ],
+            "Work in Progress": [
+              "• feat: prepare Cloudflare migration with vinext",
+              "• fix(wallet): allow explicit auto top-up currency changes"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Deploy on Vercel"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 117,
+          "title": "wallet: allow explicit auto top-up currency changes",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "codex/cloudflare-migration",
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim_airalo",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 6,
+          "bullets": {
+            "Work in Progress": [
+              "• refactor: remove edit name feature and clean up unused translation keys",
+              "• feat: add attribution tracking and integrate evidence into session management",
+              "• refactor: replace password and anonymous auth flows with email OTP authentication",
+              "• feat: add auto-topup authentication and updated payment method handling",
+              "• feat: add currency options and attempt recovery to auto top-up rule management"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feature/cart"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "• pointing sync ships live to redis instead of postgres",
+              "• Merge remote-tracking branch 'origin/main' into keith/mvt",
+              "• bypassing cloudflare bot detection",
+              "• Merge remote-tracking branch 'origin/main' into keith/auto-moderation"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "keith/auto-moderation",
+        "keith/mvt"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #273 from Lascade-Co/ps/within_radius_loader"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 273,
+          "title": "feat:added withinradius loader",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• feat: enhance article layout with sidebar navigation and auto top-up hints",
+              "• feat: implement client-side translation context and update components to use new translator hook",
+              "• Merge pull request #183 from Lascade-Co/deploy",
+              "• fix: align package cache and block Common Crawl"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 185,
+          "title": "feat: enhance article layout with sidebar navigation and auto top-up …",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 184,
+          "title": "feat: implement client-side translation context and update components…",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 183,
+          "title": "fix: align package cache and block Common Crawl",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• chore(ledger): add prabowo-virgo-transport-8-probe 2026-09-16",
+              "• chore(ledger): add navigator-gas-ethane-retrofits 2026-09-16",
+              "• publish: Mersin cocaine bust + Eritrea UAE port imperialism (2026-09-15)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/mixroutes-web",
+      "developers": [
+        {
+          "login": "ryyansafar",
+          "name": "Ryyan Safar",
+          "commit_count": 29,
+          "bullets": {
+            "Published": [
+              "• Results dock: longer flight range so the card is watchable",
+              "• Results search card flies into the pill from the first scroll pixel, over a measured range",
+              "• Search card stays clickable while it flies; a tap on it mid-flight pulls it back open",
+              "• Search card arcs, leans and squashes fully into the pill; button pops with a spin and ripple once it is swallowed",
+              "• Search card docks into the pill button exactly; button springs in only once the card is swallowed, with a gulp on the pill; results pill button hidden while the page card is visible"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "• style(meta-product-analysis): platform scan-cue + collapsed detail tables",
+              "• feat(meta-product-analysis): reading order, spend floor, wording fixes",
+              "• chore(meta-product-analysis): daily report for 15 Sep 2026",
+              "• chore(meta-product-analysis): daily report for 14 Sep 2026",
+              "• fix(full-product-seo): MarineRadar AEO collector JSON-LD list-vs-dict crash"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 13,
+          "bullets": {
+            "Published": [
+              "• fix(seo): keep the old logo URL alive after the Joy rename",
+              "• feat(about): redesign the about page in the current theme",
+              "• refactor(brand): rename the mascot from Sol to Joy",
+              "• feat(help): rebuild the help center around a 26-answer question bank",
+              "• feat(content): add a what-is-esim page and retire how-it-works"
+            ],
+            "Work in Progress": [
+              "• fix(flag): size the rectangular chips 4:3",
+              "• fix(flag): stop wide flags letterboxing inside the chip"
+            ]
+          }
+        },
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #11 from Lascade-Co/dev",
+              "• fix: declare pnpm install script decisions for CI",
+              "• Merge pull request #9 from Lascade-Co/vinext-migration"
+            ],
+            "Testing": [
+              "• feat: add WordPress blog routing Worker"
+            ],
+            "Work in Progress": [
+              "• feat: deploy Vinext through central Cloudflare workflow"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 14,
+          "title": "release: what-is-esim page, help center rebuild, About redesign, and the Joy rename",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 13,
+          "title": "Store, help center, what-is-esim, About redesign, and the Joy rename",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 11,
+          "title": "Dev",
+          "author": "Jenin82"
+        },
+        {
+          "number": 10,
+          "title": "Fix pnpm build-script policy blocking staging deployment",
+          "author": "Jenin82"
+        },
+        {
+          "number": 9,
+          "title": "Add Vinext Cloudflare deployment with shared Infisical workflow",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "codex/fix-pnpm-build-policy",
+        "codex/roamjoy-rewrite",
+        "dev",
+        "feat/updation",
+        "origin",
+        "vinext-migration"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 8,
+          "bullets": {
+            "Testing": [
+              "• Add Journey AI exit survey",
+              "• Ship Journey AI to everyone instead of A/B testing it",
+              "• Make country cover styles always available as Pro, remove creator-challenge remote gate",
+              "• Show only model hold tutorial after route import",
+              "• Fix yearly paywall responsive layout"
+            ]
+          }
+        },
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• chore: sync with main",
+              "• Merge pull request #617 from Lascade-Co/fix/preview-oom"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 617,
+          "title": "fix(preview): stop the 5.0.x Java-heap OOM cluster",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "fix/survey",
+        "origin"
+      ],
+      "version": "5.0.4"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "rahul028",
+          "name": "rahul028",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• fix : saved route name persistance added"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "785-save-route-issues"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #208 from Lascade-Co/seo-and-hub-fixes"
+            ],
+            "Work in Progress": [
+              "• fix: improve hub SEO accessibility and defer route prefetch"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 208,
+          "title": "fix: improve hub SEO accessibility and defer route prefetch",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "origin",
+        "seo-and-hub-fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "rohittp0",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• chore: bump SPM version to v1.0.47 [skip ci]",
+              "• Merge pull request #25 from Lascade-Co/fix/preview-oom"
+            ],
+            "Work in Progress": [
+              "• Update to v1.0.47"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 25,
+          "title": "fix(render): build the place-label typeface stack once per process",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "ios",
+        "origin"
+      ],
+      "version": "v1.0.47"
+    }
+  ]
+}

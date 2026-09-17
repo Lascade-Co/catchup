@@ -1,0 +1,474 @@
+{
+  "date": "2026-09-17",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• feat: add shared static Pages deployment workflow"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/ads-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "• swagger info fix",
+              "• ensure future date validation",
+              "• return self error fix",
+              "• added sample payload in swagger"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "updates"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat:Search screens and profile set"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 96,
+          "title": "feat:Search screens and profile set",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Enable saved-card payment at checkout; fix delete-account eSIM count"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/email-push-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #41 from Lascade-Co/dev"
+            ],
+            "Work in Progress": [
+              "• Add safe resumable welcome history backfill",
+              "• Prevent webhook recovery from amplifying queued work"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 41,
+          "title": "Prioritize transactional emails and prevent duplicate webhook recovery",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #83 from Lascade-Co/dev"
+            ],
+            "Work in Progress": [
+              "• feat: add brand store-review OTP accounts and update admin navigation",
+              "• Complete nearby recommendations Swagger contract and examples",
+              "• update some failing tests and docker compose file for platform support",
+              "• feat: monitor Yesim webhook contract changes and silence, prune old events",
+              "• Add cached nearby country recommendations with localized pricing"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 83,
+          "title": "Release dev: eSIM v2 and reusable payment methods",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim_airalo",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "• feat: add top-up amount range validation and translations",
+              "• feat: support dynamic currency selection and formatting for wallet balances",
+              "• feat: add edit name bottom sheet and interactive account detail rows"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feature/cart"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/geoanimator",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• Pin the lane buttons to the leading edge, not to the playhead",
+              "• Trim the editor to this release's feature set and redraw the row column"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "release-ui-trim"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• feat:port activities",
+              "• Merge branch 'main' of github-lascade:Lascade-Co/marine-tracking-flutter into ps/port-schedule"
+            ]
+          }
+        },
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #274 from Lascade-Co/ps/app-rate-fix"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 274,
+          "title": "fix:ios app rate fix and APP track fix",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "origin",
+        "ps/port-activities"
+      ],
+      "version": "debug-pr-274"
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #186 from Lascade-Co/deploy"
+            ],
+            "Work in Progress": [
+              "• fix: improve SEO links, discovery, and content timestamps"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 186,
+          "title": "Fix MarineRadar SEO links, discovery, and content dates",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• chore: publish KRI Sriwijaya story to ledger (vessel|227186210|2026-09-16)",
+              "• chore: update published-news ledger for two new Sep 17 stories",
+              "• publish: Basarnas Virgo Transport 8 salvage story (2026-09-17)",
+              "• chore(ledger): add 2 published stories from 2026-09-16 pipeline run"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/mixroutes-web",
+      "developers": [
+        {
+          "login": "ryyansafar",
+          "name": "Ryyan Safar",
+          "commit_count": 12,
+          "bullets": {
+            "Published": [
+              "• Route pages survive a plan with no ways",
+              "• Ferries from OpenStreetMap, city buses for five Indian cities, flight routes and live departures, Commons photographs, origin-biased geocoding",
+              "• Place pages from Wikipedia and Wikivoyage, popular destinations from where you are, rate limits and security headers; dock and ring fixes",
+              "• Hero centred on tall screens, grows on short phones, fluid headline; larger type on 2xl",
+              "• Phone performance: native scroll on touch, progress variable off the root, cached dock measurements, no live blur under fixed chrome, hidden off-screen photos, lazy below-fold sections; centred preloader"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• docs(aeo): skill roadmap from the Definitive 2026 Guide to AEO",
+              "• fix(full-product-seo): rubric 2.5 detector-accuracy pass"
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• feat: add MarineRadar AI outcome measurement"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/marineradar-aeo-measurement",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "• fix(home): put the first how-it-works caption on a card",
+              "• feat(home): new airport scene for the second keyframe",
+              "• fix(download): blank the phone screen behind the QR",
+              "• fix(home): hide the plane over the how-it-works keyframes"
+            ]
+          }
+        },
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Merge remote-tracking branch 'origin/dev' into codex/roamjoy-rewrite"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 12,
+          "title": "Add roamjoy-rewrite Worker for WordPress blog paths",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "dev",
+        "feat/updation"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/store-reviews",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• feat: deploy dashboard to Pages through shared Actions workflow"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #839 from Lascade-Co/mushfiq/scene-style-rotation-leak"
+            ],
+            "Work in Progress": [
+              "• Merge pull request #840 from Lascade-Co/main"
+            ]
+          }
+        },
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• version update"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin",
+        "release"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #209 from Lascade-Co/seo-and-hub-fixes"
+            ],
+            "Work in Progress": [
+              "• feat: enhance SEO and localization across various components"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 209,
+          "title": "feat: enhance SEO and localization across various components",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "origin",
+        "seo-and-hub-fixes"
+      ],
+      "version": null
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "date": "2026-09-19",
+  "repos": [
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• Send the variables each email template actually declares",
+              "• Send the same payload as the webhook for checkout_expired"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "email-fix"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/geoanimator",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• Wait for the regions, and capture at the preview's own size",
+              "• Give a card a real rendered frame, captured while the editor is warm",
+              "• Show the project number, and give the app a launcher icon",
+              "• Rebuild the home screen on the new design"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin",
+        "worktree-home-redesign-figma"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #188 from Lascade-Co/blog-fixes"
+            ],
+            "Work in Progress": [
+              "• fix: enhance article layout and image handling for better readability"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 188,
+          "title": "fix: enhance article layout and image handling for better readability",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "blog-fixes",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "• chore: add ledger entry for IRGC tanker attacks Strait of Hormuz 2026-09-16",
+              "• ledger: add place|philippines|2026-09-18 (China Coast Guard rams BFAR vessel at Sabina Shoal)",
+              "• ledger: marineradar cma-cgm-tracking",
+              "• Add published-news ledger entry for KRI Sriwijaya Jakarta docking story",
+              "• chore: update package-lock.json engines field"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• chore(full-product-seo): combined SEO/AEO report for 18 Sep 2026"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Merge pull request #616 from Lascade-Co/fix/survey"
+            ]
+          }
+        },
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• chore: point the gitlink at the globe atmosphere in :shared"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 616,
+          "title": "Fix/issue",
+          "author": "Vivek-4321"
+        }
+      ],
+      "branches": [
+        "feat/globe-atmosphere",
+        "release"
+      ],
+      "version": "4.0.149"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "rohittp0",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• chore: bump SPM version to v1.0.48 [skip ci]"
+            ],
+            "Work in Progress": [
+              "• Update to v1.0.48"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ios",
+        "origin"
+      ],
+      "version": "v1.0.48"
+    },
+    {
+      "repo": "Lascade-Co/travel-tools",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• Merge pull request #8 from Lascade-Co/scraper"
+            ],
+            "Work in Progress": [
+              "• fix(scraper): bound route scopes, and stop the sweep issuing a request per scope",
+              "• feat(deals): booking links in the recipient's currency, configurable base URL"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 8,
+          "title": "fix: currency-aware booking links, and stop one route halting all scraping",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "scraper"
+      ],
+      "version": null
+    }
+  ]
+}

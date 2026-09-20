@@ -1,0 +1,59 @@
+{
+  "date": "2026-09-20",
+  "repos": [
+    {
+      "repo": "Lascade-Co/esim-db",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #2 from Lascade-Co/dev"
+            ],
+            "Testing": [
+              "• feat: separate admin sidebar app groups and add row hover feedback"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 2,
+          "title": "Dev",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "• Publish BLACK MARLIN / China Zorrilla electric ferry delivery story (Sep 20)",
+              "• chore: add published-news ledger entry for Malaysia Israel containers story (2026-09-20)",
+              "• ledger: marineradar great-lakes-ship-tracking",
+              "• chore: add 3 published stories to dedup ledger (2026-09-20 run)",
+              "• chore: add 2 published stories to dedup ledger (2026-09-19 run)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

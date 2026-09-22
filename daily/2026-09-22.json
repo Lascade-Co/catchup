@@ -1,0 +1,751 @@
+{
+  "date": "2026-09-22",
+  "repos": [
+    {
+      "repo": "Lascade-Co/ads-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Removed Nginx from the Swarm configuration and exposed the server port."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "updates"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": null,
+          "name": "Antony Mathew",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed video crashes.",
+              "🔧 Added central debug and release build triggers, Play Store publishing triggers, and cleanup of old debug releases.",
+              "🔧 Added Android build configuration and documented local secret and signing setup."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "drawing_fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-IOS",
+      "developers": [
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Fixed furniture position readings and floor adjustments to correct clearance checks, measurement lines, and runaway movement.",
+              "🔧 Added a debug overlay with size and placement diagnostics, copyable readings, and a trial scale control for testers.",
+              "🚀 Added LiDAR depth sampling at image points, filtering invalid readings and explaining missing measurements.",
+              "🔧 Added camera and renderer comparison calculations that account for image cropping and screen orientation."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/chat-synopsis",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Backed up WhatsApp Phase 2 launcher and monitoring scripts in the repository, added configurable settings, and wired tests and static checks into CI.",
+              "✅ Added regression coverage for configuration overrides and neutral defaults.",
+              "📝 Preserved WhatsApp Phase 2 and media-download fix design docs and clarified completed monitoring work and remaining cutover tasks."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "whatsapp-operational"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🐛 Prevented tab swipes from opening search fields and fixed car pick-up field flicker when changing drop-off options.",
+              "🚀 Refreshed Rooms & Guests styling and search card padding.",
+              "🐛 Kept favourite hotels hidden and blocked their searches until API mode is confirmed.",
+              "🔧 Added Xcode project configuration with app dependencies and test targets, plus ignore rules for local tooling and build artifacts."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 99,
+          "title": "feat:UI changes set",
+          "author": "Swalih60"
+        },
+        {
+          "number": 98,
+          "title": "feat:Latest update set",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1ah-hotels70",
+      "developers": [
+        {
+          "login": "Ashiiq666",
+          "name": "ashiiq666",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Added Snapchat event tracking and supporting functions."
+            ],
+            "Testing": [
+              "🚀 Added Snapchat event tracking, supporting functions, and event ID configuration.",
+              "♻️ Fixed lint issues by adopting Android Kotlin helpers for preference updates and URI parsing."
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "octopoocha",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "♻️ Applied automated lint fixes to preference updates and URI parsing using Android Kotlin helpers."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 29,
+          "title": "Added snapchat events and functions",
+          "author": "Ashiiq666"
+        }
+      ],
+      "branches": [
+        "origin",
+        "snapchat_event"
+      ],
+      "version": "debug-pr-30"
+    },
+    {
+      "repo": "Lascade-Co/D2-hotel-android",
+      "developers": [
+        {
+          "login": "Ashiiq666",
+          "name": "ashiiq666",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Added ignore rules for build caches, IDE settings, and local service configuration."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added per-app Stripe accounts and custom-model purchases."
+            ],
+            "Work in Progress": [
+              "🔧 Synced main into the development branch, bringing in Docker build and branch deployment workflows.",
+              "🔧 Brought in scheduled pay-as-you-go billing with settlement queue processing and response validation.",
+              "📝 Brought in environment setup guidance and Docker build exclusions."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 73,
+          "title": "Add per-app Stripe accounts and custom-model purchases",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 5,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Refined the login page to better match the design; further polish remains.",
+              "🚀 Refreshed profile icons with multicolor SVGs and added a Rate the App link to the store listing.",
+              "🔧 Adjusted session attribution to avoid guessed routes, then reverted the session-tracking changes.",
+              "🔧 Merged main into the development branch, bringing in centralized build triggers and Flutter configuration updates."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Added itinerary price comparisons.",
+              "🐛 Fixed three-decimal catalog pricing."
+            ],
+            "Testing": [
+              "🐛 Required a verified email for Apple sign-in and fixed handling of missing email claims.",
+              "🐛 Fixed new-user detection and blank-email errors in social-login fallback."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 85,
+          "title": "Add itinerary price comparisons and fix three-decimal catalog pricing",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim_airalo",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 7,
+          "bullets": {
+            "Testing": [
+              "🐛 Hardened order data parsing, added datasource tests, and made order history display conditional.",
+              "🚀 Added offers with a full-width home banner and translations; removed the welcome code banner.",
+              "🚀 Added a coverage countries sheet and consolidated global plan coverage translations.",
+              "♻️ Removed the cart feature and its related dependencies."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/flights-70-web",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added the OpenAI pixel, event setup, route inference, and consent management.",
+              "🔧 Resolved lint issues by removing unused imports and an unnecessary lint suppression."
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Merged the TikTok search-event parameter branch.",
+              "📝 Included About and cookie policy pages, development setup documentation, and repository ignore rules."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 178,
+          "title": "Release: OpenAI integration",
+          "author": "mhdbk"
+        },
+        {
+          "number": 177,
+          "title": "OpenAI Integration",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🐛 Updated port activities with a default 24-hour window, provider status reporting, and uncached responses.",
+              "🐛 Checked credit balances before port activity queries and moved charging after successful data retrieval, with failure alerts.",
+              "🐛 Fixed OneUptime fire-and-forget notifications."
+            ],
+            "Work in Progress": [
+              "🐛 Added bounds to fire-and-forget background work."
+            ]
+          }
+        },
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Synced the auto-moderation branch with main."
+            ]
+          }
+        },
+        {
+          "login": "AdarshLascade",
+          "name": "AdarshLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Merged a fix to bound fire-and-forget background work."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 74,
+          "title": "fix:fireandforget bounded",
+          "author": "AdarshLascade"
+        },
+        {
+          "number": 72,
+          "title": "feat:port activities",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "keith/auto-moderation",
+        "origin",
+        "ps/out-bounded",
+        "ps/port-activities"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Added port activities."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/port-activities"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "📝 Added web-to-app attribution setup guidance and a public trends data integration guide.",
+              "🔧 Added repository ignore rules for local configuration and generated artifacts."
+            ],
+            "Work in Progress": [
+              "🚀 Added a credit-based port arrival and departure board with checkout recovery, auto top-up, and coverage-gap handling.",
+              "🐛 Improved purchase analytics and GA4 attributed revenue reporting, aligning tracking with the mobile app.",
+              "🐛 Improved FAQ styling and structure for readability."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 189,
+          "title": "Blog fixes",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "blog-fixes",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "📝 Recorded publication of Ukraine shadow fleet and Norwegian Joy whale-strike stories across WordPress, Instagram, and the newsletter.",
+              "📝 Published a story on alleged turtle hunting in Raja Ampat.",
+              "📝 Updated the news ledger with Cape Falcon grounding and Saudi oil rerouting stories.",
+              "📝 Added draft guide entries for route animation and ONE container tracking to the content ledger."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/mixroutes-web",
+      "developers": [
+        {
+          "login": "ryyansafar",
+          "name": "ryyansafar",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "🚀 Added local transport guidance using researched entries, Wikivoyage and OpenStreetMap; expanded research to 87 places and 725 options.",
+              "♻️ Expanded transport categories to cover missing modes, combined transfers and access restrictions, and reclassified existing options.",
+              "⚡ Added quick initial route results followed by full timetable results, response caching, fastest/cheapest summaries and smoother search layout transitions.",
+              "🚀 Added local lookup for 235,823 towns and credited photos for capitals and large towns; documented transport research and coverage across 99 countries."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 31,
+          "bullets": {
+            "Published": [
+              "♻️ Made SEO orchestration registry-driven, with per-site configuration, authentication, report sections, and regression checks against product hardcoding.",
+              "🐛 Fixed SEO scorecard visibility, verification history, same-day history updates, and audit date handling; refreshed reports and expanded regression coverage.",
+              "🚀 Added an optional all-platforms Meta analysis report view that includes apps and platforms with zero ad spend.",
+              "📝 Stored the WhatsApp cutover plan and handoff durably and documented development activity reporting conventions."
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Updated to rubric 2.7, refining localization scoring and reporting."
+            ]
+          }
+        },
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Analyzed 132 marine support conversations, identifying common queries, multilingual demand, and five chatbot and product recommendations."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "full-product-seo-containment",
+        "full-product-seo-generalization",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-analytics-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added ATT signal collection during user creation."
+            ],
+            "Testing": [
+              "🚀 Added OpenAI as an acquisition and session route."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 62,
+          "title": "ATT signal collection on user creation",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "conversion-api-integrations",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Unified the globe atmosphere’s glow and limb haze with a shared falloff."
+            ],
+            "Testing": [
+              "🐛 Integrated a place-label memory fix for Samsung 4K exports."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 618,
+          "title": "Globe atmosphere: one falloff shared by the glow and the limb haze",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "fix/samsung-4k-export-label-memory",
+        "origin"
+      ],
+      "version": "debug-pr-619"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 6,
+          "bullets": {
+            "Testing": [
+              "🚀 Added a shared real-route limit warning and aligned quota rules to count imported segments.",
+              "🐛 Released all session caches during the preview-to-export handoff and adopted a smaller shared image-cache limit.",
+              "🔧 Added export preparation timing breakdowns, including failed exports, to align diagnostics with Android.",
+              "🔧 Unified renderer out-of-memory issue identifiers with the shared reporting contract."
+            ]
+          }
+        },
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Changed the default place label from visited to current.",
+              "🐛 Fixed lingering vehicle tilt when switching between Bounce and flight scene styles.",
+              "⚡ Fixed lag when changing the aspect ratio.",
+              "🔧 Added central TestFlight and App Store build workflows and repository guidance."
+            ]
+          }
+        },
+        {
+          "login": "rahul028",
+          "name": "rahul028",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🐛 Added a dashed separator to the route bottom sheet and corrected its left padding."
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Merged a fix to download model assets when loading a route."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 841,
+          "title": "fix: downloading model assets on time of loading the route",
+          "author": "rahul028"
+        }
+      ],
+      "branches": [
+        "646-route-finetune",
+        "feat/angel",
+        "mushfiq/bug-fixes",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🐛 Merged SEO and hub fixes."
+            ],
+            "Work in Progress": [
+              "🚀 Added FAQ sections and refined styling across multiple pages."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 213,
+          "title": "Seo and hub fixes",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "origin",
+        "seo-and-hub-fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "⚡ Removed route copying and sped up unchanged-route checks for preview cover refreshes.",
+              "🚀 Added a shared route-limit notice in 33 locales and ensured imported real routes count toward the free quota.",
+              "🔧 Bumped Swift Package Manager versions to v1.0.49 and v1.0.50."
+            ],
+            "Testing": [
+              "🐛 Trimmed transparent place-label buffers for 4K export."
+            ],
+            "Work in Progress": [
+              "🔧 Updated package contents to v1.0.49 and v1.0.50."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "fix/samsung-4k-export-label-memory",
+        "ios",
+        "origin"
+      ],
+      "version": "v1.0.50"
+    },
+    {
+      "repo": "Lascade-Co/travel-tools",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Added brand-scoped social login and passwordless email OTP authentication, retaining admin password login."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "scraper"
+      ],
+      "version": null
+    }
+  ]
+}

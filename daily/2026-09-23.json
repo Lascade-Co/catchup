@@ -1,0 +1,441 @@
+{
+  "date": "2026-09-23",
+  "repos": [
+    {
+      "repo": "Lascade-Co/ads-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🐛 Added currency code validation."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "updates"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Added workflows to request centralized debug and release builds and Play Store publishing.",
+              "🔧 Added daily cleanup of debug releases and tags older than four days.",
+              "🔧 Configured Android builds, signing, app dependencies, and native debug symbol packaging.",
+              "📝 Documented local secret setup and debug keystore creation."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "drawing_fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-car-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 9,
+          "bullets": {
+            "Published": [
+              "🔧 Merged the iOS project setup with SDK dependencies, test targets, localization configuration, and exclusions for local credentials."
+            ],
+            "Work in Progress": [
+              "🚀 Added rental destinations, car-type filters, a collapsing results row, and a timed progress indicator; fixed pagination and loading states after filter changes.",
+              "🐛 Corrected search attribution and user ID types, and added actual child ages to flight searches while preserving saved-search compatibility.",
+              "🎨 Updated tab icons, region flags, selection colors, and home strips; added translations across 27 languages.",
+              "🔧 Disabled diagnostic logging in Release builds and removed unused images, unreachable code, and empty template tests."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🐛 Prevented home tab swipes from accidentally activating buttons while preserving scrolling and press feedback.",
+              "🚀 Added automatic keyboard dismissal on scroll and updated room and guest selection."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 101,
+          "title": "feat:Scroll swipe and button feedback set in home",
+          "author": "Swalih60"
+        },
+        {
+          "number": 100,
+          "title": "feat:Keyboard auto dismiss on scroll and Rooms and guest set",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1af-flights70",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "AjinLascade",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed Snapchat Conversions API issues identified by Events Manager diagnostics."
+            ],
+            "Work in Progress": [
+              "🐛 Fixed Snapchat Conversions API issues identified by Events Manager diagnostics."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 54,
+          "title": "fix: Snapchat CAPI fix by the Snapchat Events Manager diagnostics.",
+          "author": "AjinLascade"
+        }
+      ],
+      "branches": [
+        "analytics-fix",
+        "origin"
+      ],
+      "version": "3.6.5"
+    },
+    {
+      "repo": "Lascade-Co/d1ah-hotels70",
+      "developers": [
+        {
+          "login": "Ashiiq666",
+          "name": "ashiiq666",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Configured Android builds for SDK 36, debug and release signing, and native debug symbol packaging.",
+              "🔧 Added workflows requesting centralized debug builds for pull requests and release builds for main and release pushes.",
+              "📝 Documented local secrets setup with Infisical and added ignore rules for credentials and generated files."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "snapchat_event"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "🚀 Persisted the cart, debounced quantity updates, animated cart controls, and fixed checkout, concurrent-update, and sign-out state issues.",
+              "⚡ Cached home-screen plans for faster loading, reduced pricing requests, and fixed a currency cache race.",
+              "♻️ Refactored the forced-update dialog with Bloc, reused store-opening logic, and made launch errors visible above the modal.",
+              "🐛 Persisted session attribution and fixed notification routing and partial-record updates to preserve acquisition evidence."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim_airalo",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Added Apple account linking and OTP verification with localized text."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Completed the port activities feature."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/port-activities"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "📝 Published an English Channel migrant crossing story and updated publication records for maritime news and the MSC Hermes III crew rescue.",
+              "📝 Added a draft TravelAnimator guide on free alternatives to Relive to the content ledger."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed duplicate AEO findings in SEO reports by linking to action-plan entries, resolving validation failures.",
+              "✅ Refreshed MarineRadar and TravelAnimator SEO reports with a live run validating generalized strategic checks and the duplication fix.",
+              "📝 Added guidance for profit reporting based on store earnings, ad spend, and influencer costs, with explicit handling of incomplete data.",
+              "📝 Documented Cover Image launch context to reduce false positives in growth reviews."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 11,
+          "bullets": {
+            "Published": [
+              "🚀 Rebuilt the landing page to match the RJ Web prototype."
+            ],
+            "Work in Progress": [
+              "🚀 Rebuilt and streamlined the landing page, refined hero and card styling, and gave the footer a light theme.",
+              "🚀 Added locale-based URLs for six languages, locale-aware navigation, and next-intl support across both build paths.",
+              "🚀 Translated the eSIM explainer into five additional languages with English fallbacks and localized metadata.",
+              "🔧 Added per-language canonical URLs, hreflang tags, and sitemap entries; extended crawler exclusions to localized private routes."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 19,
+          "title": "Landing page rebuilt to the RJ Web prototype",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 18,
+          "title": "feat(landing): rebuild the landing page to the RJ Web prototype",
+          "author": "Riyaaaaan"
+        }
+      ],
+      "branches": [
+        "dev",
+        "feat/updates-2",
+        "origin",
+        "spike/next-intl-cloudflare"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 9,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Migrated subscription paywalls to Google Play Billing with backend purchase verification, restore support, and purchase status messages.",
+              "♻️ Removed Adapty and switched access checks to backend entitlements, syncing across purchases and account changes while preserving coupon access.",
+              "🔧 Removed the lifetime offer, promotional cards, reminders, and placement redirects, with a standard paywall fallback.",
+              "♻️ Added atomic, type-safe preference updates to keep related access settings consistent."
+            ]
+          }
+        },
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Merged removal of the lifetime paywall and its remote config checks."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 620,
+          "title": "Remove the lifetime paywall and its remote config checks",
+          "author": "Vivek-4321"
+        }
+      ],
+      "branches": [
+        "feat/billing-migration",
+        "release"
+      ],
+      "version": "4.0.150"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🔧 Updated the app and extension versions to 4.0.2.",
+              "🐛 Adjusted unit positioning when the flag is raised.",
+              "🐛 Fixed preview stalling during pre-export and other concurrent processing."
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Integrated centralized TestFlight and App Store build workflows.",
+              "📝 Added project architecture and development guidance for coding assistants."
+            ],
+            "Work in Progress": [
+              "🔧 Merged main into the working branch, bringing in centralized build workflows and development guidance."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 842,
+          "title": "646 route finetune",
+          "author": "rahul028"
+        }
+      ],
+      "branches": [
+        "origin",
+        "release"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Merged responsive video layouts and localization for article components."
+            ],
+            "Work in Progress": [
+              "🚀 Implemented responsive video layouts and localization for article components."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 214,
+          "title": "feat: implement responsive video layout and localization for article …",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "origin",
+        "seo-and-hub-fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-tools",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "✅ Fixed deals locking tests failing on a cold-start barrier.",
+              "🚀 Added a brand-scoped account profile endpoint at /accounts/me/."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "scraper"
+      ],
+      "version": null
+    }
+  ]
+}

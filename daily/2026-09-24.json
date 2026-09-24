@@ -1,0 +1,562 @@
+{
+  "date": "2026-09-24",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 8,
+          "bullets": {
+            "Published": [
+              "♻️ Made Vinext deployments source-owned, using source Wrangler configuration for Worker destinations and removing source and submodule allowlists.",
+              "🚀 Added native Worker Previews to the shared Vinext runner with deployment verification through the Cloudflare API.",
+              "🔧 Derived Vinext app variables and runtime secrets from Infisical keys.",
+              "🚀 Enabled manual Vinext deployment triggers."
+            ]
+          }
+        },
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "🚀 Added daily ad-spend emails comparing Meta and Google spend by project, channel, and OS against the prior day and seven-day average.",
+              "🔧 Defaulted ad-spend emails to the spend-only variant and added manual recipient overrides, recipient-scoped duplicate prevention, and a reconciliation check.",
+              "🐛 Displayed ad-spend changes below the comparison floor in dollars to avoid misleadingly large percentages.",
+              "🐛 Reworked daily catchup scheduling to target 6am Pacific despite cron delays, with DST-aware timing, duplicate prevention, and independent manual runs."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Triggered a build."
+            ]
+          }
+        },
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Added furniture fit UI.",
+              "🔧 Added centralized debug, release, and Play Store build dispatch workflows with cleanup of old debug releases.",
+              "🔧 Added Android build configuration and documented local secrets and signing setup."
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "octopoocha",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🐛 Addressed home-screen lint issues with decorative image accessibility annotations, larger badge text, and an updated upgrade button identifier.",
+              "🔧 Adjusted furniture image density handling and removed an OAuth client configuration entry."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "keith/furniture-fit"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-IOS",
+      "developers": [
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 10,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added trigger-specific paywall placements for measuring modes and furniture gates, with tested fallback resolution and preloading.",
+              "🐛 Corrected furniture outline alignment, hid the fit-check debug overlay, and made custom-object creation easier to find with localized prompts.",
+              "🚀 Added a room-measurement onboarding follow-up to select up to three desired features, with per-feature analytics and localization strings.",
+              "🔧 Expanded fit-check analytics with distinct editing and upgrade events, visit summaries, and testable reporting; refactored views and room editing."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "nauman/feat/sidebar"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1ah-hotels70",
+      "developers": [
+        {
+          "login": "Ashiiq666",
+          "name": "Ashiiq666",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Merged Snapchat event integration with build packaging support for the Snap Conversions API SDK.",
+              "🔧 Added centralized debug build requests for pull requests and release build requests for main and release branches.",
+              "📝 Documented local secrets setup with Infisical and excluded generated credentials and signing files from version control."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 30,
+          "title": "snapchat_event",
+          "author": "Ashiiq666"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-web-hotel-v2",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added retry support for user creation."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 90,
+          "title": "User creation with retry",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "🐛 Implemented instant cart add/remove updates and fixed signed-in users being treated as guests on cold starts.",
+              "🐛 Addressed cart concurrency, checkout timing, account cache isolation, and error recovery issues.",
+              "♻️ Merged local-first cart work, then reverted the cart merges to restore an earlier development baseline."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🔧 Added Cloudflare deployment automation for development and main branches.",
+              "🔧 Added local development launch configurations and an environment configuration template.",
+              "📝 Added engineering guidance covering authentication, eSIM activation, miniapp integration, and analytics."
+            ],
+            "Work in Progress": [
+              "🔧 Updated deployment to use native Worker Preview and Infisical, with manual retries and required build-value validation in CI.",
+              "🔧 Bumped the application version to 0.1.1."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 119,
+          "title": "Dev",
+          "author": "Jenin82"
+        },
+        {
+          "number": 118,
+          "title": "Validate required esim70 build values in CI",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "codex/cloudflare-migration",
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim_airalo",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 6,
+          "bullets": {
+            "Testing": [
+              "🚀 Added reusable pull-to-refresh support for the wallet home and store pages.",
+              "🚀 Added eSIM activation state handling, an activate button, and a success hold; expanded activation test coverage.",
+              "🐛 Hid usage progress and displayed 0 MB for unactivated eSIMs.",
+              "🚀 Added a purchase success page and an animated processing view."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotel-helper",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Added a retry mechanism for user creation."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "♻️ Replaced Shipspotting web scraping with LLM-based automatic moderation.",
+              "🔧 Added database fields for AI name-match confidence, online reference availability, and identity confidence."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "keith/auto-moderation"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed duplicate ships in port activities.",
+              "🔧 Synced the port activities branch with main."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/port-activities"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "📝 Recorded maritime news publications covering Virgo Transport 8, Hodeidah, RNLI Gosport, Carnival Panorama, Iran's Hormuz offer, and a tanker cyberattack.",
+              "📝 Published coverage of three ship attacks near Hormuz across the website, Instagram, newsletter, and Telegram.",
+              "🔧 Reconciled local and remote publication histories into a 568-entry ledger.",
+              "📝 Added ledger entries for draft guides on MMSI lookup and travel map apps."
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Updated the publication ledger for stories on Virgo Transport 8 casualties and Hodeidah airstrikes with declining Bab al-Mandeb traffic."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "📝 Added September 17–23 product analysis reports and sidebar entries, including funnels for platforms with no Meta spend.",
+              "🐛 Restored location-search failure rates and first-experience checks using reliable attempt events."
+            ],
+            "Work in Progress": [
+              "🚀 Expanded app-health analysis with web-to-app funnels, web acquisition insights, power-user cohorts, and keyword visibility tracking.",
+              "🐛 Corrected net-revenue calculations, retention cohort selection, and estimated revenue impact formulas and caps.",
+              "🔧 Added PostHog project checks and serialized Adapty requests with rate-limit retry handling.",
+              "♻️ Refined metric definitions, funnel grading, exposure-normalized event analysis, and finding continuity when data is missing."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "app-health-coverage-gaps",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/rent80-revamp",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Added HTTP 410 Gone responses for /cars/* pages."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 373,
+          "title": "Gone status (410) for /cars/* pages",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Muhammed Riyan",
+          "commit_count": 11,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Rebuilt the landing page’s benefits section with a six-tile grid and refreshed artwork; fixed text readability, alignment, and decorative backgrounds.",
+              "🚀 Updated the app icon, favicon, and Apple touch icon with new RoamJoy artwork.",
+              "🐛 Replaced custom download buttons with official store badges and refined the closing panel’s decorative plan chips and links.",
+              "🎨 Simplified the Joy pill and download panel, removed the benefits section’s CTA, and moved footer social links to reduce crowding."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 20,
+          "title": "Landing page refresh and new app icon",
+          "author": "Riyaaaaan"
+        }
+      ],
+      "branches": [
+        "dev",
+        "feat/updates-2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-web",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 13,
+          "bullets": {
+            "Published": [
+              "🚀 Added Clerk authentication with custom sign-in, metadata-based roles, and per-app and global permissions.",
+              "🚀 Added a Cloudflare KV-backed apps dashboard and seeded domains for eSIM70 and Smart Ruler.",
+              "🔧 Configured Vinext deployment and Next local development, and enabled manual Cloudflare deployments.",
+              "📝 Renamed Colophon to Folio and updated documentation for Infisical routing, shared KV storage, and Clerk access configuration."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/store-reviews",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "🚀 Added Flights70, Hotels70, and Rent80 to review tracking, plus centralized sync, dashboard deployment, and review-reply workflows.",
+              "🔧 Consolidated state updates into one commit job with merge retries and per-app failure isolation; refreshed review tracking state.",
+              "🐛 Switched Google Play credentials to base64-encoded JSON to preserve formatting, with validation tests and setup documentation.",
+              "🔧 Moved the scheduled review sync to 2am."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Removed the lifetime paywall and its remote configuration checks."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 620,
+          "title": "Remove the lifetime paywall and its remote config checks",
+          "author": "Vivek-4321"
+        }
+      ],
+      "branches": [
+        "release"
+      ],
+      "version": "4.0.150"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🐛 Guarded snapshot creation and label localization while map styles load; corrected preview label timing and annotation photo sequencing.",
+              "🔧 Filtered expected network failures from Crashlytics while preserving diagnostic logs and defect reporting, with regression tests.",
+              "🔧 Updated the app and extensions to version 4.0.3.",
+              "🔧 Synced main into the crash-fix branch, bringing central build workflows and project guidance."
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Merged logger and Crashlytics user ID updates."
+            ],
+            "Work in Progress": [
+              "🔧 Merged main's 4.0.3 changes into the working branch, including central TestFlight and App Store build workflows."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 846,
+          "title": "Logger crashlytics update",
+          "author": "rahul028"
+        }
+      ],
+      "branches": [
+        "origin",
+        "release"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 23,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added shared MapLibre maps, route geometry, camera controls and request signing, with geometry parity tests and nonblocking session access.",
+              "🚀 Moved Journey AI transport and tool handling into shared Kotlin, preserving App Check and model response signatures.",
+              "🚀 Added shared media picking, cropping, video playback and frame extraction, animations, geocoding, feature flags, review cadence and network monitoring.",
+              "🔧 Upgraded to Kotlin 2.4.20, aligned graphics and media dependencies, and added required test API opt-ins."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/unify"
+      ],
+      "version": null
+    }
+  ]
+}

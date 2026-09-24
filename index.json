@@ -103,7 +103,8 @@
     "daily/2026-09-20.json",
     "daily/2026-09-21.json",
     "daily/2026-09-22.json",
-    "daily/2026-09-23.json"
+    "daily/2026-09-23.json",
+    "daily/2026-09-24.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -229,7 +230,8 @@
     "Lascade-Co/mixroutes-web",
     "Lascade-Co/travel-animator-custom-models",
     "Lascade-Co/HotelSnap-E2",
-    "Lascade-Co/ads-server"
+    "Lascade-Co/ads-server",
+    "Lascade-Co/seo-web"
   ],
   "users": [
     {

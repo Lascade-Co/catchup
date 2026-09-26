@@ -1,0 +1,267 @@
+{
+  "date": "2026-09-26",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed D1 migration path validation in Vinext bundles and ignored blank Infisical values during deployments."
+            ]
+          }
+        },
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Added unique run identifiers to Daily Report test email subjects to keep Gmail from threading them with real reports."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": null,
+          "name": "Antony Mathew",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed multiple video view issues.",
+              "🔧 Added central debug and release build triggers, Play Store publishing triggers, and cleanup of old debug releases.",
+              "🔧 Added Android build configuration, signing setup, and native debug symbol packaging.",
+              "📝 Documented local secrets and debug keystore setup."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "drawing_fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Added centralized debug build triggers for pull requests and release build triggers for main-branch updates and manual runs.",
+              "🔧 Pinned the Flutter version, added an eSIM SDK submodule, and configured local development launch modes.",
+              "🔧 Added ignore rules for build artifacts, environment configuration, and signing credentials.",
+              "📝 Added app design principles, architecture documentation, and Flutter development guidance."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 84,
+          "title": "Dev",
+          "author": "sajithlascade"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": "v1.2.11+87"
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "📝 Published four maritime news posts covering a cargo ship fire, LNG carrier servicing, Kerala swell alerts, and a manganese terminal overhaul bid.",
+              "📝 Recorded the published Sibu 1 piracy rescue story in the content ledger.",
+              "📝 Added draft guide entries for tanker tracking and animated travel maps to the content ledger."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🚀 Added RECURRED alerts for previously fixed app-health issues and nine new Travel Animator trackers.",
+              "🐛 Corrected tracker history resets, measurement windows, paywall counting and preview-hang grading.",
+              "🐛 Rebased autocomplete tracking on current search events and removed a model-load target that falsely marked issues fixed.",
+              "📝 Published September 25 Travel Animator and Marine app-health reports highlighting regressions, plus a developer event requests page."
+            ]
+          }
+        },
+        {
+          "login": "Iamfasna",
+          "name": "Iamfasna",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Replaced the home file listing with Apps, Web and Company navigation, counts and reports grouped by shared segments and topics.",
+              "🚀 Added a report viewer with app/site switching, search and older/newer navigation, while retaining the file browser.",
+              "🔧 Added cached report classification and shared style-guide integration; verified access controls and report navigation."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/product-intel-home-ui",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🔧 Enabled manual Vinext deployment runs.",
+              "🔧 Merged the native Worker Preview migration into the development branch."
+            ]
+          }
+        },
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed the non-EEA cookie notice’s privacy link and added a privacy policy link to the EEA consent dialog.",
+              "♻️ Made the EEA consent dialog more compact, with Customize first and Accept all last."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 24,
+          "title": "fix(consent): link the cookie banners to /privacy",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 23,
+          "title": "Link the cookie banners to the privacy policy",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 22,
+          "title": "Dev",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-backend",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🚀 Added destination images and HD/SD videos from Pexels, populated in the background with consistent 16:9 dimensions.",
+              "🚀 Added client-selectable destination video quality to flight prices, keeping cached fares independent of quality preferences."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "scraper"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-web",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🔧 Standardized public blog paths and website URL templates.",
+              "🚀 Added admin app settings and sitemap-only blog publication, keeping Folio sitemaps limited to blogs.",
+              "🐛 Prevented search indexing of internal Folio pages.",
+              "🚀 Added authenticated writer drafts and bulk page publishing."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Added workflows to request central debug and release builds and trigger Play Store publishing.",
+              "🔧 Automated cleanup of debug releases and tags older than four days.",
+              "🔧 Added local development setup, shared-code submodule configuration, and build artifact ignore rules.",
+              "📝 Added coding assistant guidance for testing and organizing shared utilities."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 621,
+          "title": "Fix/issues",
+          "author": "Vivek-4321"
+        }
+      ],
+      "branches": [
+        "release"
+      ],
+      "version": "4.0.151"
+    }
+  ]
+}

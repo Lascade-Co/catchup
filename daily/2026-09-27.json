@@ -1,0 +1,87 @@
+{
+  "date": "2026-09-27",
+  "repos": [
+    {
+      "repo": "Lascade-Co/flights-70-web",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Changed the OAIQ standard event from search to items_added and adjusted Snapchat event firing."
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Added a deployment-trigger commit."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "main"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "📝 Published a story on the LAMU vessel delivering the first construction cargo for the Dangote East Africa Refinery at Lamu port.",
+              "📝 Updated the publication ledger for five stories covering Gulf of Oman oil transfers, the Virgo Transport 8 disaster, Hormuz diplomacy, Qatar LNG traffic, and RNLI tracker changes."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/rent80-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Triggered a deployment."
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Applied title case to dynamic place URLs."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

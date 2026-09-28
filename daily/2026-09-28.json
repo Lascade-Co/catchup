@@ -1,0 +1,561 @@
+{
+  "date": "2026-09-28",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added support for Vinext deployments without Infisical."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🐛 Merged drawing stability fixes.",
+              "🔧 Synced main-branch updates covering centralized debug and release builds, Play Store publishing triggers, and cleanup of old debug releases."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 35,
+          "title": "new paywall placement id",
+          "author": "keith-james"
+        },
+        {
+          "number": 34,
+          "title": "drawing stability",
+          "author": "antonyjoemathew"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/c1wh-hotelsoff",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🚀 Added localized hero content for themes and places.",
+              "🔧 Updated the hotel-helper submodule."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/dynamic-hero-content"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-web-hotel-v2",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added retry support for user creation."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 91,
+          "title": "Release: User creation with retries",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/Dashlytics",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Merged Stripe revenue ingestion."
+            ],
+            "Work in Progress": [
+              "🚀 Integrated Apple Search Ads into dashboard and email reporting for spend, installs, and profit.",
+              "🔧 Normalized monetary reporting to USD while preserving precision and avoiding duplicate conversions.",
+              "🔧 Added Apple campaign tables while preserving historical records and rollback support.",
+              "📝 Documented server-side migration generation and excluded generated migrations from version control."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 7,
+          "title": "Feat/stripe revenue ingest",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "feat/stripe-revenue-ingest",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Released an email requirement for Apple sign-in and itinerary allowances.",
+              "🐛 Released email-queue fixes."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 87,
+          "title": "Release: Apple sign-in email requirement, email-queue fixes, itinerary allowances",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 8,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Translated Journal messages across all locales and added server-rendered conditional navigation.",
+              "♻️ Moved public blog routes to /blog and categorized sitemaps for pages, destinations, and blogs.",
+              "🐛 Integrated country PSEO and an English-only SEO rollout, preserving CDN content during country API failures.",
+              "🔧 Triggered a staging deployment and fixed staging metadata blocking plan navigation."
+            ]
+          }
+        },
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added a public blog experience backed by R2."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 123,
+          "title": "Add public Journal, categorized sitemaps and localized navigation",
+          "author": "rebin03"
+        },
+        {
+          "number": 122,
+          "title": "fix: preserve CDN PSEO content during country API failures",
+          "author": "rebin03"
+        },
+        {
+          "number": 121,
+          "title": "fix: avoid staging metadata blocking plan navigation",
+          "author": "rebin03"
+        },
+        {
+          "number": 120,
+          "title": "Integrate country PSEO and English-only SEO rollout",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim_airalo",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "🚀 Integrated eSIM auto top-up into My Plans and its state management.",
+              "🚀 Added Stripe saved-card payments for wallet and checkout, with checkout button and legal notice labels adapting to the payment method."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Merged interface and usability fixes for the details and export pages."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 280,
+          "title": "Ps/user feedback",
+          "author": "AdarshLascade"
+        },
+        {
+          "number": 279,
+          "title": "fix : details page , export page ui ux fix",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "📝 Published maritime news covering a Kenya drug bust, Libya oil operations, Asyaport’s container record, Hormuz negotiations, and a blocked Philippine resupply mission.",
+              "📝 Added a draft cruise-ship tracking guide to the content ledger.",
+              "🔧 Updated the sharp image-processing dependency to version 0.35.5."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/mixroutes-web",
+      "developers": [
+        {
+          "login": "ryyansafar",
+          "name": "ryyansafar",
+          "commit_count": 15,
+          "bullets": {
+            "Published": [
+              "🚀 Expanded local transport coverage to 154 destination files and 1,428 options, correcting fares, routes, operators and service availability.",
+              "🔧 Expanded and corrected the transport API inventory, documenting live ferry tracking, sailing status, cancellation history and rail timetable sources.",
+              "✅ Added transport data validation for schema compliance, fare dates and citation quality; fixed unsupported claims and standardised transport categories.",
+              "📝 Added Wikivoyage article dates and stale-source warnings to destination pages, and strengthened research guidance with citation checks and independent spot-checks."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Added research reports on carpentry and woodworking opportunities for AR Measure Tape and competing construction calculator apps."
+            ]
+          }
+        },
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "📝 Preserved the decision-log plan and handoff documentation; work awaits team input."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "handoffs-decision-log",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🐛 Polished the landing page’s Why Choose header and removed story-card shadows while keeping thin borders.",
+              "🐛 Fixed the footer sunburst hairline and positioned Joy over the divider while preserving its animations."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 28,
+          "title": "Release: footer mascot on the rule, flatter story cards",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 27,
+          "title": "Footer mascot sits on the rule; flatter story cards",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 26,
+          "title": "Landing polish: Why Choose header, footer sunburst fixes",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 25,
+          "title": "Landing polish: Why Choose header, footer sunburst hairline",
+          "author": "Riyaaaaan"
+        }
+      ],
+      "branches": [
+        "dev",
+        "feat/payload-implementation",
+        "feat/updates-7",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-web",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added document imports with optimized WebP blog media.",
+              "🔧 Published blog indexes to R2 and added frontend setup prompts."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seobot",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "♻️ Refactored writer workflows and removed obsolete code.",
+              "📝 Documented local writer setup, Folio draft submission, and programmatic page workflows."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 36,
+          "bullets": {
+            "Testing": [
+              "♻️ Switched Android Home to the shared page, removed legacy UI and map code, migrated test coverage, and documented migration status.",
+              "🐛 Protected Journey AI and MCP route changes from stale saves, restored unused-avatar cleanup, and prevented launch crashes on refused share metadata queries.",
+              "⚡ Accelerated element switching and route dragging, added loading feedback for element downloads, and stopped camera movement on taps.",
+              "🌐 Localized Home menus and route messages, fixed clipped labels, and renamed Add Image to Add Media."
+            ]
+          }
+        },
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🐛 Marked the Preview exit survey as shown when displayed and routed every Preview exit through survey-arming navigation."
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "octopoocha",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Updated AndroidX, WorkManager, Navigation Compose, Jackson, and SLF4J dependencies to address lint findings."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/unify",
+        "fix/event"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-custom-models",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🐛 Integrated dashboard payment handling and aligned the deployment model with the database schema to fix request creation failures.",
+              "🔧 Preserved redo-ready email notifications through the shared email routing."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "deploy"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "rahul028",
+          "name": "rahul028",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🚀 Implemented day 1, 15, and 30 retention surveys with dynamic sheet heights.",
+              "🐛 Required survey answers before submission, added validation feedback, and made day 1 follow-up questions conditional.",
+              "🔧 Defined survey-view analytics events for each stage; event tracking remains disabled."
+            ]
+          }
+        },
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Added premium activation and onboarding home render analytics; updated analytics error reporting.",
+              "🔧 Added workflows for central TestFlight builds and App Store releases.",
+              "📝 Added repository guidance for coding assistants."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 850,
+          "title": "Retention survey",
+          "author": "rahul028"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 14,
+          "bullets": {
+            "Work in Progress": [
+              "⚡ Improved map dragging by reducing recomposition and moving updates off the main thread; sped up preview element swaps and added download loading feedback.",
+              "🐛 Synced the shared Home editor with external route changes, protected newer edits from stale saves, restored unused avatar cleanup, and supported first-open link tutorials.",
+              "🚀 Localized Home menu labels and route messages, made translated actions dispatch reliably, resized long labels, renamed Add Media, and stopped map taps from moving the camera.",
+              "✅ Expanded shared geometry, route, and gesture regression coverage, tolerated cross-platform floating-point differences, and removed an unused location-sheet callback."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/unify"
+      ],
+      "version": null
+    }
+  ]
+}

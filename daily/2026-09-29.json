@@ -1,0 +1,660 @@
+{
+  "date": "2026-09-29",
+  "repos": [
+    {
+      "repo": "Lascade-Co/c1wh-hotelsoff",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added localized hero content for themes and places."
+            ],
+            "Work in Progress": [
+              "🚀 Integrated themed pages with optional destination selection."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 39,
+          "title": "Release: Themed pages with optional destination",
+          "author": "mhdbk"
+        },
+        {
+          "number": 38,
+          "title": "Add localized theme and place hero content",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "Updated networking and the bottom banner."
+            ],
+            "Work in Progress": [
+              "Updated networking and the bottom banner."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 103,
+          "title": "feat:Network and bottom banner updated",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "⚡ Converted the login background to WebP, reducing its size from 817 KB to 66 KB.",
+              "🔧 Integrated centralized debug and release build triggers and pinned the Flutter version.",
+              "📝 Added app design and development guidance."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "🐛 Enabled checkout-expired emails for returning customers and added retries when the email queue is unavailable for payment-related notifications.",
+              "🔧 Added per-account Stripe webhook delivery diagnostics and refined email-trigger health reports to distinguish observed delivery issues from sweeper status.",
+              "✅ Added end-to-end checkout-expiry webhook tests covering order cancellation, email content for both brands, and duplicate-email prevention."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "email-fix"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-db",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "📝 Documented the test suite and the arm64 PostGIS workaround."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Refreshed the journal UI and updated blog fetching from the CDN."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 124,
+          "title": "feat: refresh journal UI and blog CDN fetching",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/flights-70-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Triggered deployment."
+            ],
+            "Work in Progress": [
+              "🔧 Merged the release PR for the OpenAI Pixel ID update."
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Updated the OpenAI Pixel ID."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 180,
+          "title": "Release: OpenAI Pixel ID update",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotel-helper",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "♻️ Removed an unused domain variable."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🐛 Added missing purchase verification result data for auditing."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/credit-metadata-fix"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed zero-credit paywall handling and tracking widget issues.",
+              "🔧 Added logging for failed purchases.",
+              "🚀 Added nearby ship discovery."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/0-credit-paywall",
+        "ps/nearme-ships",
+        "ps/ships-nearme"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "📝 Updated publication records for coverage of Cape shipping traffic, South African ports, and Iran’s Hormuz vessel blacklist.",
+              "📝 Published stories on reported AIS spoofing near the Philippines, bioethanol bunkering at Mobile, and migrant deaths in the English Channel.",
+              "📝 Registered a navy ship tracking article draft in the hub content ledger and merged earlier news publication records."
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🔧 Added source PR markers to hub publishing to preserve duplicate checks for Travel Animator feature posts.",
+              "🔧 Enforced a 60-character SEO title limit across hub and news publishing and updated the documentation.",
+              "🔧 Added AI-generated content metadata to posts created by the MarineRadar and TravelAnimator pipelines."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/mixroutes-web",
+      "developers": [
+        {
+          "login": "ryyansafar",
+          "name": "ryyansafar",
+          "commit_count": 17,
+          "bullets": {
+            "Published": [
+              "🚀 Launched Field notes with 177 place posts, source-linked research essays, a geographic directory, and links to place guides and route planning.",
+              "🐛 Fixed place-guide list parsing, accented place URLs, incorrect place headings, and crowded navigation; added Places and Notes links to the landing page.",
+              "📝 Expanded transport research across island and mainland destinations, corrected fares and service details, and documented additional transport data sources and their limits.",
+              "✅ Verified research batches and corrected citation errors; added explicit review dates, stronger validation and attribution rules, and fixes to verification paths and workflow guidance."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🚀 Added writer-ready SEO opportunity cards for TravelAnimator and MarineRadar and a recurring, impact-ranked Content Fixes for Writers section.",
+              "📝 Documented the writer-section implementation plan and handoff, with prototype scripts and an operating runbook.",
+              "🔧 Generated the September 28 SEO report with durable caches and link-graph archives; MarineRadar LLM-referral data remained stale.",
+              "🐛 Reconciled report history during a main-branch sync and removed navigation links to missing reports."
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Added 30-day blog views and visitor metrics to SEO reports, with badges for AI-pipeline posts.",
+              "🐛 Fixed MarineRadar analytics queries that blocked PostHog metrics and LLM-referral tracking.",
+              "🚀 Added a validated feature-to-blog coverage workflow for TravelAnimator and MarineRadar, including its first report.",
+              "🔧 Generated the September 29 SEO report with Blog Views and MarineRadar’s first LLM-referral ledger; some sources were unavailable."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 10,
+          "title": "Feat/blog views and feature blog coverage",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "feat/blog-views-and-feature-blog-coverage",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 8,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Integrated Payload CMS with an admin panel, collections, D1/R2 bindings, an initial migration and generated types.",
+              "🔧 Aligned the build toolchain for Payload, isolated frontend layouts and configured workspace tracking and editor ignores.",
+              "🐛 Fixed a blank site URL override crashing the development server by treating it as unset.",
+              "📝 Documented Payload architecture decisions, integration changes and deployment requirements."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/payload-implementation"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-backend",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "🚀 Added city-level destination images and videos from Pexels, with country fallback and client-selected resolution.",
+              "🐛 Qualified city media searches by country and separated city keys by country to prevent location mix-ups.",
+              "🚀 Stored scraper-provided airport country codes and names, filling missing values while preventing mismatched country pairs."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 13,
+          "title": "Persist the airport country the scraper sends (unblocks destination media)",
+          "author": "Shaan-Shoukath"
+        },
+        {
+          "number": 12,
+          "title": "Destination imagery and video from Pexels (city-level, client-selected resolution)",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "scraper"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-web",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added required blog schema, an editorial catalog, and public APIs.",
+              "🐛 Fixed the Clerk invitation redirect URL."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seobot",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Required the Folio blog schema and made writer catalogs app-aware."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/signalside_esim_web",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 7,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added text routes, agent documentation, and dynamic catalog utilities for LLM crawlers.",
+              "🚀 Added eSIM management and activation workflows, plan icons, and updated card UI.",
+              "🚀 Added saved payment cards for checkout and wallet top-ups, with a card picker, brand icons, and payment intent APIs.",
+              "♻️ Removed the shopping cart to simplify checkout, added currency support to purchase quotes, and updated native shortfall calculations."
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Updated Vercel deployments."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/smartruler_landing_page",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Migrated the frontend to Vinext on Cloudflare Workers."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Set the app version to 5.0.5 and increased the version code to 403."
+            ]
+          }
+        },
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Redesigned the comparison paywall with a looping video hero, feature checkmarks, and stacked plan cards."
+            ]
+          }
+        },
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Merged a fix for Samsung 4K export memory failures."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 619,
+          "title": "Fix Samsung 4K export memory failure",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "fix/event",
+        "origin"
+      ],
+      "version": "debug-pr-623"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🐛 Standardized Adapty purchase and restore error messages.",
+              "🔧 Merged central TestFlight build and App Store release workflows.",
+              "📝 Merged project architecture and AI assistant guidance, plus repository ignore rules."
+            ],
+            "Work in Progress": [
+              "🐛 Fixed model jitter near waypoints with empty points."
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Merged main branch updates for central TestFlight builds and App Store release workflows.",
+              "📝 Brought in project architecture and AI assistant guidance, plus repository ignore rules."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "mushfiq/model-shivering",
+        "origin",
+        "release"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "📝 Merged documentation pages and navigation improvements."
+            ],
+            "Work in Progress": [
+              "📝 Added documentation pages and navigation improvements."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 216,
+          "title": "feat: add documentation pages and navigation for improved user experi…",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "origin",
+        "seo-and-hub-fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-tools",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🚀 Integrated brand-scoped passwordless authentication with social login and email OTP."
+            ],
+            "Work in Progress": [
+              "🐛 Updated the airport scraper to retain country codes and names while preserving entries with missing country data."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 9,
+          "title": "Brand-scoped passwordless auth stack (social + email OTP)",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "scraper"
+      ],
+      "version": null
+    }
+  ]
+}

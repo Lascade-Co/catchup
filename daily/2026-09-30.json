@@ -1,0 +1,753 @@
+{
+  "date": "2026-09-30",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added Apple Search Ads spend to daily emails with timezone-aware reporting for iOS campaigns.",
+              "🐛 Kept emails sending with a partial-data banner when Apple credentials are missing or reporting fails.",
+              "🔧 Hardened credential masking for missing or malformed credential groups in GitHub Actions.",
+              "🐛 Prevented stale commentary on reruns by keying the cache on reported figures."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-IOS",
+      "developers": [
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Stopped paywalls reopening after app returns or system prompts, made notification-triggered offers one-time, and corrected feedback open counts.",
+              "🚀 Added one-time surveys on the 2nd, 15th and 30th distinct days of use to gather measurement feedback and feature requests.",
+              "🐛 Coordinated surveys and feedback with other prompts so they appear only when visible and never together in one foreground session.",
+              "🔧 Added Xcode tooling configuration, development guidelines, lint settings and ignore rules for build artifacts and secrets."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "feature/day-n-surveys",
+        "fix/no-paywall-on-return"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/c1wh-hotelsoff",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the pay-later hotel hero theme with indexing and redirection updates.",
+              "🔧 Triggered deployment."
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Updated brace-expansion dependencies to patch package vulnerabilities."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 41,
+          "title": "Release: Package upgrades and more",
+          "author": "mhdbk"
+        },
+        {
+          "number": 40,
+          "title": "Add pay-later hotel hero theme, indexing and redirection edits",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1af-flights70",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 5,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Fixed error snackbar visibility and per-message dismissal timing; adjusted alert delays and fixed delayed alerts on first open.",
+              "🚀 Added haptic feedback when switching tabs and updated home screen motion.",
+              "🔧 Added workflows to request centralized debug and release builds, plus ignore rules for local files and signing assets.",
+              "📝 Added local notification guides covering WorkManager scheduling, configuration, and troubleshooting."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Added centralized Flutter debug and release build triggers and pinned the Flutter version.",
+              "🔧 Added eSIM SDK submodule configuration and development launch profiles.",
+              "🔧 Added ignore rules for build artifacts, environment files, and signing credentials.",
+              "📝 Added design guidance, architecture documentation, and Flutter development conventions."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "🐛 Updated expired-checkout emails to support both brands and added webhook trigger coverage."
+            ],
+            "Work in Progress": [
+              "✅ Added end-to-end canceled-payment webhook tests covering order cancellation, email payloads, and duplicate-delivery suppression.",
+              "🐛 Restricted expired-checkout email payloads to declared template fields and strengthened exact-key assertions.",
+              "🐛 Prevented empty browsed-plan emails from consuming the notification cooldown when all recommended plans are unavailable.",
+              "🔧 Removed catalog-auth counters and scheduled email health alerts, retaining diagnostics and documenting their visibility limits."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 86,
+          "title": "Make checkout_expired reach both brands, and prove the webhook trigger fires",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "email-fix"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-helper",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Updated priced plans to refresh within five minutes.",
+              "🔧 Aligned session attribution and analytics dispatch with booking behavior."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 2,
+          "title": "Align session attribution and analytics dispatch with booking behavior",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Kept plan prices fresh across pages and SEO markup.",
+              "🔧 Aligned web marketing attribution and consent event handling."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 126,
+          "title": "Keep plan prices fresh without losing warm page loads",
+          "author": "rebin03"
+        },
+        {
+          "number": 125,
+          "title": "Align web marketing attribution and consent event handling",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim_airalo",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 6,
+          "bullets": {
+            "Testing": [
+              "🚀 Added an eSIM incompatibility bottom sheet shown on first app load.",
+              "📝 Updated onboarding subtitles, localization keys, and translations across all supported languages.",
+              "🚀 Added confirmation for automatic plan top-up changes and a payment method sheet for saved-card top-ups; changed the pay button to Continue.",
+              "♻️ Adopted shared post-authentication navigation and removed the custom back arrow from OTP verification."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotel-helper",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed user-agent handling in the fetch adapter."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/HotelSnap-E2",
+      "developers": [
+        {
+          "login": "lascadeansal",
+          "name": "ansal",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "♻️ Removed currency and randomized values from Facebook registration events on Android and iOS.",
+              "🚀 Added Android push notification handling and push token refresh synchronization with the backend.",
+              "🔧 Added Android build configuration, Firebase and Facebook SDK integration, and code shrinking rules.",
+              "📝 Added Kotlin Multiplatform setup documentation and ignore rules for generated and local files."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/intranet",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Created an intranet portal with Google SSO, organization-restricted access, and Cloud Firestore.",
+              "🔧 Set up Firebase hosting and automated deployment through GitHub Actions."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m4h-web-hotel",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Triggered a deployment."
+            ],
+            "Work in Progress": [
+              "🔧 Merged release changes covering user creation retries, a user agent fix, and package upgrades."
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Patched package vulnerabilities.",
+              "🔧 Integrated the shared hotel helper into policy pages, user handling, and advertising sessions.",
+              "📝 Added environment configuration examples and development setup documentation."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 53,
+          "title": "Release: User creation retry, user agent fix and package upgrades",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": "AdarshLascade",
+          "name": "AdarshLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Added missing purchase verification result data for auditing."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 76,
+          "title": "fix:added missing verify purchase result data for audit",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🚀 Added a port activity introduction notification and a warning for non-English search results.",
+              "♻️ Removed notification and weather video assets and updated the ship animation video."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/port-activity-tutorial"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "📝 Published maritime stories covering a Dardanelles engine failure, an ethane supply anniversary, a whale rescue and Angola’s Tchiowa ferry launch.",
+              "📝 Recorded published coverage of an Indian Coast Guard tanker rescue and a vessel struck in the Strait of Hormuz.",
+              "📝 Added a TravelAnimator travel diary guide draft to the content ledger.",
+              "🔧 Added a news pipeline workflow covering trend discovery, story selection and publishing with source, link and writing checks."
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Added a daily Telegram digest of hub blog views, rising posts and AI content performance for MarineRadar and TravelAnimator.",
+              "🚀 Added ranked AI posts and AI markers to top and rising lists, excluding trends-news content from blog reporting.",
+              "🐛 Fixed Telegram message sizing, singular visitor labels and growth indicators for posts rising from zero views.",
+              "🔧 Added a dedicated bot credential option for blog reports with fallback to the shared Telegram configuration."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/mixroutes-web",
+      "developers": [
+        {
+          "login": "ryyansafar",
+          "name": "ryyansafar",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added on-demand field notes for any place and place-name search on the blog.",
+              "🐛 Improved place matching so aliases rank below exact names and unrelated or disambiguation articles are skipped.",
+              "🐛 Unified page content and metadata resolution to keep place names and page availability consistent.",
+              "♻️ Simplified photo captions to show names across blog, place, route, and home pages."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "🚀 Reworked SEO reports into technical and writer sections with score changes, a top-10 action plan, and blog traction triage.",
+              "🚀 Ranked writer content fixes by expected click gain per hour, merged overlapping keyword opportunities, and improved draft generation and data collection reliability.",
+              "🚀 Added per-app Apple Search Ads spend and campaign benchmarks, with failure warnings and responsive report layout fixes.",
+              "📝 Documented the Apple Search Ads credential handoff and SEO credential handling."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-web",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Completed Folio editorial controls and audit history."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/simline-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Worked on Vercel deployment."
+            ]
+          }
+        },
+        {
+          "login": "ryyansafar",
+          "name": "ryyansafar",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added nearby destination suggestions to country pages, with lowest prices, currency updates, and destination links.",
+              "🐛 Fixed Apple sign-in when no email is provided by routing users through email verification and preserving authentication state."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/smartruler_landing_page",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Migrated blog discovery to the public D1 API."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/store-reviews",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added a reply-all option for app store reviews.",
+              "♻️ Refined AI reply guidance for natural, relevant responses without invented claims.",
+              "🐛 Added automatic dashboard refresh after sending replies so failed or queued replies can be retried.",
+              "🔧 Validated store selection, surfaced individual reply failures, and treated inactive reviews as safe skips with updated test coverage."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed blank vehicle markers for search-added origins and stops by restoring shared downloads, caching, and fallback images."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/unify",
+        "origin"
+      ],
+      "version": "debug-pr-622"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🔧 Updated the app and extensions to version 4.0.5, build 240.",
+              "🐛 Fixed spacing of skinned multipart models so riders stay visible on the model screen; added model loading warnings."
+            ],
+            "Work in Progress": [
+              "🔧 Added central TestFlight build and App Store release workflows.",
+              "📝 Added AI assistant project guidance and development configuration updates."
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the onboarding video paywall."
+            ],
+            "Work in Progress": [
+              "🔧 Integrated central TestFlight build and App Store release workflows from main.",
+              "📝 Integrated AI assistant project guidance and development configuration updates."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 855,
+          "title": "Onboarding video paywall",
+          "author": "rahul028"
+        }
+      ],
+      "branches": [
+        "mushfiq/model-shivering",
+        "origin",
+        "release"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🐛 Merged SEO and content hub fixes.",
+              "🔧 Added a workflow to request centralized Vercel deployments.",
+              "📝 Added design guidelines and web-to-app attribution setup documentation."
+            ],
+            "Work in Progress": [
+              "🔧 Updated the Content Security Policy to strengthen security and support additional sources.",
+              "🚀 Added download source tracking to calls to action for analytics."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 217,
+          "title": "Seo and hub fixes",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "origin",
+        "seo-and-hub-fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Fixed blank vehicle markers by preserving in-flight image downloads across route changes and retrying failed fetches.",
+              "♻️ Routed marker images through the shared download system and delayed artwork creation until images are available.",
+              "✅ Added tests for marker image loading and download-system integration."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/unify"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-tools",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 5,
+          "bullets": {
+            "Testing": [
+              "🚀 Added migration of existing AppUser records to accounts.User, with the one-time user-model swap staged by the standard migrate command.",
+              "🐛 Fixed legacy user copying into many-to-many tables before uniqueness constraints are in place.",
+              "🔧 Changed Swarm server updates to stop-first so deployments using host ports can replace the running server."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 13,
+          "title": "Let plain migrate perform the one-time user-model swap step",
+          "author": "Shaan-Shoukath"
+        },
+        {
+          "number": 12,
+          "title": "Fix the legacy user copy so the user-model swap can migrate an existing database",
+          "author": "Shaan-Shoukath"
+        },
+        {
+          "number": 11,
+          "title": "Update the swarm server stop-first so deploys actually replace it",
+          "author": "Shaan-Shoukath"
+        },
+        {
+          "number": 10,
+          "title": "Migrate a populated AppUser table onto accounts.User",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "scraper"
+      ],
+      "version": null
+    }
+  ]
+}

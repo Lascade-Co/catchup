@@ -1,0 +1,572 @@
+{
+  "date": "2026-10-01",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Updated vinext configuration sanitization for native preview bindings."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/airline70-flutter",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Fixed error handling.",
+              "🔧 Added automated debug and release build triggers for QA pull requests and release merges.",
+              "📝 Documented compile-time environment configuration and development and production setup.",
+              "🔧 Added Flutter SDK configuration, lint settings, and ignore rules for environment files and build artifacts."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "v2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added swipe gestures to switch tabs."
+            ],
+            "Work in Progress": [
+              "🚀 Added swipe gestures to switch tabs."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 104,
+          "title": "feat:Swipe to change tab set",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 9,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed welcome-discount application after guest sign-in, added a shared payment-method picker for wallet top-ups, and autofocus for email sign-in.",
+              "🔧 Switched GA4 and Clarity identification to internal account IDs and preserved campaign attribution across sessions for 90 days.",
+              "♻️ Added then reverted the after-install eSIM checklist, restoring the roaming note.",
+              "📝 Documented manual app testing, UX issues, and a Patrol tooling mismatch; added centralized debug and release build triggers."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 86,
+          "title": "Dev",
+          "author": "sajithlascade"
+        },
+        {
+          "number": 85,
+          "title": "Dev",
+          "author": "sajithlascade"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": "v1.2.13+89"
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 7,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Matched checkout-expiry email payloads to both brands’ template variables and skipped empty plan recommendations without consuming the cooldown.",
+              "🐛 Enabled checkout-expiry emails for all customers and added retries for temporary email-service failures on payment webhooks.",
+              "✅ Added end-to-end tests for checkout-expiry and payment-cancellation webhooks, covering email payloads and duplicate-delivery prevention.",
+              "🔧 Added Stripe webhook delivery diagnostics, clarified health verdicts, and removed redundant catalog counters and scheduled alerts."
+            ]
+          }
+        },
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Scoped pricing admin access to selected brands."
+            ],
+            "Work in Progress": [
+              "🔧 Scoped pricing admin access to selected brands."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 89,
+          "title": "Scope pricing admin access to selected brands",
+          "author": "Jenin82"
+        },
+        {
+          "number": 88,
+          "title": "Dev",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "codex/brand-scoped-pricing",
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-helper",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Extended the server plan price cache duration to one hour."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "fix/plan-price-cache-1h"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🔧 Updated the eSIM helper for one-hour plan price caching, reverted the initial update, and merged a follow-up update."
+            ],
+            "Work in Progress": [
+              "🔧 Updated the eSIM helper dependency for one-hour plan price caching."
+            ]
+          }
+        },
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Switched blog listings and taxonomies to Folio's public API and updated sitemap routes and metadata for the new schema.",
+              "♻️ Simplified blog sitemap caching to hourly in-memory snapshots, removing persistent KV caching and blog last-modified metadata from the root sitemap index."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 128,
+          "title": "Release dev to production",
+          "author": "rebin03"
+        },
+        {
+          "number": 127,
+          "title": "Bump helper for one-hour plan price cache",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "dev",
+        "feat/blog-updates-oct-2026",
+        "fix/plan-price-cache-1h",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim_airalo",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Added a ready-to-activate message to eSIM cards for installed plans."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/geoanimator",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🐛 Preserved Meta’s first-export reporting flag when builds do not send attribution events.",
+              "🚀 Added iOS crash reporting through Crashlytics and product analytics through PostHog, with setup documentation.",
+              "🔧 Added Android device ABI and OS bitness to analytics events to measure 32-bit compatibility.",
+              "🐛 Classified export resource failures correctly and added resource types and HTTP status codes to diagnostics."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 6,
+          "bullets": {
+            "Testing": [
+              "🚀 Added container tracking accessible from Tools, with localized search guidance and messages.",
+              "🐛 Fixed export page opacity and updated the export paywall placement configuration.",
+              "🐛 Fixed the area statistics no-data state.",
+              "🔧 Added debug and release build triggers, Flutter development configuration, and coding guidance."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/container-tracking",
+        "ps/ux-fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "⚡ Refined blog articles and reduced page loading cost.",
+              "📝 Added guides for web-to-app attribution and cached public trends data."
+            ],
+            "Work in Progress": [
+              "⚡ Refined blog articles and reduced page loading cost."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 191,
+          "title": "feat: refine articles and reduce page loading cost",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "blog-fixes",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "📝 Published maritime news covering an Arabian Sea drug seizure, Hormuz military and tanker attacks, the EU IRINI expansion, and a Somali piracy rescue.",
+              "📝 Distributed selected stories through newsletters and Instagram.",
+              "🔧 Added a draft CMA CGM ship-tracking guide to the content ledger."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "📝 Added YouTube opportunity reports for MarineRadar and TravelAnimator, plus a competitor organic keyword report with search verification and CSV exports.",
+              "🚀 Split blog traction triage into rework, prune, and hit verdicts, with configurable thresholds and daily rates based on the fetched reporting window.",
+              "🐛 Fixed homepage definition detection, keyword language and market assignment, broken report navigation, and sidebar overlap.",
+              "🚀 Added article design systems for MarineRadar and TravelAnimator with specifications, assets, and clearly labeled demo posts."
+            ]
+          }
+        },
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Added a MarineRadar retention analysis of app power users, covering ship viewing, feature adoption, paywall interactions, and behavioral patterns."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Integrated a Payload-backed blog at /blogs and configured its editor with a fixed toolbar, heading limits, and image captions.",
+              "🐛 Fixed a server-rendering crash caused by an unsupported console method.",
+              "🔧 Updated the esim-helper submodule to the latest main revision."
+            ]
+          }
+        },
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Fixed Payload D1 database configuration."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 29,
+          "title": "feat(blog): Payload-backed blog at /blogs",
+          "author": "Riyaaaaan"
+        }
+      ],
+      "branches": [
+        "dev",
+        "feat/payload-implementation"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-mcp",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added support for reading and editing unpublished drafts through the writer MCP.",
+              "🚀 Added image generation tools to the writer MCP."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-web",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Added blog media lifecycle management and listing metadata.",
+              "🚀 Added blog image editing with a contextual toolbar and an asynchronous image generation workflow.",
+              "🚀 Added a writer API for editing unpublished drafts."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/signalside_esim_web",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 8,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added separate eSIM installation and activation actions, ordered installation before activation, and added QR codes with localized text.",
+              "🚀 Added currency selection to wallet activity and checkout-style saved card selection for top-ups.",
+              "🔧 Synchronized auto top-up forms, hid the EUR trigger boundary in the UI, and updated documentation.",
+              "♻️ Updated header navigation, removed the dashboard promo card and account deletion email warning, and added active eSIM counts with deletion blocked while loading."
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Worked on Vercel deployment."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "rahul028",
+          "name": "rahul028",
+          "commit_count": 11,
+          "bullets": {
+            "Testing": [
+              "🚀 Implemented a new video onboarding flow with assets, animated text, gradients, and updated control timing.",
+              "🐛 Fixed video ending fades and the transition to home, removed the black end screen, and matched the background to the app’s blue.",
+              "🐛 Paused onboarding video during notification and tracking permission prompts.",
+              "🌐 Localized onboarding text and the Get started button across multiple languages."
+            ]
+          }
+        },
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Merged main into the feature branch, bringing in central TestFlight and App Store build workflows, repository configuration, and agent documentation."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "mushfiq/hidden-point-max-zoom-reveal",
+        "rahul/feat/newOnboarding"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "🚀 Improved article readability with step heading identification, refined styling, and better article and author byline spacing.",
+              "🚀 Updated the hero preview video asset.",
+              "🐛 Merged SEO and content hub fixes.",
+              "🔧 Added centralized deployment automation and documentation for design and web-to-app attribution setup."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 220,
+          "title": "feat: enhance article reading experience with step heading identifica…",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 219,
+          "title": "Seo and hub fixes",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 218,
+          "title": "Seo and hub fixes",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "origin",
+        "seo-and-hub-fixes"
+      ],
+      "version": null
+    }
+  ]
+}

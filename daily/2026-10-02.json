@@ -1,0 +1,228 @@
+{
+  "date": "2026-10-02",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Apply source-owned D1 migrations before deploy"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-db",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• fix: run collectstatic on the swarm server so the admin stops 500ing"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #285 from Lascade-Co/ps/ux-fixes"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 285,
+          "title": "Ps/ux fixes",
+          "author": "AdarshLascade"
+        },
+        {
+          "number": 284,
+          "title": "Ps/container tracking",
+          "author": "AdarshLascade"
+        },
+        {
+          "number": 283,
+          "title": "Ps/port activity tutorial",
+          "author": "AdarshLascade"
+        },
+        {
+          "number": 281,
+          "title": "Ps/ships nearme",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• ledger: marineradar msc-ship-tracking",
+              "• news: publish Hormuz tanker fire UKMTO 147-26 (2026-10-02)",
+              "• publish: three dead off mossel bay after five go overboard (2026-09-30)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Muhammed Riyan",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #31 from Lascade-Co/dev"
+            ],
+            "Work in Progress": [
+              "• chore: bump esim-helper pointer to origin/main",
+              "• build: point the default build script at vinext"
+            ]
+          }
+        },
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• Add managed Payload D1 migrations",
+              "• fix: configure Payload D1 databases"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 31,
+          "title": "Release: Payload blog, vinext build, SEO launch lock",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 30,
+          "title": "build: default build script to vinext",
+          "author": "Riyaaaaan"
+        }
+      ],
+      "branches": [
+        "dev",
+        "feat/payload-implementation",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Merge pull request #623 from Lascade-Co/fix/event"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 623,
+          "title": "fix/issue",
+          "author": "Vivek-4321"
+        }
+      ],
+      "branches": [
+        "release"
+      ],
+      "version": "4.0.152"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• version update"
+            ],
+            "Work in Progress": [
+              "• Merge branch 'mushfiq/model-shivering' into mushfiq/shivering-fix-with-oom",
+              "• OOM Crash fix by instrumenting with Astra and XR"
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #857 from Lascade-Co/mushfiq/hidden-point-max-zoom-reveal"
+            ],
+            "Work in Progress": [
+              "• Merge pull request #860 from Lascade-Co/main"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 859,
+          "title": "New Onboarding Flow",
+          "author": "rahul028"
+        }
+      ],
+      "branches": [
+        "mushfiq/oom-crash-fixes",
+        "mushfiq/shivering-fix-with-oom",
+        "origin",
+        "release"
+      ],
+      "version": null
+    }
+  ]
+}

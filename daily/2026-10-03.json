@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-03",
+  "repos": [
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• fix(get-data): use proxy-aware httpFetch for ingest API calls"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "• feat(seo): fire the traffic, migration and indexing playbooks inside the report",
+              "• chore(seo): refresh the hub link-status cache from the 2026-10-02 run",
+              "• feat(seo): harvest the SEOO skill pack into full-product-seo",
+              "• docs(meta-product-analysis): 30 Sep and 1 Oct reports, 1 Oct with the new timelines",
+              "• docs(meta-product-analysis): handoff for the click-to-play timeline work"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• Merge origin/main into feat/unify",
+              "• Merge branch 'release' into feat/chat"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/chat",
+        "feat/unify"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Merge the 4K export place-label memory fix from main's shared pointer"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/unify"
+      ],
+      "version": null
+    }
+  ]
+}

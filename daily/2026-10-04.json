@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-04",
+  "repos": [
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• ledger: marineradar what-is-a-cargo-ship"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• docs(insights): TA and Marine reports from the Telegram alert channels"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 7,
+          "bullets": {
+            "Testing": [
+              "• docs(claude): two project rules - latest dependency versions, one download system",
+              "• docs(home): bring the migration ledgers up to the PR #622 tester round",
+              "• build(home/map): maplibre-compose 0.19.0 fixes the idle map spin (D63); bump shared",
+              "• docs(home): bug 8 follow-up details accepted as they are",
+              "• fix(home): a clip whose proxy gives up is removed and toasted (D59 follow-up); bump shared"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/unify"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• build(home/map): maplibre-compose 0.17.0 -> 0.19.0, the latest release (D63, D64)",
+              "• fix(home/annotations): a clip whose proxy gives up is removed and toasted (D59 follow-up)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/unify"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-tools",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• Merge pull request #14 from Lascade-Co/scraper"
+            ],
+            "Work in Progress": [
+              "• feat(accounts): Apple verified-email flow, swap preflight, auth admin panels and fixes"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 14,
+          "title": "Apple verified-email flow, swap preflight, auth admin panels and auth fixes",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "scraper"
+      ],
+      "version": null
+    }
+  ]
+}

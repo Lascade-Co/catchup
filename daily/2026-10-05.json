@@ -1,0 +1,293 @@
+{
+  "date": "2026-10-05",
+  "repos": [
+    {
+      "repo": "Lascade-Co/AR-Measure-IOS",
+      "developers": [
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 16,
+          "bullets": {
+            "Work in Progress": [
+              "• refactor(calculator): iterate indices rather than copying enumerations",
+              "• fix(calculator): read each answer out to VoiceOver",
+              "• fix(calculator): keys big enough to hit, icons that follow the text size",
+              "• fix(calculator): keep dark mode to the calculator itself",
+              "• fix(calculator): show the calculator's own offer at the first gate"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feature/construction-calculator"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat:Bottom banner padding reduced"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 105,
+          "title": "feat:Bottom banner padding reduced",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-db",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #4 from Lascade-Co/dev"
+            ],
+            "Testing": [
+              "• docs: correct three CLAUDE.md statements the last two changes outdated"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 5,
+          "title": "Correct three CLAUDE.md statements the last two changes outdated",
+          "author": "Shaan-Shoukath"
+        },
+        {
+          "number": 4,
+          "title": "Automatic weekly crawls, provider-link target bound, and the prod admin 500 fix",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim_airalo",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• fix: disable auto-topup switch when no payment cards exist and top-align wallet action buttons",
+              "• refactor: decouple individual esim auto top-up toggles from default setting",
+              "• refactor: update account deletion confirmation message across translation files"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• feat:ship labels"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/ship-name"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• chore: add Gosport RNLI migrants and Lipsi Hormuz to published-news ledger (2026-10-05 run)",
+              "• chore: add PHOENIX DO MAR to published-news ledger (2026-10-05 run)",
+              "• Publish Warren Sawyer Nantucket shipwreck story (2026-09-28)"
+            ],
+            "Work in Progress": [
+              "• fix(keyword-plan): drop phrases with chars DataForSEO rejects before pricing"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "fix/keyword-plan-dataforseo-invalid-chars",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-backend",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• feat(flight_prices): accept Google Deals airport countries and fill blank airports",
+              "• perf(flight_prices): hydrate only the requested deals page from one snapshot",
+              "• Merge pull request #14 from Lascade-Co/scraper"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 15,
+          "title": "Accept Google Deals airport countries so destination media can resolve",
+          "author": "Shaan-Shoukath"
+        },
+        {
+          "number": 14,
+          "title": "Make the deals list page-sized: 11-28 s to roughly 1-2 s on staging",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "scraper"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-mcp",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Require SEO titles and guide image planning",
+              "• Add guided blog research tools"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-web",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• Require SEO title before attaching generated hero",
+              "• Improve blog validation feedback",
+              "• Add writer blog research workflow",
+              "• Provision Clerk users for Google sign-in"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #861 from Lascade-Co/rahul/feat/newOnboarding"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 861,
+          "title": "Onboarding video pause on att and notification alert and added shimmer to onboarding paywall",
+          "author": "rahul028"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-tools",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• Merge pull request #15 from Lascade-Co/scraper"
+            ],
+            "Work in Progress": [
+              "• feat(scraper): send Google Deals airport countries from the page's own data"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 15,
+          "title": "Send Google Deals airport countries from the page's own data",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "scraper"
+      ],
+      "version": null
+    }
+  ]
+}

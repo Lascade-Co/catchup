@@ -1,0 +1,574 @@
+{
+  "date": "2026-10-06",
+  "repos": [
+    {
+      "repo": "Lascade-Co/connector",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• bumped cryptography to 49.0.0 (dependabot recommended)",
+              "• cpc_price_usd column addition to inline_ad_logs"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat:Travellers updated"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 106,
+          "title": "feat:Travellers updated",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• Reactivate returning plans in sync and expose cashback exclusion flags",
+              "• Add Pricing Studio admin and per-plan cashback exclusion"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-db",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• docs: FX is implemented, so a non-USD 400 is configuration not a missing step",
+              "• Merge pull request #6 from Lascade-Co/dev"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 7,
+          "title": "FX is implemented — a non-USD 400 is configuration, not a missing step",
+          "author": "Shaan-Shoukath"
+        },
+        {
+          "number": 6,
+          "title": "Serve the API schema in production, and correct its contract",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• wip"
+            ],
+            "Work in Progress": [
+              "• feat:container track auth"
+            ]
+          }
+        },
+        {
+          "login": "AdarshLascade",
+          "name": "AdarshLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #77 from Lascade-Co/ps/container-track-auth"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 77,
+          "title": "feat:container track auth",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "origin",
+        "ps/container-track-auth",
+        "ps/email-alerts"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "• fix: use production API origin for container tracking",
+              "• feat: add container tracking and nearby ships to vessel finder",
+              "• feat: expand Turkish routes and localize map interactions",
+              "• Merge pull request #192 from Lascade-Co/blog-fixes",
+              "• fix: reduce page loading costs and preserve content freshness"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 195,
+          "title": "fix: use production API origin for container tracking",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 194,
+          "title": "feat: add container tracking and nearby ships to vessel finder",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 193,
+          "title": "feat: expand Turkish routes and localize map interactions",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 192,
+          "title": "fix: reduce page loading costs and preserve content freshness",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "blog-fixes",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "• fix: drop punctuation DataForSEO rejects before pricing keyword volume",
+              "• ledger: marineradar find-a-ships-mmsi-number",
+              "• chore: update published-news ledger for 2026-10-06 run",
+              "• ledger: Royad Mammadov Black Sea drone attack 2026-10-05",
+              "• ledger: english channel deaths 2026-10-05"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/mixroutes-web",
+      "developers": [
+        {
+          "login": "ryyansafar",
+          "name": "Ryyan Safar",
+          "commit_count": 7,
+          "bullets": {
+            "Work in Progress": [
+              "• Deploy to Vercel through an empty commit, as esim-web and simline-web do",
+              "• Add the hosting handover notes and the env-bundle script",
+              "• Add the vinext migration notes and the blog voice guide",
+              "• Run the app on vinext: Next 16, React 19 and Vite 8",
+              "• Document the Folio blog reader and what is left to check"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "folio-blogs",
+        "vinext"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• feat(marine): pro user behaviour analysis + YouTube content calendar"
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• feat: enhance hub outbound link tracking and add YouTube SEO skill"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-backend",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• Merge pull request #16 from Lascade-Co/scraper"
+            ],
+            "Work in Progress": [
+              "• feat(flight_prices,subscriptions): support five passenger parties end to end"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 16,
+          "title": "Passenger parties end to end: a1, a2, a2c1, a2c2, a1c1 (deals + subscriptions)",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "scraper"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-mcp",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Add writer internal-link opportunity discovery"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-web",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "• Notify frontends of sitemap changes from Folio Worker",
+              "• Add optional reviewer and ordered co-author blog credits",
+              "• Trim content intelligence source whitespace",
+              "• Add Vectorize-powered published blog interlinking",
+              "• Expand frontend blog setup prompt with schema and SEO guidance"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/signalside_esim_web",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 6,
+          "bullets": {
+            "Work in Progress": [
+              "• fix: clear redeemed or invalid promo codes from cookies and auto-apply logic",
+              "• refactor: optimize store catalogue caching, deduplicate offer requests, and defer global plan loading",
+              "• feat: add plan loading error state and centralize API throttle retries",
+              "• refactor: redesign trip planner with country input chips, updated options view, and starting prices integration",
+              "• feat: revamp trip planner UI with new country input and option components"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Deploy on Vercel"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/simline-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Deploy on Vercel"
+            ]
+          }
+        },
+        {
+          "login": "ryyansafar",
+          "name": "ryyansafar",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Add trip-planner + API-13/API-14 handoff doc for the team"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/store-reviews",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• fix proper error logging for codex"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Merge pull request #625 from Lascade-Co/fix/preview-survey"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 625,
+          "title": "fix/survey",
+          "author": "Vivek-4321"
+        }
+      ],
+      "branches": [
+        "release"
+      ],
+      "version": "4.0.153"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "rahul028",
+          "name": "rahul028",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• added paywall dismissed analytics to onboarding paywall",
+              "• highlight coverimage created even if the highlight is off",
+              "• added new hightlights model cover image"
+            ]
+          }
+        },
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• version update"
+            ],
+            "Work in Progress": [
+              "• Fix repeated map label localization errors for unsupported languages"
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #862 from Lascade-Co/mushfiq/shivering-fix-with-oom"
+            ],
+            "Work in Progress": [
+              "• PR: OOM Fix with model shivering solution"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "mushfiq/non-fatals",
+        "origin",
+        "paywallAnalytics",
+        "rahul/feat/coverimage",
+        "release"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• feat: add /collaborations creator showcase page",
+              "• Merge pull request #221 from Lascade-Co/seo-and-hub-fixes",
+              "• feat: translate user reviews into all 26 locales",
+              "• feat: extract FAQ schema from Elementor accordions and add model page FAQs"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 222,
+          "title": "feat: add /collaborations creator showcase page",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 221,
+          "title": "Seo and hub fixes",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "origin",
+        "seo-and-hub-fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-tools",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• Merge pull request #16 from Lascade-Co/scraper"
+            ],
+            "Work in Progress": [
+              "• feat(deals,scraper): support five passenger parties and guarantee subscribed coverage"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 16,
+          "title": "Passenger parties: five supported mixes, guaranteed subscribed scrape coverage",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "scraper"
+      ],
+      "version": null
+    }
+  ]
+}

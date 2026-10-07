@@ -1,0 +1,825 @@
+{
+  "date": "2026-10-07",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• fix(codex-auth): rotate the shared token daily and stop the ad-spend synopsis failing silently"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": null,
+          "name": "Antony Mathew",
+          "commit_count": 43,
+          "bullets": {
+            "Testing": [
+              "• multiple vide view fixes",
+              "• video crash fixes",
+              "• fixes for the cuboid",
+              "• log to timber",
+              "• chore: trigger CI"
+            ]
+          }
+        },
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 5,
+          "bullets": {
+            "Testing": [
+              "• Trigger build"
+            ]
+          }
+        },
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 5,
+          "bullets": {
+            "Testing": [
+              "• new paywall placement id",
+              "• pro icon home page",
+              "• updated pro user sign up prompts",
+              "• changing purpose survey analytics event",
+              "• fixing watermark in export pdf"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "octopoocha",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• lint: Lint fix by Codex"
+            ]
+          }
+        },
+        {
+          "login": "antonyjoemathew",
+          "name": "Antony Joe Mathew",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #37 from Lascade-Co/antony/development"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 37,
+          "title": "removed duplicate timber imports",
+          "author": "antonyjoemathew"
+        }
+      ],
+      "branches": [
+        "bug_fixes",
+        "origin"
+      ],
+      "version": "1.2.28"
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-IOS",
+      "developers": [
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "• fix(calculator): keep = from repeating the last calculation on a new one",
+              "• chore(l10n): pick up the construction calculator's strings",
+              "• feat(calculator): the calculator's own design, light and keyed by color"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feature/construction-calculator"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/car-helper",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• avoid browser user agent override on keepalive"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/connector",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• cache lookup for older dates as well",
+              "• exchange rate caching to CH table",
+              "• ad fetch sql limit addition"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat:Back button hiding set in custom brow"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 107,
+          "title": "feat:Back button hiding set in custom brow",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• docs: local notifications research and Phase 1 plan",
+              "• Merge branch 'task/local-notifications-setup' into dev"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• Merge pull request #92 from Lascade-Co/email-fix"
+            ],
+            "Work in Progress": [
+              "• Harden abandoned-checkout sweep and expiry webhooks against in-flight payments and email bursts",
+              "• Align payment-incomplete monitor and email diagnosis with Session reminders"
+            ]
+          }
+        },
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Send the abandoned-checkout reminder for Checkout Session orders too"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 92,
+          "title": "Send the abandoned-checkout reminder for Checkout Session orders too",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "email-fix"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-db",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• fix: keep the API docs DEBUG-only, matching esim-backend",
+              "• Merge pull request #8 from Lascade-Co/dev"
+            ],
+            "Testing": [
+              "• docs: refresh stale test counts and queue references in CLAUDE.md"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 9,
+          "title": "Keep the API docs DEBUG-only, matching esim-backend",
+          "author": "Shaan-Shoukath"
+        },
+        {
+          "number": 8,
+          "title": "Document every error response the catalogue API actually returns",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "• Allow manual Folio sitemap refresh without event body",
+              "• Remove retired eSIM education pages",
+              "• Show wallet credit only for eligible plans",
+              "• Fix intermittent Blog navigation visibility",
+              "• Merge pull request #130 from Lascade-Co/dev"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 131,
+          "title": "Dev",
+          "author": "rebin03"
+        },
+        {
+          "number": 130,
+          "title": "Release: blog updates",
+          "author": "rebin03"
+        },
+        {
+          "number": 129,
+          "title": "Enhance Folio blog experience and verify purchase events before tracking",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/flights-70-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #181 from Lascade-Co/user-agent-fix"
+            ],
+            "Work in Progress": [
+              "• Merge pull request #182 from Lascade-Co/develop"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 182,
+          "title": "Release: User session user agent fix",
+          "author": "Lascadesevices"
+        },
+        {
+          "number": 181,
+          "title": "User agent fix and package upgrades",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m8-web-hotel",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #21 from Lascade-Co/user-agent-fix-and-upgrades"
+            ],
+            "Work in Progress": [
+              "• Merge pull request #22 from Lascade-Co/dev"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 22,
+          "title": "Release: Session user agent fix and package upgrades",
+          "author": "Lascadesevices"
+        },
+        {
+          "number": 21,
+          "title": "User agent fix and upgrades",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "• mixed alert support",
+              "• wip",
+              "• feat:api part completed",
+              "• db changes"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/email-track"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• feat:cdn ship image"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/cdnimage"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• fix: include container tracking page routes in deployment",
+              "• feat: add account display option to AppDownloadAlert and enhance auto top-up hints",
+              "• Merge pull request #197 from Lascade-Co/blog-fixes",
+              "• feat: enhance container tracking UI and improve purchase options"
+            ]
+          }
+        },
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• send ship's uuid when image uploaded"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 199,
+          "title": "fix: include container tracking page routes in deployment",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 198,
+          "title": "feat: add account display option to AppDownloadAlert and enhance auto…",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 197,
+          "title": "feat: enhance container tracking UI and improve purchase options",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "blog-fixes",
+        "keith/telegram-fix",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• publish: Maran Gas Mystras struck exiting Strait of Hormuz (2026-10-05)",
+              "• ledger: marineradar evergreen-ship-tracking",
+              "• publish: Highland Council Tenders £58m Electric Corran Ferry (2026-10-02)",
+              "• Publish Alfa Watan (Bulgaria Black Sea) and MT On Peace (Hormuz) news posts"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/mixroutes-web",
+      "developers": [
+        {
+          "login": "ryyansafar",
+          "name": "Ryyan Safar",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "• Folio blog, sitemap callback, /notes move and Next 16"
+            ],
+            "Work in Progress": [
+              "• Document the sitemap callback, credits, navigation and the blog archive",
+              "• Keep a local copy of every published blog, and add the sitemap commands",
+              "• Install the blog sitemap from Folio's committed source, on Folio's callback",
+              "• Credit reviewers and co-authors on blog articles, and polish the blog pages",
+              "• Put the blog in every navigation"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Deploy on Vercel"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 1,
+          "title": "Folio blog, sitemap callback, /notes move and Next 16",
+          "author": "ryyansafar"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• docs(seo): full-product-seo report for 2026-10-05"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/rent80-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Trigger Deployment"
+            ],
+            "Work in Progress": [
+              "• Merge pull request #36 from Lascade-Co/dev"
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• package vulnerability patches",
+              "• submodule update; session creation user agent fix"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 36,
+          "title": "Release: session creation user agent fix",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-backend",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• Merge pull request #17 from Lascade-Co/scraper"
+            ],
+            "Work in Progress": [
+              "• feat: auto-enable five parties after contracts and fetch Pexels media for every airport country after scrapes",
+              "• fix(flight_prices): batch 0007 legacy backfill in SQL so migrate is not OOM-killed"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 17,
+          "title": "Fix 0007 OOM; auto-enable parties after contracts; Pexels media for every airport country",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "scraper"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-web",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 8,
+          "bullets": {
+            "Published": [
+              "• Use direct public R2 access for country plans",
+              "• Rename country plans and expose published client lookup",
+              "• Reuse successful translations when retrying from country editor",
+              "• Save translations per language and publish completed jobs in background",
+              "• Add country editing, translation workflows and all-language publishing"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/signalside_esim_web",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "Risal EA",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #19 from Lascade-Co/dev"
+            ],
+            "Work in Progress": [
+              "• feat: add fixed-amount wallet cashback offers and plan-level offer filtering",
+              "• feat: add confirmation flow for auto plan top-up switches and fix modal escape stack handling",
+              "• feat: add ConfirmSheet and LogoutSheet components with localized translations for account actions",
+              "• feat: add WalletAmountSheet component and update auto-topup page form state and UI",
+              "• feat: add coupon UI and translations to checkout page"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Deploy on Vercel"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 19,
+          "title": "Api migration, fixes, UI/UX improvement",
+          "author": "risal-ea"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/store-reviews",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• fix codex error log spamming"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #867 from Lascade-Co/mushfiq/non-fatals"
+            ],
+            "Work in Progress": [
+              "• PR : non-fatal fix, survey etc"
+            ]
+          }
+        },
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• version update"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 866,
+          "title": "Retention survey fix",
+          "author": "rahul028"
+        },
+        {
+          "number": 865,
+          "title": "paywall analytics added",
+          "author": "rahul028"
+        },
+        {
+          "number": 864,
+          "title": "New Cover Image",
+          "author": "rahul028"
+        }
+      ],
+      "branches": [
+        "origin",
+        "release"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-tools",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "• fix(deals): return absolute Google Flights booking links in the requested currency",
+              "• feat(scraper): scrape all five passenger parties on every route",
+              "• Merge pull request #17 from Lascade-Co/scraper"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 18,
+          "title": "Absolute Google Flights booking links in the deals feed",
+          "author": "Shaan-Shoukath"
+        },
+        {
+          "number": 17,
+          "title": "Scrape all five passenger parties on every route",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "scraper"
+      ],
+      "version": null
+    }
+  ]
+}

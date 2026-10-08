@@ -1,0 +1,872 @@
+{
+  "date": "2026-10-08",
+  "repos": [
+    {
+      "repo": "Lascade-Co/AR-Measure-IOS",
+      "developers": [
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 6,
+          "bullets": {
+            "Work in Progress": [
+              "• chore(l10n): pick up the personalised Home's strings",
+              "• Merge branch 'feature/construction-calculator' into dev",
+              "• feat(tools): lead More tools with Furniture Fit",
+              "• feat(home): bring the modes See all reveals into view",
+              "• feat(calculator): open on the classic keypad by default"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "feature/construction-calculator",
+        "feature/survey-personalisation"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/artifactory",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• fix: unblock OAuth callbacks and add cron deployments",
+              "• feat: implement Artifactory shared report library",
+              "• docs: record approved Artifactory v1 design"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/c1wh-hotelsoff",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #42 from Lascade-Co/user-agent-fix"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 42,
+          "title": "User agent fix",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/connector",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• main.yml schedule update"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-web-hotel-v2",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #92 from Lascade-Co/user-agent-fix"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 92,
+          "title": "User agent fix",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Merge pull request #74 from Lascade-Co/feat/geoanimator-catalogue"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 74,
+          "title": "feat/geoanimator catalogue",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e2wh-hotelsnap",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #19 from Lascade-Co/user-agent-fix-and-upgrades"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 19,
+          "title": "User agent fix and upgrades",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-ai-plugin",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• first commit"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #91 from Lascade-Co/dev"
+            ],
+            "Testing": [
+              "• Let cross-brand staff manage global price rounding rules; add superuser Staff Access page",
+              "• Add influencer program: attribution, commissions, payouts, partner dashboard API"
+            ]
+          }
+        },
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Merge pull request #94 from Lascade-Co/email-fix"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 94,
+          "title": "Default the reminder cooldowns off and tighten the sweep cadence",
+          "author": "Shaan-Shoukath"
+        },
+        {
+          "number": 93,
+          "title": "Add influencer program: attribution, commissions, payouts, partner dashboard API",
+          "author": "Jenin82"
+        },
+        {
+          "number": 91,
+          "title": "Pricing Studio, per-plan cashback exclusion, and Yesim plan reactivation",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 9,
+          "bullets": {
+            "Published": [
+              "• Enhance blog navigation with breadcrumb component and improve article metadata display",
+              "• Show author social links as accessible icons",
+              "• update url",
+              "• Consolidate global eSIM canonical and align coverage copy",
+              "• Keep server-rendered plans visible after client fetch errors"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 134,
+          "title": "Release: seo audit fixes",
+          "author": "rebin03"
+        },
+        {
+          "number": 133,
+          "title": "Seo audit fix",
+          "author": "rebin03"
+        },
+        {
+          "number": 132,
+          "title": "Add blog author pages and localized author copy",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "dev",
+        "feat/seo-audit-fix",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/flights-70-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #183 from Lascade-Co/feat/hero-themes-business-premium-senior"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 183,
+          "title": "Add business, premium economy, and senior hero themes",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/HotelSnap-E2",
+      "developers": [
+        {
+          "login": "lascadeansal",
+          "name": "ansal",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• add external browser in android"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M1_hotel_android",
+      "developers": [
+        {
+          "login": "Ashiiq666",
+          "name": "ashiiq666",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• fixed the @HomeMainFragment layout issue"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m4-web-car",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #77 from Lascade-Co/user-agent-override-fix"
+            ],
+            "Work in Progress": [
+              "• Merge pull request #78 from Lascade-Co/develop"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 78,
+          "title": "Release: User agent override fix",
+          "author": "Lascadesevices"
+        },
+        {
+          "number": 77,
+          "title": "User agent override fix",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• fix:reponse restructured",
+              "• feat:email alert completed"
+            ]
+          }
+        },
+        {
+          "login": "AdarshLascade",
+          "name": "AdarshLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #63 from Lascade-Co/keith/auto-moderation"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 63,
+          "title": "fix:image auto moderation through gemini",
+          "author": "keith-james"
+        }
+      ],
+      "branches": [
+        "origin",
+        "ps/email-track"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• feat:completed free 10 ship locations"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/free-ship-location"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "• fix: remove live map shortcuts from detail pages",
+              "• fix: show header login across pages and remove avatar background",
+              "• feat: add account display option to AppDownloadAlert and enhance auto top-up hints",
+              "• Merge pull request #200 from Lascade-Co/blog-fixes",
+              "• perf: cache vessel/port/lighthouse HTML at Cloudflare for 30 days"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 202,
+          "title": "fix: remove live map shortcuts from detail pages",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 201,
+          "title": "Blog fixes",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 200,
+          "title": "Blog fixes",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "blog-fixes",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• publish: MSC Hermes III water ingress evacuation off Vietnam (Oct 8 run)",
+              "• ledger: marineradar wan-hai-container-tracking",
+              "• publish: FORTE reaches Texas with SpaceX Starship Ship 40 (2026-10-07)",
+              "• publish: HMS Queen Elizabeth Belfast debut + Aframax Rio Sochi fire (2026-10-07)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/mixroutes-web",
+      "developers": [
+        {
+          "login": "ryyansafar",
+          "name": "Ryyan Safar",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "• Keep the shared-taxi article draft, its fact-check sheet and the Folio JSON",
+              "• Correct Chitkul, Havelock and Tawang transport details against their sources"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "• Deploy on Vercel"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/n4wh-hotelvisit",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #18 from Lascade-Co/user-agent-fix-and-upgrades"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 18,
+          "title": "User agent fix and upgrades",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• feat(seo): Links to add table for writers, with live verification",
+              "• feat(seo): answer-questions writer cards in Content Fixes for Writers"
+            ]
+          }
+        },
+        {
+          "login": "Iamfasna",
+          "name": "Iamfasna",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• Merge branch 'main' of https://github.com/Lascade-Co/product-intelligence"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/rent80-revamp",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• avoid user agent override on fetch adapter",
+              "• package version bumps",
+              "• updated analytics search event name"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Trigger Deployment"
+            ],
+            "Testing": [
+              "• Merge pull request #375 from Lascade-Co/develop"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 375,
+          "title": "Release: Search event name update",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-backend",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• Merge pull request #18 from Lascade-Co/scraper"
+            ],
+            "Work in Progress": [
+              "• fix(flight_prices): page large price admins with Previous/Next instead of a full count"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 18,
+          "title": "Previous/Next paging for large price admins",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "scraper"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-web",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Add resumable Publish all drafts for country plans",
+              "• Publish country plans at fixed app R2 paths"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/store-reviews",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "• state cleared for flight deals",
+              "• fix auto reply for booking related reviews",
+              "• fix general promot",
+              "• feat autamated"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 30,
+          "bullets": {
+            "Testing": [
+              "• docs(labels): Rentile R1-R6 done; R4's Mapbox size semantics",
+              "• build: Firebase BoM 35.0.0; shared at the picker test-race fix",
+              "• docs(picker): the pickers draw only the previous leg; the outer element ring is 187.5; bump shared",
+              "• fix(preview): shared at the prewarm and interim label fixes",
+              "• docs(labels): English mode falls back to the local name (ruling Q7)"
+            ]
+          }
+        },
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "• Track Google Play billing sheet cancellations"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/unify",
+        "fix/d1-survey"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #869 from Lascade-Co/mushfiq/paywall-purchase-cancelled"
+            ],
+            "Work in Progress": [
+              "• Merge pull request #870 from Lascade-Co/main"
+            ]
+          }
+        },
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "• version update"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin",
+        "release"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "• Merge pull request #223 from Lascade-Co/seo-and-hub-fixes"
+            ],
+            "Work in Progress": [
+              "• feat: link /collaborations from the navbar Collaborate group",
+              "• feat: collaboration request form on /collaborations"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 223,
+          "title": "Seo and hub fixes",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "origin",
+        "seo-and-hub-fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 25,
+          "bullets": {
+            "Work in Progress": [
+              "• test(picker): read the controller suite's event list under its lock",
+              "• feat(picker): pickers draw only the previous leg; the outer element ring is 50% larger",
+              "• fix(labels): English falls back to the local name; the Cover keeps its style's text-field",
+              "• fix(preview): the first-frame plane warm uploads what frame zero draws",
+              "• test(picker): the shared-session device test prepares, and says why when it does not"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/unify"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-tools",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "• Merge pull request #19 from Lascade-Co/scraper"
+            ],
+            "Work in Progress": [
+              "• fix(deals): encrypt push secrets, honour disabled brands, fail closed on unreadable secrets, require App brand"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 19,
+          "title": "App config security: encrypted push secret, brand switch, rotatable keys, required brand",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "scraper"
+      ],
+      "version": null
+    }
+  ]
+}

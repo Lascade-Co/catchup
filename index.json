@@ -117,7 +117,8 @@
     "daily/2026-10-04.json",
     "daily/2026-10-05.json",
     "daily/2026-10-06.json",
-    "daily/2026-10-07.json"
+    "daily/2026-10-07.json",
+    "daily/2026-10-08.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -247,7 +248,9 @@
     "Lascade-Co/seo-web",
     "Lascade-Co/smartruler_landing_page",
     "Lascade-Co/intranet",
-    "Lascade-Co/seo-mcp"
+    "Lascade-Co/seo-mcp",
+    "Lascade-Co/artifactory",
+    "Lascade-Co/esim-ai-plugin"
   ],
   "users": [
     {

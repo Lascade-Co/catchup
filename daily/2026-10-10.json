@@ -1,0 +1,208 @@
+{
+  "date": "2026-10-10",
+  "repos": [
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "♻️ Removed StoreConfig and moved store verification and Google push authentication to app metadata and shared deployment settings.",
+              "🚀 Enabled native billing while preserving legacy premium access and accepting verified sandbox purchases.",
+              "✅ Added removal migrations and coverage for shared routing, always-on sync, legacy coexistence, and login responses; validated billing, SSO, and retention tests."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "billing"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/locate",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🐛 Improved search relevance by retaining country aliases, expanding fuzzy matches, prioritizing important places, and pinning exact airport IATA matches.",
+              "🐛 Made alias repair recover missing alternate-name staging without a full import, preserve existing place data, and reuse staging on reruns.",
+              "✅ Validated search relevance and alias recovery with race and integration tests, golden relevance cases, builds, and static checks.",
+              "📝 Documented alias repair and the cache restart needed for existing deployments."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed keyword filtering so phrases with parentheses no longer invalidate search-volume batches and erase volume data.",
+              "📝 Published maritime attack coverage and updated publication tracking for incidents in the Red Sea, off the UAE coast, and in the Strait of Hormuz.",
+              "📝 Added an AIS transponder explainer draft to the content ledger."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Imported the GeoAnimator project, including product requirements and map provider research, and updated scripts to use script-relative paths."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-backend",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "🚀 Added admin-managed ingestion source permissions and system.ping.",
+              "🚀 Added country code derivation from country names."
+            ],
+            "Work in Progress": [
+              "🚀 Added admin controls for ingestion source event permissions and system.ping.",
+              "🚀 Added airport country code derivation from names and a country-seeding command."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 20,
+          "title": "Admin-managed ingest source permissions, system.ping, country codes from names",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "scraper"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 13,
+          "bullets": {
+            "Testing": [
+              "🐛 Enabled terrain-following Mercator preview/export, bounded export preparation, reduced label preparation memory, and fixed preview stall recovery.",
+              "🐛 Corrected mirrored model placement, animated model grounding, and Follow/Lead intro animation; increased model travel speed.",
+              "🐛 Integrated lighting precision and country-pattern minification fixes, with Android test and device verification.",
+              "📝 Adopted the Mercator city rendering checkpoint and documented integration checks, scenery geometry and placement research, realism costs, iOS verification, and lint backlog."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/city-buildings",
+        "feat/unify"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 13,
+          "bullets": {
+            "Testing": [
+              "🚀 Added bounded Mercator city buildings and route occlusion, and adjusted optional city render fixtures.",
+              "🐛 Corrected Mercator model geometry and texture orientation, stabilized animated pose placement, and advanced clips throughout Follow and Lead intros.",
+              "⚡ Bounded place-label preparation memory without changing visuals and reduced country-highlight shimmer with mipmapped masks and GPU regressions.",
+              "🐛 Discarded preview catch-up debt after long frame stalls and tuned model travel speed."
+            ],
+            "Work in Progress": [
+              "🐛 Bounded terrain loading and stabilized preview playback.",
+              "🐛 Made Mercator preview and export follow style elevation.",
+              "✅ Repaired iOS test Compose imports and angle icon checks."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/city-buildings",
+        "feat/unify"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-tools",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🐛 Integrated scraper reliability improvements and admin-managed SEO connection settings."
+            ],
+            "Work in Progress": [
+              "🐛 Improved scraper reliability by retrying Google errors, selecting the cheapest fare, and preserving partial cycles.",
+              "🔧 Added admin management of the SEO connection."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 21,
+          "title": "Scraper reliability + SEO connection managed in admin",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "scraper"
+      ],
+      "version": null
+    }
+  ]
+}

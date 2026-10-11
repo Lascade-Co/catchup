@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-11",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Updated how TestFlight build versions are handled in the build workflow and adjusted related workflow dependencies"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Added the initial marine API project scaffold, including email tracking and v3 work",
+              "🔧 Set up Docker image build requests, PR-comment branch deploys, and a sample environment configuration",
+              "📝 Added project documentation: a README, a domain glossary and contributor guidance"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/email-track"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "📝 Updated the published-news ledger for the Oct 11 run, adding three new maritime stories covering Hormuz, Libya and the Red Sea",
+              "📝 Marked several more stories as published in the ledger, including a vessel report, two maritime-area updates and the SS Richard Montgomery mast removal",
+              "📝 Logged two new hub draft posts in the content ledger: a container-tracking how-to for MarineRadar and a travel itinerary map guide for TravelAnimator"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "♻️ Migrated Settings onto the shared implementation, binding Android capabilities to shared account, promo, language, watermark, email, archive and access policies",
+              "✅ Added Compose screenshot tests that guard the Settings migration with 37 preserved baselines, compared in the existing unit-test path",
+              "🔧 Removed replaced Settings code, thousands of redundant translation entries and unused artwork; updated the shared submodule pointer and migration docs",
+              "🐛 Fixed video sharing so receiving apps get read access to the export, with new tests; Preview now keeps terrain on every quality tier, and the debug-only shared gallery was removed"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/unify"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Migrating the Settings UI and its subpages into shared code, including account/session state, promo and language policies, email/feedback handling, archive selection and watermark editing",
+              "♻️ Reusing the shared Settings policies across Home, launch flows, subscription refresh, exports and diagnostics via narrow Android capabilities",
+              "✅ Added shared behavior tests and an Android parser parity check; shared JVM and iOS Settings tests pass and Android screenshots match the original references",
+              "♻️ Removed the shared debug gallery and updated regression guards accordingly"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/unify"
+      ],
+      "version": null
+    }
+  ]
+}

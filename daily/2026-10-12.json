@@ -1,0 +1,398 @@
+{
+  "date": "2026-10-12",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 13,
+          "bullets": {
+            "Published": [
+              "🚀 Daily ad-spend email now shows the ads team's change log under the line each change explains, with a 'no change logged' note for unexplained moves and an 'Also changed' list for unmatched changes; the log is optional and any failure degrades gracefully",
+              "🚀 Added an AI-written synopsis and plain-English change descriptions, with per-rule validation, retries, cached templates and fallbacks, plus GeoAnimator support in the product registry",
+              "🐛 Hardened the synopsis pipeline: stricter validation of observations and causes, name matching fixes, safer caching, partial salvage of good items after failed or timed-out calls, and no duplicated budget units",
+              "🚀 Reworked the ad-spend layout and recipients: fixed product order, idle lines folded into one 'No spend' line, no person named in the prose, and the scheduled email also goes to a second recipient. Email subjects and sender names were improved too, keeping the full decision in 'Needs you' subjects and splitting headline sentences more accurately"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 59,
+          "title": "feat(adspend): send the daily ad-spend email to Jishnu too",
+          "author": "cherian"
+        },
+        {
+          "number": 58,
+          "title": "feat(adspend): change log, plain-English causes and a synopsis that arrives",
+          "author": "cherian"
+        }
+      ],
+      "branches": [
+        "feat/adspend-change-log",
+        "feat/adspend-jishnu-recipient",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "🚀 Ported the furniture fit feature from iOS to Android",
+              "🔧 Applied lint fixes and merged the furniture-fit branch with its remote counterpart"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "octopoocha",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Applied an automated lint fix"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "keith/furniture-fit"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/connector",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Added a timezone parameter to the cron schedule configuration"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed catalogue app tagging so rows tagged for Geoanimator keep their place in Travel Animator's catalogue; the admin now works with the apps a row is listed in and prevents leaving a row in no app",
+              "🔧 Added a database default for app tags via a new migration, so older code can still insert maps and models after a rollback",
+              "✅ Verified Travel Animator responses are identical to main across about 1,300 request variations, and that main's code still reads and inserts normally after the migration",
+              "🚀 Merged the catalogue app tags feature PR, which also brings in deployment, Docker image build and nightly pay-as-you-go billing workflow setup and environment sample documentation"
+            ],
+            "Work in Progress": [
+              "🔧 Combined the billing and catalogue app tag changes on a branch for joint staging testing (not intended for merge)"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 79,
+          "title": "fix: keep Travel Animator's rows when tagging, and let older code insert",
+          "author": "vaishnav-0"
+        },
+        {
+          "number": 78,
+          "title": "Feat/catalogue app tags",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "dev",
+        "staging/catalogue-billing"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 7,
+          "bullets": {
+            "Testing": [
+              "✅ Added a widget test checking that the My eSIMs card's auto-renewal switch logs the auto top-up enabled analytics event",
+              "🐛 Fixed analytics screen tracking on the account settings and payment window screens",
+              "🚀 Onboarding page 3 now shows a one-tap install demo instead of a QR scan, plus a layout fix with the magnifier on the left and a transparent status bar",
+              "🚀 Global plans now badge the middle-data plan as Popular",
+              "📝 Removed the outdated analytics events doc",
+              "🔧 Merged the billing-country refresh branch into dev"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Enabled template and guest push notifications by default",
+              "📝 Documented the client registration process"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-db",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Added a rolling data refresh that processes one destination at a time, with expiry applied only after a successful sweep"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "🚀 Released a merge of dev into main: separate Global plans, all locales enabled, and updated blog author URLs"
+            ],
+            "Work in Progress": [
+              "🚀 Created separate Global and Global Lite plan pages and added Global Lite to home destination search",
+              "🚀 Showed searchable coverage in the responsive sheet",
+              "🔧 Enabled all configured locales",
+              "🔧 Switched blog profiles to singular author URLs"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 135,
+          "title": "Release: Separate Global plans, enable all locales, and update blog author URLs",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/flight-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Added an async API that compares Kayak flight results to find cheaper flight options"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🐛 Updated the 401 response so an expired token now returns a clear \"token is expired\" message",
+              "🔧 Cleanup commit that adds the project scaffolding: a sample environment config, CI workflows for Docker builds and PR-comment deploys, ignore rules, container setup, and contributor docs and a domain glossary"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/email-track"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🔧 Reworked Android debug build signing to read its keystore settings from environment variables or a local properties file, and git-ignored the local debug signing config",
+              "🐛 Included a login fix alongside the Android build changes",
+              "🔧 Resolved a merge conflict that brought in project setup files, including CI build trigger workflows, editor and tooling config, and Flutter version pinning"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/email-alerts"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Published a maritime news post on a ferry engine failure that left 70+ passengers stranded in the Solomon Islands, with an internal link to a related story",
+              "📝 Updated the published-news ledger for the 2026-10-11 and 2026-10-12 runs, covering Strait of Hormuz shipping incidents, the Solomon Islands ferry rescue, a Greek fishermen fuel protest, and a Chittagong port concession",
+              "🔧 Added a ledger entry for a travel-app comparison article"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 84,
+          "bullets": {
+            "Testing": [
+              "🚀 Moved the route data model to the v2 format: new on-disk schema with a one-time migration from v1 (with backups and corrupt-file copies), a temporary compatibility bridge, a catalogue lookup by texture id, and a leg-path codec",
+              "♻️ Moved the renderer, plan builder, Home editor, importers, saved-route upload/download and export config onto v2 stops, with Home edits going through a fenced store commit",
+              "🐛 Fixed issues found in review rounds: unique stop ids, a hold on Home commits until the first load, safer undo/redo, validation of caller writes, per-clip proxy results, and a bounded catalogue wait for the importer",
+              "✅ Added seam-gate and differential tests against v1 plans, new fixtures, key-collision and performance tests, and pinned the elevation preview behaviour; also made Preview loading faster, cleaned up Android lint, and documented design decisions in ADR 0041 and route-v2 notes"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/unify"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "♻️ Continued the Adapty-to-StoreKit migration: merged main, resolved conflicts and ported paywall purchase-cancelled tracking to the StoreKit paywall managers",
+              "🐛 Fixed the Home screen so Pro button and subscription status refresh correctly after approvals, refunds or offer codes",
+              "🐛 Made restore purchases smoother: a cancelled App Store sign-in is treated as a quiet cancel, and restore still runs when a route unlock may be missing",
+              "🐛 Fixed route unlock eligibility so products sold on the cloud-sync paywall unlock routes, and made offer-code redemption fall back to the App Store page and settle when the user returns",
+              "✅ Added test coverage for restore cancellation at sign-in"
+            ]
+          }
+        },
+        {
+          "login": "rahul028",
+          "name": "rahul028",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🚀 Rolled out Journey AI to all users by removing the A/B test gate",
+              "🔧 Added a new analytics event that tracks when a Journey AI request starts"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "journeyAifixes",
+        "mushfiq/adapty-to-storekit"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 64,
+          "bullets": {
+            "Work in Progress": [
+              "♻️ Moved the route model to a new stop-based v2 format, with leg-path encoding, edit rules, an expansion layer, and a one-time migration of existing saved routes, including backups and retry handling",
+              "🚀 Home editing, saved-route upload/download, importers and the connector router now work on v2 stops, with exact undo/redo and safeguards against edits before the first load",
+              "♻️ The renderer and animation builder now read the expanded v2 route, and the export config carries the v2 route with its resolved models",
+              "⚡ Faster route reads and edits through memoized store decoding and a bridge that converts only the edited window; terrain cost reduced and Rentile 0.15.0 adopted",
+              "✅ Added v1 route fixtures, differential frame-plan harnesses and golden tests, plus fixes from several review rounds",
+              "🐛 Journey AI no longer answers empty or reports a false success: thinking budget set to 0, an empty reply is retried once and then shown as an error"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/unify"
+      ],
+      "version": null
+    }
+  ]
+}

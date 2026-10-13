@@ -122,7 +122,8 @@
     "daily/2026-10-09.json",
     "daily/2026-10-10.json",
     "daily/2026-10-11.json",
-    "daily/2026-10-12.json"
+    "daily/2026-10-12.json",
+    "daily/2026-10-13.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -254,7 +255,8 @@
     "Lascade-Co/intranet",
     "Lascade-Co/seo-mcp",
     "Lascade-Co/artifactory",
-    "Lascade-Co/esim-ai-plugin"
+    "Lascade-Co/esim-ai-plugin",
+    "Lascade-Co/geo-animator-web"
   ],
   "users": [
     {

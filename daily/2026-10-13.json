@@ -1,0 +1,590 @@
+{
+  "date": "2026-10-13",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "Cherian Thomas",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🐛 Merged a fix so ad-spend narration finishes reliably under Sonnet's default thinking behaviour"
+            ],
+            "Work in Progress": [
+              "🐛 Fixed ad-spend narration being cut off by raising token budgets to leave room for Sonnet's default thinking, with a higher floor for small batches",
+              "🔧 Standardised the per-call stream timeout at 90s so retries stay well within the 30-minute job limit",
+              "🔧 Improved failure logging by reporting why a reply stopped, using an allowlist so unknown values never reach the public log",
+              "✅ Added a test that exercises the real runner for synopsis and narration budgets and timeouts"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 60,
+          "title": "fix(adspend): narration finishes under Sonnet's default thinking",
+          "author": "cherian"
+        }
+      ],
+      "branches": [
+        "fix/adspend-narration-budget",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/connector",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Added a second schedule for sync"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 7,
+          "bullets": {
+            "Testing": [
+              "🚀 Replaced app tags on catalogue models and maps with a nullable app foreign key, where a blank value means the row is shared by every app, and added a migration that assigns existing rows to Travel Animator",
+              "🚀 Required the ?app= parameter from Travel Animator build 500 onward, leaving older released builds unchanged, and made the model-list cache key include the resolved app",
+              "🔧 Added admin support for showing, filtering and bulk-setting each row's app, and merged the app foreign key branch for a staging test",
+              "⚡ Validated ?app= only on a cache miss so cached model lists need no extra app query",
+              "♻️ Simplified request handling by naming Travel Animator explicitly instead of None, and consolidated admin bulk actions into one builder with no behaviour change",
+              "📝 Documented how requests without ?app= are handled for Travel Animator below build 500"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/catalogue-app-fk",
+        "staging/catalogue-billing"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 10,
+          "bullets": {
+            "Testing": [
+              "🚀 Added push notification improvements: guest registration, unregister on logout, app language sync, and verbatim 503 service notices",
+              "🐛 Fixed push token handling so a guest token is released under its owning session, and corrected v2 history symbols and the cancelled label",
+              "🚀 My eSIMs now refreshes automatically on events, shows a pending-purchase placeholder, and polls with backoff; refreshing continues quietly after install until the eSIM shows as installed",
+              "♻️ Moved account calls and top-up history to the v2 API and removed dead v1 wallet code",
+              "🔧 Added a code-level master switch for local reminders, gated mock eSIMs behind a constant, and updated API docs with maintenance 503 responses"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-ai-plugin",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Improved Cloudflare deployment scripts, configuration validation, and related documentation",
+              "🚀 Added a persistent dev file store, device checks, setup guides, and eSIM installation widgets",
+              "🚀 Enhanced eSIM management with detailed views, plan metadata, and more specific tool actions"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Blog now shows published co-author and reviewer credits, and author profiles are being migrated",
+              "🔧 Sitemaps reworked: destination sitemap split into two child sitemaps, plus selective blog sitemaps",
+              "📝 Refreshed the OpenAPI specification"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/geo-animator-web",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Migrated the web app to Vinext",
+              "🚀 Added a public blog and integrated sitemap support"
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Built the Geo Animator landing page"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/locate",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Redesigned location relevance: name, country, and IATA candidates are now retrieved independently, and current structured names are rematched before ranking",
+              "🔧 Added a country coverage audit and a revision-protected backfill for the online index",
+              "⚡ Added stage-level analytics that record actual cache, local-index, and provider visits, including empty responses, errors, cancellations, and percentages for a balanced funnel view",
+              "📝 Documented rollout steps and kept the diagnosis evidence"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Completed the fleet feature and bootstrapped the marine API project from the shared Django template",
+              "🔧 Added CI workflows for central Docker builds and PR-comment branch deploys, plus a sample environment config",
+              "📝 Added project docs covering architecture, conventions and a domain glossary (ships, staleness, write buffering)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/fleet"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Separated the email and push notification channels so each is handled independently"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/email-alerts"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Published a trends-news post on South Korea's first Arctic container ship round trip to Europe, completed by the Panstar Acro",
+              "🚀 Published urgent coverage of a fire aboard a seismic survey vessel in the Gulf of Mexico, with 42 crew evacuated, distributed via Instagram, newsletter and Telegram",
+              "🚀 Published a hub post on a tanker attack off Qatar, live across WordPress, Instagram, newsletter and Telegram",
+              "🚀 Published two news stories, a storm grounding of a cargo ship off Kaliningrad and Eritrea's appeal to the UN Security Council, and updated the dedup ledger for all stories"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added an ad change log to the daily product report, with an 'Ad changes' table per app and an 'Other ad changes' section",
+              "🔧 Made the change log source optional and configurable; if it fails, the report shows a callout and still builds",
+              "✅ Tests no longer hit the live change log",
+              "📝 Added handoff documentation for the ad-spend email work"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy-flutter",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "🎨 Restyled the main app screens (home, discover, plans, cart, wallet, top-up, profile, account settings) to match the latest Figma designs, including a new 5-tab navigation bar",
+              "🐛 Fixed UI issues: country flags falling back to emoji, invisible status bar on light tabs, not-installed plans showing as fully used, wallet currency labels and top-up chip sizing",
+              "🐛 Fixed support email link encoding so spaces display correctly, and added richer diagnostic details to the message",
+              "🔧 Added Crashlytics user identification tied to auth state, plus build obfuscation and release signing instructions",
+              "🚀 Swapped in the new roamjoy wordmark logo across the app and eSIM PDF, and restored and added translations for all locales"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/new_ui"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-backend",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Released cabin and party-size pricing, destination media, and stock Postgres support to the main branch via the dev merge"
+            ],
+            "Work in Progress": [
+              "🔧 Merged the scraper branch into dev, bringing in the project scaffolding: Docker setup, environment sample, deploy and image-build workflows, and project docs",
+              "🚀 Priced adult groups from the solo fare across all four cabins, parked party events that arrive before their contracts, and retired the narrow-pin environment switches"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 8,
+          "title": "Release: cabin/party pricing, destination media, stock Postgres",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin",
+        "scraper"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-web",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added author sitemaps and selective frontend callbacks",
+              "🔧 Relaxed the frontend sitemap cache requirements"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/simline-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Ran several Vercel deployment updates on a branch without an open PR"
+            ]
+          }
+        },
+        {
+          "login": "ryyansafar",
+          "name": "ryyansafar",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Built an English-only influencer partner portal with email-code sign-in, a separate token session with cross-tab refresh, and an agreement gate",
+              "🚀 Added portal tabs for Overview (commission summary, trend chart, earnings pipeline), Links, Promo codes, Orders, Commissions, Payouts and Profile, plus a slim app bar that hides marketing chrome",
+              "🚀 Added app-status maintenance UI with polling, banner, limited and blocking screens, and purchases disabled during outages",
+              "🚀 Forwarded influencer referral and site language on sessions, handled cashback exclusions at checkout, synced preferred language on locale switch, and polished the country hero, flag and plan size display"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/store-reviews",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Refined the AI review-reply prompt for booking, payment and refund reviews by removing a restriction on specific wording",
+              "🔧 Cleared the stored flight deals state"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 32,
+          "bullets": {
+            "Testing": [
+              "🚀 Moved the app onto the new stop-based route format v2: Home, scene hosts, Preview, assistant tools, export and analytics now work with native stops, and legacy saved routes import to them",
+              "🐛 Fixed route and Preview issues: leg splitting and the saved-route check now account for leg paths, concurrent labels survive editor cancellation, and stale markers resolve their stop by id",
+              "⚡ Improved picker and annotation responsiveness with a shared static editor backdrop, bounded video lifetimes, picker warm-up state fixes, and a startup persistence race fix",
+              "✅ Expanded test coverage: screenshots are verified locally and skipped in CI, plus new picker navigation, route import and schema tests; updated docs, roadmap and handoff notes"
+            ]
+          }
+        },
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek-4321",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Merged the event/fix branch, which adds CI workflows for central debug and release builds, Play Store release triggers, and a daily cleanup of old debug releases, along with project setup files and developer guidance docs"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "octopoocha",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Applied an automated lint fix that bumps the Google Play Services Maps dependency to a newer version"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 644,
+          "title": "fix/issue",
+          "author": "Vivek-4321"
+        }
+      ],
+      "branches": [
+        "feat/unify",
+        "release"
+      ],
+      "version": "4.0.155"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "rahul028",
+          "name": "rahul028",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Added a DNS-over-HTTPS fallback so short map links expand reliably when a carrier's DNS resolver returns an unresponsive address, avoiding hangs until timeout"
+            ]
+          }
+        },
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "♻️ Removed the Journey AI A/B test (merged via PR #871)"
+            ]
+          }
+        },
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Closed remaining locking gaps in the 3D preview viewer, covering avatar updates, camera zoom, Bounce growth and roll handling",
+              "♻️ Reordered scene transactions to open before state locks, removing lock-before-transaction chains that could block the main thread",
+              "📝 Removed a redundant lock in the animator and corrected comments about model parsing under lock",
+              "✅ Build and related test suites pass; device validation of preview, avatar, replay and export flows is still pending"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 872,
+          "title": "Add DoH-based fallback to work around Jio DNS hijacking of short URLs",
+          "author": "rahul028"
+        },
+        {
+          "number": 871,
+          "title": "Journey ai A/B test removed",
+          "author": "rahul028"
+        }
+      ],
+      "branches": [
+        "mushfiq/multinode-race-port",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 25,
+          "bullets": {
+            "Work in Progress": [
+              "♻️ Migrating the route model to v2 stops and leg paths across Home, Cover, pickers, Preview, analytics and the assistant tools, and removing the v1 staging bridge (ADR 0041)",
+              "⚡ Improved performance and media handling: faster annotation editor opening, video decoder continuity, higher Preview video caps, bounded native retrievers, and quicker picker navigation",
+              "🐛 Fixed several bugs: PNG flag highlights, settings edits lost during initial load, picker warm-up, offscreen seeks on iOS, Cover cleanup on cancellation, and stale Preview label writes",
+              "✅ Expanded tests and benchmarks for route storage (v1 vs v2), device failure injection, native raster assertions, and model lighting"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/unify"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-tools",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "🚀 Added the booking URL to the subscription list",
+              "🚀 Enabled KAYAK deal-link validation by default; any unconfirmed result now falls back to a Google Flights link",
+              "✅ Added round-trip tests for deal-link resolution through the validator stub, covering KAYAK and Google Flights links",
+              "📝 Documented the cabin, passenger and group-total price contract for KAYAK validation",
+              "🚀 Reworked the scraper to cover solo travel in all cabins, scrape family parties only when subscribed, dispatch routes sequentially with pacing, and simplify the status page"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 22,
+          "title": "Release: KAYAK deal validation on by default, Google Flights fallback",
+          "author": "Shaan-Shoukath"
+        },
+        {
+          "number": 6,
+          "title": "Release: brand-scoped passwordless auth, scraper country enrichment",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin",
+        "scraper"
+      ],
+      "version": null
+    }
+  ]
+}

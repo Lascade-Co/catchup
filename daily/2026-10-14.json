@@ -1,0 +1,640 @@
+{
+  "date": "2026-10-14",
+  "repos": [
+    {
+      "repo": "Lascade-Co/.github",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added an organization-wide Android bug report issue form so bug reports are submitted in a consistent format across repositories",
+              "📝 Initialized the repository with a starter README"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "♻️ Requests without an app parameter now always default to Travel Animator (its rows plus shared ones). The build-number cutoff is removed and cache keys are simplified.",
+              "♻️ Applied review feedback: simpler app lookup (an unknown package now returns a 404), removed the build-number pin rule and the map version-range filter, and map styles are served unfiltered.",
+              "🔧 Dropped the map min/max app version fields with a database migration, and documented the rollback steps.",
+              "📝 Reworded comments, help text and the ADR for consistency, and renamed the admin action to \"Share with all apps\"."
+            ]
+          }
+        },
+        {
+          "login": "rohittp0",
+          "name": "Rohit",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Merged the latest main into the catalogue app foreign-key feature branch to keep it in sync."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/catalogue-app-fk"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "📝 Updated the Claude project guide with details on the eSIM status changes endpoint"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-partner-studio",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Built the Partner Studio dashboard for influencer partners, covering sign in, performance overview, links and codes, orders, earnings, and profile",
+              "🎨 Refreshed the sidebar and overview styling with new gradient backgrounds and color adjustments",
+              "📝 Rewrote the README to describe Partner Studio, what partners can do, API setup, how to run it, and a project map"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Shipped blog author profiles and selective sitemaps to the main branch"
+            ],
+            "Work in Progress": [
+              "⚡ Added per-Worker caching for selective blog sitemaps",
+              "🎨 Tightened the layout of article credits on mobile"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 136,
+          "title": "Blog author profiles and selective sitemaps",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim_airalo",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the dev branch into main, delivering an API migration, fixes and UX improvements",
+              "🔧 Added CI workflows that trigger central debug builds on pull requests and release builds on main",
+              "🔧 Moved environment configuration to build-time define files, with a committed template and updated ignore rules for secrets",
+              "📝 Added docs covering environment setup, localization guidelines, the purchase-token verification flow and analytics event tracking"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 18,
+          "title": "API migration, fixes and UX improvement",
+          "author": "risal-ea"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": "v1.0.14"
+    },
+    {
+      "repo": "Lascade-Co/geo-animator-web",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed English journal listings so they display correctly across the en and en-US locales",
+              "🔧 Pinned the package manager and Wrangler versions to make central deployment reliable"
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🐛 Switched Vercel deployments to use the Next.js build output",
+              "🚀 Improved SEO for map animations and enhanced globe rendering"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Updated the uptime monitoring URL configuration"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/uptime-fix"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the CDN ship image feature (PR #287) so ship images are served via a CDN",
+              "🔧 Included project setup and tooling in the merge: CI workflows that trigger debug and release builds, pinned Flutter version, editor and lint configuration, and contributor guidelines"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 288,
+          "title": "feat:completed free 10 ship locations",
+          "author": "AdarshLascade"
+        },
+        {
+          "number": 287,
+          "title": "feat:cdn ship image",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 10,
+          "bullets": {
+            "Published": [
+              "🚀 Added trend-led SEO/AEO blog drafting through Folio for GeoAnimator, with a Folio API client, a keyword trend ranking tool, SERP briefs, and a draft publisher that lints before saving",
+              "🚀 Extended the same blog workflow to SmartRuler, with platform checks and request ID prefixes now set per site and a shared Folio key",
+              "🐛 Fixed SERP brief so generic queries are no longer flagged as brand queries, and the JSON and summary now come from a single fetch",
+              "🐛 Stopped retries from publishing duplicate trends posts by checking for an existing post before resending, and limited the direct-retry fallback to safe GET/HEAD requests"
+            ],
+            "Testing": [
+              "🐛 Fixed Folio related-blog links to use the published post's locale, so they are accepted instead of being dropped"
+            ],
+            "Work in Progress": [
+              "🚀 Building out trend-led SEO/AEO blog drafts via Folio for GeoAnimator and SmartRuler, including site configs and new skills",
+              "🐛 Refining SERP brief brand detection and aligning Folio link, table and location formats with what the API accepts",
+              "🔧 Switched SmartRuler to the shared Folio key and made the keyword sanitizer an allowlist so one odd character no longer rejects a whole batch"
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Published breaking coverage of escalating ship attacks in the Strait of Hormuz, including a record six ships struck in one day",
+              "🚀 Published a Black Sea story on drone attacks on two cargo ships off Bulgaria, one of which sank with crew missing",
+              "🚀 Published stories on a drone strike on a tanker off Oman, a Bosphorus traffic halt after an engine failure, and a container ship fire heading to South Africa for refuge",
+              "🔧 Autonomous pipeline run also sent Instagram carousel, newsletter and Telegram notifications for published stories"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 31,
+          "title": "SmartRuler: trend-led SEO/AEO blog drafts via Folio",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 30,
+          "title": "serp-brief: fix generic-query brand flag; single fetch for JSON + summary",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 29,
+          "title": "GeoAnimator: trend-led SEO/AEO blog drafts via Folio",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "feat/geoanimator-folio-blog",
+        "feat/smartruler-folio-blog",
+        "fix/folio-related-locale",
+        "fix/serp-brief-brand-and-single-fetch",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/pnl",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Migrated salary and common expenses to INR and updated the related calculation logic"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "fix/inr"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added a standing 7-day install→paid section for TravelAnimator to the daily report, with a weekly snapshot, a 12-week chart and a table covering current builds, paying countries, and iOS vs Android against earlier baselines",
+              "🐛 Fixed the digest release-mix query that always failed and hid its error; it now runs in two layers with a row limit and reports errors to stderr",
+              "♻️ Renamed the 24h client metric to \"Purchase within {h}h\" and the digest's Meta line to \"Install→sub (Meta)\"",
+              "📝 Added a snapshot check line and tests that leave the live snapshot untouched, updated skill docs with definitions and lessons, and registered missing daily reports in the sidebar"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy-flutter",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 9,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added a server-backed cart ported from the e-sim app, with an on-device cart for signed-out users that syncs to the account after sign-in",
+              "🐛 Fixed the cart so it shows every plan and supports editing; top-ups stay on the single-plan checkout and never enter the shared cart",
+              "🐛 Wallet auto top-up now uses the account's own currency via the v2 API; fixed currency symbol normalisation (e.g. rupee), region plan names and artwork, the refund link, store-listing links and a gesture recognizer leak",
+              "♻️ Extracted reusable payment, storage and analytics pieces for a second checkout flow, and removed the dead single-plan checkout page",
+              "🐛 Auto-translation now keeps named placeholders intact, and iOS gained the missing permission usage descriptions; CI debug builds now sign with a stable keystore"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/new_ui"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-mcp",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added hero style previews to the writer MCP"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-web",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Added app hero styles and blog-based image generation",
+              "🔧 Introduced scoped internal API keys and separated blog publishing from other internal API access",
+              "📝 Documented internal API production verification steps and a known research limitation"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/signalside_esim_web",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "Risal EA",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Built a full blog module with dynamic routing, sitemaps, and localization support",
+              "♻️ Merged the blog feature branch (PR #20) into the working branch"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Set up deployment of the site on Vercel"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 20,
+          "title": "feat: implement comprehensive blog module with dynamic routing, sitem…",
+          "author": "risal-ea"
+        }
+      ],
+      "branches": [
+        "dev",
+        "features/folio"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-analytics-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "♻️ Removed the volume threshold check from the P1 report"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "conversion-api-integrations"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 8,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed country highlights failing in steep-pitch Preview by sampling the same terrain mesh the map, route and vehicle use, with regression tests and an investigation write-up",
+              "⚡ Reused decoded terrain heights across map styles and documented the investigation behind it",
+              "🐛 Preview fixes: cursor is preserved when enabling country highlight, and release country/state boundaries are restored and retained when returning Home",
+              "🔧 Export improvements: shows measured download speed during preparation, surfaces specific failures for missing tiles and codec death, and includes build commits in exported metadata"
+            ]
+          }
+        },
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Merged the model, avatar and media editors into a single point editor sheet with Models / Avatar / Media tabs and one undo step on save",
+              "🚀 Added \"Apply to all\" for models, re-routing or clearing affected real-route segments, and a multi-model mode",
+              "♻️ Removed code left unused by the merge and added translated labels for all shipped locales",
+              "✅ Added tests covering tab rules, merging saves into a point, apply-to-all planning and segment re-routing"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/ui",
+        "feat/unify"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Merged the multinode race port PR, adding CI workflows that dispatch TestFlight debug builds, PR builds and App Store releases to a central build repo",
+              "📝 Added contributor guidance docs for AI coding agents and updated repo ignore rules"
+            ],
+            "Work in Progress": [
+              "🔧 Merged main (version 4.1.0) into a branch with no open PR, bringing in the CI workflows and project docs"
+            ]
+          }
+        },
+        {
+          "login": "rahul028",
+          "name": "rahul028",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🚀 Added a survey for the Journey AI feature and on preview exit",
+              "🐛 Fixed validation issues in the survey fields"
+            ]
+          }
+        },
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Version update, bringing in CI build and release workflows plus project documentation"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin",
+        "previewAndJourneyaiSurvey",
+        "release"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🔧 Merged the SEO and hub fixes PR, adding a CI workflow that requests central Vercel deployments for branches and PRs",
+              "📝 Added design-context guidance covering audiences, brand personality and design principles for the site",
+              "📝 Added a web-to-app attribution implementation guide for landing pages, covering campaign tracking, store links and UTM conventions"
+            ],
+            "Work in Progress": [
+              "🐛 Redirected retired WordPress page URLs from the hub to their main-site equivalents so old links no longer end in 404s",
+              "🐛 Removed the discontinued Creator Challenge nav link and its unused translation keys across all locales"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 224,
+          "title": "Seo and hub fixes",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "origin",
+        "seo-and-hub-fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 8,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Reworked map highlight boundaries: restored release country/state borders, sampled the tile-budget-selected terrain mesh, and reused tiled geometry across sessions and frames",
+              "⚡ Shared decoded terrain height grids across map styles and loaded source tiles concurrently to cut repeated decoding",
+              "🐛 Made preview playback more reliable by gating boundary activation on real tile residency and sampling the live download rate during preparation",
+              "✅ Stabilized pre-push regression gates by updating an architecture test and making an iOS heap-footprint test robust to full-suite memory changes",
+              "🐛 Kept sticker models upright in rendering and added clearer export failure messages when map tiles are unavailable"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/unify"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-tools",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 13,
+          "bullets": {
+            "Testing": [
+              "🚀 Built admin-managed manual visa exceptions: append-only models, validated submit/approve/withdraw services, and an Unfold admin interface",
+              "🚀 Approved manual exceptions are now served in visa lookups and discovery with their own attribution, and audited with error and warning severities",
+              "⚡ Manual exception changelist state now loads from a single annotated query; 🐛 exception history is re-attributed correctly during user merges",
+              "🐛 Fixed visa import issues (new upstream visa-required value, long source names, residence exemptions re-curated after the upstream rewrite) and added bounded-backoff retries for failed quarterly imports; 🔧 visa push and email alerts now off by default behind a feature flag; 📝 added docs and plan for the exceptions workflow"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    }
+  ]
+}

@@ -1,0 +1,600 @@
+{
+  "date": "2026-10-15",
+  "repos": [
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Calendar day headers now follow the device's settings"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the catalogue app foreign key work for models and map (PR #81)"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 81,
+          "title": "Feat/catalogue app fk for models and map",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 7,
+          "bullets": {
+            "Testing": [
+              "📊 Aligned GA4 and PostHog analytics events with the updated spec: added platform to every event, purchase amounts on checkout and payment events, profit as value, renamed auto top-up events, and logged auto plan top-up enablement",
+              "🚀 Reworked the onboarding destination globe: cinematic dolly-out intro, a country-by-country tour with camera push-in and focus effects, a larger globe, and translated country names across all languages",
+              "🐛 Made onboarding full screen by overlaying the Skip button on the content, and enlarged the globe and radar ping area",
+              "🔧 Merged the QA-fixes branch into dev, bringing in project setup, CI build triggers and repo configuration, and renamed the \"My eSIMs\" label to \"My Plans\""
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-ai-plugin",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 13,
+          "bullets": {
+            "Published": [
+              "🚀 Set up Cloudflare Worker deployments from dev and main, with staging running as a native Preview of the production Worker and custom domains for both environments",
+              "🔧 Connected the staging backend through Cloudflare VPC and moved Worker deployments to GitHub-provided Cloudflare credentials",
+              "🔧 Added Infisical workspace configuration and environment-specific app code loading",
+              "🐛 Fixed Cloudflare OAuth and VPC fetch compatibility, restored staging OAuth verification, and added diagnostics for backend connectivity and VPC access issues during deployment"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the dev branch into main, shipping localized push notifications, maintenance controls, an influencer program, and staff access"
+            ],
+            "Work in Progress": [
+              "🚀 Building backend-owned MCP OAuth with admin-managed app configuration",
+              "🔧 Switched MCP OAuth signing to derive from the Django secret key"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 95,
+          "title": "Add localized push, maintenance controls, influencer program, and staff access",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Shipped refinements to the blog article layout and calls to action via the dev merge (PR #137)"
+            ],
+            "Work in Progress": [
+              "🚀 Refining the blog article layout and calls to action",
+              "♻️ Reduced the blog article headline size"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 137,
+          "title": "Refine blog article layout and calls to action",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim_airalo",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "♻️ Removed unused eSIM activation warning translation keys and simplified the usage bar rendering logic",
+              "🔧 Switched version bumping from minor to patch and now show the full version on the profile page",
+              "🔧 Merged dev into main, bringing in CI workflows that trigger debug builds on PRs and release builds on main, with automatic build-number and version bumping on dev",
+              "📝 Added project docs covering localization guidelines, build-time environment configuration, and Facebook event tracking"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 22,
+          "title": "Dev",
+          "author": "risal-ea"
+        },
+        {
+          "number": 21,
+          "title": "Dev",
+          "author": "risal-ea"
+        },
+        {
+          "number": 20,
+          "title": "Dev",
+          "author": "risal-ea"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": "debug-pr-22"
+    },
+    {
+      "repo": "Lascade-Co/geo-animator-web",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Restructured blog articles and shared the homepage header across pages, merged via PR #1"
+            ],
+            "Work in Progress": [
+              "🚀 Reorganised blog article layout with a split header, contents list, numbered sections, FAQ accordion, download card and author card",
+              "🐛 Fixed mobile table, spacing and alignment issues in blog articles",
+              "♻️ Extracted the homepage header into a shared SiteHeader used by the homepage, journal and guide pages"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 1,
+          "title": "feat: restructure blog articles and share the homepage header",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "feat/blog-article-layout",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Merged the container credits branch into the fleet branch to combine the two lines of work"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/fleet"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed the paywall so it now always displays whenever it is triggered"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/paywall-fix"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Live map now shows vessels from the within_radius service starting at zoom 8 (previously 9.9), and the stale tile-based ship layer is hidden",
+              "⚡ Added request throttling: radius capped at the server limit, stable cache key when zooming, 1s minimum gap between calls, and a single retry on rate limiting",
+              "🚀 Added a multilingual (en/ar/tr) \"Zoom in to see individual vessels\" hint below zoom 8 that zooms the map in when tapped",
+              "🔧 Kept the heatmap visible up to zoom 8, and pointed dev/preview to the staging vessel API with production host and CSP updated accordingly"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "blog-fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Published a news story on the GFS Pride container ship sinking near the Strait of Hormuz, including MarineRadar 24h tracking data showing a 15x vessel breakout",
+              "🚀 Published a news story on a fishing boat lost in a storm off the Isle of Lewis, Scotland, citing verified sources",
+              "📝 Updated the content ledger with a new TravelAnimator how-to guide on travel maps with pins"
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "♻️ Removed Instagram auto-posting from the trends-news pipeline; live publishes and the Telegram Publish tap no longer post the carousel, and distribution is now WordPress, newsletter and Telegram report",
+              "📝 Updated skill docs to reflect the new distribution flow and the retired --no-instagram flag (now a harmless no-op)"
+            ],
+            "Work in Progress": [
+              "♻️ Drafted the removal of Instagram auto-posting from the trends-news pipeline, with matching skill doc updates"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 33,
+          "title": "Remove Instagram auto-posting from the trends-news pipeline",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "chore/remove-instagram-autopost",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Muhammed Riyan",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Merged work adding a Payload-based content library with a multilingual CMS and editorial collections",
+              "🚀 Added footer links for \"How we test\" and \"Customer reviews\" and updated the related translations"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 32,
+          "title": "Payload content library, multilingual CMS, and editorial collections",
+          "author": "Riyaaaaan"
+        }
+      ],
+      "branches": [
+        "dev",
+        "feat/payload-content2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy-flutter",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 8,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added a floating cart bar on the home and destinations screens, plus a new empty-state home header with a glow and mascot",
+              "🐛 Fixed the cart to show the wallet balance in credits, and fixed wallet rule parsing so saved settings are read back correctly",
+              "🔧 Moved wallet top-ups to the v2 endpoint so they are billed in the account's currency; refreshed iOS Firebase and Xcode configuration and regenerated launcher icons and splash screens from the new logo",
+              "⚡ Stopped remote config from blocking the first frame at startup, and started recording the plans_viewed analytics funnel event"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/new_ui"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-mcp",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Improved FAQ answers and refined guidance for writing researched travel content"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-web",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Applied the shared original app logos to the hero images of all new blog posts"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/simline-web",
+      "developers": [
+        {
+          "login": "ryyansafar",
+          "name": "Ryyan Safar",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the dev release into main, covering the public blog, API-11 to API-15 integrations, influencer portal and polish"
+            ],
+            "Work in Progress": [
+              "🚀 Built a public blog backed by Folio, with listing, article and author routes plus sitemap proxies and a callback",
+              "⚡ Enabled static generation and incremental revalidation for blog pages, and refined the author page layout",
+              "🐛 Made the sitemap accept CDN-weakened ETags from Folio while still verifying the hash against the content",
+              "♻️ Replaced the Compare link in the header nav with Blog on every page and locale"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🔧 Triggered a Vercel deployment"
+            ],
+            "Work in Progress": [
+              "🔧 Ran several additional Vercel deployments from a branch"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 12,
+          "title": "Release: public blog (Folio), API-11–15 integrations, influencer portal, polish",
+          "author": "ryyansafar"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit",
+          "commit_count": 6,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed shared UI layout issues: default element position, clipped Settings Upgrade text and Scene Style 2D badges, with narrow-screen and large-text regression tests",
+              "⚡ Reused Home preparation in Preview, hardened 4K rendering, and smoothed Follow Preview while concealing the distant map edge",
+              "🐛 Prevented cold-start terrain highlight residency failures",
+              "📝 Added performance verification guidelines and bumped the version code to 408"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "octopoocha",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Automated lint fix updating the Settings header banner layout test to read window bounds from display metrics"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/unify"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the preview and journey AI survey work (PR #874) into the main branch",
+              "🔧 Added GitHub workflows that trigger central iOS TestFlight debug builds, both manually and on pull requests, plus a manual App Store release workflow",
+              "📝 Added AI agent guidance docs (AGENTS.md and CLAUDE.md) describing the project architecture, build steps and conventions"
+            ],
+            "Work in Progress": [
+              "🔧 Merged the main branch release (4.1.1) into a branch with no open PR, bringing in the CI workflows and project documentation"
+            ]
+          }
+        },
+        {
+          "login": "rahul028",
+          "name": "rahul028",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Updated the app version, with the commit also bringing in CI build and release workflows and project docs"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 877,
+          "title": "version update",
+          "author": "rahul028"
+        },
+        {
+          "number": 874,
+          "title": "Preview and journeyai survey",
+          "author": "rahul028"
+        }
+      ],
+      "branches": [
+        "origin",
+        "release"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Newly selected elements now start beside the picker vehicle, while saved placements and dragging are preserved",
+              "🐛 Fixed UI text clipping: the Settings Upgrade button fits its label and Scene Style 2D badges sit inside their rounded buttons",
+              "✅ Added regression tests for element placement, literal defaults and native UI",
+              "⚡ Prewarmed preview assets and reused resident render products",
+              "🐛 Smoothed steep route edges, added haze at the Mercator horizon, and clipped terrain highlights to the prepared map footprint"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/unify"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-tools",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🚀 Added a per-app keyed internal test-push endpoint that sends production-format test push notifications for deals",
+              "🔧 Added generation, display and rotation of the push test key from the App admin page"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    }
+  ]
+}

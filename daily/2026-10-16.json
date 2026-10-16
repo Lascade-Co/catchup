@@ -1,0 +1,550 @@
+{
+  "date": "2026-10-16",
+  "repos": [
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": null,
+          "name": "Antony Mathew",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "🚀 Added a construction calculator feature, built up over several iterative commits and currently under review in an open PR"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "antony/development"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/claude-config",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Published the initial version of the authored Claude Code config, covering keybindings, statusline/tab/effort scripts, skills, commands, agents, hooks, scheduled scripts and a plugin list",
+              "🔧 Kept credential-bearing config files out of version control, with the secrets travelling through a separate secrets manifest",
+              "✅ Scanned the repo for leaked secrets before publishing, with only one documentation false positive found"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Notification permission request now keeps showing until notifications are turned on",
+              "🚀 Updated the calendar day header"
+            ],
+            "Work in Progress": [
+              "🚀 Ongoing work on showing the notification request until notifications are enabled"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 108,
+          "title": "feat:Notification req shown until turned on and calendar day header updated",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/email-push-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added seeding of English eSIM push notification templates",
+              "🚀 Added searchable app selection"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 43,
+          "title": "Add English eSIM push template seeding and searchable app selection",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-ai-plugin",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Redesigned the authentication views with inline styling, an enhanced OTP input, and an auto-return flow",
+              "♻️ Refreshed the authentication views and updated brand assets",
+              "🐛 Removed the backup QR code email notice from the payment received view"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🐛 Shipped fixes for wallet authentication recovery and paid eSIM issuance via the dev merge (PR #96)"
+            ],
+            "Work in Progress": [
+              "🐛 Fixed usage notification retries so they stay tied to the original plan cycle, preventing a duplicate 90% push after a refill",
+              "🐛 Preserved Stripe PaymentIntent IDs for automatic wallet top-ups that require authentication, and allowed paid eSIM issuance when old unused shells exist",
+              "✅ Added regression tests covering later-cycle notifications, wallet recovery and eSIM issuance",
+              "📝 Documented push routing, templates, production setup, staging test results and rollout guidance"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 96,
+          "title": "Fix wallet authentication recovery and paid eSIM issuance",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-helper",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added website lifecycle analytics events to track key user journey stages"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/ga4-posthog-website-events",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "🚀 Released SEO audit fixes and responsive blog improvements to the main branch"
+            ],
+            "Testing": [
+              "🚀 Added tracking for website lifecycle events in analytics",
+              "🐛 Reworked blog breadcrumb navigation and article layout, and improved navbar spacing and responsiveness",
+              "🚀 Redesigned the blog table of contents with a sticky side rail on wide screens, a drawer on smaller screens, a reading progress indicator and a bottom dock",
+              "🔧 Recorded a full crawl of live destination pages for SEO review"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 138,
+          "title": "Release: SEO audit fixes and responsive blog improvements",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/HotelSnap-E2",
+      "developers": [
+        {
+          "login": "lascadeansal",
+          "name": "ansal",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Updated the calendar so weeks start on Sunday, with the weekday header and month grid padding adjusted to match",
+              "♻️ Reverted the earlier change that added an external browser option on Android"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/mac-worker",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added the initial mac-worker toolkit for a secondary push-to-run worker machine, including a Brewfile, job-running and locking wrappers, health checks, and Telegram notifications",
+              "🔧 Added a nightly scheduled job for the primary machine, a reference Actions workflow, and headless Claude permission restrictions",
+              "🔧 Set up primary-to-secondary secrets syncing driven by an explicit manifest, and extended it to push Claude configuration credential files",
+              "📝 Wrote a README runbook covering setup and operation"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🚀 Added an endpoint for consuming credits",
+              "🚀 Added a free-ship allowance so users can access one ship at no cost",
+              "🔧 Included project scaffolding in the change: sample environment config, Docker and CI deploy workflows, and documentation"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/fleet"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Merged a paywall fix into the main branch"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 289,
+          "title": "fix:paywall",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added route journey replay on vessel pages with client-side MP4 export in square, vertical and widescreen formats, costing 1 credit per export with sign-in and buy-credits flows",
+              "🚀 Built fleets: an add-to-fleet dialog with a free-ship limit and credit purchase step, a sidebar fleets panel, and a map-page card showing live ship status and position",
+              "⚡ Added a loading indicator for nearby vessels on the map and moved credit catalogue, weather, ship search and ship-images leaderboard calls to go directly from the browser",
+              "🔧 Updated the content security policy to allow ad conversion and remarketing tags, and added analytics events for route video, fleets and the sidebar"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "blog-fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Published a news post on the search ship reaching Nikumaroro to begin the Earhart expedition survey",
+              "🚀 Published a story on the bulk carrier Cape Dao sinking near the Strait of Hormuz weeks after a projectile strike, with newsletter and Telegram sent",
+              "🚀 Published breaking news on drone strikes on two ships off Romania, with seven crew reported missing from one vessel",
+              "🚀 Published a story on Maersk and Hapag-Lloyd resuming the Asia-Middle East FM1 service after a seven-month suspension, with the ledger updated"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/simline-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Set up deployment of the site on Vercel"
+            ]
+          }
+        },
+        {
+          "login": "ryyansafar",
+          "name": "ryyansafar",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Blocked search indexing and crawling on non-production hosts using a noindex header on all responses and a disallow-all robots.txt, based on the host rather than environment settings"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Enabled 3D buildings on the map, backed by reviewed device validation",
+              "🐛 Verified the bounded building preview on a OnePlus device",
+              "♻️ Merged the Home migration (PR #622), unifying the Home experience on the shared codebase",
+              "🔧 Added CI workflows for central debug and release builds, Play Store publishing, and daily cleanup of old debug releases"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 622,
+          "title": "Home migration",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": "5.0.8"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "rahul028",
+          "name": "Rahul",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Added a new 50%-off one-week paywall placement, which can be triggered through a Firebase push message",
+              "🔧 Bumped the build version number across the app and its extensions for a new release"
+            ],
+            "Work in Progress": [
+              "🔧 Added CI workflows to request TestFlight builds for pull requests, run debug builds, and release to the App Store through a central build repo",
+              "📝 Added contributor guidance docs for AI coding assistants and updated repo ignore rules"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 880,
+          "title": "Release build",
+          "author": "rahul028"
+        },
+        {
+          "number": 879,
+          "title": "Added 50offer1week placement id .triggering this paywall through firebase push message",
+          "author": "rahul028"
+        }
+      ],
+      "branches": [
+        "origin",
+        "release"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Shipped a year-end /travel-recap landing page, merged via the SEO and hub fixes PR"
+            ],
+            "Work in Progress": [
+              "🚀 Building an evergreen /travel-recap landing page whose copy rolls over each year, targeting year-in-travel recap searches",
+              "🌍 Localized the page into all 26 locales, with sitemap and hreflang support plus a footer link and llms.txt entry",
+              "🔧 Added HowTo, FAQ and breadcrumb structured data, and a hero video that respects reduced-motion settings"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 225,
+          "title": "feat: add /travel-recap year-end landing page",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "origin",
+        "seo-and-hub-fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "rohittp0",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🔧 Merged the unify work: added a workflow that requests a central iOS Swift package publish on every push to main, with the source commit recorded for traceability",
+              "📝 Added repo-level docs: a README covering branches, build, Android and iOS consumption, and a documentation index, plus a .gitignore",
+              "🔧 Set up the Kotlin Multiplatform build with pinned dependency versions for Compose, serialization, networking, maps and media",
+              "🚀 Added rendering of bounded, style-authored building extrusions",
+              "🐛 Bounded building preparation work during preview playback and seeks"
+            ],
+            "Work in Progress": [
+              "🔧 Generated the iOS package release v1.0.51, including the Swift package manifest, the prebuilt framework and publish provenance metadata"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 28,
+          "title": "Feat/unify",
+          "author": "rohittp0"
+        },
+        {
+          "number": 26,
+          "title": "Fix Samsung 4K export OOM from retained place-label padding",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "ios",
+        "origin"
+      ],
+      "version": "v1.0.51"
+    },
+    {
+      "repo": "Lascade-Co/travel-tools",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Released visa requirements lookup with residence-based exemptions",
+              "🔧 Added admin-managed manual exceptions and a quarterly data sync"
+            ],
+            "Work in Progress": [
+              "🚀 Started work on regional route pipelines and mixed transport planning"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 23,
+          "title": "Release: visa requirements lookup, residence exemptions, admin-managed manual exceptions and quarterly sync",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "mixedroutes",
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

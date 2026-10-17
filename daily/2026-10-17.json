@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-17",
+  "repos": [
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Added periodic user surveys that are shown 2, 15 and 30 days after installation"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "octopoocha",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Applied lint fixes to the periodic survey code, suppressing a locale-related warning with an explanatory note",
+              "♻️ Updated debug survey buttons in Settings to use the standard button bar styling"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "keith/survey"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "🚀 Increased the verification code resend cooldown to 60 seconds in the auth flow",
+              "🐛 Home screen now shows cached popular and global prices in the remembered currency while the profile loads, instead of a shimmer",
+              "🔧 Merged the Android notification icon task branch into dev"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🚀 Published maritime news stories covering war-damaged tankers running aground near Istanbul, a fire on the KM Prima Sentosa off Bengkulu, an MT ST 3 tanker strike in the Strait of Hormuz, and Suez Canal container traffic recovering past half of pre-crisis levels",
+              "📝 Logged new hub articles in the content ledger, including a Maersk ship tracking how-to guide for MarineRadar and a Travel Wrapped animated-video guide for TravelAnimator"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Tightened app-health report guidance so KPI card values must fit within their card box, and added a check that fails the run when any card overflows",
+              "🔧 Recorded the latest sentinel panel run state, marking several panels as pending replacement and saving the panel snapshot and episode assignments"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/simline-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Triggered deployments on Vercel (two deploy commits, no further detail available)"
+            ]
+          }
+        },
+        {
+          "login": "ryyansafar",
+          "name": "ryyansafar",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Fixed dialog behavior by locking page scroll while open, and hid the closed cart drawer (shadow and focus)",
+              "🚀 Added an error state with retry for plan loading, and keyboard support (arrows/Enter/Esc) with combobox roles in the trip planner",
+              "🐛 Improved i18n and RTL: promo marquee wrapping, translated home title suffix, plural form for covers-all, German pricing overflow, and currency letter spacing",
+              "🐛 Polished UI: styled nearby-destination cards, larger tap targets, flag fallback, and promo bar behavior under reduced motion"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/tada",
+      "developers": [
+        {
+          "login": null,
+          "name": "Vaishnav",
+          "commit_count": 25,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Built the hosted MCP server for Travel Animator over Streamable HTTP, with per-caller bearer auth, Postgres-backed project storage, render tools that go through TARS, rate limiting and data deletion",
+              "🚀 Added ChatGPT widgets: a render progress player and a look picker with scene styles, vehicle preview and format options, plus the server plumbing to serve them",
+              "🔧 Added Free Export classification (a new classify command and a free-export-check command, with Python-side handling that fails closed), and updated TACI for funding and one-render-at-a-time handling",
+              "🐛 Fixed issues from security and code reviews, and ran load tests and profiling on the hosted MCP: schema validators built once per tool, multi-worker serving, geocoder warm-up and verdict caching. Also regenerated the frame-plan golden test data and updated docs and ADRs"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "hosted-mcp",
+        "hosted-mcp-design"
+      ],
+      "version": null
+    }
+  ]
+}

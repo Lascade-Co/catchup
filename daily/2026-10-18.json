@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-18",
+  "repos": [
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "🚀 Scheduled billing backfills and added progress tracking in the admin",
+              "🐛 Bounded billing backfills so they stay within limits, and removed an obsolete payment-provider API credential",
+              "🚀 Added a billing overview page and improved event handling with PostHog integration",
+              "🔧 Merged the latest main branch changes into the billing branch"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "billing"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "🚀 Published maritime news stories covering the rescue of all 26 crew from a ferry fire off Bengkulu, a skiff attack on an LNG tanker in the Gulf of Aden, Iran's Hormuz closure declaration, and a French frigate downing a drone near a container ship",
+              "✅ Ran link, humanize and related-post checks on the rescue story before publishing",
+              "📝 Added dedup ledger entries for the published news stories to avoid repeat coverage",
+              "📝 Logged new hub guide posts in the content ledger: a ferry tracker how-to for MarineRadar and a Google Maps travel-map guide for TravelAnimator"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Added an open setup gaps block under the Scorecard in each report, listing what still needs to be configured (analytics, search access, AI visibility, store links, keywords and more) and only showing gaps backed by explicit evidence",
+              "🚀 Added GeoAnimator and SmartRuler as built-in sites, so default runs now cover four products, with sitemap-based discovery for Next.js blogs that have no WordPress",
+              "♻️ Improved scoring and reporting: per-site store declarations, unscored International for English-only sites, and clearer handling of not-tracked, not-measured and pending data",
+              "📝 Published the first GeoAnimator and SmartRuler report with seeded registries, and merged the SEOmator harvest work with rubric 2.8"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

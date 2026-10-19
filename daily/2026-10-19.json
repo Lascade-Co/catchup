@@ -1,0 +1,562 @@
+{
+  "date": "2026-10-19",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Added support for source-owned VPC Service bindings in Vinext deployments"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/android-sdk",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Upgraded dependencies and the Gradle toolchain, and raised the Gradle heap to 8 GB after parallel Kotlin/Native linking exhausted the previous limit",
+              "✅ Validated the full build, including Android and iOS simulator tests, local Maven publication, release XCFramework assembly, and the Swift sample build",
+              "🔧 Bumped the SDK version to 0.1.2"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "interim-lascade-publish"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "🔧 Set up CI workflows that dispatch debug builds for pull requests, release builds for main/release pushes, and Play Store publishing for published releases to the central actions repo",
+              "🔧 Added a scheduled daily job to clean up old debug releases and their tags",
+              "📝 Added project setup docs and ignore rules, and configured the Android app build with signing, dependencies and native debug symbol packaging"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "antony/development",
+        "keith/furniture-fit",
+        "keith/survey"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/connector",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🔧 Added manual diagnostic workflows to investigate Facebook creative read failures, including field isolation and Page access probes",
+              "⚡ Skipped unused creative enrichment in the Facebook metrics ETL",
+              "♻️ Removed the temporary Facebook creative debug workflow and helpers once the investigation was done"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Improved the user experience and fixed the flight search so all airports are now available",
+              "🔧 Added the iOS project setup for the Hotels70 app, including dependencies for Firebase, Google Sign-In, Facebook, analytics, networking and image loading, plus a .gitignore for local tooling and build output"
+            ],
+            "Work in Progress": [
+              "🚀 Ongoing UX improvements and a fix for the flight all-airports list, on a branch without a PR yet"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 109,
+          "title": "feat:UX improved flight all airports fixed",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Merged main into dev, bringing in Docker build setup, including an ignore file and a sample environment template",
+              "🔧 Added CI workflows for branch deploys and Docker image builds, triggered through the shared actions repo",
+              "🚀 Added a scheduled nightly pay-as-you-go billing run that drives the internal settlement endpoint and can also be triggered manually"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🔧 Merged the dev branch into main, bringing in the Flutter project baseline with a pinned Flutter version, submodule setup and repo ignore rules",
+              "🔧 Added CI workflows that trigger central debug builds on pull requests and release builds on pushes to main",
+              "📝 Added contributor guidance, including agent instructions, design context and Flutter best-practice rules"
+            ],
+            "Testing": [
+              "🚀 My eSIMs now shows only data used for unlimited plans",
+              "🐛 Fixed checkout so the welcome code is applied automatically after Apply is tapped in the plans popup"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 87,
+          "title": "Dev",
+          "author": "sajithlascade"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": "debug-pr-88"
+    },
+    {
+      "repo": "Lascade-Co/esim-ai-plugin",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added a data usage bar for active eSIMs, showing the full allowance right after activation and a striped \"usage not reported yet\" bar when the provider has not reported usage",
+              "🚀 Added an install demo mode to the preview host so eSIM states can be tested offline, including partial usage once active",
+              "📝 Documented the preview demo in the README"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-partner-studio",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Routed staging influencer API requests through the VPC Service",
+              "🚀 Migrated Partner Studio to Vinext and a shared Workers deployment"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added website lifecycle analytics events to GA4 and PostHog"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 139,
+          "title": "Add website lifecycle analytics events to GA4 and PostHog",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/geo-animator-web",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🐛 Merged the SEO audit fixes for the blog, homepage and site infrastructure into the main branch"
+            ],
+            "Work in Progress": [
+              "🐛 Fixed blog posts with bullet lists so they render instead of showing the \"Article unavailable\" fallback",
+              "🚀 Refreshed the blog with 16:9 cover images, a new article header, related stories, a homepage journal section and richer SEO metadata (Open Graph, FAQ, breadcrumb and collection structured data, alt text)",
+              "⚡ Improved reliability and performance: stopped connection exhaustion on article requests, cached confirmed 404s, fetched article sources in parallel and lazy-loaded the 3D globe to cut homepage JS size",
+              "🔧 Added site infrastructure updates: security headers, llms.txt, image sitemap entries, a press kit page with redirects, and redirects from the removed guides to the blog"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 2,
+          "title": "fix: SEO audit fixes for the blog, homepage and site infrastructure",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "feat/blog-article-layout",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": "AdarshLascade",
+          "name": "AdarshLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Completed and merged the fleet feature"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Set up initial project scaffolding with a sample environment config, Docker image, and CI workflows for central builds and branch deploys",
+              "📝 Added project documentation, including a README, domain glossary, and contributor guidance for AI tooling",
+              "🔧 Added a scripts submodule and ignore rules for local and generated files"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 79,
+          "title": "feat:fleet feature completed",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "origin",
+        "ps/container-credits"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🚀 Added a paywall for container tracking",
+              "🐛 Fixed the credit transactions page UI: the header is now wrapped in a safe area and shorter, and the layout code is tidied"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/container-paywall"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Rebuilt the /credits page with a Free vs Pro comparison table covering satellite positions, port activity, container tracking, route video export and fleets, plus new FAQ entries",
+              "🚀 Turned on fleets and paid route-video export in production, keeping kill switches in place",
+              "🌍 Localised the whole credits page and launched it in 9 more locales, with proper plural forms, number formatting and locale-aware sign-in return",
+              "🐛 Fixed map search results being clipped by the pill input and the FAQ section shrinking in flex layouts"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 204,
+          "title": "feat: credits page Free vs Pro table, fleets + paid route video live,…",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 203,
+          "title": "Blog fixes",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "blog-fixes",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "🚀 Published four MarineRadar trends-news stories: a Hapag-Lloyd container ship fire in the South Atlantic, Taiwan driving away 16 Chinese ships near Pratas, a tugboat struck near Khor Fakkan, and a tanker attacked near Al Jubail",
+              "📝 Updated the hub post ledger with new draft entries for the TravelAnimator animated route map guide and the MarineRadar ship type explainer"
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Folio blogs now require internal links to other published posts and to the site's own pages; publishing is refused when the links are missing or invalid",
+              "🚀 Added duplicate detection against both drafts and live posts, matching on slugs and primary, secondary or same-intent keywords",
+              "🔧 Removed the deleted GeoAnimator guides pages from the site config and blog skill, and set SmartRuler drafts to the en-US locale"
+            ],
+            "Work in Progress": [
+              "🚀 Built the internal-link tooling and publish-time link checks for GeoAnimator and SmartRuler Folio blogs",
+              "🚀 Extended duplicate checks to cover published posts and their keywords, with a tool to list existing posts"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 34,
+          "title": "Folio blogs: required internal links + dedup against published posts",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "feat/folio-internal-linking",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/simline-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Set up deployment of the site on Vercel"
+            ]
+          }
+        },
+        {
+          "login": "ryyansafar",
+          "name": "ryyansafar",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Added a code-level launch gate that keeps the cart disabled regardless of the environment variable setting"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/store-reviews",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed auto-reply behavior for reviews written in other languages"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/TA-daily-issues-digest",
+      "developers": [
+        {
+          "login": "Iamfasna",
+          "name": "Iamfasna",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🚀 Built the daily Travel Animator user-issues digest: it collects surveys, support chats, Play/App Store reviews and Play cancellation survey answers, clusters them with Gemini, and emails an HTML digest on a scheduled GitHub Actions run at 05:00 IST",
+              "🚀 Added App Store reviews through the official App Store Connect API, falling back to the public RSS feed if no key is configured or the API fails",
+              "🐛 Made the pipeline more resilient: PostHog 503/429 errors are retried, and a source that still fails no longer crashes the run, so the digest is sent with a note on what is missing",
+              "🐛 Fixed dry runs marking items as reported, which could cause an empty digest later the same day, and added a missing Google API client dependency that crashed the Play step in CI"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 5,
+          "bullets": {
+            "Work in Progress": [
+              "♻️ Retired the migrated Android sources following the monorepo cut",
+              "📝 Documented the monorepo cut plan (stage 0) and recorded why the affiliate privacy boundary in the build setup stays",
+              "📝 Added dropping the InsertAffiliate SDK to the remaining-work list",
+              "🔀 Merged the iOS I0 scaffold into the migration branch, bringing in shared HTTP tunables, a shared remote config policy, store file-name constants, and a utility client family for email and feedback"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/migrate"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "rahul028",
+          "name": "rahul028",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added a placeholder to the image grid thumbnails",
+              "🚀 Added dynamic thumbnail generation for the cover image"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dynamicCoverimage"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 122,
+          "bullets": {
+            "Published": [
+              "🚀 Moved Android app state, compatibility policy, and Home assembly into shared code, and wired native iOS Home ports with matched device and simulator evidence",
+              "♻️ Shared launch routing, sign-in, OTP, session, permissions, connectivity, analytics, crash and image policies across hosts, and centralized launch tunables",
+              "🐛 Fixed launch analytics, locale and back-handler defects; aligned iOS transport headers, cache and saved-route policy; restored finite Orbit arrival ripples; preserved log archive paths in iOS uploads",
+              "📝 Kept the Wave 2 lane ledger up to date with round records, gate results, ownership grants, blockers and rulings, added a cumulative launch check, and forbade printing secret-bearing files in lanes"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "archive/app-migration-unit0",
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

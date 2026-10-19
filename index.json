@@ -128,7 +128,8 @@
     "daily/2026-10-15.json",
     "daily/2026-10-16.json",
     "daily/2026-10-17.json",
-    "daily/2026-10-18.json"
+    "daily/2026-10-18.json",
+    "daily/2026-10-19.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -265,7 +266,8 @@
     "Lascade-Co/.github",
     "Lascade-Co/esim-partner-studio",
     "Lascade-Co/claude-config",
-    "Lascade-Co/mac-worker"
+    "Lascade-Co/mac-worker",
+    "Lascade-Co/TA-daily-issues-digest"
   ],
   "users": [
     {

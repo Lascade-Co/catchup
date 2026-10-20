@@ -1,0 +1,271 @@
+{
+  "date": "2026-10-20",
+  "repos": [
+    {
+      "repo": "Lascade-Co/android-sdk",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Made voice notes opt-in via a new configuration option, with support for static setup through app metadata on Android and iOS",
+              "🔧 Removed the audio recording permission from the SDK manifest so host apps that don't use voice notes no longer inherit it",
+              "⚡ Avoided setting up the audio recorder and microphone permission state in the input bar unless voice notes are enabled",
+              "🔧 Bumped the SDK version to 0.2.0"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "interim-lascade-publish"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-IOS",
+      "developers": [
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Room Scanner now shows a clear \"camera access is off\" card with a shortcut to Settings instead of offering a scan that can't work; saved rooms stay available to open and export",
+              "🔧 Added a camera-access property to the room scanner analytics event and tagged the Room Scanner tool row as LiDAR so users without LiDAR know before tapping",
+              "🚀 Room Scanner PDF export now covers the whole room, with separate sections for walls, doors, windows, openings and furniture, laid out in two columns across as many pages as needed",
+              "📝 PDF report shows the measurement unit on page 1 and numbers pages when the report runs past one page"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feature/room-scanner"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added a weekday header to the calendar view and set up dark mode support"
+            ],
+            "Work in Progress": [
+              "🚀 Continuing work on the calendar weekday header and dark mode support"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 26,
+          "title": "feat:Calendar weekday header & Darkmode set",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Added CI workflows that trigger central debug builds on pull requests and release builds on pushes to main",
+              "🔧 Set up the Flutter project foundation, including a pinned Flutter version, ignore rules for signing files and environment configs, an SDK submodule, and editor launch configurations",
+              "📝 Added contributor and AI-agent guidance: project overview, architecture notes, design context, and coding best practices"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 88,
+          "title": "Dev",
+          "author": "sajithlascade"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": "v1.2.15+91"
+    },
+    {
+      "repo": "Lascade-Co/esim-helper",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed analytics to report the confirmed cart checkout currency"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Aligned website GA4 and PostHog analytics events so tracking is consistent across both tools"
+            ],
+            "Work in Progress": [
+              "🐛 Completing analytics tracking for destination search"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 140,
+          "title": "Align website GA4 and PostHog analytics events",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Published a news story on the Apache strike at UK North Sea platforms and its potential impact on the Forties Pipeline's oil and gas supply",
+              "🚀 Published a story on a wellboat grounding off southern Chile in which all 14 crew were safely evacuated",
+              "🚀 Published a story on a drone-damaged vessel reaching the Port of Burgas, Bulgaria",
+              "📝 Updated the publication ledger with new place entries for the United Kingdom and Chile"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 6,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Split the sitemap per content type, made it dynamic so new docs appear without a redeploy, and auto-chunked large sitemaps with a live index to stay within Google's size limits",
+              "🚀 Updated the landing hero with a new blue gradient, bolder headline and lime price highlight, and made the navbar switch to white text over the dark hero",
+              "🚀 Redesigned the how-it-works steps and the Why Choose bento section to match the Figma art",
+              "🔧 Added description and URL generation to the SEO plugin so admin generate buttons pre-fill sensible values"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/payload-content2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy-flutter",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Bumped the app version to 1.0.0+2"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/new_ui"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/TA-daily-issues-digest",
+      "developers": [
+        {
+          "login": "Iamfasna",
+          "name": "Iamfasna",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed reruns of a day so they reproduce the same digest: already-seen items are no longer filtered out, and issue history for NEW tags excludes the day being rebuilt",
+              "🚀 Switched issue clustering to Claude via the Claude Code CLI, with Gemini as fallback, and tightened the prompt so every non-positive item lands in an issue",
+              "🚀 Added a second send of the same digest to a Pacific-time recipient list at 05:00, with DST handling, duplicate-send protection, and a stale-digest check",
+              "🐛 Made the run fail fast on an empty recipient list and improved logging of HTTP status on cancel lookup failures"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 36,
+          "bullets": {
+            "Published": [
+              "🚀 Added iOS system Settings handoff for language selection and normalized native locale tags across launch and Settings",
+              "🚀 Restored the video-first Export Complete layout below the Instagram promotion and mounted a shared model recovery alert over Home and Preview",
+              "♻️ Unified Settings message presentation and catalogue recovery policy, with regression guards pinning the approved behavior",
+              "✅ Stabilized tests (native swipes, scroll/picker readiness, deterministic grid and planning regressions) and cleaned up compiler and lint warnings"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

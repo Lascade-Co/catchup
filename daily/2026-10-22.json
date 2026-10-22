@@ -1,0 +1,1005 @@
+{
+  "date": "2026-10-22",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Reworked the install-to-paid email to use a fixed 7-day window plus the latest full day across all real builds, removing the payer gate and build pooling",
+              "🚀 Added a verdict block giving a better / worse / same / can't tell yet call for each funnel step against Mar 2026 and Aug 2025",
+              "🚀 Improved email readability with role-based text colours, dark-mode overrides, and bars showing deltas against both comparison months",
+              "🐛 Fixed by-build values being invisible in dark mode caused by duplicate class attributes on cells"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "install-paid-email",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🔧 Set up CI workflows that hand off debug builds, release builds and Play Store publishing to the central actions repo",
+              "🔧 Added a scheduled daily cleanup that deletes debug pre-release builds and tags older than 4 days",
+              "📝 Added a README for pulling local secrets and creating a debug keystore, and updated ignore rules for stray media files and build artifacts"
+            ]
+          }
+        },
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Updated thumbnails and the custom fit section"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "antony/development",
+        "keith/furniture-fit",
+        "keith/survey"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/c1wf-discounts70",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the UI fixes and package updates into the main branch",
+              "🔧 Triggered a deployment"
+            ],
+            "Work in Progress": [
+              "🔧 Opened a release merge bringing UI fixes and package upgrades from dev"
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "♻️ Reworked the email alert toggle so the label and switch form a single clickable, accessible row",
+              "🐛 Polished the email alert styling, including a lighter placeholder color on the email input"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 17,
+          "title": "Release: UI fixes and package upgrades",
+          "author": "mhdbk"
+        },
+        {
+          "number": 16,
+          "title": "UI fixes and package updates",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/chat-summary",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "🚀 Added PT and IST chat digest editions, building ahead of the local send hold, checking delivery history per edition, and reusing saved summaries across both",
+              "🚀 Redesigned the digest email with canonical stats and an attention callout, plus layout fixes for desktop stat cards, trimmed alerts and a wider chat column",
+              "🐛 Made daily digests resilient to chats that can't be processed, reporting the omitted count in the email and logs while preserving retries, and supporting local test runs",
+              "🔧 Improved CLI diagnostics with safe, fixed error messages, hardened handling of private content in logs and preview artifacts, and documented recovery idempotency expiry"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "codex/digest-emails/a",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/connector",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🐛 Added a guard for Meta Insights reports that come back with zeroed delivery metrics, so a bad report is refused before any rows are written and the checkpoint does not advance",
+              "♻️ Isolated degraded Facebook Insights accounts so one bad account is parked for the run while the others continue, and the job still fails visibly with an alert at the end",
+              "🐛 Fixed backfill group dispatch and hardened the backfill workflow with stricter validation of the groups and days inputs",
+              "📝 Updated the docs and review follow-ups: corrected the rationale for parking accounts, clarified the trade-offs, and made the error-cause lookup and the partial-load message more robust"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-car-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 16,
+          "bullets": {
+            "Published": [
+              "⚡ Cut the rental search loader wait from about 10s to under 3s by removing an override that was holding every search on the loader",
+              "🐛 Fixed several rental and results UI issues: search times now snap to :00/:30, the deeplink web view slides away on close, the results back button no longer gets blocked by the collapsed car-type row, and a blank strip no longer shows above the sticky header",
+              "🐛 Improved web views and gestures: back steps through page history and the close button works, swiping across \"View Deal\" no longer opens the deal, the autocomplete loader settles on the left, and a SwiftUI publish-during-update warning in the home header is fixed",
+              "🚀 Added the ad20836 batch of fixes (search morph collapse, calendar week start following device settings, mail prefill, picker sheet close flicker), dismissed the keyboard on picker list scroll, refreshed the de-branded car art for Ultra Fast Booking, and tried then reverted a gradient launch screen in favour of a flat blue"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed the swipe-back gesture issue on profile screens",
+              "🚀 Switched multicity search to use IATA codes",
+              "🚀 Improved the profile UX"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 114,
+          "title": "feat:Profile screens swipe back issue fixed",
+          "author": "Swalih60"
+        },
+        {
+          "number": 113,
+          "title": "feat:Multicity changed to iata and profile UX updated",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1af-flights70",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 5,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Fixed a startup crash caused by a WebView data directory lock by giving the app its own WebView data directory on newer Android versions",
+              "🐛 Fixed a crash from a Compose precondition check by disabling smart text selection at app startup",
+              "🐛 Addressed a missing-resource crash in the provider logo placeholder of the compare providers section",
+              "🐛 Fixed crashes in the user session API client interceptor and a null pointer crash when selecting a date in the flight calendar"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1ah-hotels70",
+      "developers": [
+        {
+          "login": "Ashiiq666",
+          "name": "ashiiq666",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed a crash issue in the hotel booking Android app",
+              "🔧 Added CI workflows that request centralized debug builds on pull requests and release builds on main/release pushes",
+              "📝 Added a README guide for setting up local development secrets via a self-hosted secrets manager",
+              "🔧 Set up Android project configuration, including Gradle build settings, signing setup and ignore rules"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d3-android-hotel",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Restarted the version increment after the 2.3.0 release"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "crash-fix"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/daily-email-digest-actions",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 8,
+          "bullets": {
+            "Published": [
+              "🚀 Unified styling across five digests with a shared email shell, report dates, SMTP transport and workflow helpers",
+              "🔧 Scheduled PT/IST delivery with a DST-safe hold, enforced cutoff bounds, per-digest locks and encrypted public preview artifacts",
+              "🐛 Prevented digest redelivery, froze edition report dates, and rejected future dates for production recovery reports",
+              "🐛 Fixed digest rendering: restored conversion app summary cards, synced stat grid widths, rebuilt conversion cohorts with template bar charts, shortened stat labels and kept chart percentages visible"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "codex/digest-emails/b",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added Halloween and Thanksgiving as new options in the shared constants"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Added CI workflows that trigger central debug builds on pull requests and release builds on pushes to main",
+              "🔧 Set up project scaffolding: pinned Flutter version, ignore rules for signing and environment files, SDK submodule, and editor launch configs",
+              "📝 Added contributor and agent guidance covering architecture, commands, design context, and coding best practices",
+              "🚀 Merged the smooth onboarding intro work into the dev branch"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the dev branch into main, finishing four deferred review items from the earlier push/support work",
+              "🔧 Release included project setup and configuration: environment sample, deploy and Docker build workflows, and updated developer documentation"
+            ],
+            "Work in Progress": [
+              "♻️ Made the console activation retry run synchronously on a shared activation core, and documented the related design decisions",
+              "🚀 Promo redemptions now transfer when an anonymous account merges into another account",
+              "🐛 Push publish lease is now released when the broker publish fails",
+              "🐛 Competitor-bounds check now covers only the plans an apply changed, and the firing business-monitor alerts were resolved"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 99,
+          "title": "Finish four deferred review items from the 2026-10-21 push/support work",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed analytics issues, cart payment choices, and blog navigation, and merged the changes into the main branch"
+            ],
+            "Work in Progress": [
+              "🔧 Updated the build configuration so the analytics token is required only for production builds"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 141,
+          "title": "Fix analytics, cart payment choices, and blog navigation",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim_airalo",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🐛 Enabled the top-up button on expired eSIM plan cards",
+              "🚀 Improved centering of the email auth form",
+              "🚀 Hid usage details on expired eSIM cards",
+              "📝 Updated the messaging shown for unsupported eSIMs"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/geo-animator-web",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Landed the blog article layout, adding a public journal with listings, article pages and author profiles served from public content sources",
+              "🔧 Set up Cloudflare deployment via a shared workflow, plus environment templates, ignore rules and Node version pinning",
+              "🚀 Added SEO and answer-discovery groundwork: structured data, sitemaps, robots, llms.txt and social preview",
+              "📝 Added README, agent guidance and keyword research documentation covering setup, deployment and SEO"
+            ],
+            "Work in Progress": [
+              "🚀 Enriched author pages with story lists, summaries, paragraph-split bios and profile structured data",
+              "🚀 Added the Google Play rating to the homepage hero and app structured data, with an SEO check keeping them consistent",
+              "🐛 Removed llms.txt from the pages sitemap so it lists only HTML pages",
+              "🔧 Made retired guide URLs permanently redirect (308) to the blog"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 4,
+          "title": "Feat/blog article layout",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "feat/blog-article-layout",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/kayak-main-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "🚀 Made the new ads API the default",
+              "📝 Added reference documentation for the new ads API",
+              "🔧 Ran a dependency audit and upgraded package versions, with updates to the deploy CI workflow"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "new-api-integration"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": "AdarshLascade",
+          "name": "AdarshLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Merged a change to the scanner filter, which is now on the main branch"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Started changing the scanner filter on a branch that has no open PR yet"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 81,
+          "title": "chore:scanner filter changed",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "origin",
+        "ps/scanner-filter"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed a keyboard-related issue in the app (commit message only; the diff shown mostly covers project setup and config files)",
+              "🔧 Change includes project tooling and CI config such as Flutter version pinning, build trigger workflows, editor settings and contributor guidelines"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/container-paywall"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🔧 Merged the blog-fixes PR, bringing in project setup such as ignore rules for build artifacts and generated data",
+              "📝 Added documentation: a web-to-app attribution implementation guide for the landing pages and a guide to the public Trends data contract and page-building approach"
+            ],
+            "Work in Progress": [
+              "🚀 Made the live vessel map fill the viewport by covering wide areas with a cached grid of provider circles, merging in scanner data, and showing a loading indicator on each circle",
+              "🚀 Opened the /vessel map at a regional zoom, guessing the visitor's region from the browser timezone without a location prompt",
+              "🐛 Fixed route replay failing for long journeys by fetching history in 30-day chunks and merging the results",
+              "🐛 Polished mobile and map UI: fixed the fleets button width, made the map taller, locked page zoom, and added a visible search bar border and focus ring"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 205,
+          "title": "Blog fixes",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "blog-fixes",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Published two new pipeline stories on 2026-10-22, covering a chemical cargo fault probe into a fire in the Philippines and tanker attacks near the Al-Faw and Basrah anchorage",
+              "🚀 Added a news story on the Chi-Cheemaun ferry's 2026 season end, public evacuation drill, and departure for its five-year mandatory inspection, backed by four verified sources",
+              "📝 Added published-news ledger entries for the Oct 21 run, covering a Gulf tanker fire and a fire evacuation off Java"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/mixroutes-web",
+      "developers": [
+        {
+          "login": "ryyansafar",
+          "name": "Ryyan Safar",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Shipped the October 2026 release: new design, more trustworthy results, compliance updates and a self-hosted MOTIS routing engine"
+            ],
+            "Work in Progress": [
+              "🚀 Improved results: fairer cost-based ranking, impossible and dominated routes removed, clearer travel notices, passport-based entry rules and better time and airport handling",
+              "🐛 Fixed accuracy issues: closed airports, flight operating hours, regional traffic factors, updated rail fares and a geocoding mix-up",
+              "♻️ Applied the October design to remaining pages and added a custom 404 page and a credits page; tightened data-source compliance for geocoding, transit feeds, airline names and visa wording",
+              "✅ Added accuracy measurement: a 197-trip golden set with a runner, a source registry with a CI check, and a first baseline; set up self-hosted MOTIS for South India and added research docs on routing, data licences and architecture"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🔧 Triggered a Vercel deployment"
+            ],
+            "Work in Progress": [
+              "🔧 Triggered further Vercel deployments from a branch"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 2,
+          "title": "October 2026: new design, trustworthy results, compliance and our own MOTIS",
+          "author": "ryyansafar"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Landed restyled daily digest emails with delivery scheduled at 05:55 PT/IST, and bumped the three digest submodules to their updated versions",
+              "🚀 Added a canonical shared digest email shell and preview tooling, then widened the preview iframe and fixed stat cards so four never wrap 3+1",
+              "📝 Added a handoff document describing the digest restyle and scheduling work and its landed status",
+              "🔧 Bumped digest submodules for the new Install → Paid conversion digest and the Crashlytics crash digest",
+              "🔧 Added the 2026-10-21 four-site SEO report with updated caches and link-graph archives"
+            ]
+          }
+        },
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "📝 Added the GeoAnimator development roadmap as an HTML page with a six-month timeline",
+              "📝 Restructured the roadmap into 6 phases: moved Region, 3D Models and Routes enhancements across phases 1-3, and added Tutorials and a Routes build release to Phase 0",
+              "📝 Reorganized Library, Captions, Voice, Sound and Real Road Routes work into their new phases and simplified the roadmap page layout",
+              "🔧 Added team context notes and an absolute-profit skill that computes real profit from store earnings minus ad spend"
+            ]
+          }
+        },
+        {
+          "login": "Iamfasna",
+          "name": "Iamfasna",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Updated the TravelAnimator daily issues digest to a newer version that groups the report into per-survey sections"
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Added the GeoAnimator and SmartRuler SEO review and task checklist for 2026-10-21, with scores improving after site fixes (GeoAnimator 94 → 96, SmartRuler 94 → 98)",
+              "🔧 Updated cached SEO score history, link status and link-graph archives from the run",
+              "🐛 Removed the retired GeoAnimator guide pages from the SEO site registry so they are no longer expected"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Muhammed Riyan",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Ported the marketing pages (About, What is an eSIM, Guides, Compare, Help, Contact, Download app) to the RJ Web design using shared hero, section and card patterns",
+              "📝 Aligned the landing FAQ, the Why Choose \"unlimited\" tile and the final how-it-works step with the design prototype",
+              "🌐 Added missing non-English footer and whyChoose keys so locale files type-check against English; homepage FAQ translations fall back to English pending re-translation",
+              "🔧 Updated the esim-helper submodule pointer to track the latest main branch"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 34,
+          "title": "Port marketing pages to the RJ Web design",
+          "author": "Riyaaaaan"
+        }
+      ],
+      "branches": [
+        "dev",
+        "feat/payload-content3"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-mcp",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added guidance that encourages writers to include article videos across all apps"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-web",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🚀 Added article videos for every app, with CDN playback enabled and completed video metadata verified",
+              "🔧 Reused the existing image R2 bindings for video uploads",
+              "🚀 Added published blog languages and grouped English filters",
+              "♻️ Frontend language selector now appears only when multiple languages are available"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/smartruler_landing_page",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 8,
+          "bullets": {
+            "Published": [
+              "🚀 Simplified the /blog listing by dropping descriptions from cards, and made the English listing show every English post (en and en-US), including tags, categories, llms.txt and sitemap images",
+              "🚀 Added SEO structured data: App Store aggregateRating and featureList on the homepage, dateModified on the homepage and blog listing, and BlogPosting and BreadcrumbList JSON-LD on blog posts",
+              "🚀 Added an intro and three Q&As with FAQPage JSON-LD to the English blog listing",
+              "🔧 Enforced the Content-Security-Policy (previously report-only), allowing Google Analytics and the Cloudflare Web Analytics beacon; merged the SEO checklist fixes via the deploy PR"
+            ]
+          }
+        },
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Updated Folio blog integration with grouped English listings, language discovery and public author profile pages",
+              "🔧 Added a Folio callback endpoint for selective sitemap updates, with separate blog and author sitemaps cached per child",
+              "📝 Updated docs and deployment guidance to reflect the new blog, sitemap and caching behaviour"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 5,
+          "title": "feat: drop the description from /blog listing cards",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 4,
+          "title": "feat: SmartRuler SEO checklist (21 Oct) fixes",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/TA-daily-issues-digest",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "🚀 Unified TA digest emails on a canonical email shell with dated subjects and edition previews, and scheduled PT/IST delivery with deduplication and preserved seven-day issue history",
+              "🐛 Fixed chat reporting so daily tabs are complete, summary failures are reported, and rows with unparseable dates are retained",
+              "♻️ Simplified the crash overview and made digest cards and issue rows more compact, with subject precision matched",
+              "🐛 Aligned digest layouts with the email style guide and synced stat grid column widths"
+            ]
+          }
+        },
+        {
+          "login": "Iamfasna",
+          "name": "Iamfasna",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "🚀 Rebuilt survey reports so each survey or source gets its own section, with its response count, issues, bars for choice questions and a response table for free text",
+              "♻️ Simplified survey sections to show issues only, leaving Play Store and App Store reviews out of sections, counts, issues and warnings",
+              "🔧 Build the IST and Pacific reports independently from each audience's own last 24 hours, replacing the saved-digest re-send and adding a done marker to avoid rebuilding the Pacific day",
+              "🚀 Crash digest now shows the top 10 only, wraps long class names and uses per-platform labels"
+            ],
+            "Work in Progress": [
+              "🔧 Moved digest delivery from Gmail SMTP to the Resend API, with per-digest idempotency keys, targeted retries and no response bodies in errors",
+              "🐛 Added a User-Agent header to Resend requests to avoid Cloudflare blocking the default one"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "codex/digest-emails/c",
+        "origin",
+        "resend-test",
+        "survey-sections"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/tada",
+      "developers": [
+        {
+          "login": null,
+          "name": "Vaishnav",
+          "commit_count": 11,
+          "bullets": {
+            "Testing": [
+              "🔧 Hardened the Hosted MCP: request size limits, per-account project caps, per-owner locking, stricter settings validation, pooled TARS client, and safer static serving",
+              "🐛 Made data deletion race-safe so no render outlives a delete, and reworked render submission to be retry-safe with clearer messages",
+              "🚀 Improved widget player: bounded polling with a renewable lease and leader election, clearer end states, accessibility and contrast fixes, and dependency updates",
+              "♻️ Unified TACI error handling for profile tools, removed the dead Free Export path, and refreshed docs, ADRs and comments to match the built system"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "hosted-mcp"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/TARS",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Made Hosted MCP deploys safer: split the deploy into distinct stages, hold the old API down after a failed migration, extended lock/release handling to the MCP image, and tightened capability manifest validation",
+              "✅ Added an authenticated MCP smoke check and made real-nginx tests fail instead of skip under CI",
+              "🐛 Fixed credit and reuse handling: free reuse works again for zero-balance users, owed Credit renders no longer use subscriber allowance, wallet conflicts return a proper error, and reuse is retried before entitlement errors are returned",
+              "⚡ Added database indexes for new queries, reduced free Export metrics sampling frequency, gated the dev-only local render provider behind a build tag, removed dead code, and rewrote comments and docs in present tense"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "hosted-mcp-design"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Integrated the Media editor into the model sheet and fixed undo behavior on save",
+              "✨ Added animated transitions between model sheet editor tabs",
+              "✨ Added haptic feedback when switching editor sections, ignoring taps on the already selected tab"
+            ]
+          }
+        },
+        {
+          "login": "rahul028",
+          "name": "Rahul",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added dynamic thumbnail cover images (merged PR #881)"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 881,
+          "title": "Dynamic thumbnail coverimage",
+          "author": "rahul028"
+        }
+      ],
+      "branches": [
+        "mushfiq/new-model-sheet",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 122,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed a native test teardown stall by servicing the main dispatcher while awaiting runtime and store shutdown, with a real-DataStore regression test and repeated stress runs",
+              "🚀 Added sanitized shared failure reporting for persisted state and durable watermark, avatar and annotation media on Android and iOS, with a single live owner per animation file and failure, cancellation and concurrency tests",
+              "🐛 Fixed billing and environment handling: offline tier fallback now covers only connectivity failures, idle paywalls dismiss when paid access recovers, and iOS debug environment choices apply on relaunch",
+              "✅ Ran full gates and device launch-performance comparisons on Android, reparsed captures after fixing the frame-record parser, and closed out Wave 3 with updated docs, ledger and tooling hardening"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-helper",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added the initial car vertical module, including ad tracking hooks for impressions, clicks and deeplink redirects, plus a persisted app-control store",
+              "📝 Added a README covering installation as a submodule, hook, store and utility usage, and ad platform integration setup",
+              "🔧 Added project scaffolding with a .gitignore and configuration for the car base URL"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

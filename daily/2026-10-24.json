@@ -1,0 +1,524 @@
+{
+  "date": "2026-10-24",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 14,
+          "bullets": {
+            "Published": [
+              "🚀 Orchestrated KMP releases across both store publishers, and added a read-only App Store Connect build status workflow that also reports build upload errors",
+              "🐛 Surfaced Apple's actual reason for App Store upload failures as run annotations, and kept generated release notes within Google Play's 500-character limit by rewriting rather than truncating",
+              "⚡ Sped up KMP CI by running unit tests and lint as parallel jobs, publishing cache bundles only on misses with stable keys, and pinning a working ORAS version so caches restore and publish again",
+              "🔧 Reworked Telegram notifications (HTML formatting, failure-only pointers, no alerts for cancelled runs), fixed the chat ID lookup, and moved the iOS build runner between Intel and arm64 to resolve memory and timeout problems"
+            ]
+          }
+        },
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed the TARS release refusing the stable Runpod endpoint when it was idle, by accepting a zero worker ceiling while still rejecting other unexpected values",
+              "🐛 Treated missing worker and pod lists on an idle Runpod endpoint as empty, while still flagging them as errors on enabled endpoints, and updated the test fake to match Runpod's real response"
+            ]
+          }
+        },
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added an early read of the newest install day to the install-paid email, shown as a provisional comparison against the prior 7 days; it is optional and failures leave the email unchanged"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 64,
+          "title": "fix(tars): read an idle Runpod endpoint's missing worker lists as empty",
+          "author": "vaishnav-0"
+        },
+        {
+          "number": 63,
+          "title": "fix(tars): accept Runpod's idle worker ceiling on the stable endpoint",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/android-sdk",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "♻️ Removed voice-note recording from the SDK (a breaking API change) to resolve an App Store Connect rejection of iOS hosts; audio attachment playback is kept",
+              "🔧 Dropped the unused activity-compose dependency and removed the mic permission from the Android sample and iOS demo",
+              "✅ Added a verification task that fails if recording APIs or the record-audio permission reappear in the SDK",
+              "📝 Added a new ADR and updated existing ADR, README and contributor docs; bumped SDK version to 0.3.0"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "interim-lascade-publish"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Added CI workflows that dispatch debug and release builds to the central build repo for PRs and pushes to main/release",
+              "🔧 Added a workflow that triggers the Play Store release when a non-prerelease is published",
+              "🔧 Added a daily scheduled cleanup that deletes debug releases and tags older than 4 days",
+              "📝 Added README steps for pulling local secrets and creating a debug keystore, plus project setup and Gradle build configuration"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "keith/fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/chat-summary",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed email delivery idempotency so each key identifies a single email by product, edition and report day. A manual recovery for one day no longer causes a later day's send to be rejected as a duplicate by the email provider."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/daily-email-digest-actions",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added a purchase source breakdown to the revenue digest, grouping the day's charges by placement and showing \"Unknown\" for charges without that metadata",
+              "🔧 Updated the GeoAnimator survey recipient list with two new team members"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added typed text input to the voice feature",
+              "🐛 Fixed issues with voice session teardown, country matching, and tooltip behavior"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "task/voice-assistant"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/geo-animator-web",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the blog article layout work, including tracking of app download CTA clicks in Google Analytics"
+            ],
+            "Work in Progress": [
+              "🚀 Added Google Analytics tracking for app download CTA clicks, tagging each Play Store link by page location and reporting an untagged fallback as \"other\""
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 5,
+          "title": "feat: track app download CTA clicks in Google Analytics",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "feat/blog-article-layout",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotel-backend",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added Kayak subbrand deeplinks with per-country validation"
+            ],
+            "Testing": [
+              "🚀 Added an admin CSV import for per-app booking-provider allowlists"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 8,
+          "title": "Add Kayak subbrand deeplinks with per-country validation",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "origin",
+        "search-result-provider-filtering"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added offline map support, including map download functionality"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 291,
+          "title": "feat:offline map support",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Published a breaking story on a cargo ship sunk after a drone strike in the Black Sea, and sent it out through the newsletter and urgent alerts",
+              "🚀 Published a story on Storm Austen/Boelo disruptions to Irish Sea ferry services",
+              "📝 Updated the dedup ledger with new entries for the vessel and place stories, plus a travel how-to article, so they aren't repeated",
+              "🐛 Fixed image generation by adding support for the gpt-image-2 model, after the previous model returned HTTP 400 errors"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Restored the chat-summary and digest-actions submodule pointers to each repo's current main, undoing stale checkouts from an earlier commit",
+              "🐛 chat-summary now picks up the report-day idempotency key fix for email sending"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/smartruler_landing_page",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Shipped Google Analytics tracking for download button clicks, sending an app_download_cta_clicked event that records the click source"
+            ],
+            "Work in Progress": [
+              "🚀 Ongoing work on the same download button analytics event, which captures the source of each click"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 6,
+          "title": "feat: send app_download_cta_clicked GA event with source on download …",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/tada",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed ta-render aborting at exit on NVIDIA EGL workers by releasing EGL thread state and terminating the display after render and self-test on Linux",
+              "🔧 Added exit-path logging for GL commands, covering EGL teardown, its result and the exit code, to make late process failures easier to diagnose"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "Vaishnav",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed a crash on exit with NVIDIA's Linux EGL driver that made self-test fail and workers miss startup qualification; GL commands now end with a direct libc _exit on Linux, with a normal exit fallback elsewhere",
+              "♻️ Moved scratch directory cleanup into a shared exit cleanup used by both the shutdown hook and the _exit path",
+              "✅ Verified on Linux with Mesa: exit codes for success, failed render and GL failure behave correctly, no scratch directory is left behind, and the test suites pass"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 33,
+          "title": "ta-render: terminate the EGL display before exit",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "fix/ta-render-native-exit",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/TARS",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🐛 GPU qualification now forwards the JVM's crash report when a self-test fails, including the problematic frame, native stack and captured stdout, so aborts at exit are no longer reduced to a bare exit code",
+              "🔧 Self-test now runs with settings that route fatal messages and the crash report to readable locations, and the diagnostic length cap was raised so long output is kept",
+              "🐛 Forwarded crash reports now include the current thread, signal info, Java stack and thread lists, so a crash can be matched to a named thread, while boilerplate is trimmed",
+              "🚀 Failed qualifications now record the signal by name, whether the GL probe had already passed, and an environment line with driver, animator and Java versions"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 35,
+          "title": "GPU qualification: forward the JVM's crash report from a failed self-test",
+          "author": "vaishnav-0"
+        },
+        {
+          "number": 34,
+          "title": "GPU qualification: name the signal and environment of a failed self-test",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-android",
+      "developers": [
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Added CI workflows that send debug APK build requests for pull requests and release build requests for pushes to main and release to a central build repo",
+              "🔧 Added a trigger that kicks off a Play Store publish when a non-prerelease release is published",
+              "🔧 Added a scheduled daily cleanup that deletes debug releases and tags older than 4 days",
+              "📝 Added contributor guidance docs, a local environment setup config for AI tooling, and updated ignore rules"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 653,
+          "title": "fix/ui",
+          "author": "Vivek-4321"
+        }
+      ],
+      "branches": [
+        "release"
+      ],
+      "version": "4.0.156"
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Updated scroll behavior on the model sheet when a chip is selected (Halloween theme)"
+            ],
+            "Work in Progress": [
+              "🔧 Merged main into a working branch for the 4.1.3 version, bringing in CI workflows for TestFlight and App Store release builds",
+              "📝 Added contributor guidance docs for AI coding assistants and updated ignore rules for generated files"
+            ]
+          }
+        },
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Version update that includes CI workflows for TestFlight builds and App Store releases, plus project guidance docs",
+              "🐛 Fixed a texture offset issue in the Halloween theme"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 884,
+          "title": "Halloween paywall gated by a date window  (Oct 27 - Nov 03, 2026)",
+          "author": "rahul028"
+        }
+      ],
+      "branches": [
+        "origin",
+        "release"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Started adding rotating promotion banners to the homepage"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "seo-and-hub-fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 37,
+          "bullets": {
+            "Testing": [
+              "🚀 Made search text fields keep text, selection and IME composition in sync across model, effect, element, saved-route and place search, with regression tests for lost first characters",
+              "🔧 Reworked CI and iOS delivery: added KMP production release entry points, split Android checks into parallel unit and lint modes, added key-error annotations for failed Gradle/Xcode steps, and moved the hosted iOS link to release caches on the free arm64 runner",
+              "🐛 Fixed App Store upload rejections on iOS by declaring the microphone purpose, requiring full screen, and keeping Kotlin staging out of app archives",
+              "🐛 Fixed export duration floors and frame completeness, bounded Follow and Lead camera pitch, corrected initial model heading, anchored Mercator horizon haze to the map surface, and added a restart-only debug performance tier override with recorded acceptance evidence"
+            ],
+            "Work in Progress": [
+              "🔧 Ran probe branches for the hosted iOS optimized link (swap on the 7-GB runner, release caches, 8-GiB heap on the Intel runner)",
+              "🐛 Drafted iOS fixes for full-screen requirement, archive structure, and Compose window fill with isolated framework embedding",
+              "🔧 Updated performance measurement runner: admits Android samples at idle thermal status within 2 °C and skips the display-timeout write when already at maximum",
+              "🐛 Fixed Linux host reference checks and coincident flight arcs"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ci/release-cache-probe",
+        "ci/staging-export",
+        "dev"
+      ],
+      "version": "debug-run-14"
+    }
+  ]
+}

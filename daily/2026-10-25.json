@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-25",
+  "repos": [
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the OAuth authorization server for ChatGPT/MCP clients, with Google sign-in and configurable token lifetimes",
+              "🔧 Added a sample environment file, Docker ignore rules, and deploy and image-build workflows",
+              "🔧 Added a scheduled nightly pay-as-you-go billing workflow that settles wallets through an internal endpoint"
+            ],
+            "Testing": [
+              "🚀 Added support for Codex's loopback redirect in OAuth sign-in, which fixes failed Codex logins",
+              "🔧 Restricted plain-http redirects to loopback IP addresses so only native-client callbacks are allowed"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 83,
+          "title": "oauth implementation",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "oauth-codex-loopback",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "🚀 Published maritime news stories on the HMM PLATINUM container ship fire reaching its final stage, and the distress alert from the sanctioned tanker Myra in the North Atlantic",
+              "🚀 Published coverage of cruise ships rushing into Southampton ahead of Storm Austen, with the newsletter and Telegram notification sent",
+              "🚀 Published a story on a tanker seizure off Indonesia and one on the MAIB report faulting the Arvia's lift interlocks after a crew death",
+              "📝 Updated the content ledger with new hub posts for MarineRadar (COSCO ship tracking guide) and TravelAnimator (Google Maps route question)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "ThePyWizard",
+          "name": "Jishnu M M",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added a new ad-country-spend skill that reports spend, installs and cost per install by app, channel and country in USD",
+              "🔧 Pulls country-level data from Meta, Google Ads and Apple Search Ads, maps campaigns to apps by name prefix, and reconciles country totals with campaign-level totals",
+              "📝 Outputs a Markdown summary and a styled HTML report, reusing existing auth and HTTP helpers",
+              "✅ Added 17 offline unit tests"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 62,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed globe vehicle seating: support geometry is now computed off the render thread, persisted before Preview, and prepared alongside independent scene assets",
+              "🚀 Follow and Lead intros now pull back from the vehicle with intro-only magnification, preserved camera zoom ramp and legacy phase offsets; Preview and Cover share one distance clock with restored label anchors",
+              "⚡ Improved rendering and performance: reused the globe placement frame for lighting, kept Mercator model loading out of globe hull work, fixed building capacity stalls on Preview resume, and hardened perf acceptance tooling",
+              "✅ Stabilized the flaky MCP lifecycle tests by awaiting completion instead of polling, added saved-route and prepared-support wiring tests, and removed the Home tips and What's New surfaces"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    }
+  ]
+}

@@ -1,0 +1,440 @@
+{
+  "date": "2026-10-26",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🔧 Temporarily disabled the iOS build and App Store publish steps in the release workflow until production signing keys are ready, so Android releases can proceed",
+              "🐛 Fixed release notes generation for first releases without version tags: the prompt now diffs from the merge's previous main, lists commit subjects, and caps the diff size to avoid API rejections",
+              "🛡️ Release notes now fall back to a default \"Bug fixes and performance improvements\" message instead of failing the release",
+              "🐛 Improved diagnostics for failed Claude requests by classifying them into safe fixed categories and reporting the HTTP status or transport error class"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Merged the PR with analytics and paywall fixes into the main branch",
+              "🔧 Added CI workflows that request centralized debug and release builds and trigger Play Store publishing on non-prerelease releases",
+              "🔧 Added a daily scheduled cleanup that deletes debug releases and tags older than 4 days",
+              "📝 Added project setup docs covering local secret management and debug keystore creation"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 41,
+          "title": "analytics and paywall fixes",
+          "author": "keith-james"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": "1.2.31"
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-IOS",
+      "developers": [
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Improved PostHog analytics on iOS so screen views are titled with the actual screen name instead of a generic page_view, making screen context on follow-up events meaningful while keeping the existing onboarding funnel and Firebase tracking unchanged"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feature/analytics-attribution"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/c1wf-discounts70",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Updated the travel helper to handle vertical search events"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/vertical-search-events"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-car-ios-v2",
+      "developers": [
+        {
+          "login": "imadibrahimk",
+          "name": "imadibrahimk",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added an animated neon glow effect to the onboarding percent page and refreshed the onboarding UI",
+              "🚀 Added location deduplication to recent searches so repeated locations no longer show up"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1af-flights70",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "AjinLascade",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Merged the dev branch into main, adding CI workflows that request central debug builds on pull requests and release builds on pushes to main and release",
+              "🚀 Added a WorkManager-based local notification system that nudges users about a flight search, deal or payment about 3 minutes after each step, with no special alarm permissions needed",
+              "📝 Added documentation for the notification system: quick-start testing guide, implementation notes and migration summary",
+              "🔧 Updated project ignore rules to keep local config, Google services files and signing keystores out of version control"
+            ],
+            "Work in Progress": [
+              "🐛 Worked on a lint fix on a branch without a PR yet; the changes include the CI build-dispatch workflows, ignore rules and notification documentation"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 57,
+          "title": "Dev",
+          "author": "AjinLascade"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": "3.6.6"
+    },
+    {
+      "repo": "Lascade-Co/d1ah-hotels70",
+      "developers": [
+        {
+          "login": "Ashiiq666",
+          "name": "ashiiq666",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "♻️ Removed the Expedia and Hotels.com options from the loader screen"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added a most popular locations feature and set up swipe-back navigation"
+            ],
+            "Work in Progress": [
+              "🚀 Continued work on most popular locations and swipe-back navigation"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 28,
+          "title": "feat:Most popular location and swipe back set",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-hotel-android",
+      "developers": [
+        {
+          "login": "Ashiiq666",
+          "name": "ashiiq666",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed the custom web title slightly overlapping the status bar"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "⚡ Merged the API performance branch (token caching and retry backoff) into dev",
+              "🔧 Added CI workflows that trigger central debug builds on pull requests and release builds on main",
+              "🔧 Pinned the Flutter version, added ignore rules for signing and environment files, and added editor launch configurations",
+              "📝 Added coding-agent guidelines, project best-practice rules, and design context docs"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🔧 Business-monitor alerts now fire only when something changes, and include clear what-to-do steps",
+              "🐛 Stuck user top-up pages now trigger only after the reaper should have already acted, cutting noisy alerts",
+              "🚀 Auto plan top-up push notifications and emails now include a built plan label",
+              "🐛 Updated handling for the provider's renamed status key and bounded stale reminder recovery"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 103,
+          "title": "Auto plan top-up plan_label; stuck top-up alert follows the reaper; change-only monitor alerts with runbooks",
+          "author": "Jenin82"
+        },
+        {
+          "number": 102,
+          "title": "Read Yesim's renamed status key and bound stale reminder recovery",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotel-backend",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Added keyed override functionality to the controller, ported from plane-backend"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "search-result-provider-filtering"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Published new maritime news posts, including a vessel incident involving a rescue officer's death during an evacuation and a UAE beach closure after a tanker oil spill in the Gulf",
+              "🚀 Published a story on a tanker hit in the Strait of Hormuz as October attacks reached a record high",
+              "🔧 Updated the dedup ledger with two newly published stories on a cruise ship collision and a drifting vessel in the North Sea"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added localization for the Halloween paywall"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 888,
+          "title": "Added Localization of halloween paywall ",
+          "author": "rahul028"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 14,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Built and ran temporary spikes for a CLI renderer on macOS arm64 and Linux x64, with range, soak and plan benchmark checks",
+              "✅ Added temporary CI checks to verify the commonMain/appMain source-set split against the base build, including repeating a crashing iOS test and fixing configure-on-demand ordering",
+              "📝 Recorded spike and verification results, closed the CLI renderer research and removed the temporary spike code",
+              "📝 Documented macOS-first scope decisions and a handoff for the next session"
+            ]
+          }
+        },
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed a crash in the video export service caused by a duplicate notification title string, which hit locales without a translation",
+              "♻️ Notification permission dialog now uses the existing translated title string, so translated locales no longer show \"Exporting video\" there",
+              "✅ Added tests for building the export notification in an untranslated locale and for duplicate resource names within a qualifier directory",
+              "📝 Merged ongoing dev work into the main branch, including new contributor rules and a Codex lane-management skill for coordinating parallel implementation work"
+            ],
+            "Work in Progress": [
+              "✅ Isolated legacy billing preference tests from SDK crash handlers so the test fixture no longer exits the Linux JVM, keeping all migration assertions"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 29,
+          "title": "dev: ongoing work (TestFlight + debug APK per push)",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "ccr-f196a73b-s8tyr1",
+        "feat/mac",
+        "fix/bug",
+        "origin"
+      ],
+      "version": "v5.0.10"
+    },
+    {
+      "repo": "Lascade-Co/travel-helper",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added vertical-specific search analytics events to track search activity per travel vertical"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/visaless-web",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Bootstrapped the VisaLess site: a fully static Next.js app that shows which countries you can visit based on the passports, visas and residence permits you hold",
+              "🔧 Set up static export for any static host, plus a data refresh script and Vitest for unit tests",
+              "📝 Replaced the default README with project docs covering data sources, how to add visa and permit rules, how results are ranked, and the project layout",
+              "🔧 Created the initial project from the Create Next App template"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

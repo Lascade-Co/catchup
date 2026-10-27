@@ -1,0 +1,690 @@
+{
+  "date": "2026-10-27",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added a CI job that sets TestFlight \"What to Test\" notes from the triggering PR (or head commit for manual runs), including PR title, branch, link and description",
+              "🔧 Notes step runs after iOS publish without blocking the upload; it sanitizes text, trims to App Store Connect limits, and retries writes with capped backoff",
+              "♻️ Consolidated the App Store Connect client (auth, error handling, pagination, app/build lookup) into one shared module used by both the publisher and status report",
+              "✅ Added offline tests for notes composition and the poll/create/patch/retry/timeout paths, and updated the design docs and glossary"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Added CI workflows that dispatch debug and release Android builds to the central actions repo on pull requests and pushes to main/release",
+              "🔧 Added a workflow that triggers the Play Store publish flow when a non-prerelease is published",
+              "🔧 Added a scheduled daily job that deletes debug releases and tags older than 4 days",
+              "🔧 Set up the project baseline: Gradle build config, ignore rules, and README setup instructions for pulling local secrets"
+            ]
+          }
+        },
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "♻️ Merged the latest main into the furniture-fit feature branch to keep it up to date"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "antony/development",
+        "keith/furniture-fit"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/c1wf-discounts70",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Merged a PR adding vertical-specific search analytics events"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 18,
+          "title": "Add vertical-specific search analytics events",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-car-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Offline toast now stays visible for as long as the connection is down, instead of a brief timed notice. It lives on the tab bar roots, so it sits above the bar and is skipped on pushed screens and onboarding.",
+              "♻️ Removed the old offline notice and its dismissal timer. Search and destination lookups still block while offline, and the toast already explains why.",
+              "🚀 Recent searches on the home screens now clear with a smooth fade-and-slide animation, and deleting a single card slides the others into place.",
+              "🐛 Fixed a phantom gap under the search card when there were no recent searches, by moving the top margin inside the recent searches view.",
+              "🔧 Merged the latest main branch into the working branch, bringing in project setup files such as the gitignore and Xcode project configuration."
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-flight-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Merged dev into main, making the new \"design four\" tab bar the default navigation"
+            ],
+            "Work in Progress": [
+              "🚀 Working on shipping the \"design four\" tab bar as the default navigation"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Updated padding on the favourites card and the price filter for better layout spacing"
+            ],
+            "Work in Progress": [
+              "🚀 Continued refining padding on the favourites card and price filter"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 119,
+          "title": "feat:Fav card and filter price padding updated",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "🚀 Refined the filter screen: thinner price slider using the app's green accent, and a larger, easier-to-tap Clear button",
+              "🐛 Fixed the popular-destination search flow so the resolved city is kept as the pickup place when the user returns to the home screen and taps Search",
+              "🚀 Polished UI/UX with a tab bar fix, a native-style slider and scroll animation on the detail screen",
+              "🔧 Added initial Xcode project setup and configuration files as part of a UI/UX update"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 32,
+          "title": "feat:Reduced the thickness of slider in the filter screen",
+          "author": "Swalih60"
+        },
+        {
+          "number": 31,
+          "title": "feat:Tabbar fixed and slider native set",
+          "author": "Swalih60"
+        },
+        {
+          "number": 30,
+          "title": "feat:Detail screen scroll aniamtion set",
+          "author": "Swalih60"
+        },
+        {
+          "number": 29,
+          "title": "feat:UI UX updated",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d2-web-car-v2",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔍 Improved SEO crawl and indexing signals: canonical URLs and language alternates on pages, non-default locale static pages marked noindex, and preview/dev environments blocked from indexing",
+              "🔧 Set up the project scaffolding with an env variable template, gitignore rules and a README",
+              "🚀 Added locale-aware pages for the home page, static pages, a provider redirect with URL validation, and an unsubscribe page, with the redirect and unsubscribe pages excluded from indexing"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "fix/crawl-indexing-404"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 9,
+          "bullets": {
+            "Published": [
+              "🔧 Merged the dev branch into main, bringing in project setup and CI: pinned Flutter version, debug and release build triggers that dispatch to the central build workflows, and repo config such as ignore rules, editor settings and contributor guidelines",
+              "📝 Added design context and agent guidance docs describing the eSIM app's architecture, brand direction and coding conventions"
+            ],
+            "Work in Progress": [
+              "🚀 Stripe's payment sheet now opens directly and shows saved cards when the backend supplies the customer details, across cart, single-plan, resume and wallet top-up flows, with the in-app chooser kept as a fallback",
+              "🐛 Fixed wallet transaction pagination so only the cursor is sent rather than the full next URL, which previously caused errors on every page after the first",
+              "⚡ Wallet transactions now load 100 per page, with fixes for duplicate and stale loads, list retention on failed pages, and pull-to-refresh on the Transactions page",
+              "✅ Re-checks resumed orders after payment until they leave pending, added model tests for saved-card fields, fixed hanging widget tests, and updated the API docs to the latest version"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 91,
+          "title": "Dev",
+          "author": "sajithlascade"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Enabled native saved-card redisplay in checkout by linking payments to Stripe customer IDs"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/flight-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Added price bounds to the poll data",
+              "🐛 Fixed the price-descending sort order",
+              "📝 Documented the poll data for the design team"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotel-backend",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Applied the per-app booking-provider allowlist to the v3 endpoints"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "search-result-provider-filtering"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotel-helper",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "♻️ Migrating hotel ads to the inline API"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "new-inline-hotel-ads"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotels70-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the controller override query key feature",
+              "🔧 Triggered a deployment"
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Now sends the app code on v3 hotel search requests so the allowlist applies correctly"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 136,
+          "title": "Controller override query key feature",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🔧 Triggered a rebuild of the container credits branch",
+              "♻️ Merged the latest main into the container credits branch to keep it up to date"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/container-credits",
+        "ps/rebuild-fleet"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🚀 Integrated Chatwoot into the app",
+              "🔧 Resolved merge conflicts on the branch, which brought project config, CI build trigger workflows, editor settings and contributor guidance files into sync"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/chat-woot",
+        "ps/container-paywall"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Added a Cyclone Arnab post to the published-news ledger, covering the Bay of Bengal regional breakout and noting the story was confirmed by several news outlets"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/n4wh-hotelvisit",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "♻️ Migrated hotel ads to the inline API (merged via PR #20)"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 20,
+          "title": "Migrate hotel ads to inline API",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/pixel-travelanimator",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed Blog Banner image generation by moving off the retired gpt-image-1 model, which OpenAI now rejects, to gpt-image-1.5 for TravelAnimator and MarineRadar",
+              "🔧 Kept gpt-image-1.5 rather than gpt-image-2 so transparent backgrounds still work for the TravelAnimator hero element"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "deploy"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Updated gitignore rules to keep a local research archive out of version control, and added a handoff note for it"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 5,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Connected the glossary hub and term pages to the API's glossary terms collection, replacing a hardcoded list and restyling with the design system",
+              "♻️ Aligned the help centre sidebar and topic cards with the reference design, with breadcrumbs added site-wide but shown on screen only on the help centre",
+              "🐛 Hid the empty filter chip row on the comparisons hub so the search box sits on the left, leaving the guides hub unchanged",
+              "🔧 Adjusted amber color definitions and the hero price highlight, and synced the esim-helper submodule pointer to the latest main commit"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 35,
+          "title": "Add a per-line plan switcher to the cart",
+          "author": "Riyaaaaan"
+        }
+      ],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Fixed a bounce animation crash caused by stacked stops producing zero-length segments and invalid zoom values, with fallbacks for degenerate cases",
+              "🐛 Prevented an avatar undo/redo crash from duplicate location ids by keeping the first entry and logging duplicates; root cause still under investigation",
+              "🐛 Fixed a route selection crash from a stale saved route index by validating before saving, closing on empty lists, and resetting stale indexes",
+              "🔧 Reduced non-fatal error noise: skipped intro audio error reports while the app is inactive, checked HTTP status before decoding the map style list, and skipped decoding empty remote config values"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "mushfiq/crash-fixes-4.1.x"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added rotating promotion banners to the homepage, merged via the SEO and hub fixes PR"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 228,
+          "title": "feat: add rotating homepage promotion banners",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 206,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed a launch crash caused by undefined remote config values; missing or malformed values are now treated as unset on iOS and Android",
+              "🐛 Improved image cropping on iOS: corrected crop coordinate mapping, reverted to the original bitmap crop path, and preserved cover detail when source and output aspect ratios differ",
+              "✅ Stabilized flaky tests: avoided parallel fake-filesystem writes that caused crashes, fixed raster ceiling fixtures, and made tests portable to the Linux CI runner",
+              "⚡ Bounded diagnostic drain turns, kept warm iOS deliveries, cancelled notification artwork calls, and decoded crop previews at the requested output size",
+              "📝 Replaced the status ledger and working docs with a single prerelease checklist, and recorded validation notes"
+            ],
+            "Work in Progress": [
+              "♻️ Split the shared code into engine and app source sets and read packaged annotation frames through app resources",
+              "🚀 Added a macOS arm64 shared engine target with ANGLE smoke tests, and documented pinned ANGLE macOS build provenance",
+              "📝 Wrote the macOS CLI renderer plan, Phase 2 decisions, and handoff for landing the split by merge",
+              "✅ Migrated raster fixtures to the shared projection API and verified integration baseline rows"
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 14,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Ran spike experiments rendering the shared core as a CLI executable on macOS arm64 and Linux x64 using ANGLE",
+              "✅ Added temporary CI checks comparing the engine/app source-set split against the base build, including iOS tests repeated to track a crash",
+              "📝 Recorded spike results, split verification, macOS-first scope and handoff notes for the CLI renderer research"
+            ]
+          }
+        },
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Fixed the iOS annotation crop sheet so video previews sit on a black background and the crop corner handles can be dragged",
+              "🐛 Made annotation frame scale mean the same box size in Preview and export as in the frame editor, with updated geometry tests"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 31,
+          "title": "CLI renderer Phase 0: map-load seam, all-roots source readers, ANGLE comment",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "feat/mac",
+        "fix/bug",
+        "refactor/shared-projection-contract"
+      ],
+      "version": "debug-pr-30"
+    },
+    {
+      "repo": "Lascade-Co/visaless-web",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "♻️ Migrated VisaLess to Vinext and moved it onto the shared Cloudflare deployment",
+              "🔧 Updated the compatibility date to one supported by the Cloudflare Vite runtime"
+            ]
+          }
+        },
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added a hero background slideshow and info tooltips for result status tiles",
+              "♻️ Extracted partner configuration and added trip promo links for destinations"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

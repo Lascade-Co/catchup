@@ -1,0 +1,690 @@
+{
+  "date": "2026-10-28",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Install-paid report now shows each month's own baseline rate (Mar/Aug) under every rate instead of a bare delta that readers mistook for the month's value",
+              "🚀 Variant A per-store bars now show the latest full day, coloured by a day-level comparison, with the 7-day rate as a grey line",
+              "📝 Footnotes and plain-text output now state that verdicts, Check lines and trends stay on a 7-day window; Variant B keeps its 7-day charts"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/ads-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed handling of non-JSON responses from providers in the API-key request helper"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "updates"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": null,
+          "name": "Antony Mathew",
+          "commit_count": 5,
+          "bullets": {
+            "Testing": [
+              "🚀 Added a paywall for the construction calculator",
+              "🚀 Added a home banner and a \"NEW\" badge for the construction calculator, with a new calculator icon and localized strings",
+              "🐛 Fixed the banner badge layering and card shadow so the banner renders correctly",
+              "♻️ Made the calculator open in Classic mode by default to match iOS, with a settings schema bump so earlier defaults are reset",
+              "🔧 Added CI workflows for debug builds, release builds, Play Store publishing and cleanup of old debug releases"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "antony/development"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-IOS",
+      "developers": [
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Bumped release versions to 2.8.0 (build 122) and 2.7.3 (build 121)",
+              "♻️ Merged the room scanner feature branch into the 2.8.0 release branch, resolving conflicts in the project file and paywall source handling",
+              "♻️ Merged the analytics attribution feature branch into the 2.7.3 release branch"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "release/2.7.3",
+        "release/2.8.0"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1-web-sflight-v2",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Triggered a deployment run"
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Set up the Next.js flight search web app with localized home, flights results and static pages (About, Privacy, Cookie, Terms)",
+              "🔧 Added project scaffolding: example environment config, git ignore rules and a shared flight-helper submodule",
+              "🚀 Wired up the layout with cookie consent, privacy consent, user handling, ad platform scripts and toast notifications"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "develop"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added a loading state to the result screen",
+              "🐛 Fixed a time-related issue in the calendar"
+            ],
+            "Work in Progress": [
+              "🚀 Ongoing work on the result screen loading state and the calendar time fix"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 33,
+          "title": "feat:Loading in result screen and Calendar time issue solved",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Updated OAuth sign-in to accept Codex's loopback redirect, merged via PR #84"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 84,
+          "title": "Accept Codex's loopback redirect in OAuth sign-in",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 5,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Moved the tab bar into the iPhone Duo's vertical-bar column for the navigation layout",
+              "🚀 Added side safe-area insets to the nav bar, currency picker, login, top-up and sheets, plus landscape layouts",
+              "🔧 Switched to cupertino_native_better for the Liquid Glass tab bar",
+              "🔧 Bumped plugin versions while keeping Firebase on 12.x so iOS SwiftPM resolves"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "🚀 Added the active plan's validity window to the v2 eSIM API response",
+              "📝 Documented in Swagger that plan expiry can be in the past when an eSIM needs activation",
+              "⚡ Batched widget usage refreshes through Yesim's bulk SIM info call",
+              "✅ Added an assertion that the swarm environment anchor only contains pre-dotenv variables"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/flight-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Shipped Kayak Price Insights and regional deeplinks to the main branch via the dev merge"
+            ],
+            "Work in Progress": [
+              "🚀 Added Travelpayouts SDK integration and deeplink controller tabs",
+              "🔧 Added a placement SubID to the Travelpayouts affiliate marker",
+              "🚀 Passed the request currency through to the Travelpayouts deeplink"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 25,
+          "title": "Add Kayak Price Insights and regional deeplinks",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/flight-helper",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Fixing a user agent override issue affecting keepalive requests"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "new-ads-api"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/geoanimator",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 8,
+          "bullets": {
+            "Work in Progress": [
+              "📝 Wrote up the design for typed signals and bindings, so one element's value can drive another's property, plus readouts and choropleth-style fills; nothing is built yet",
+              "🚀 Added retiming: an atomic time-map edit over layers, collections, camera keys, map changes and audio clips, with clear refusal reasons",
+              "🚀 Added caption provenance and resync, so elements can be moved back to their place in a caption line as that line changes",
+              "🚀 Gave the assistant five timing tools and richer project context for retiming, caption lines and resyncing to narration",
+              "🚀 Reworked the single basemap into a Map lane of segments with transitions and spotlights, including timeline editing and preview/export rendering",
+              "📝 Recorded the retiming and resync decisions in design docs and the glossary, and fixed combining Areas so it no longer produces unsaveable documents"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "docs/retime-time-map",
+        "docs/signals-and-bindings",
+        "feat/retime-time-map"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-marketing-ai",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 16,
+          "bullets": {
+            "Published": [
+              "🚀 Built the marketing supervisor foundation: context pack, metric definitions, ClickHouse mart, tested query library, and a daily-health skill with a tested check suite",
+              "🔧 Moved the daily job to GitHub Actions with a reachability check before the agent starts, and consolidated database connection details into a single masked secret",
+              "🐛 Fixed data-model issues: revenue product now derived from the ad, Google app campaigns classified by ad type, SQL alias shadowing resolved, and vertical/platform dimensions added",
+              "🐛 Corrected the daily-health report: measurable ROAS as the primary metric, iOS measured at platform level, revenue decomposition added, plus first daily-health and decision review runs"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": "AdarshLascade",
+          "name": "AdarshLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the container credits pull request into main, bringing in the marine API project foundation",
+              "🔧 Set up deployment and CI: branch deploys triggered from PR comments and central Docker image build dispatch",
+              "📝 Added project documentation, including a domain glossary, contributor guidance and a sample environment configuration"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Added logging for testing purposes on a branch that has no open PR yet"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 80,
+          "title": "Ps/container credits",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "origin",
+        "ps/container-credits"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the container paywall work (PR #290) into the main branch",
+              "🔧 The merge also brought in project setup files: CI build triggers for debug and release, editor and tooling configuration, and contributor guidelines"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Fixed a crash in the image picker"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 290,
+          "title": "Ps/container paywall",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "origin",
+        "ps-ui-ux"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added a paid weather map layer on the live vessel map, with wind, rain, clouds, temperature and pressure options costing 1 credit per page view",
+              "🚀 Added direct credit-pack checkout offers on the weather map, route video export and Add to fleet, so users can buy and resume purchases after sign-in",
+              "🐛 Fixed sign-in-interrupted credit purchases not resuming because the intent was dropped before the pack catalogue loaded",
+              "🚀 Reorganised the sidebar with a More menu and a My fleets link, and gave Add to fleet a bookmark icon"
+            ],
+            "Work in Progress": [
+              "🚀 Built a paid weather map with five layers, charged per page view through a shared credit-spend helper and with a kill switch",
+              "🚀 Introduced a credit-pack offer for one-tap Stripe checkout, with purchase intents that keep their source placement after sign-in",
+              "🐛 Fixed the vessel-page purchase intent being lost before the pack catalogue loaded",
+              "♻️ Restructured the sidebar navigation into primary links plus a More menu, with My fleets at the bottom"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 207,
+          "title": "feat: paid weather map layer, direct credit-pack checkout, sidebar Mo…",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "blog-fixes",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Published a story on 54 Chinese vessels tracked in the West Philippine Sea over one week, including the carrier Liaoning",
+              "🚀 Published a maritime security story on the Strait of Hormuz closure, with a tanker mine fire and a queue of about 500 vessels",
+              "🚀 Published a story on 14 Indians safe after a dhow incident off Yemen",
+              "🚀 Added a story on the Oct 26 vessel fire southeast of Al-Faw, Iraq (UKMTO warning), and updated the dedup ledger"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/n4wh-hotelvisit",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Triggered a deployment"
+            ],
+            "Work in Progress": [
+              "🚀 Merged the dev branch release containing the new Ads API backend"
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Upgraded packages and set up the Next.js project scaffolding, including an example environment file, gitignore and submodule config",
+              "🚀 Added localized static pages (About, Privacy Policy, Cookie Policy, Terms) and a themed hotels search route",
+              "🚀 Added the app layout with SEO metadata, internationalization, cookie consent and ad platform scripts",
+              "📝 Added a README documenting inline hotel ads setup and request flow"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 21,
+          "title": "Release: New Ads API backend",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/pixel-travelanimator",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Added a GeoAnimator blog banner generator, currently in review via an open PR"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "deploy"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Added the October 2026 marine web UX changes report covering three planned UI updates: a free container lookup activation flow, an arrival alert call-to-action in the vessel voyage tracker, and simplified app sidebar navigation",
+              "📝 Included a 30-day PostHog web analytics baseline with an OS/device breakdown and corrected web-vs-app event attribution"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 57,
+          "bullets": {
+            "Work in Progress": [
+              "🎨 Migrated the site to the RoamJoy design system: shared components, pages, account and checkout screens, header and tokens now use one palette, Figtree type and pill buttons",
+              "🚀 Rebuilt the landing hero from the Figma frame and fixed text contrast in the bento tiles; the header stays white on every page except the landing",
+              "♻️ Matched many pages to the reference site (store, destinations, country pages, help centre, glossary, devices, legal, articles and hubs) and imported its English content snapshot",
+              "⚡ Added smaller 640px and 960px photo variants with srcset so the eSIM store page loads about 340KB of photos instead of 1.6MB"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 36,
+          "title": "Add branch and push rules to CLAUDE.md",
+          "author": "Riyaaaaan"
+        }
+      ],
+      "branches": [
+        "dev",
+        "feat/payload-content4",
+        "feat/payload-content5"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy-flutter",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Rebuilt the onboarding flow in the Home theme: a navy header and hero card now walk through a mock purchase (search with live prices, add plan to cart, installed eSIM), with Android Back stepping back a page",
+              "🚀 Redesigned the notification permission sheet with a code-built lock-screen preview, a grouped benefits list, and scrollable content above pinned buttons",
+              "🐛 Fixed an assertion when continuing with reduced motion enabled, and layout overflow on small 375x667 screens",
+              "✅ Added render tests for both screens across sizes, German copy and reduced motion",
+              "📝 Added onboarding page documentation and a product brief for design work, and ignored design-tool scratch files"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/new_ui"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/store-reviews",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Sorted posted IDs from newest to oldest, so the most recent appear at the top"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-analytics-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🔧 Upgraded dependencies to address known vulnerabilities",
+              "🚀 Added a new service type, \"sdk\""
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "conversion-api-integrations"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Made the visible portion of the underwater model consistent across all model scales"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "mushfiq/underwater-scale-changes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 25,
+          "bullets": {
+            "Testing": [
+              "🚀 Brought up the macOS CLI renderer: scaffold, perf backend, export rendering wiring, and fixture evidence capture",
+              "♻️ Moved the export engine closure and CLI perf tests into shared code, promoted native tests, and shared the Apple catalogue fetcher and bundle assets with the CLI",
+              "⚡ Checkpointed the Globe ribbon seating cache, explored seating and direct facet lookup options for E-4, and chose a shader-lift approach",
+              "📝 Recorded handoffs, gate results, and measurements for the CLI, perf work, and the shared projection refactor merge, and added a shared export config debug feature across both hosts"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "fix/bug"
+      ],
+      "version": null
+    }
+  ]
+}

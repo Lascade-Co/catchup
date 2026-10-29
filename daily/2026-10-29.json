@@ -1,0 +1,658 @@
+{
+  "date": "2026-10-29",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Updated vinext to preserve source cache and rate limit configuration"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-IOS",
+      "developers": [
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Remote Config now controls what a first launch shows: the video tour, the industry survey and the onboarding paywall can each be switched on or off, and with all three off the app opens on the home screen",
+              "⚡ First launch fetches Remote Config and waits up to 3 seconds on a plain screen, then falls back to showing everything as before if there is no answer or a key is unset",
+              "🔧 Adjusted the onboarding flow for each switch combination, moved the tracking permission prompt out of the tour, and added the switch values to onboarding analytics events so funnels can be split by them",
+              "✅ Fixed order-dependent unit test failures by having the test host show no screens, so the home screen's Pro sheet no longer changes the Pro state the tests read"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feature/onboarding-remote-config",
+        "release/2.7.3",
+        "release/2.8.0"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/c1wf-discounts70",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Triggered a deployment"
+            ],
+            "Work in Progress": [
+              "🚀 Merged the dev branch release adding vertical-wise search events"
+            ]
+          }
+        },
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added a Firebase push notification opt-in to the PWA"
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added the Next.js app foundation with localized flight, hotel and car landing pages, shared layout, static pages and global styling",
+              "📝 Added a README with setup, submodule, environment and run instructions",
+              "🔧 Added repository config including ignore rules for dependencies, build output and environment files, and a private shared-library submodule"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 20,
+          "title": "Add PWA install and Firebase push notifications",
+          "author": "rebin03"
+        },
+        {
+          "number": 19,
+          "title": "Release: Vertical wise search events",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1af-flights70",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Added CI workflows that dispatch debug and release Android builds to the central build repo on pull requests and pushes to main/release",
+              "🔧 Started moving app configuration and secrets handling to Infisical, and updated .gitignore for local and signing files",
+              "📝 Added documentation for the WorkManager-based local notification system, including a quick-start and testing guide"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-flight-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🚀 Linked the Facebook SDK so Meta App Events are actually sent, with Info.plist flags aligned to the sister Flight70 app",
+              "🚀 Added an App Tracking Transparency prompt, shown once per install after the splash and before the push prompt",
+              "🐛 Fixed the Meta booking funnel: deeplink search tracking, per-booking tracker reset, URL change observation for redirect payment pages, and search events on re-searches",
+              "🔧 Debug builds now use a separate bundle id so they install alongside the release app, and an accidental bundle id change was reverted"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-hotel-android",
+      "developers": [
+        {
+          "login": "Ashiiq666",
+          "name": "ashiiq666",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Fixed the \"no matching location\" message flashing while autocomplete results were loading in hotel, airport and car destination searches",
+              "🐛 Added stale-response protection so late autocomplete replies for outdated search terms are ignored",
+              "🚀 Started a Favourites screen that lists saved hotels on the same card as search results, with saved price and provider context and an empty state",
+              "🚀 Built the design and functionality of the filter page, and added project ignore and build-cache setup files"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "native_design"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Merged the Facebook SDK upgrade to 19.x into the main branch"
+            ],
+            "Work in Progress": [
+              "🔧 Updated the Facebook SDK to 19.x and trimmed dependencies to only FacebookCore and FacebookAEM"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Merged the latest main branch changes into the billing branch to keep it up to date"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "billing"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Set up the initial eSIM Flutter app project, with a feature-first structure, platform hosts and ignore rules for signing and environment files",
+              "🔧 Added CI workflows that trigger central debug builds on pull requests and release builds on main",
+              "📝 Added contributor docs: agent guidelines, design context and Flutter best-practice rules",
+              "🔧 Pinned the Flutter version, added IDE launch configurations and linked the eSIM SDK as a submodule"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/geo-animator-web",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed Folio blog loading by using native grouped English listings with opaque cursors, loading published language options, and preserving exact article locale identities",
+              "🚀 Added support for validated article videos and safe locale-aware date formatting",
+              "♻️ Simplified article author credits by keeping biographies on profile pages and removing duplicate credits at the bottom of articles"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/geoanimator",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 17,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added a values system (ADR 0068): layer properties can bind to signals, variables and region-keyed datasets, with unit-checked transforms, number readouts and a schema 26 migration for text attachments",
+              "🚀 Added assistant tools to author variables, datasets and bindings, retime elements through one time map, resync to caption lines, and check that text is fully visible, with region-box text placement",
+              "🐛 Closed several review gaps: bound captions are boxed by the string they draw, edits detach bindings and report it, number formatting keeps decimals, and tool schemas meet strict provider rules",
+              "🐛 Fixed map lane sheets so taps no longer fall through to the editor beneath, and sheet previews and selection behave correctly during playback; the narrated line and its speech now show as one timeline row"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/narration-single-row",
+        "feat/signals-bindings",
+        "feat/values-and-retime-lean"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotels70-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Merged invalid path redirects along with package upgrades (PR #137)"
+            ],
+            "Work in Progress": [
+              "🔧 Prepared a release merge covering invalid URL redirects and an override query key (PR #138)"
+            ]
+          }
+        },
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Started adding browser WebMCP support, registering page-side tools for hotel and flight search, offers, signup and privacy choices, and navigation",
+              "🔧 Added an example environment template, including an optional WebMCP origin trial setting, and a git ignore file",
+              "📝 Added README documentation describing the WebMCP tools and browser requirements"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 138,
+          "title": "Release: Invalid URL redirects and override query key ",
+          "author": "mhdbk"
+        },
+        {
+          "number": 137,
+          "title": "Invalid path redirects and package upgrades",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main",
+        "mcp",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-marketing-ai",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "🚀 Added a budget-reallocation skill that proposes sized, funded moves and only recommends increases where utilization is already high",
+              "🚀 Skills now sync with GitHub automatically (pull before reading decisions, push after writing) so local copies don't go stale without git knowledge",
+              "🐛 Diagnosed the Android/Google attribution problem, then corrected it: it is a visibility gap rather than a performance issue, and the fix is on hold",
+              "🔧 The workflow now accepts either an API key or an OAuth token for Claude, failing clearly if neither is set and warning if both are",
+              "📝 Refreshed the README status and fixed the Android diagnosis header"
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "daily-health",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "📝 Published the 2026-10-29 daily health report: spend is healthy, measurable ROAS is up on all four brands, and no data-integrity guards fired",
+              "📝 Logged new decisions: investigate two hotel campaigns whose ROAS fell against their own baseline, and review the largest measurable loss in Meta web",
+              "📝 Re-measured open recommendations (web flight, Android hotel) and added a daily review noting nothing was withdrawn",
+              "🔧 Flagged roughly 26,900 AED/week of revenue lost to fixable attribution gaps, and noted report query fixes needed"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m1-android-flight",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Added CI workflows that hand off debug builds (on pull requests) and release builds (on pushes to main and release) to a central build repository",
+              "📝 Wrote a README guide for setting up local development secrets through a self-hosted Infisical instance, using a single export command",
+              "🔧 Moved the Android app's local secret and signing configuration over to Infisical, with the keystore and service config files git-ignored",
+              "🚀 Added the initial Android app module setup, including the Gradle build config with signing, Compose, Firebase, Hilt and networking dependencies"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "new-price-calendar"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Resolved a merge conflict, bringing project setup files into the branch, including CI workflows for debug and release build triggers, a pinned Flutter version, and editor/IDE configuration",
+              "📝 Added contributor guidance covering app architecture, state management, coding conventions and build commands"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/crashfix"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "📝 Published a story on the death of a maritime enforcement officer after a patrol vessel struck a coastal wall during a migrant boat chase in Perlis, backed by two confirmed live sources",
+              "📝 Published a story on the suspension of a cruise ship's world voyage in Cambodia due to rising fuel costs, and added the matching ledger entry",
+              "📝 Published a story on a container ship hit by three drones, with the crew abandoning the vessel"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🚀 Built the keyword-feeder pipeline: frozen candidate schema and default config, resumable harvest scoring, and keyword exports",
+              "🚀 Shipped the first TravelAnimator run with ASA setup, a Google Ads Editor CSV, an HTML report, and supporting plan and review docs",
+              "🐛 Fixed Apple scoring by fetching popularity one phrase at a time for the review shortlist only, treating the floor value as unknown, and adding paced autocomplete with cooldown, circuit breaker, and token refresh",
+              "🐛 Made misspelling generation more realistic, preserved seed provenance and deferred head-term tags, and made the report embed the style guide verbatim, with tests covering these changes"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 40,
+          "bullets": {
+            "Published": [
+              "🚀 Shipped a release PR merging the dev branch: cart fix, CMS content model and fields, admin role and site polish"
+            ],
+            "Testing": [
+              "🚀 Help category and article pages now render from published CMS articles, with the bundled snapshot kept as a fallback",
+              "🐛 Fixed the /cart crash caused by the CommonJS wrap transform running in client builds, and corrected post redirects that landed on 404s",
+              "🔧 Added new CMS fields for reference-site content, plus a reseed script that now retries on failures and can resume a stopped run",
+              "🔧 Moved post images to the main site images folder and added a migration granting the admin role to a roleless staging account"
+            ],
+            "Work in Progress": [
+              "🚀 Reworked the cart wallet: top-up dialog for short balances in the cart's currency, shortfall messaging, early plan loading, and shared helpers with tests",
+              "⚡ Trimmed homepage weight flagged by Lighthouse by lazy-loading Stripe.js and serving smaller hero images, and fixed route navigation scroll behaviour",
+              "♻️ Site content and navigation cleanup: simplified About, contact, eSIM, devices and hub pages, renamed footer links, updated store tabs, and pointed Play Store badges and the hero QR to the right destinations",
+              "🎨 Design polish: aligned typography and colour tokens with the design system, matched the top-up dialog to Figma, added search focus rings, larger tap targets, and restored legal link underlines"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 43,
+          "title": "Move post images from public/reference to public/images/posts",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 42,
+          "title": "Release: cart fix, CMS content model and fields, admin role, site polish",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 41,
+          "title": "Let the reseed script retry and resume",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 40,
+          "title": "Give the roleless seo@roamjoy.com account the admin role",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 39,
+          "title": "Reference-site CMS fields, reseed script and redirect fix",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 38,
+          "title": "Fix the cart crash from Payload's CJS wrap in client builds",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 37,
+          "title": "Site polish: help, devices, footer, cart and store updates",
+          "author": "Riyaaaaan"
+        }
+      ],
+      "branches": [
+        "chore/admin-nav-posts-first",
+        "chore/move-reference-images",
+        "dev",
+        "feat/help-from-payload",
+        "feat/payload-content5",
+        "feat/reseed-from-reference",
+        "fix/cart-stripe-cjs",
+        "fix/grant-seo-admin-role",
+        "fix/reseed-resume",
+        "origin",
+        "perf/lighthouse-home"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/ta-claude-plugins",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "🚀 Shipped the first ta-video plugin release (0.1.0) with the lascade marketplace manifest, installing a pinned, checksum-verified ta-render CLI",
+              "🚀 Rolled out ta-video 0.2.0–0.6.0 on top of ta-render 0.1.0–0.3.0, adding parallel research, renders and Shot production via subagents",
+              "🚀 Added video features: captions, narration, loudness and mux, overlay styling, transitions, camera keyframes, map-pinned overlays, frame previews and ~5x faster renders",
+              "🐛 Improved validation and shortlisting: point-level diagnostics, catching omitted render-critical fields, terrain approximation flags and visual map/vehicle contact sheets. Also added the Documentary Globe House style and a setup/usage README"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": "ta-render-v0.3.0"
+    },
+    {
+      "repo": "Lascade-Co/toggle",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Built the Toggle remote configuration service on Cloudflare",
+              "🚀 Added admin user management with per-app permissions",
+              "📝 Documented the verified production deployment and CI access"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-analytics-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "♻️ Removed a redundant parameter row from the Google Ads CSV output"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "conversion-api-integrations"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Backed up the old shared library used for highlights and flags"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "chore/ta-shared-backup-repo"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 126,
+          "bullets": {
+            "Testing": [
+              "🚀 Shipped ta-render CLI 0.3.0: shared assistant tools on a common route-edit policy used by both the app and CLI, vehicle texture thumbnails in the catalogue, terrain flags and omitted-field validation",
+              "🚀 Released ta-video plugin 0.5.0 and 0.6.0, adding visual catalogue contact sheets and a named User-Agent so live thumbnail downloads no longer get rejected",
+              "🐛 Fixed House style configs to pass the mandatory validate gate, kept the watermark on in the Minimal Mercator draft, repaired omitted render scales and kept Apple callbacks live during CLI tool lookups",
+              "📝 Closed out the ta-video work unit and CLI follow-ups, updating architecture docs, decision records and the prerelease checklist with owner rulings and the iOS share-config test status"
+            ],
+            "Work in Progress": [
+              "🚀 Built physical iPhone instrumentation tooling: a device CLI with launch, trace, screenshot and xctest support, plus iOS offscreen frame evidence capture and a comparator",
+              "🐛 Hardened iOS tooling: doctor now proves pairing on the selected iPhone, xctest waits for a busy device and redacts values correctly, traces report early app exits, and the offscreen EGL binding is restored between frames",
+              "🔧 Extracted shared CoreDevice tooling, pinned the iOS test simulator runtime with a safe repin, and added a simulator lane clone helper",
+              "📝 Documented the iOS instrumentation plan, research, grilling decisions, device acceptance results and ADR origins"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/cli",
+        "feat/ios-instrumentation",
+        "fix/bug"
+      ],
+      "version": null
+    }
+  ]
+}

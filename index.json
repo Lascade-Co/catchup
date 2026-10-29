@@ -138,7 +138,8 @@
     "daily/2026-10-25.json",
     "daily/2026-10-26.json",
     "daily/2026-10-27.json",
-    "daily/2026-10-28.json"
+    "daily/2026-10-28.json",
+    "daily/2026-10-29.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -281,7 +282,9 @@
     "Lascade-Co/daily-email-digest-actions",
     "Lascade-Co/kayak-sub-server",
     "Lascade-Co/visaless-web",
-    "Lascade-Co/lascade-marketing-ai"
+    "Lascade-Co/lascade-marketing-ai",
+    "Lascade-Co/ta-claude-plugins",
+    "Lascade-Co/toggle"
   ],
   "users": [
     {

@@ -1,0 +1,670 @@
+{
+  "date": "2026-10-30",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Updated action versions in workflow files, then reverted the change, leaving the workflows on their previous versions"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/airline-apis",
+      "developers": [
+        {
+          "login": "hadibinnoor",
+          "name": "hadibinnoor",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Built an iOS traffic-capture rig for studying a mobile flight-tracking app's API, recording headers, decoded bodies, WebSocket frames and protobuf schema names",
+              "🚀 Added an API client that speaks protobuf over HTTP/2 using a lightweight custom wire codec instead of generated stubs",
+              "🚀 Added an extractor that pulls all aircraft liveries and airline logos from the app's downloadable asset bundle, avoiding API calls and rate limits",
+              "📝 Documented findings on ambiguous airline code matching, rate-limit behaviour and invalid logo blobs, and added a filter that rejects the bad images"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "flighty-scraper"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/airline70-flutter",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "♻️ Reworked remote config handling: replaced the new search result theme flag with a skip-details-page setting across the flight result screens",
+              "🔧 Moved ad and app-store credentials out of compile-time constants and added settings for a custom remote config service and endpoint",
+              "🔧 Added project setup files: CI build triggers for debug and release, Flutter version pinning, lint and ignore rules, and an environment setup guide",
+              "🧹 Removed the editor settings file from the earlier refactor commit"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "v2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Added CI workflows that dispatch debug and release Android builds to the central actions repo, plus a Play Store publish trigger on non-prerelease releases",
+              "🔧 Added a daily scheduled job that deletes debug pre-release builds and tags older than 4 days",
+              "🔧 Set up the project baseline: Gradle app configuration with debug/release signing, ignore rules for stray assets and secrets, and README setup steps for pulling local secrets"
+            ]
+          }
+        },
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the construction calculator feature into the main branch"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 39,
+          "title": "construction calculator added",
+          "author": "antonyjoemathew"
+        }
+      ],
+      "branches": [
+        "keith/furniture-fit",
+        "origin"
+      ],
+      "version": "1.2.32"
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-IOS",
+      "developers": [
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Bumped the app build to version 2.7.3 (build 122) for the release",
+              "♻️ Merged the 2.7.3 release branch back into the dev branch to keep it in sync"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "release/2.7.3"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/c1wf-discounts70",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Updated the travel-helper submodule to a newer revision",
+              "♻️ Merged the main branch, bringing in the Next.js app setup: localized flight, hotel and car landing pages, shared layout, static pages, and an environment config template",
+              "🚀 Added PWA support with a service worker and Firebase web push notification setup, plus README setup and troubleshooting docs"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Triggered a deployment"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/chat-summary",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Removed the Chat column from the digest table so summaries get far more room on phones; the summary text now links directly to the chat's Sheet row",
+              "♻️ Gave Status a fixed-width column and let Summary fill the remaining space, and dropped chat time and cell references from the table, attention callout and Abandoned line"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 1,
+          "title": "Drop the Chat column from the digest table",
+          "author": "cherian"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-Flight-Android",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 32,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Reworked the flight results page: a new sort tab bar (Best, Cheapest, Fastest, Direct) with a collapsible filter chip row and a refreshed toolbar background",
+              "🎨 Restyled the filter sections for duration, time and stops, plus the overall filter layout",
+              "🎨 Redesigned popups and dialogs: search and standard ad popups, EU consent, update and notification permissions, logout and delete account",
+              "🎨 Redesigned screens across the app: login, language, about us, currency, regions, account settings, profile, and the flight, car and stay destination, calendar and traveller/guest pickers"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "compose"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/daily-email-digest-actions",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Added a new recipient to the app reviews digest email list for the IST schedule"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Merged the eSIM plan expiry task branch into dev, bringing in the initial Flutter project setup and tooling",
+              "🔧 Added CI workflows that trigger centralized debug builds on pull requests and release builds on pushes to main",
+              "📝 Added contributor guidance: an agent guide covering architecture and commands, coding best-practice rules, and design context documentation",
+              "🔧 Configured project basics: pinned Flutter version, SDK submodule, VS Code launch configs, and ignore rules for signing files and environment configs"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/email-push-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the dev branch into main, bringing in the project foundation: Docker build setup, sample environment configuration, and developer guidance docs",
+              "🔧 Added CI workflows for branch deploys and central Docker image builds, plus ignore rules for build and repo hygiene",
+              "📝 Documented the architecture: email types, unsubscribe handling, recipient resolution, and immediate-send behavior"
+            ],
+            "Testing": [
+              "♻️ Restructured the automation runner into a package, split into separate claim, prepare and flush modules",
+              "🚀 Added a cold win-back round to email automations that uses leftover domain capacity",
+              "🐛 Automations now back off for 30 minutes when provider sending is paused, rather than retrying every tick",
+              "🐛 Rotated the automation claim cursor oldest-first so the tail of the queue is no longer starved"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 47,
+          "title": "Dev",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/flight-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the dev branch into main, so Travelpayouts deeplinks now use the user ID as the SubID"
+            ],
+            "Work in Progress": [
+              "🚀 Started work on using the user ID as the Travelpayouts deeplink SubID"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 26,
+          "title": "Use user ID as Travelpayouts deeplink SubID",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/kayak-main-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "♻️ Removed the cabin parameter from both the client and the upstream request to fix upstream errors"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "new-api-integration"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-marketing-ai",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 11,
+          "bullets": {
+            "Published": [
+              "🚀 Built a Telegram bot for leadership to ask questions, replacing the Slack route; it wraps the Claude CLI so repo guardrails still apply and data stays inside the private network",
+              "🚀 Added emoji reactions to acknowledge questions and signal completion, with a text fallback where reactions aren't available",
+              "🐛 Hardened service startup: Claude is resolved and executed once at launch to catch missing or inaccessible binaries, with an override option, a systemd-visible install location and a writable HOME outside /home",
+              "🐛 Telegram answers now render as HTML with aligned tables for phone reading, falling back to plain text if rejected; user-level MCP config is now accepted for local runs"
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "daily-health",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Published the automated daily health report and leadership digest, and updated the decision log with fresh re-measurements of open items"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "🚀 Added a Route Map section to the container journey page, with the map locking page scroll while it is being touched",
+              "♻️ Cleaned up and reformatted the container journey widgets, and added vessel and voyage details to timeline event rows",
+              "🚀 Completed the floating widget for cancelling a subscription",
+              "🔧 Ongoing work-in-progress on the container map, including project setup and config files"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/container-map",
+        "ps/subscription-cancel-widget"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🚀 Published maritime news stories covering the Vivo Arya sand dredger sinking off Malaysia, three tankers hit by mines near Hormuz, the Contship Jet sinking in the Black Sea, and Turkey's warning to Russia and Ukraine over ship attacks",
+              "📝 Added dedup ledger entries for the AGIOI FANENDES senator warning story and the shipping container tracking article to avoid duplicate coverage",
+              "🔧 Switched pipeline image generation to gpt-image-2 after gpt-image-1 was shut down"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Bumped the chat-summary dependency so the digest no longer includes the Chat column"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 44,
+          "bullets": {
+            "Published": [
+              "🚀 Reworked cookie consent: a single banner with Reject all, Customise and Accept all, choices recorded in CookieYes, a footer Cookie policy button, and CookieYes loaded only on the live domain",
+              "🚀 Improved articles and navigation: breadcrumb trails, author cards with photos and profile links, a navbar that hides on scroll, pages opening at the top, a redesigned 404 page, and English-only serving for now",
+              "♻️ Moved posts, glossary, legal, help, devices, destinations and page FAQs to load from Payload, removed the old reference snapshot, and bounded queries to avoid D1 SQL variable limits",
+              "⚡ Sped up eSIM and account pages with a shared Cache API catalogue cache, non-blocking redirect lookups, parallel destination fetching, optimistic wallet UI, skeleton loading and cached lists"
+            ],
+            "Work in Progress": [
+              "♻️ Started rendering English posts, glossary terms and destination pages from Payload, with the snapshot kept as a fallback",
+              "🔧 Added new destination and glossary fields, plus an additive migration and reseed updates to support them"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 56,
+          "title": "Release: cookie banner, article trails and author cards, English-only site, navbar tweaks",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 55,
+          "title": "Cookie banner, article trails and author cards, English-only site, navbar tweaks",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 54,
+          "title": "Release: content from Payload, security audit fixes, faster eSIM pages",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 53,
+          "title": "Stop the eSIM pages waiting on a slow store backend",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 52,
+          "title": "Read all site content from Payload; remove data/reference",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 50,
+          "title": "Faster destination pages, plus security audit fixes, CSP, Tidio and account-page changes",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 49,
+          "title": "Revert \"Let slow catalogue requests finish instead of cancelling them\"",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 48,
+          "title": "Release: let slow catalogue requests finish",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 47,
+          "title": "Let slow catalogue requests finish instead of cancelling them",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 46,
+          "title": "Release: plans under rate limits, images from R2, post image move",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 45,
+          "title": "Keep eSIM plans loading under rate limits, serve images from R2, admin and perf tweaks",
+          "author": "Riyaaaaan"
+        }
+      ],
+      "branches": [
+        "dev",
+        "feat/help-from-payload",
+        "feat/payload-changes",
+        "fix/loading-time",
+        "origin",
+        "revert/catalogue-slow-backend"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-analytics-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🐛 Stopped checking Google and Bing conversion upload status, relying on deduplication to prevent duplicate conversions"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "conversion-api-integrations"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-ios",
+      "developers": [
+        {
+          "login": "Mushf1qHumayoon",
+          "name": "Mushfiq Humayoon",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Made the visible portion of the underwater model consistent across all model scales"
+            ],
+            "Work in Progress": [
+              "🔧 Merged the main branch (version 4.1.4) into a working branch, bringing in CI workflows for TestFlight and App Store release builds",
+              "📝 Added contributor guidance docs for AI assistants and updated repo ignore rules"
+            ]
+          }
+        },
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Version update that brought in CI workflows for TestFlight and App Store release builds",
+              "📝 Added contributor guidance docs for AI assistants and updated repo ignore rules"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin",
+        "release"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 19,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed a GPX import bug where certain closed-trail track names caused the whole track to be skipped, with a regression test",
+              "🐛 Fixed iOS issues: avatar crop cache creation, Google sign-in, OTP cursor handling, and resolving a freshly paired iPhone",
+              "🔧 Improved build and CI reliability: stable AGP version for Android Studio sync, NDK download retries, and a DVT screenshot fallback for physical devices",
+              "✅ Added physical-iPhone tests and perf tooling fixes, then wrote up the phone-visit acceptance results, evidence routes decision and open checks, and removed the finished instrumentation working docs"
+            ]
+          }
+        },
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 12,
+          "bullets": {
+            "Testing": [
+              "🚀 Added QuickShot, a Home tab of ready-made video templates (Travel Memories, Flight Diary, Road Trip Reel) that set up the route, stories, titles and clips",
+              "🚀 Built titles and My Clip videos end to end: saved route data, editors in Preview on both hosts, and drawing in Preview and export with GPU YUV conversion",
+              "🚀 Merged the model, avatar, media and effects pickers into one point editor with tabs, a single save and one undo step",
+              "🐛 Fixed the add-model button visibility, removed the extra \"Discard titles?\" prompt on new routes, and stabilised a flaky startup-worker logging test"
+            ]
+          }
+        },
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Merged a bug-fix batch covering an ANR/OOM audit, iOS edge-to-edge layout, iOS video preview and iOS email OTP"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "octopoocha",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "♻️ Applied an automated lint fix to the clip panel's timeline state handling"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 30,
+          "title": "Bug fixes: ANR/OOM audit, iOS edge-to-edge, iOS video preview, iOS email OTP",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "feat/overlay",
+        "fix/bug",
+        "fix/ui",
+        "origin"
+      ],
+      "version": "v5.0.11"
+    },
+    {
+      "repo": "Lascade-Co/travel-helper",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Added Google tag to the ad platform scripts"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

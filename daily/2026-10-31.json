@@ -1,0 +1,171 @@
+{
+  "date": "2026-10-31",
+  "repos": [
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the furniture-fit work (PR #36) into main, bringing the project's Android app setup into the repo",
+              "🔧 Added CI workflows that request centralized debug and release builds and trigger Play Store publishing for non-prerelease releases",
+              "🔧 Added a daily scheduled cleanup that deletes debug releases and tags older than 4 days",
+              "📝 Added a README covering local secret setup, plus .gitignore rules to keep keystores, stray large media and build artifacts out of the repo"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 36,
+          "title": "furniture fit",
+          "author": "keith-james"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": "1.2.33"
+    },
+    {
+      "repo": "Lascade-Co/connector",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added account and date controls for Google Ads backfills"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-Flight-Android",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "♻️ Redesigned the Modify Search top sheet to reuse the home screen's search components (trip type, route, dates, passengers, search button) in place of custom copies",
+              "🚀 Added add/remove return-date actions to the results screen's search sheet, switching between round-trip and one-way",
+              "🔧 Updated the results web view toolbar to use the splash gradient color",
+              "🔧 Added CI workflows that request central debug and release builds, plus project setup files and notification system docs"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "compose"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-marketing-ai",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "daily-health",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Published the automated daily health report for 2026-10-31"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "📝 Published two maritime news stories: a limpet mine attack that disabled a tanker in the Strait of Hormuz, and a Philippine RoRo ferry tilting at a port with all passengers rescued",
+              "📝 Published a report on a coal cargo vessel sinking in a Bangladesh river channel, with the crew rescued and coal spill concerns raised",
+              "🔧 Updated the content ledger with two new draft hub posts: a Port Everglades ship schedule guide and a travel map with photos how-to guide"
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Added a last30days sweep that runs across every news subject, now vendored into the repo so the news routine can use it",
+              "🚀 Made the sweep run first and steer the news search, surfacing new names, enabling every available source in deep mode, and reporting per-source failures and disabled sources",
+              "♻️ Updated the news pipeline and find-news steps to require the sweep, with its results used for candidates and angles but not counted toward the 2-source bar"
+            ],
+            "Work in Progress": [
+              "🚀 Branch work on running the last30days sweep over every subject and vendoring the engine into the news routine",
+              "🚀 Branch work on making the sweep run first with all sources enabled and detailed failure reporting"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 36,
+          "title": "News pipeline: last30days first, all sources, --deep",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 35,
+          "title": "News pipeline: mandatory last30days sweep over every subject (routine included)",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "feat/last30days-first-full",
+        "feat/news-last30days",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 6,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed iOS export-complete navigation from a Live Activity or notification tap so Done and back return to Preview/Home instead of leaving the user stuck",
+              "🐛 Fixed playback speed so Preview and export present only every Nth frame, making sped-up exports proportionally shorter and removing stutter, and fixed uneven frame timing after overrunning frames",
+              "🐛 Fixed place labels driving the wrong stop's photo/element/tooltip by giving them their own frame channel, and closed the points sheet when the route is emptied to prevent a crash",
+              "⚡ Tried read-ahead video decoding on a background worker, then reverted it after device benchmarks showed it was slower than inline decoding"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "fix/bug"
+      ],
+      "version": "debug-pr-39"
+    }
+  ]
+}

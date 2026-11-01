@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-01",
+  "repos": [
+    {
+      "repo": "Lascade-Co/chat-synopsis",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added Slack as a third channel alongside Telegram and WhatsApp (v1, text only), including the adapter, login, configuration and indexing",
+              "🚀 Added a thread filter for pinned channels and team roster support for Slack",
+              "📝 Added skill docs and tests covering the new Slack channel"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "whatsapp-operational"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-marketing-ai",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Switched the reporting currency from AED to USD: revenue no longer needs conversion and spend is divided by the peg, leaving ROAS and other ratios unchanged",
+              "🐛 Fixed a parser error on materialized views by removing redundant parentheses around their query bodies",
+              "📝 Updated the mart README and reconciliation docs to reflect the USD switch and corrected the runnable verify query"
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "daily-health",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Published the automated daily health report for 2026-11-01"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Published a post on the China Coast Guard patrol east of Taiwan, including 30-day and 24-hour device activity trends",
+              "🚀 Published a news story on the Coast Guard's review of COSCO following spy ship claims, citing verified sources",
+              "🚀 Published a story on Oman's evacuation of 25 crew from a tanker in the Strait of Hormuz",
+              "🔧 Updated the dedup ledger to track the Hormuz rescue and the IRGC tanker mine claim stories"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

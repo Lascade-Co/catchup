@@ -142,7 +142,8 @@
     "daily/2026-10-29.json",
     "daily/2026-10-30.json",
     "daily/2026-10-31.json",
-    "daily/2026-11-01.json"
+    "daily/2026-11-01.json",
+    "daily/2026-11-02.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -287,7 +288,12 @@
     "Lascade-Co/visaless-web",
     "Lascade-Co/lascade-marketing-ai",
     "Lascade-Co/ta-claude-plugins",
-    "Lascade-Co/toggle"
+    "Lascade-Co/toggle",
+    "Lascade-Co/Chatwoot-digest",
+    "Lascade-Co/D3-hotel-ios-v2",
+    "Lascade-Co/drivelicense-backend",
+    "Lascade-Co/esim-sdk",
+    "Lascade-Co/lascade-travel-hotels-design"
   ],
   "users": [
     {
@@ -529,6 +535,10 @@
     {
       "login": "antonyjoemathew",
       "name": "Antony Joe Mathew"
+    },
+    {
+      "login": "akshayca112",
+      "name": "akshayca112"
     }
   ]
 }

@@ -1,0 +1,486 @@
+{
+  "date": "2026-11-02",
+  "repos": [
+    {
+      "repo": "Lascade-Co/airline70-flutter",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "♻️ Replacing Firebase Remote Config with a custom remote config implementation"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "v2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/c1wf-discounts70",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Set up the Discounts70 Next.js travel site with localized flight, hotel and car landing pages with search",
+              "🔧 Added project configuration: env template, gitignore, submodule setup and a README with setup and troubleshooting steps",
+              "🚀 Added PWA support with a service worker registered in production, plus push notification opt-in",
+              "🔧 Triggered deployment runs"
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Patched dependency vulnerabilities by bumping a transitive package and adding a version override",
+              "🔧 Updated the shared travel helper submodule and added a gtag integration"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 21,
+          "title": "Merge main to dev",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/Chatwoot-digest",
+      "developers": [
+        {
+          "login": "Iamfasna",
+          "name": "Iamfasna",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added a Chatwoot daily support digest that includes a CSV attachment and a Claude-generated summary of issues and unresolved conversations",
+              "✅ Adjusted a threshold value in the pipeline tests to fix a failing test"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-Flight-Android",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 5,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Fixed the back action on the results page: leaving the screen now navigates immediately, and the search-delete request runs in a process-wide scope so it still completes after the screen closes",
+              "🚀 Added recent search and flight details features",
+              "🐛 Fixed the status bar color and made fixes to the flight result cards",
+              "🔧 Added CI workflows that trigger central debug and release builds, plus project setup files and local notification documentation"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "compose"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D3-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "imadibrahimk",
+          "name": "imadibrahimk",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🚀 Added a Hotels70 deeplink mode for hotel search that opens the partner site, with a night loader, session reporting, and search history reset when the provider changes",
+              "🚀 Built an in-app partner browser with booking tracking (viewing, payment started, paid or failed), session reporting, and improved web handling such as retries, error views, and camera permission prompts",
+              "🚀 Added reminder notifications when users leave the app, based on the furthest booking step reached and cancelled when they return",
+              "🎨 Moved to an outline icon system, removed sparkle icons, made search buttons text only, and added button press animations and haptic feedback across the app"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/dashboard",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Improved Apple login handling so users without Adapty profiles are supported",
+              "🚀 Added support for multiple audience values in Apple login"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/drivelicense-backend",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Set up the initial Django + DRF backend for the DriveLicence app",
+              "🚀 Built the content model (Country → State → Chapter → Videos & Instructions), with country-wide chapters shared across states and per-state exclusions",
+              "🚀 Added a public read API for the mobile app, a staff management API, and Django admin",
+              "🔧 Added video storage on Cloudflare R2 with presigned direct uploads and playback, plus automatic cleanup of replaced or deleted files",
+              "🔧 Set up the production stack with Docker Compose, Caddy, Gunicorn, PostgreSQL 17 and nightly backups, with a deployment guide"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 6,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Restyled the wallet balance card with a gradient design and a new illustration",
+              "🚀 Refreshed the profile screen with section headers, restyled settings cards and new icons",
+              "🚀 Added country flags to the plans header coverage row",
+              "🔧 Set up project tooling: pinned the Flutter SDK version, added CI build trigger workflows for debug and release builds, and added project docs and design guidelines"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-sdk",
+      "developers": [
+        {
+          "login": "sajithlaldev",
+          "name": "sajithlaldev",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Synced the iOS and Android SDKs with the app for the 0.2.0 release, adding cart, order history, wallet and payment methods, offers, and an updated eSIM list",
+              "🔧 Moved sign-in to email OTP or Firebase now that guest login is retired, and added maintenance-mode handling, push token updates, and an offline cache",
+              "🚀 Added UI for cart, order history, wallet, and Android sign-in, plus a maintenance gate and formatting fixes",
+              "📝 Added example apps for Android and iOS and rewrote the READMEs for both platforms"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin",
+        "task/sdk-app-parity"
+      ],
+      "version": "v0.2.0"
+    },
+    {
+      "repo": "Lascade-Co/lascade-travel-hotels-design",
+      "developers": [
+        {
+          "login": "imadibrahimk",
+          "name": "imadibrahimk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added the hotels design canvas: static HTML mockups of the Hotels70, D2, M1 and D3 hotel apps, with each screen shown in an iPhone-sized frame",
+              "🚀 Built D3 Hotel Design 2 (light violet) and Design 3 (minimal colour, violet only on key actions) alongside the original D3 design",
+              "🚀 Created D2 Hotel screens such as About us, Account Settings and an Amenities bottom sheet, with shared styles, icons, fonts and image assets",
+              "🔧 Added a local server script, a double-click launcher, a README and a .gitignore so the canvas can be opened in any browser"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m4-web-flight",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed the one-way flight calendar so the initial selection stays a single date",
+              "♻️ Updated the autocomplete UI to match the revised flight helper module"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "fix-autocomplete-helper-v3"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m8-web-car",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Applied package vulnerability patches to update dependencies",
+              "♻️ Merged the latest main branch changes, bringing in the Next.js car-rental web app with localized pages, static content pages and state and city location pages with SEO metadata and structured data"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Triggered a fresh deployment"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the container map pull request into main, delivering the map-related work from the ps/container-map branch",
+              "🔧 Brought in project setup and tooling: CI workflows that trigger debug and release builds, Flutter version pinning, editor and lint configuration, and contributor guidelines"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 295,
+          "title": "Ps/container map",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Published news posts on maritime incidents: a tanker struck off Saudi Arabia, a Qatar LNG carrier hit in the Arabian Gulf, and Erdogan's comments on Black Sea ship attacks",
+              "🔧 Sent the newsletter and an urgent Telegram notification for the tanker incident story",
+              "📝 Added the \"What Is an LNG Tanker?\" how-to guide to the content ledger as a draft"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "ThePyWizard",
+          "name": "Jishnu M M",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added a Meta scale/kill skill that gives each ad in an app and platform a single action: Scale hard, Scale, Test, Grace or Cut",
+              "⚡ Decisions combine a Bayesian spend vs CPA view with a CPMr vs CPA quadrant view, flagging ads to kill or scale at 90% confidence",
+              "🔧 Pulls ad-level spend, reach and subscription data from the Meta API, including archived and deleted ads, and also reads Ads Manager CSV exports",
+              "📝 Generates a styled HTML report and an actions CSV keyed by Ad ID, with a bundled drag-and-drop explorer page"
+            ]
+          }
+        },
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Ran the full-product SEO audit for MarineRadar, TravelAnimator, GeoAnimator and SmartRuler, producing a report and social thumbnail",
+              "🔧 Refreshed search console, content and hub caches along with link-crawl archives"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 11,
+          "title": "feat(meta-scale-kill): ad-level scale/kill decisions for Meta ads",
+          "author": "ThePyWizard"
+        }
+      ],
+      "branches": [
+        "feat/meta-scale-kill",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "akshayca112",
+          "name": "akshayca112",
+          "commit_count": 16,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Ran an SEO release audit: launch-wave indexing gate, indexable-only destination sitemap, structured data on company pages, an IndexNow key file, and cleaner metadata and titles",
+              "🔧 Ported SEO and platform work onto the new upstream: head metadata, one-hop redirects, canonicals, geo-based default currency, llms.txt, and the apex roamjoy.com origin",
+              "📝 Rewrote site copy and shipped it as a safe CMS content update that never overwrites newer live edits, with no competitor links and no inline dates",
+              "🚀 Polished UI/UX and accessibility: plan sheet, cart, section pills, underline tabs, mobile footer and help hub, plus faster page loads and zero layout shift",
+              "🐛 Fixed the default author byline, the live chat account, and duplicate phones in the device list"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 57,
+          "title": "Port updates and content rewrite for SEO, platform, and UI/UX",
+          "author": "akshayca112"
+        }
+      ],
+      "branches": [
+        "dev",
+        "feat/live-upgrade"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 9,
+          "bullets": {
+            "Testing": [
+              "⚡ Preview video clips now pick up a hardware decoder when a slot frees, with more decoder slots on devices that allow it",
+              "🚀 Replaced the old intro with the new timed onboarding video on both hosts",
+              "🚀 Preview text updates: a text's menu can replace its style in place, and newly added text is highlighted like selected text",
+              "🐛 Fixed Android double top padding after closing the keyboard, and My Clip layout tiles and aspect ratio handling in preview"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/overlay"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-helper",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Added the Google tag to the ad platform scripts"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-tools",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Building mixed-mode route planning across bus, metro, train and ferry, with per-mode slots and transit at route endpoints",
+              "🚀 Adding a RAPTOR-based combination planner to assemble multi-mode journeys"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "mixedroutes"
+      ],
+      "version": null
+    }
+  ]
+}

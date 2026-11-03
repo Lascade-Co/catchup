@@ -143,7 +143,8 @@
     "daily/2026-10-30.json",
     "daily/2026-10-31.json",
     "daily/2026-11-01.json",
-    "daily/2026-11-02.json"
+    "daily/2026-11-02.json",
+    "daily/2026-11-03.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -293,7 +294,8 @@
     "Lascade-Co/D3-hotel-ios-v2",
     "Lascade-Co/drivelicense-backend",
     "Lascade-Co/esim-sdk",
-    "Lascade-Co/lascade-travel-hotels-design"
+    "Lascade-Co/lascade-travel-hotels-design",
+    "Lascade-Co/D3-car-ios-v2"
   ],
   "users": [
     {

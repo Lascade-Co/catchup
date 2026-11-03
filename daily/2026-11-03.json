@@ -1,0 +1,779 @@
+{
+  "date": "2026-11-03",
+  "repos": [
+    {
+      "repo": "Lascade-Co/airline70-flutter",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "♻️ Migrated the networking layer from the http package to Dio",
+              "⚡ Added caching of the device ID so it is reused instead of being fetched again"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "v2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/car-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Exposed all KAYAK car fees additively as a list of fee items in the API response"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/Chatwoot-digest",
+      "developers": [
+        {
+          "login": "Iamfasna",
+          "name": "Iamfasna",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Updated the chat-summary email format and added device fields to the report",
+              "🚀 Added a missed-reply section to highlight conversations awaiting a response",
+              "🚀 Added a daily tab in the Google Sheet for each day's chat summary"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/connector",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Added a delivered-country Facebook Insights feed for the travel vertical",
+              "🐛 Updated Facebook scalar metrics to count website and total subscribe/trial events",
+              "🐛 Fixed travel Facebook data so Subscribe events load, by requesting Meta conversions arrays"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1ac-rent80",
+      "developers": [
+        {
+          "login": "lascadeansal",
+          "name": "ansal",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Improved the search loader animation"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "compose"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1ah-hotels70",
+      "developers": [
+        {
+          "login": "Ashiiq666",
+          "name": "ashiiq666",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🔧 Removed an unused map marker drawable that was flagged by Android Lint, fixing the failing changed-files CI check",
+              "🔧 Added project scaffolding for the Android app, including CI workflows that request central debug and release builds, Gradle build configuration, ignore rules, and a README with local secrets setup instructions"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-Flight-Android",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 9,
+          "bullets": {
+            "Work in Progress": [
+              "♻️ Extracted the deal-click logic (analytics, ads session hand-off, notification state) into a shared handler used by the results list and flight details, and passed an explore-origin flag through to the details screen",
+              "🚀 Added drop-down animations to the flight card and deals, plus a filter count badge next to the Filter label",
+              "🔧 Switched UI text to the Lexend Deca font, added new translated strings across languages, and removed unused strings",
+              "🚀 Started on the redesigned onboarding, with the onboarding page display temporarily commented out"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "compose"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D3-car-ios-v2",
+      "developers": [
+        {
+          "login": "imadibrahimk",
+          "name": "imadibrahimk",
+          "commit_count": 9,
+          "bullets": {
+            "Published": [
+              "🚀 Added a D3 Hotel-style \"Modify search\" panel on results that drops from the top over a dimmed list, with bordered fields, an Update results button and swipe or tap-outside dismissal",
+              "🎨 Rebranded the app as Auto Rentals: new vector logo, app icon, launch screen and loaders, a D3 theme, and a renamed project, target and folders (Rent80-v2 to D3-car)",
+              "🚀 Added an animated splash on every launch (including before first-run onboarding), a new home hero photo, and a Sign in pill on home that opens Account",
+              "♻️ Redesigned home, results, car detail, Saved (local favourites) and Account screens, plus restyled onboarding, loader, prompts, offline page, flight/hotel cards, calendar selection and a supplier fallback"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed UI safe-area handling so sheets, buy bar panels and the plan info sheet are inset correctly on the sides",
+              "🚀 Made the top-up sheet scrollable, showed expiry on the usage card, and displayed the country name for single-country plan coverage",
+              "🔧 Updated the iOS Crashlytics symbol upload step to locate the tool across Swift Package Manager and CocoaPods installs, skipping gracefully if it is missing",
+              "🔧 Updated the Flutter version"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/email-push-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "♻️ Made users app-aware as groundwork for the upcoming per-app split (Release 1)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/flight-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Shipped KAYAK v3 poll updates: results now follow best-value order and the best flight is picked independently of the sort order"
+            ],
+            "Work in Progress": [
+              "🔧 Combining placement and user ID into the Travelpayouts SubID",
+              "🚀 Using KAYAK best-value order and a sort-independent best flight in the v3 poll",
+              "📝 Documenting how KAYAK booking fee basePrice and totalPrice are interpreted"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 27,
+          "title": "KAYAK v3 poll: best-value order, sort-independent best flight",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/geo-animator-web",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added the Google Ads tag to the site, merged via the blog article layout PR"
+            ],
+            "Work in Progress": [
+              "🔧 Merged main into the blog article layout branch, combining the YouTube frame and CDN media/connect content security policy hosts with the Google Ads hosts"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 6,
+          "title": "feat: add Google Ads tag",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "feat/blog-article-layout",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotel-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Merged the latest main branch into dev and resolved a conflict in the Kayak hotel search parsing module"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotel-helper",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "♻️ Made the fetching of the \"other place id\" conditional, so it is only retrieved when needed"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-marketing-ai",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "daily-health",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "📝 Published automated daily health reports for 2 and 3 November"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m8-web-hotel",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "⚡ Merged a change that makes the second autocomplete fetch conditional, so it only runs when needed"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 23,
+          "title": "Conditional second autocomplete fetch",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Started the initial AI assistant feature by bootstrapping the marine API project on the shared Django base template",
+              "🔧 Added project scaffolding: environment sample, Dockerfile, and CI workflows for central Docker builds and PR-comment branch deploys",
+              "📝 Added project docs, including contributor guidance and a domain glossary covering ships, stale data, and data-source provenance"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/ai-tools"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 8,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed paywall purchase flow: a cancelled purchase now resets coupon state and opens the support chat, with extra paywall event logging for debugging",
+              "🚀 Added a reusable tappable widget with haptic feedback and applied it to the floating support chat controls",
+              "♻️ Reformatted support chat and paywall code for consistency",
+              "🔧 Resolved merge conflicts with main and synced the branch"
+            ],
+            "Work in Progress": [
+              "🚀 Improved the AI chat screen: long-press to select and copy messages, a scroll-to-bottom button, and refined auto-scroll behaviour",
+              "🚀 Expanded AI chat with richer port, ship and position cards, a map preview sheet and a login-required prompt for unauthenticated users",
+              "🔧 Added configurable request/response API logging for debug builds",
+              "🐛 Made AI chat data parsing more tolerant of varied response formats"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/adapty-session-id",
+        "ps/ai-chatbot",
+        "ps/chat-woot",
+        "ps/subscription-cancel-widget"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Expanded the container-tracking page with 1,000+ words of practical guidance, including how to track, reading results, finding your container number, and tracked events",
+              "🚀 Added 10 FAQ entries and a Popular Shipping Lines grid with 12 carrier logos, responsive across screen sizes",
+              "📝 Made a small wording tweak to the README heading"
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "⚡ Merged the blog-fixes PR that reduces load on the Dashboard credit endpoint"
+            ],
+            "Work in Progress": [
+              "⚡ Served credit packages through a CDN-cached API route, so page views no longer hit Dashboard directly",
+              "♻️ Stabilised the auth profile reference so focus and visibility refreshes stop re-triggering balance and fleet reads",
+              "⚡ Switched the credits balance read to key on account email, and made auto top-up focus refresh use the 60s cache"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 209,
+          "title": "Update README.md",
+          "author": "Angelrose19"
+        },
+        {
+          "number": 208,
+          "title": "fix: cut Dashboard credit-endpoint load (CDN-cached catalogue, no ref…",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "blog-fixes",
+        "fix/container-page",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Published a story on a cargo ship that sank off Cyprus, with all 10 crew rescued, citing verified maritime news sources",
+              "🚀 Published breaking coverage of US strikes on Qeshm Island at the entrance to the Strait of Hormuz, backed by verified sources and regional vessel activity data",
+              "🚀 Published a story on an Iranian fishing vessel seized off Somalia amid mother ship concerns",
+              "🚀 Published a story on an offshore tug struck by an unknown projectile and sinking in the Strait of Hormuz, with related-post links; cover images were generated from a map screenshot because the image generation API was unavailable"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/mixroutes-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 10,
+          "bullets": {
+            "Published": [
+              "🔧 Ran a series of automated Vercel deployments of the site"
+            ]
+          }
+        },
+        {
+          "login": "ryyansafar",
+          "name": "Ryyan Safar",
+          "commit_count": 8,
+          "bullets": {
+            "Published": [
+              "🚀 Added instant route summaries from a corridor index covering India and learned routes worldwide, shown first before the exact departures load",
+              "⚡ Sped up results: plan requests start earlier, map and Firebase load later, functions run in Mumbai, plans are cached and shared across instances, and suggestions and place lookups are faster",
+              "🐛 Fixed planner and place bugs: airport-code and region-name matching, fares, tolls, departures, booking links, and visa and border notices; added train-and-cab trips",
+              "🚀 Polished the results page and nav with a Cheaper↔Faster slider and a refreshed top row, added 23 route pages (55 in all), and added Server-Timing for planner steps"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 6,
+          "title": "Skip pointless Transitous searches; faster town index on fresh servers",
+          "author": "ryyansafar"
+        },
+        {
+          "number": 5,
+          "title": "Server-Timing on plan responses",
+          "author": "ryyansafar"
+        },
+        {
+          "number": 4,
+          "title": "November 2026: faster results, instant summaries, train-and-cab trips, planner fixes",
+          "author": "ryyansafar"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "Iamfasna",
+          "name": "Iamfasna",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Added the support-digest project (Chatwoot daily digest) to the repo as a submodule"
+            ]
+          }
+        },
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Completed an SEO audit of the container tracking page, covering ranking potential for the \"container tracking\" keyword, competitor analysis, and content gaps",
+              "📝 Drafted a 7-step action plan to improve the page's search ranking"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "akshayca112",
+          "name": "Akshay",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Go-live SEO: opened indexing, added IndexNow and Search Console submissions from the CMS, enforced a single canonical host, and refined robots, sitemaps and llms.txt",
+              "🔧 Made the storefront English-only: removed translations, language picker and language URLs, with permanent redirects from old language URLs to English",
+              "🚀 Refreshed the design: new home hero, header with a Resources menu, flag cards for destinations, new typography, a redesigned About page and Joy Pass naming",
+              "🐛 Fixed the destinations hub to render a single H1 while loading, and cleared lint errors"
+            ]
+          }
+        },
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "⚡ Reduced data waits when navigating across storefront routes and sped up navigating back to home from the navbar",
+              "🐛 Fixed local startup issues and added bounded catalog loading"
+            ]
+          }
+        },
+        {
+          "login": "Riyaaaaan",
+          "name": "Muhammed Riyan",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Released the go-live bundle to main: SEO improvements, English-only storefront, design refresh and performance work"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 58,
+          "title": "Release: go-live SEO, English-only storefront, design refresh and performance",
+          "author": "Riyaaaaan"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy-flutter",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 9,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Fixed iOS push notifications showing duplicate foreground banners by posting the local copy only on Android",
+              "🐛 Improved auth error mapping so an invalid or expired social token shows a social sign-in error instead of a verification-code error",
+              "🐛 Fixed the force-update flow: the store now opens via AppReviewService and the check re-runs on config activation, plus added iOS privacy manifests",
+              "🔧 Corrected iOS Firebase and signing config, and removed the Watch companion app to fix simulator and device build failures"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/new_ui"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/smartruler_landing_page",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "📈 Added a Google Ads tag to the landing page and updated the Content Security Policy to allow the hosts it needs, then merged and deployed via PR #7"
+            ],
+            "Work in Progress": [
+              "📈 Working on a Google Ads tag integration with matching Content Security Policy host allowances"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 7,
+          "title": "feat: add Google Ads tag (AW-16521282586) and allow its hosts in CSP",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 17,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed Android promo code outcomes and preserved keyboard insets through the app shell",
+              "🚀 Route distances now use shared decimal tiers, and replay seeks settle distance digits at their destination",
+              "♻️ Centralised and ordered sign-in provider buttons across app sheets, tinted the Apple icon, and fixed Settings sign-in dismissal",
+              "🐛 Catalogue refresh now reads the persisted account and scopes snapshots to it; the live catalogue test checks production and skips on 5xx"
+            ]
+          }
+        },
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🚀 Paywall purchase analytics now report the purchase value and currency for the product actually bought",
+              "🚀 Added monthly and yearly purchase-completed events that fire alongside the paywall event, with a plan mapping for each sold product",
+              "♻️ Reconciled purchase success is now its own analytics callback so the bought product is kept from Buy through sync",
+              "🚀 Preview controls now mark the features of the applied QuickShot template"
+            ]
+          }
+        },
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "✅ Refreshed the Debug Options reference images and fixtures to include the new What's New toggle",
+              "🐛 Kept the What's New debug toggle out of the legacy session keys used by the Android DataStore migration, fixing broken inventory and migration tests"
+            ]
+          }
+        },
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Merged a fix for element/label collisions, playback speed, Preview pacing and a points-sheet crash"
+            ]
+          }
+        },
+        {
+          "login": "rahul028",
+          "name": "rahul028",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🐛 Journey AI now asks for confirmation before overwriting an existing route, while explicit clear or reset requests stay immediate"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 39,
+          "title": "Fix element/label collision, playback speed, Preview pacing and points-sheet crash",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "feat/overlay",
+        "feat/whatsnew",
+        "fix/event",
+        "journeyAiFix",
+        "origin"
+      ],
+      "version": "v5.0.12"
+    },
+    {
+      "repo": "Lascade-Co/travel-tools",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added intercity route family assembly with rail, coach and flight family tags",
+              "📝 Added an agent data guide to document the route data"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "mixedroutes"
+      ],
+      "version": null
+    }
+  ]
+}

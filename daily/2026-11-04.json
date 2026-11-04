@@ -1,0 +1,630 @@
+{
+  "date": "2026-11-04",
+  "repos": [
+    {
+      "repo": "Lascade-Co/airline70-flutter",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Added the initial Flutter project scaffolding, including Flutter version pinning, lint configuration, and ignore rules",
+              "🔧 Set up CI workflows that trigger debug builds on QA pull requests and release builds on merged release pull requests",
+              "📝 Added environment setup documentation covering config files for dev and prod builds using compile-time defines"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "v2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-flight-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Re-resolved the Facebook SDK package reference at version 19.0.0"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "wip/three-design-builds"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Stopped tracking macOS .DS_Store files in the repository"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "chore/remove-ds-store"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-car-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Stopped tracking macOS .DS_Store files in the repository"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "chore/remove-ds-store"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-hotel-android",
+      "developers": [
+        {
+          "login": "Ashiiq666",
+          "name": "ashiiq666",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Fixed a price mismatch between the hotel detail page and the results card the user tapped",
+              "♻️ Detail bottom bar now uses the same cheapest search rate and per-night formula as the results card, so the per-night price, all-in total, provider logo and Book Now target stay consistent"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "native_design"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "akashkottil",
+          "name": "Akash Kottil",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Restored the Flights and Rental tabs in the navigation bar",
+              "🔧 Adjusted the tab bar layout to fit the iOS 27 Liquid Glass capsule style"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "wip/tab-bar-liquid-glass"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D3-car-ios-v2",
+      "developers": [
+        {
+          "login": "imadibrahimk",
+          "name": "imadibrahimk",
+          "commit_count": 15,
+          "bullets": {
+            "Published": [
+              "🚀 Polished the home hero: darker scrim over the photo, removed the badge and number plate from the image, and settled on showing the name only",
+              "🔧 Replaced the hand-drawn logo with the official D3 car logo from Figma across the app icon, launch screen, splash, home, loader, About and booking header",
+              "🚀 Added button press animation and light haptics across D3 buttons, a pull-to-stretch car detail hero with zoom, an animated Clear for recent searches, and a no-internet toast above the tab bar",
+              "♻️ Simplified the UI by removing favourites, the detail share button, the sticky collapsed home search bar, and the Results Map button and sheet; refreshed filters with coral steppers and icons"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/daily-email-digest-actions",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added a daily outreach job that sends personal plain-text emails to customers who started checkout but did not complete payment in the last 24 hours",
+              "🔧 Scheduled the outreach to run each morning via GitHub Actions, with individual sends and idempotency keys to prevent duplicates, and internal addresses skipped",
+              "🚀 Added a --since flag so incomplete-checkout outreach can be backfilled as a one-time run"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/drivelicense-backend",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the courses feature, adding course content with chapter quizzes and checkpoints",
+              "🚀 Added offline course bundles so course material can be used without a connection"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 1,
+          "title": "Courses, chapter quizzes, checkpoints and offline course bundles",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 5,
+          "bullets": {
+            "Testing": [
+              "🚀 Reworked home popular destination cards: they are sized to the photo, show the full image over a blurred fill, and put text on a gradient",
+              "🚀 Allowed up to 25% side cropping on destination photos and softened the blurred fill",
+              "🐛 Shrank the iOS glass tab bar icons so they no longer overlap their labels",
+              "🔧 Merged the remote-config toggle task branch into dev"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/email-push-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Rolled out per-app user changes: engagement is now read from last-engaged timestamps, the app field on users is mandatory, and global user uniqueness constraints were dropped",
+              "🔧 Added a deploy-proof automation pause, along with SES pause backoff and a runner split, merged to main via the dev branch",
+              "♻️ Cleaned up by dropping unused user/engagement indexes and removing one-off backfill and filter commands"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 50,
+          "title": "Drop unused per-app indexes and remove one-off commands",
+          "author": "Jenin82"
+        },
+        {
+          "number": 49,
+          "title": "Per-app users Release 2: durable engagement + mandatory User.app",
+          "author": "Jenin82"
+        },
+        {
+          "number": 48,
+          "title": "SES pause backoff, runner split, per-app users R1 + R1.5",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-marketing-ai",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "daily-health",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Published the automated daily health report for 2026-11-04"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Upgraded Flutter to pick up an SSL fix (merged PR #297)"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Resolved a merge conflict, bringing project configuration back into the main branch: CI build triggers for debug and release, editor and tooling settings, Flutter version pinning, and lint setup",
+              "📝 Restored contributor guidance covering the project architecture, code conventions and build commands"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 297,
+          "title": "flutter upgraded for SSL fix",
+          "author": "AdarshLascade"
+        },
+        {
+          "number": 296,
+          "title": "chore:firebase integration id",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added an \"Add as preferred on Google\" button to trends article pages, letting readers mark the site as a preferred source in Google Search"
+            ],
+            "Work in Progress": [
+              "🔧 Started adding Google Search Console verification for the /trends/ subdirectory"
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Merged the PR adding Google Search Console verification for /trends/"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 211,
+          "title": "Add 'Add as preferred on Google' button to trends articles",
+          "author": "Angelrose19"
+        },
+        {
+          "number": 210,
+          "title": "Add Google Search Console verification for /trends/",
+          "author": "Angelrose19"
+        }
+      ],
+      "branches": [
+        "google-preferred-button",
+        "google-verification-trends",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Published a news story on the US Coast Guard detaining the MSC Poesia at PortMiami, with sourced coverage and MarineRadar tracking data",
+              "🚀 Published a story on a drone attack on an Indian-flagged cargo vessel off Oman, including the crew casualty and rescue, and distributed it via newsletter and Telegram",
+              "🚀 Published a story on record container shipping capacity on East-West trades, with regional tracking data and related-story cards"
+            ]
+          }
+        },
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Added a Google Search Console verification file for the /trends/ section"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "chore/google-search-console-verification",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "📝 Added a US trademark filing working file for TravelAnimator, reviewing the agency's class proposal and recommending filing only Classes 9 and 42, plus a draft reply to the agency",
+              "📝 Documented descriptiveness and clearance-search risks and the applicant entity findings for the trademark filing",
+              "🔧 Regenerated the four-site SEO report on the final checker fixes, refreshing the supporting data caches and archives",
+              "🚀 Merged main, bringing in a new absolute-profit skill that computes real profit from store earnings minus ad spend and influencer cost, plus growth-review context notes for the Cover Image launch"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 16,
+          "bullets": {
+            "Published": [
+              "⚡ Added edge page caching in the Worker (keyed on country and currency), also covering router data, with stale pages served instantly and refreshed in the background",
+              "⚡ Sped up page loads: browsers keep pages for an hour with build-aware stale-page reloads, a new build ID endpoint, and fewer router requests and uncacheable responses",
+              "🚀 Moved destination and store catalogue pricing to the server, kept hero art outside Suspense, and removed the hero art fade-in",
+              "🔧 Added INR to the currency list, replaced same-name media uploads in place, gave site images descriptive names, and switched the cookie consent account"
+            ]
+          }
+        },
+        {
+          "login": "akshayca112",
+          "name": "Akshay",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Added per-content-type sitemap files that read CMS and legal pages live, honour noindex, and redirect the old sitemap addresses",
+              "🐛 Fixed live audit issues: CMS-published destinations such as the UAE now render and are listed, and unknown destinations return 404",
+              "🔧 Added canonical host, http and lower-case URL redirects, and /home now redirects to /",
+              "🐛 Fixed CMS and internal links, destination and glossary interlinking, and retired country flags; the hero claim now loops, and an IndexNow submission script was added"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 66,
+          "title": "Release: stale-while-refresh page cache, one entry per page, no home prefetch on load",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 65,
+          "title": "Page cache: serve stale while refreshing, one entry per page, no home prefetch on load",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 64,
+          "title": "Release: cached navigations, server prices, stable destination hero",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 63,
+          "title": "Faster destination pages: cached navigations, server prices, stable hero",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 62,
+          "title": "Release: edge page cache, browser cache, media file names",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 61,
+          "title": "Faster page loads: edge page cache, browser cache, server-only plans",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 60,
+          "title": "Implement per-type sitemaps and handle 404 for unknown destinations",
+          "author": "akshayca112"
+        },
+        {
+          "number": 59,
+          "title": "Fix live audit issues for UAE page, sitemap, and links",
+          "author": "akshayca112"
+        }
+      ],
+      "branches": [
+        "chore/cache-loading",
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy-flutter",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Fixed an iOS build collision by removing the Firebase Messaging dependency from the notification extension and attaching the push image directly",
+              "🐛 Fixed an App Store Connect rejection by declaring no tracking in the app privacy manifest",
+              "🔧 Added iOS build data files and updated the Fastlane report, including TestFlight upload failure details",
+              "🔧 Bumped the app build number to 1.0.1+4"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/new_ui"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "✅ Added an iOS test confirming Debug Options shows the What's New switch, off by default, after Clean Mode",
+              "🔧 Merged main into the What's New feature branch and resolved conflicts in video export and the home screen",
+              "📝 Recorded the gate results from the main merge in the What's New docs"
+            ]
+          }
+        },
+        {
+          "login": "rohittp0",
+          "name": "Rohit",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🐛 Journey AI now asks for confirmation before overwriting an existing route",
+              "🔧 Merged main into the overlay feature branch, bringing in contributor rules for analytics, persisted models, renderer, resources and Swift",
+              "🔧 Added a Codex lanes workflow with a helper script for running and monitoring parallel implementation work"
+            ]
+          }
+        },
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek-4321",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Merged main into the event fix branch, bringing in the latest contributor rules and the Codex lanes workflow"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 43,
+          "title": "fix(journeyAi): require confirmation before overwriting an existing route",
+          "author": "rahul028"
+        }
+      ],
+      "branches": [
+        "feat/overlay",
+        "feat/whatsnew",
+        "fix/event"
+      ],
+      "version": "debug-pr-44"
+    },
+    {
+      "repo": "Lascade-Co/travel-tools",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 5,
+          "bullets": {
+            "Testing": [
+              "🚀 Added route query analytics with Redis-buffered recording, daily rollups and an admin dashboard",
+              "🚀 Added per-mode witness scans with a mode quality guard, a family road cap and cleaner stop names",
+              "⚡ Confined witness-mode reserves to witness scans so ordinary search speed matches dev",
+              "🚀 Treated every published timetable as current and made publishing replace old feed versions",
+              "📝 Removed Rome2Rio reference files from the repo and added a hand-made GTFS agent guide"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "mixedroutes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/visaless-web",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 10,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Redesigned destination tiles with background photos and added new destination country images, plus animated paper stickers in the hero section",
+              "🚀 Added a search progress animation and a draft document selection flow",
+              "🚀 Added a list/map view toggle in the results view, with improved map status colors and destination sheet animations",
+              "🚀 Finder now saves the user's selection to local storage and auto-detects their country to guess a passport",
+              "♻️ Cleaned up the finder results by removing the copy link button and hiding the duplicate header and summary"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    }
+  ]
+}

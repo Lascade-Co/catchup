@@ -1,0 +1,716 @@
+{
+  "date": "2026-11-05",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Retired Android 4.0.x from the install-paid email so it now tracks Android 5.x only, leaving the historical benchmark fingerprint and alert reconciliation cohort unchanged"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/airline70-flutter",
+      "developers": [
+        {
+          "login": "prapanch-lascade",
+          "name": "prapanch-lascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Set up CI workflows that trigger debug builds on QA pull requests and release builds on merges to the release branch",
+              "🔧 Added project scaffolding: Flutter version pinning, ignore rules, lint configuration and Android/iOS project metadata",
+              "📝 Documented environment configuration via compile-time define files, including local setup, build commands and CI secrets"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "v2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-IOS",
+      "developers": [
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added a Construction Calculator banner to the camera home, shown after the Furniture Fit banner; banners now appear one at a time as each is swiped into the notifications list",
+              "🚀 Added a remove button to each notification in the list; removed notifications keep their banner from reappearing",
+              "🚀 Dropped the time display from notifications in the list",
+              "⚡ Made the notifications list open and close faster"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "release/3.0.0"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/connector",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🚀 Added campaign-grain Google Ads metrics and MCC account listing",
+              "🔧 Extended the Google backfill workflow to repair campaign-grain metrics, and exposed Facebook Insights window size and dataset override in backfill dispatch",
+              "📝 Documented Google campaign name freezing and the 2026-11-05 repair, plus findings on Google PMax closure and Facebook insights"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/daily-email-digest-actions",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed the Smart Ruler survey config to point at the correct sheet tabs, so survey responses are now read from the tabs where they actually land"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-ai-plugin",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Landed the first version of the eSIM70 ChatGPT plugin: an MCP server with backend-driven OAuth sign-in, plan browsing, checkout and eSIM management flows",
+              "🔧 Added Cloudflare deployment with CI that tests, builds and deploys the dev branch to staging and main to production, with configuration pulled from a secrets manager",
+              "📝 Added project documentation, an implementation plan, an example environment config and agent guidelines covering auth and deployment",
+              "🔧 Set the real eSIM70 website, legal, support and store links"
+            ],
+            "Work in Progress": [
+              "🚀 Started on the plugin schema, mixed-auth MCP configuration and app submission notes"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 2,
+          "title": "chore: set real eSIM70 website, legal, support and store links",
+          "author": "risal-ea"
+        },
+        {
+          "number": 1,
+          "title": "first V",
+          "author": "risal-ea"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotels70-web",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 279,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added Place content for dozens of destinations across Spain and Italy, including the Balearic and Canary Islands, Costa Daurada, Sicily, Sardinia, southern Italy and major mainland cities",
+              "📝 Ran editorial passes on English copy for each region and released tier 1 content with regenerated indexes",
+              "🐛 Fixed Place copy: varied price and climate wording, corrected distances and airport transfer details, and aligned keywords with templates",
+              "🔧 Kept the Place catalog out of the Edge middleware bundle (guarded by a test), added a check that ad URLs rewrite to Place pages, and improved review scripts and allowlists"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Merged static Place landing pages covering all ad locations (148 Places), with tier 1 SEO content and a split test"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 139,
+          "title": "Static Place landing pages for all ad locations (148 Places, tier 1 SEO, split test)",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "content",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-marketing-ai",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "daily-health",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Published the automated daily health report for 2026-11-05"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M6_TP_Flight_New",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Fixed the Android build by adding explicit release and debug build types, with minification, resource shrinking and signing set up per type",
+              "🔧 Added CI workflows that dispatch debug builds on pull requests and release builds on main/release pushes to a central build repo",
+              "📝 Added a README guide for setting up local secrets through Infisical, plus the project's initial Gradle, ProGuard and ignore-file setup"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 11,
+          "title": "change: build error",
+          "author": "AjinLascade"
+        },
+        {
+          "number": 10,
+          "title": "change: version increment",
+          "author": "AjinLascade"
+        }
+      ],
+      "branches": [
+        "build-fix",
+        "origin"
+      ],
+      "version": "debug-pr-11"
+    },
+    {
+      "repo": "Lascade-Co/m8-web-hotel",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Merged a release from dev into the hotel web app, bringing in the initial Next.js project with localized pages, a home page, and a redirect page",
+              "🚀 Added static pages (About, Privacy Policy, Cookie Policy, Terms and Conditions) with SEO metadata and a shared footer",
+              "🔧 Set up app-wide layout with internationalization, ad session handling, cookie consent, analytics and ad-platform tags, plus an example environment config and project ignore rules",
+              "🎨 Added global theming and styling with Tailwind"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 24,
+          "title": "Release: stricter noa enforcement and more",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🐛 Optimized iOS SF Pro font handling",
+              "🔧 Merged the latest main branch changes into the AI/Firebase feature branch"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🐛 Optimized iOS SF Pro font handling",
+              "🔧 Merged the latest main branch changes into the AI/Firebase feature branch"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/ai-assistant",
+        "ps/dex-optimization",
+        "ps/ios-font-optimization"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Improved crawlability with server-rendered paginated vessel-type and flag directory pages, plus a multi-scale pager and extra homepage navigation links so crawlers can reach all vessel URLs",
+              "⚡ Added image extensions to the vessel, core, vessel-type and flag sitemaps, and added missing modified-date markup to four pages",
+              "🐛 Fixed vessel name redirects so links built from outdated names point straight to the canonical page",
+              "🔧 Added Meta Pixel tracking for purchase funnel events, moved analytics initialisation to a static file to avoid React 19 inline-script warnings, and opened the first two FAQ items by default"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "seo-improvements"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "🚀 Published maritime news stories covering a tanker struck by projectiles north of Qatar, a Turkish tug collision in the Black Sea, and a NJ governor's warning about Russian diesel shipments",
+              "🚀 Published stories on the Turkish ISPS Level 3 security alert and Maersk and Hapag-Lloyd returning the ME1 service to Suez",
+              "📝 Recorded newly published posts in the dedup ledger, including the Black Sea collision story",
+              "📝 Added ledger entries for a travel-app comparison article and a cruise ship tracker map page"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/measuer-web",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Added FAQPage structured data (JSON-LD) with three Q&A pairs to help answer engines extract content",
+              "⚡ Lazy-loaded OpenCV.js via dynamic import, cutting about 9.7 MiB from the initial page load",
+              "⚡ Trimmed the vendor bundle by switching to named Three.js imports and replacing BufferGeometryUtils with a Group",
+              "🔧 Removed three unused npm dependencies and enabled transpile-only mode for faster builds"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "seo-fixes-and-bundle-optimization"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🐛 Included Android 5.x in the install-paid headline cohorts, applying the standard release-date pooling rules",
+              "📝 Aligned report definitions, skill docs, and fixtures with the updated cohort logic",
+              "📝 Retired the outdated Android 4.0.x install-paid handoff doc"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 12,
+          "bullets": {
+            "Published": [
+              "⚡ Sped up destination page loads: the copy, buy box and body now stream together in one section, and plans no longer wait on every destination's price, which streams in separately",
+              "🚀 Destination hero art now shows in the loading shell and is preloaded when a link is hovered, touched or focused, so the image is ready on arrival",
+              "♻️ Reworked loading placeholders to match the real content's shape and size, with a fixed hero height, so the layout no longer shifts as plans and prices load",
+              "🔧 Replaced the CMS-generated robots.txt and llms.txt with static files, removed the generated llms-full.txt, and served both as UTF-8 to fix garbled characters"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 80,
+          "title": "Release: stream the destination hero and body as one section",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 79,
+          "title": "Stream the destination hero and body as one section",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 78,
+          "title": "Release: send robots.txt and llms.txt as UTF-8",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 77,
+          "title": "Send robots.txt and llms.txt as UTF-8",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 76,
+          "title": "Release: serve the supplied robots.txt and llms.txt",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 75,
+          "title": "Serve the supplied robots.txt and llms.txt",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 74,
+          "title": "Release: streaming prices no longer hold back destination navigations",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 73,
+          "title": "Streaming prices no longer hold back destination navigations",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 72,
+          "title": "Release: destination plans no longer wait for every price; shaped placeholders",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 71,
+          "title": "Destination plans no longer wait for every price; shaped placeholders",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 70,
+          "title": "Release: destination hero holds one height from loading to plans",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 69,
+          "title": "Destination hero: one height from loading to plans",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 68,
+          "title": "Release: destination hero image in the loading shell, preload on intent",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 67,
+          "title": "Destination hero image: real art in the loading shell, preload on intent",
+          "author": "Riyaaaaan"
+        }
+      ],
+      "branches": [
+        "chore/cache-loading",
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy-flutter",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "⚡ Added per-request caching for plans so revisited destinations show their last plans instantly and refresh in the background, keeping cached plans if a refresh fails and ignoring stale responses from pages the user has left",
+              "🚀 Cart stepper now appears immediately when adding a plan, with ADD restored if the add fails",
+              "🚀 Destination pages now show covered countries, either in the header or on each card when plans differ, with a flag-chip sheet and a View more toggle"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/new_ui"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/signalside_esim_web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Deployed the site to Vercel"
+            ],
+            "Work in Progress": [
+              "🔧 Ongoing Vercel deployment setup on a branch"
+            ]
+          }
+        },
+        {
+          "login": "risal-ea",
+          "name": "Risal EA",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the dev branch to add a blog navigation link"
+            ],
+            "Work in Progress": [
+              "🚀 Added a blog navigation link with localized text"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 21,
+          "title": "blog nav link",
+          "author": "risal-ea"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/TARS",
+      "developers": [
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "♻️ Moved Runpod endpoint checks over to the REST v2 API"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 37,
+          "title": "Move Runpod endpoint checks to REST v2",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "Iamfasna",
+          "name": "Iamfasna",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed the sitemap model list so it is read as one consistent snapshot, ending duplicated and missing models and stale renamed slugs",
+              "⚡ Model list is now fetched fresh, de-duplicated, checked against the API's total count with retries, and cached as a single entry; the build path uses the same snapshot",
+              "🐛 Fixed model meta descriptions that were cut off mid-sentence; they now use the first sentence only when it fits whole, otherwise a standalone prefix and call to action"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "seo-model-meta-and-sitemap-snapshot"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 16,
+          "bullets": {
+            "Testing": [
+              "⚡ Cut launch and frame work: QuickShot tab and templates load only once Home has settled, title metadata publishes only while the Text editor is open, My Clip taps schedule only the tapped frame, and the title font cache is bounded",
+              "🐛 Made saves safer: templates apply as one transaction, Text and My Clip saves keep edits made mid-write, and the point editor's Save commits nothing until the avatar saves",
+              "🐛 Fixed titles drawing over My Clip lead footage instead of staying on the route timeline",
+              "♻️ Moved Text editor tunables into MagicNumbers, shared one scene spot across the point editor tabs, fixed device tests, trimmed comments and updated docs"
+            ]
+          }
+        },
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 5,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Fixed a crash where a marker drag continued after its stop moved mid-drag, and the drag is now abandoned",
+              "🐛 Extending a route from the location sheet now keeps existing leg paths",
+              "🚀 Added a \"Route saved\" success toast and doubled the element placement range",
+              "📝 Documented the 5.0.12 Crashlytics findings and the element orientation difference"
+            ]
+          }
+        },
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Added contributor rules for analytics, persisted models, renderer, resources and Swift code, covering schema compatibility, rendering performance and localization",
+              "🔧 Added a Codex lane workflow so approved plans can be run as parallel, coordinated implementation tasks",
+              "🐛 Merged the crash fix pull request (#51) into main"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "octopoocha",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Automated lint fix that suppresses a state-flow warning in the Preview screen"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 51,
+          "title": "fix/crash",
+          "author": "rohittp0"
+        },
+        {
+          "number": 44,
+          "title": "feat(analytics): report purchase value, currency and monthly/yearly plan",
+          "author": "Vivek-4321"
+        }
+      ],
+      "branches": [
+        "feat/overlay",
+        "origin"
+      ],
+      "version": "v5.0.13"
+    },
+    {
+      "repo": "Lascade-Co/travel-tools",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 5,
+          "bullets": {
+            "Testing": [
+              "🚀 Added an OSM wiki GTFS catalogue alongside MDB, plus a worklist and validator for hand-made data and a curl tool for the routes feed",
+              "🔧 Turned on ingest, uploads and async builds by default and added opt-in GTFS shape storage",
+              "♻️ Retired the Django visa app, moving visa lookups to Cloudflare R2"
+            ],
+            "Work in Progress": [
+              "✅ Tightened the deals beat cleanup test so it checks for the scheduler without counting other beat_init listeners",
+              "🔧 Merged the dev branch to combine routing work with the visa retirement"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 26,
+          "title": "feat(routes): ingest on by default, MDB + OSM wiki catalogues, opt-in shapes, agent hand-made data tools, routes-feed curl CLI",
+          "author": "Shaan-Shoukath"
+        },
+        {
+          "number": 25,
+          "title": "Retire the Django visa app; visa lookups move to Cloudflare R2",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "mixedroutes",
+        "visa-r2"
+      ],
+      "version": null
+    }
+  ]
+}

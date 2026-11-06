@@ -1,0 +1,647 @@
+{
+  "date": "2026-11-06",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed the KMP CI dSYM upload so it uses the Firebase plist bundled in the archived iOS app instead of a removed config path",
+              "🔧 Made the KMP CI build fail when a required client value is missing, rather than defaulting to blank, and added google-services.json support for iOS"
+            ]
+          }
+        },
+        {
+          "login": "vaishnav-0",
+          "name": "Vaishnav",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "♻️ Moved the TARS Runpod release tooling to REST v2"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 65,
+          "title": "Move TARS Runpod release tooling to REST v2",
+          "author": "vaishnav-0"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-IOS",
+      "developers": [
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 13,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Reworked AR issue guidance on the camera: a translucent hint above the reticle replaces the toast, banner and chip, hides over the coaching animation, and greys out add-point while it shows",
+              "🚀 Added locked-style full-screen screens: a camera-permission screen with a way back to Tools, and a force-update screen that replaces the whole app layout",
+              "🚀 Refreshed user prompts: a five-face subscriber survey instead of a slider, a \"Stay in the loop\" sheet before the notifications prompt, and no rating ask when opening measuring modes",
+              "🐛 Camera home polish and fixes: tips for the measuring modes and Tools now step aside while measuring and take taps on their close button, a logo added to the camera access ask, and the paywall no longer resets the screen when it finishes loading"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "release/3.0.0"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/car-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🐛 Updated autocomplete routing so non-KYK/SKY and unresolved tabs always go to Marvel, regardless of invert/switch settings"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-Flight-Android",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 7,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added an available-amenities view to the flight details page, with a fix for its animation",
+              "🚀 Added price expiry handling that prompts users to refresh stale prices before booking",
+              "⚡ Reworked details page animations: fare tab switches now slide and cross-fade, and extra deals expand and collapse with show more/less toggles",
+              "🌐 Added localised strings across many languages for amenities, price expiry, deal toggles and stopover/overnight labels",
+              "🐛 Updated the flight date format on the details page and fixed the search popup design"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "compose"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/daily-email-digest-actions",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Added a daily container tracking credits digest that sources purchase data from Adapty and compares today against month-to-date, scheduled through the two-phase catchup gate",
+              "🐛 Fixed the container credit data fetch by switching to the correct Adapty analytics endpoint, with revenue and purchase counts segmented by product",
+              "🔧 Registered the new workflow in the settings gate and staggered its cron schedule to avoid collisions with the conversion workflow"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/drivelicense-backend",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added WebVTT subtitle support for videos, with uploads from the admin or manage API, validation that the file exists before saving, and cleanup of replaced or deleted files in R2",
+              "🚀 Exposed subtitle URLs in the course bundle and chapter API",
+              "🔧 Merged the languages and reviewed translations work, which also brought in Docker-based production deployment with Caddy, Gunicorn, PostgreSQL and nightly backups",
+              "📝 Added example environment configs, a Makefile for common operations, and a deployment guide covering server setup, Cloudflare R2 CORS and troubleshooting"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 3,
+          "title": "Video subtitles (WebVTT)",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 2,
+          "title": "Languages and reviewed translations",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🔧 Merged the dev branch into main, bringing in the project setup: pinned Flutter version, repo ignore rules, and the SDK submodule",
+              "🔧 Added CI workflows that trigger central debug builds on pull requests and release builds on pushes to main",
+              "📝 Added contributor guidance docs, design context and coding-convention rules for the eSIM app"
+            ],
+            "Work in Progress": [
+              "🐛 Fixed eSIM management edge cases: hid Top-up for blocked or processing eSIMs, added a fallback for closed cards, and made reinstall start at the Get ready step",
+              "🚀 Merged the install stepper flow work into dev"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 92,
+          "title": "Dev",
+          "author": "sajithlascade"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-ai-plugin",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "Risal EA",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Landed the eSIM70 ChatGPT plugin on main: an MCP server with sign-in and checkout flows built on the Lascade eSIM backend",
+              "🔧 Added automated Cloudflare deployment, with dev going to staging and main going to production, plus deployment checks and environment configuration templates",
+              "📝 Documented the architecture, the backend-owned OAuth approach and the deployment setup in the plan and contributor guides"
+            ],
+            "Work in Progress": [
+              "🐛 Marked the eSIM activation tool as destructive in the MCP server and docs so users are asked to confirm before activating",
+              "🔧 Updated the plugin packer's OpenAI auth extension with explicit OAuth endpoints and a dynamic client registration mode"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 3,
+          "title": "Dev",
+          "author": "risal-ea"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-db",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "⚡ Sped up plan listings with index-served sorting, cached counts, and page-only country code lookups",
+              "🚀 Added brand and text search for plans"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed the blog so articles are preserved when hydration chunks fail to load"
+            ],
+            "Work in Progress": [
+              "🐛 Ongoing work on keeping blog articles intact when hydration chunks fail"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 143,
+          "title": "fix(blog): preserve articles when hydration chunks fail",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotel-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Hotel search now returns fixed KAYAK tax settings along with a rate breakdown"
+            ],
+            "Work in Progress": [
+              "♻️ Reworking autocomplete routing so non-KYK/SKY and unresolved tabs go to Marvel regardless of the invert setting"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 10,
+          "title": "Send fixed KAYAK tax settings and rate breakdown in hotel search",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotels70-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Triggered a deployment"
+            ],
+            "Work in Progress": [
+              "🚀 Merged the develop branch release (PR #140) covering new place-specific pages"
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Applied package vulnerability patches to update dependencies"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 140,
+          "title": "Release: New place specific pages",
+          "author": "Lascadesevices"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-marketing-ai",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "daily-health",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Published the automated daily health report for 2026-11-06"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m4-web-flight",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Removed the Expedia provider from the provider strip",
+              "🔧 Ran a package audit and upgraded dependencies, including a Next.js patch bump and a newer pnpm version",
+              "🔧 Added dependency overrides to pull in patched versions of a few transitive packages"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "♻️ Merged a PR aligning flight autocomplete and the one-way calendar with the shared helper"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 36,
+          "title": "Minor fixes",
+          "author": "mhdbk"
+        },
+        {
+          "number": 35,
+          "title": "Align flight autocomplete and one-way calendar with helper",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "⚡ Added per-stage timing instrumentation to the ship detail endpoint (database, cache, satellite and upstream calls), with slow-response warnings logged above 4 seconds",
+              "🔧 Removed the timer and reduced the timeout to 4 seconds",
+              "🔧 Added middleware-related changes alongside project scaffolding, including a sample environment file, CI deploy and Docker build workflows, and project documentation"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "perf/ship-endpoint"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🐛 Merged crash fixes into a branch that now has an open PR"
+            ],
+            "Work in Progress": [
+              "🔧 Resolved merge conflicts on a branch that does not have a PR yet"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/ai-assistant",
+        "ps/crashfix"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine_radar_blog",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Merged a set of SEO improvements covering crawlability, an image sitemap, date markup, and redirect fixes"
+            ]
+          }
+        },
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "♻️ Reverting the image sitemap extensions: they added a very large number of generated OG image URLs with little SEO value, so the image entries are being removed from the sitemap generator and static sitemap files"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 212,
+          "title": "SEO improvements: crawlability, image sitemap, date markup, redirect fixes",
+          "author": "Angelrose19"
+        }
+      ],
+      "branches": [
+        "origin",
+        "seo-improvements"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🚀 Published maritime news stories via the automated pipeline: the Greece-Cyprus-Israel rejection of the Turkey-Libya maritime deal, the Spirit of Tasmania IV steering failure, an Algerian ferry's release after detention in Alicante, and the Talisman tanker diversion",
+              "🚀 Published a story on multiple tankers struck by mines near Hormuz and recorded it in the published ledger",
+              "📝 Updated the content ledger with a travelanimator entry on free alternatives to Wanderlog",
+              "🔧 Covers were built from a placeholder base image with a brand overlay because AI image generation was unavailable"
+            ]
+          }
+        },
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Added a ledger entry for the MarineRadar article comparing the best cruise ship tracker apps"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Muhammed Riyan",
+          "commit_count": 9,
+          "bullets": {
+            "Published": [
+              "🚀 Released the Lighthouse performance fixes and redirect suggestions to the main branch"
+            ],
+            "Work in Progress": [
+              "⚡ Improved page speed: split the store and destination stylesheets to cut blocking CSS, and served smaller images to store cards and the home page",
+              "⚡ Keyed the edge page cache by currency instead of country, so far fewer visitors wait for a full render, and the browser reuses the server catalogue when currencies match",
+              "⚡ Replaced the /esim loading fallback with a light placeholder, and stopped loading the 404 art on every page",
+              "🚀 Redirects now match by path, slug changes create a 301, and deleted pages or hidden authors feed a new SEO Redirect suggestions list",
+              "🔧 Allowed Cloudflare's Web Analytics beacon in the CSP and made the cookie banner wider and shorter with smaller desktop buttons"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 82,
+          "title": "Release: Lighthouse performance fixes, redirect suggestions",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 81,
+          "title": "Lighthouse performance fixes: cache keying, images, CSS, /esim placeholder, 404 art",
+          "author": "Riyaaaaan"
+        }
+      ],
+      "branches": [
+        "chore/cache-loading",
+        "dev",
+        "fix/page-speed",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy-flutter",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 7,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Fixed checkout sign-in by switching to an emailed one-time code, since the backend retired anonymous login",
+              "♻️ Removed the retired anonymous-login path (endpoint, data source, repository, use case and related auth state), keeping legacy anonymous sessions supported",
+              "🐛 Cart now empties after a successful card or wallet payment; plan prices display consistently with correct decimals per currency",
+              "⚡ Shared the plans cache across plan pages for much faster revisits, plus unified \"200+ destinations\" copy and fixed OTP test routing"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/new_ui"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 11,
+          "bullets": {
+            "Testing": [
+              "🔧 Built a single iOS client config generated from local properties and Firebase files, wired into Xcode and CI, with a fix for the Firebase bundle ID in the generated plist copy",
+              "🐛 Fixed onboarding intro videos failing on some new Android devices by removing a problematic extra audio track, and made muted players skip audio selection",
+              "✅ Support chat UI tests now fail when chat is unconfigured instead of skipping, with isolated iOS host-test config and a hardened guard fixture",
+              "🐛 Home route card now counts all route points, including road and imported leg vertices; also made debug signing keys optional for Android release builds, defaulted the `cleanMode` debug flag to off, and updated config docs"
+            ]
+          }
+        },
+        {
+          "login": "rahul028",
+          "name": "rahul028",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "✅ Updated the analytics schema test to expect the new event count",
+              "📝 Merged the overlay feature branch into the retention survey branch, bringing in contributor rules docs for analytics, persisted models, renderer, resources and Swift, plus a Codex lane workflow skill"
+            ]
+          }
+        },
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🚀 Lowered the camera model velocity constant from 6500 to 5000, framing each route leg slightly wider in Preview and export",
+              "✅ Updated camera zoom expectations in tests and re-recorded plan goldens to match the new velocity, including the captured globe chord regression test"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 54,
+          "title": "added journey ai and preview exit survey to shared repo from TAandroid repo",
+          "author": "rahul028"
+        }
+      ],
+      "branches": [
+        "feat/overlay",
+        "fix/chat"
+      ],
+      "version": "debug-pr-54"
+    }
+  ]
+}

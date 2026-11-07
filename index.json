@@ -147,7 +147,8 @@
     "daily/2026-11-03.json",
     "daily/2026-11-04.json",
     "daily/2026-11-05.json",
-    "daily/2026-11-06.json"
+    "daily/2026-11-06.json",
+    "daily/2026-11-07.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -299,7 +300,8 @@
     "Lascade-Co/esim-sdk",
     "Lascade-Co/lascade-travel-hotels-design",
     "Lascade-Co/D3-car-ios-v2",
-    "Lascade-Co/M6_TP_Flight_New"
+    "Lascade-Co/M6_TP_Flight_New",
+    "Lascade-Co/grinder"
   ],
   "users": [
     {

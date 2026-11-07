@@ -1,0 +1,160 @@
+{
+  "date": "2026-11-07",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Added per-dispatch store selection to the KMP, App Store and Play Store publish workflows, with a shared rule deciding which publisher runs; unselected stores skip cleanly and report a \"skipped\" status to Telegram",
+              "🚀 Added an App Store-only publish dispatch with a no-submit mode, so a failed App Store publish can be retried without republishing to Play, plus a Telegram report for prepared but unsubmitted versions",
+              "🐛 Fixed App Store Connect app lookup to match the exact bundle ID, resolving a publish failure caused by a similarly named debug app; also kept the existing release type on editable versions and stripped emoji that App Store Connect rejects from What's New",
+              "🔧 Re-enabled the KMP iOS release build and App Store publish trigger on the free macos-26 runner, restoring iOS results in notifications and release assets, and updated the docs"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin",
+        "ta/appstore-publish-followups",
+        "ta/ios-release-enable"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🚀 Started integrating the Chatwoot support chat SDK into the app",
+              "🔧 Fixed a build issue by adding a Kotlin metadata dependency so Hilt can read the Chatwoot SDK",
+              "🔧 Added CI workflows to dispatch debug and release builds and Play Store publishing to the central actions repo",
+              "🔧 Added a scheduled job to clean up debug releases and tags older than 4 days"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "octopoocha",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🌐 Added a translated \"Chat with support\" string across many languages to support the new chat feature"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "keith/chatwoot"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/grinder",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added catalog model animations and a local review flow for catalog models"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-marketing-ai",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "daily-health",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Published the automated daily health report for 2026-11-07"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🚀 Published a maritime security story on Iran-linked ships circling undersea cable routes in the Gulf of Oman, with newsletter and Telegram alert sent",
+              "🚀 Published a NATO story on the HMS Prince of Wales-led strike group in the High North, including the Neptune Strike exercise and an F-35B intercept, and sent the newsletter",
+              "🚀 Published incident reports: a crew fatality aboard tanker Whitchallenger at Southampton, the BYB Othello grounding at the Bosphorus entrance, and the sanctioned tanker Alyssum towed to Port Said",
+              "🔧 Updated the cover image generation script's default model to a supported version to prevent failures on future runs"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "🔧 Release workflow now picks app stores per merged PR: no-android skips Google Play, no-ios skips the App Store, and no label publishes to both",
+              "🔧 Manual release runs can republish an existing release tag to selected stores",
+              "🐛 Merged the iOS support chat fix, which generates all iOS client config from local.properties",
+              "📝 Updated docs on CI retriggers, app lookup and release-type handling, on safely updating branches in Android Studio, and on iOS 26.2 runtime recovery"
+            ],
+            "Testing": [
+              "🐛 Fixed common test storage fakes to throw okio.IOException so iOS simulator tests compile, with Android behavior unchanged",
+              "🔧 Merged main into the overlay feature branch, resolving onboarding video conflicts and updating media resource tests"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 53,
+          "title": "Fix iOS support chat: generate all iOS client config from local.properties",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "feat/overlay",
+        "origin"
+      ],
+      "version": "v5.0.14"
+    }
+  ]
+}

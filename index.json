@@ -148,7 +148,8 @@
     "daily/2026-11-04.json",
     "daily/2026-11-05.json",
     "daily/2026-11-06.json",
-    "daily/2026-11-07.json"
+    "daily/2026-11-07.json",
+    "daily/2026-11-08.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -301,7 +302,8 @@
     "Lascade-Co/lascade-travel-hotels-design",
     "Lascade-Co/D3-car-ios-v2",
     "Lascade-Co/M6_TP_Flight_New",
-    "Lascade-Co/grinder"
+    "Lascade-Co/grinder",
+    "Lascade-Co/rising-searches"
   ],
   "users": [
     {

@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-08",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Spelled out TravelAnimator in the install-paid email subject",
+              "🔧 Added a reusable workflow that builds the four platform wheels (Linux x64/arm64, macOS arm64, Windows x64) in one place, so the GHCR and PyPI publishing paths share it",
+              "🔧 Pinned the bundled ANGLE graphics library by checksum for macOS and Windows, so a mismatch fails the build, and added caching of finished wheels per commit"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-db",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🐛 Made promotion single-flight and token-fenced, with a 12-hour deadline so runs cannot overlap or hang indefinitely",
+              "🐛 Capped the lifetime of every active run and paced promotion batch building to keep processing bounded"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-marketing-ai",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "daily-health",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Published the automated daily health report for 2026-11-08"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🚀 Published several maritime news stories from the Nov 8 pipeline run, including Red Sea transit permits for captains, an Indian Navy crew rescue off Somalia, a UAE cargo ship fire rescue, a cable survey vessel sailing despite a NAVTEX warning, and a South Korean Hormuz patrol shift",
+              "🚀 Published a news story on the Velos Sapphire tanker attack in the Persian Gulf, with verified sources",
+              "🚀 Published a Red Sea return story covering Evergreen's first Suez Canal transit in almost 3 years and the recovery of Asia-Europe container capacity on the Suez route",
+              "📝 Added an APL container tracking how-to guide to the content ledger as a draft"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/rising-searches",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 12,
+          "bullets": {
+            "Published": [
+              "📝 Added a README covering what the site is, why it must be handled as private data, and how the nightly page updates reach the repo",
+              "📝 Documented the hosting order: placeholder first, login protection on every deployment address, login checks, then switch to the real pages",
+              "📝 Refined the hosting steps with Cloudflare Access and Netlify guidance, stricter login checks, and an exact stop rule for the nightly job",
+              "🚀 Added a simple \"Coming soon\" placeholder page for the main branch"
+            ],
+            "Work in Progress": [
+              "🚀 Pushed automated nightly page builds, adding the full motion chart page and repeatedly refreshing the briefing page's build timestamp",
+              "📝 Iterated on README hosting guidance: protecting every deployment address, Cloudflare Access steps, stricter login checks, and the stop rule"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "live",
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

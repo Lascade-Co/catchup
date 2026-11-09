@@ -1,0 +1,570 @@
+{
+  "date": "2026-11-09",
+  "repos": [
+    {
+      "repo": "Lascade-Co/AR-Measure-IOS",
+      "developers": [
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Limited the feedback sheet to appear at most twice, with at least a week between prompts; users already asked under the old rule count as asked once",
+              "🐛 Stopped sending the onboarding_complete analytics event on first launch, since it fired for every install and carried no signal",
+              "🚀 Home screen notification bell now hides while the notifications list is empty and disappears when the last banner is removed",
+              "🚀 Added analytics for camera and notification permission refusals, logged only when the system prompt was actually shown, and extended camera tracking to the compass, decibel and light meters"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "release/3.0.1"
+      ],
+      "version": "v2.7.3"
+    },
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed a flight-related issue (\"Flight TP\") and landed it on the main branch",
+              "🔧 Added project housekeeping such as ignore rules for local tooling and build artifacts"
+            ],
+            "Work in Progress": [
+              "♻️ Removed the \"invert\" flag and the on-demand city lookup from hotel and car autocomplete requests, simplifying the search flow",
+              "⚡ Reworked the search loader animation so the bar exits in one smooth leftward pass instead of slowing down and then squeezing",
+              "🚀 Included the country code in the email",
+              "🐛 Continued work on the flight issue fix"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 120,
+          "title": "feat:Flight TP issue fixed",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-Flight-Android",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Added CI workflows that dispatch debug builds for pull requests and release builds for main/release pushes to a central build repository",
+              "🔧 Set up project scaffolding with ignore rules for local and credential files, plus secrets-manager configuration",
+              "📝 Added a flight result data guide describing what search result fields can be shown in the results list and detail screens, with coverage stats and a worked example"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "compose"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/drivelicense-web",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Set up a vinext hello-world starter app",
+              "🔧 Added a Cloudflare deploy workflow for the project"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-db",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed the rolling refresh scheduler so only successful complete and multi-destination runs count as attempts. A failed full run no longer marks every destination as attempted and skips the initial pass.",
+              "🔧 Extended the steady-state refresh rotation from 60 to 90 days, so each destination is attempted about once every three months. Docs and tests were updated to match.",
+              "✅ Added tests for the initial pass after unsuccessful runs, failed singleton attempts, and oldest-first selection in steady state.",
+              "🐛 Changed promotion to run in 50-plan batches so it fits within the 256 MB production worker memory limit. Merged the dev branch, with the crawl unblock, rolling one-destination refresh, backoff, retry and pruning work, into main."
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 11,
+          "title": "fix: crawl every destination back to back first, then a 90-day rotation",
+          "author": "Shaan-Shoukath"
+        },
+        {
+          "number": 10,
+          "title": "fix: unblock the crawl; rolling one-destination refresh; last-observed-wins; backoff/retry/pruning",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-helper",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Exposed deferred price queries for plans, keeping compatibility with the legacy loading behavior"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "⚡ Sped up the homepage by deferring discovery work and trimming client-side translations",
+              "⚡ Rendered static homepage sections on the server and deferred loading of the command palette",
+              "⚡ Reduced homepage font, image and startup downloads",
+              "🚀 Merged the performance optimization work into the main branch via PR #144"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 145,
+          "title": "perf: defer homepage discovery work and trim client translations",
+          "author": "rebin03"
+        },
+        {
+          "number": 144,
+          "title": "Performance optimization",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotels70-web",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Fixed analytics so tracked events are tagged with the landing page variant for the split test",
+              "🐛 Forced dynamic rendering for the classic arm of the places split test",
+              "📝 Updated the split-test dashboard docs with steps for fetching GA4 data, data-access caveats and the daily query shape",
+              "🔧 Added a local tooling folder to the ignore list"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "main"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m8wf-lowfareflight",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Updated the example environment file: reorganised variables, added default app title and name, and renamed the ads API settings to the inline ads naming"
+            ]
+          }
+        },
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Shipped the initial release of the low-fare flights Next.js web app, merged from dev to main",
+              "🚀 Added locale-aware routing with a home page, SEO metadata, and static pages (About, Privacy Policy, Cookie Policy, Terms & Conditions)",
+              "🔧 Set up project scaffolding: shared flight-helper submodule, environment template, gitignore, global theming styles, and README",
+              "🚀 Wired in cookie consent, privacy consent, user handling, and ad platform script tags in the root layout"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 1,
+          "title": "Release: Initial",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "⚡ Sped up the ship search endpoint by detecting the query type (IMO, MMSI or name) and using a matching database fallback lookup",
+              "♻️ Moved the search-type detection and fallback query logic into shared utilities",
+              "🔧 Added per-stage timing logs to the ship track endpoint (database, cache, upstream, processing) with a warning on slow responses",
+              "🔧 Raised the slow-serialization warning threshold on search to cut log noise"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "perf/ship-endpoint"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "♻️ Cleaned up unused imports on the info settings page and triggered a rebuild"
+            ],
+            "Testing": [
+              "♻️ Removed a redundant null check in the popular ships lookup of the autocomplete controller",
+              "🔧 Resolved a merge conflict, bringing in project config, CI build trigger workflows, and tooling files"
+            ],
+            "Work in Progress": [
+              "⚡ Tuning the map tile prefetch zoom delta to reduce prefetching"
+            ]
+          }
+        },
+        {
+          "login": "Angelrose19",
+          "name": "Angel Rose",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "⚡ Merged the dex optimization PR, which also includes SF Pro font optimization"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 301,
+          "title": "rebuild trigger",
+          "author": "AdarshLascade"
+        },
+        {
+          "number": 300,
+          "title": "Ps/dex optimization + SF Pro font optimization",
+          "author": "AdarshLascade"
+        },
+        {
+          "number": 298,
+          "title": "Ps/ai assistant + chatwoot + crash fixes",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "origin",
+        "ps/map-fixes",
+        "ps/subscription-cancel-widget"
+      ],
+      "version": "debug-pr-301"
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Published a story on CMA CGM's $35/TEU war risk surcharge for Black Sea ports, effective November 9 (December 1 for some regions)",
+              "🚀 Published a story on IRGC strikes on three tankers near the Strait of Hormuz, backed by two confirmed sources",
+              "🚀 Published two stories on the US disabling the M/V Huda in the Gulf of Oman for breaching the Iran naval blockade",
+              "📝 Flagged for manual review that the two Huda posts cover the same event, so one should likely be removed"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/motwr",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Updated the native Edge TTS handshake to v2 to fix text-to-speech connectivity"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": "v0.3.0"
+    },
+    {
+      "repo": "Lascade-Co/mtwr-autopiolet",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 35,
+          "bullets": {
+            "Published": [
+              "🚀 Built the MTWR autopilot end to end: project scaffold, brief schema and copy checks, geocoding and routing chain, check-in DB with legacy import, render pipeline, and the mrap CLI",
+              "🚀 Added the /mrap skill and a --rerender option to regenerate rendered or published routes, plus ta-render assets, an HD render template and an updated export configuration",
+              "🐛 Hardened the pipeline: atomic final video output, DB commits only on main, cleanup on SIGTERM and timeouts, per-step timeouts, non-interactive git, and clearer CLI errors",
+              "🐛 Fixed routing and data issues: skip far alternative geocode hits, drop stale failing index, strip invisible Unicode characters from model names, remove unused vehicle entries, and keep API keys out of config output"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/react-email-templates",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Updated the Discount70 daily-v1 email hero section to use a background image (work still in progress)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/rising-searches",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "📝 Updated the README to state that main is the only branch and documented the Cloudflare Access setup for protecting the hosted site",
+              "🚀 Merged the live branch into main, bringing in the README, the daily rising-searches briefing page, and the full motion chart page"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/tasks",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 10,
+          "bullets": {
+            "Published": [
+              "🚀 Added bulk task editing, saved view filters and project task types, plus improved assignment views",
+              "🚀 Added workspace reporting, easier task creation, rich-text task descriptions and project attachments",
+              "♻️ Refined the board and task views: new board layout, a \"New work item\" button per column, workspace navigation and pinned task properties",
+              "🚀 Added task due dates and priority, and on-demand task detail loading for dialogs",
+              "✅ Grouped consecutive description saves in the activity log, with tests, and aligned filter tests with hydration-safe markup",
+              "📝 Documented Tasks and MCP setup, and shipped the initial Tasks web app and MCP server"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-analytics-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🔧 Upgraded dependencies to address known vulnerabilities",
+              "🐛 Preserved the original upload time for Google and Bing CSV uploads"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "conversion-api-integrations"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-lp",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "Varsha Shaheen",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed SEO handling by reading the models list as a single snapshot, improving consistency for sitemap generation",
+              "🐛 Stopped model metadata from being cut off in SEO output"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 229,
+          "title": "fix(seo): read the models list as one snapshot; stop cutting model me…",
+          "author": "Iamfasna"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "🚀 Added an \"Apply to all\" toggle on the point editor's Models tab so every stop except the destination can take the picked models in a single undo entry, with routing segments kept, regenerated or removed as needed",
+              "🚀 Preview timeline edges now snap to the playhead, and a picked title stays visible past its entrance",
+              "🐛 Smoothed heading for every convoy node, not just the leader, with seek replay rebuilding the same history",
+              "🐛 Fixed title redraws, My Clip saves and Text timeline positions in Preview, and made a flaky My Clip test and the iOS Preview layout tests match the current behaviour"
+            ]
+          }
+        },
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "♻️ Merged the overlay branch into the What's New branch, resolving conflicts across the Preview hosts, debug flags, test host and analytics events",
+              "🐛 Renamed a redeclared iOS Preview layout test that broke iOS test compilation after the merge",
+              "📝 Recorded the merge gate results and post-merge checks in the docs",
+              "♻️ Merged 87 overlay commits into the onboarding scene feedback branch, moving its checklist items into the working plan"
+            ]
+          }
+        },
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Discontinued the ta-video Claude Code plugin after it recorded no installs, removing its sources, release script, architecture doc and glossary terms while keeping the ta-render CLI"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 38,
+          "title": "Feat/overlay",
+          "author": "Vivek-4321"
+        }
+      ],
+      "branches": [
+        "feat/onboarding-scene-feedback",
+        "feat/whatsnew",
+        "origin"
+      ],
+      "version": "v5.0.15"
+    }
+  ]
+}

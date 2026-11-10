@@ -1,0 +1,854 @@
+{
+  "date": "2026-11-10",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added ad spend tagging for the Patrol and Treasure Hunch Meta web campaigns, so they no longer fall into Unattributed",
+              "✅ Matching uses a prefix match with a whole-word fallback, and comes with tests"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": null,
+          "name": "Antony Mathew",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "🚀 Made the app land on the AR measuring camera as its home screen, with a glass-style top bar and a side unit wheel",
+              "🚀 Added a swipe-to-dismiss promo banner that points users to the construction calculator tool",
+              "🚀 Added a notifications list behind a bell, with saved state so dismissed banners don't return and an unread count",
+              "🔧 Added a fallback to the project list on phones without AR support, and fixed a view reference to settle the lint gate"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "octopoocha",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "♻️ Applied an automated lint fix that marks decorative images in the measure tutorial layout as not important for accessibility, so screen readers skip them"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "antony/development"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-IOS",
+      "developers": [
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 7,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added a Free vs Pro comparison page in Settings, with features grouped under Measuring, Tools and Projects and limits spelled out for limited features",
+              "🚀 Added an Upgrade Now button on the comparison page that opens the paywall with its own tracking source, plus a gem icon for the Free vs Pro row",
+              "♻️ Reworked the Guided calculator into a list of solutions that open as forms in a sheet, sending answers to the Classic calculator and removing the second keypad",
+              "🔧 Hid What's New in Settings until it has the new UI, and bumped the app version to 3.0.2 (build 126) after 3.0.1 (build 125), which also added project config and agent guidance files"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "release/3.0.1",
+        "release/3.0.2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-car-ios-v2",
+      "developers": [
+        {
+          "login": null,
+          "name": "Akash Kottil",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the dev branch into main, bringing in the initial iOS project setup (Xcode project with app, unit-test and UI-test targets)",
+              "🔧 Added dependencies for networking, image loading, Firebase (analytics, auth, crash reporting, messaging), Google Sign-In and Facebook SDKs",
+              "🔧 Added a comprehensive .gitignore, with credentials kept out of version control via a local config template"
+            ],
+            "Work in Progress": [
+              "🐛 Reworked the collapsed car result card so the car name leads, with the rental category on the second line (falling back to the body type when no category exists)"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added a custom web header and fixed the white blank space on the detail screen"
+            ],
+            "Work in Progress": [
+              "🚀 Continued work on the custom web header and detail screen blank space fix"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 121,
+          "title": "feat:Custom web header and detail screne white blank space updated",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-Flight-Android",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 9,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added \"Airline\" and \"Lowest price\" badges to deal rows on the flight details screen, with the cheapest price shown in green and only one deal per flight marked as cheapest",
+              "🐛 Fixed bag and amenity details: bag allowance is now read from the provider offer, the checked and carry-on counts are handled separately, and labels like \"1 checked bag (Included)\" are shown correctly",
+              "🐛 Fixed analytics screen-view events for the results page, filter sheet and modify-search sheet, so each is logged once in the right order, and renamed the details screen route",
+              "🔧 Added translations for the new details and provider hand-off strings across all supported languages, and updated the web view toolbar to take configurable colours with a white bar for the provider page"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "compose"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-flight-ios-v2",
+      "developers": [
+        {
+          "login": null,
+          "name": "Akash Kottil",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Merged dev into main, shipping the iOS 27 tab bar fix, re-enabled Stays and Rental tabs, and fare amenities on the flight detail screen"
+            ],
+            "Work in Progress": [
+              "🚀 Added an Available Amenities card to flight detail, showing included, fee-based and unavailable amenities from fare data for the cheapest deal",
+              "🚀 Added an info icon on each deal price that opens a fare-details popup with the fare name, price and amenities",
+              "🐛 Fixed tab bar labels being pushed off-screen on iOS 27 by correcting safe-area handling",
+              "🔧 Re-enabled the Stays (hotel) and Rental verticals in the tab bar"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d2-web-car-v2",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed crawl and indexing signals for 404 and action pages (merged PR #84)",
+              "🔧 Triggered a deployment"
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Updated the car-helper submodule, including a user agent override and a fix noted in the commit message"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 84,
+          "title": "Fix crawl and indexing signals for 404 and action pages",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/daily-email-digest-actions",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added translation of low-star review titles and bodies, using Gemini with retries and a Cloud fallback",
+              "🚀 Survey feedback now keeps short responses intact, merges translated distribution options, and shows source or failure notes in the digest",
+              "✅ Added isolated manual service checks and offline render fixtures for the translation flow"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/drivelicense-web",
+      "developers": [
+        {
+          "login": "VarshaShaheen",
+          "name": "VarshaShaheen",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Launched the DriveLicense landing page with a hero and app mockup, features, interactive sample questions, course roadmap, mock exam, regions, languages, FAQ and download call-to-action",
+              "📝 Added a privacy policy covering on-device storage, AdMob ads, the lifetime purchase and RevenueCat",
+              "🔧 Added app-ads.txt to support AdMob verification",
+              "🚀 Store buttons show \"Coming soon\" until links are set, and the site uses self-hosted fonts from the app; the work was merged via the deploy PR"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 2,
+          "title": "Add app-ads.txt for AdMob verification",
+          "author": "VarshaShaheen"
+        },
+        {
+          "number": 1,
+          "title": "Add DriveLicense landing page and privacy policy",
+          "author": "VarshaShaheen"
+        }
+      ],
+      "branches": [
+        "deploy",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-db",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🐛 Merged a fix that bounds worker memory usage by processing data in chunks",
+              "⚡ Count recomputation now happens on the WHERE side of the query"
+            ],
+            "Work in Progress": [
+              "🐛 Bounding memory use by chunk across the crawl, validation and prune steps",
+              "⚡ Moving count recomputation to the WHERE side of the query"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 12,
+          "title": "fix: bound worker memory by chunk; WHERE-side count recompute",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotel-helper",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the inline hotel ads feature into main, adding ad fetching that prefetches hotel ads when a valid city and search dates are entered",
+              "🔧 Added shared Next.js utility setup: project config, ignore rules, and a README covering installation, usage and API reference",
+              "🚀 Added reusable components for ad and analytics platform scripts (Google, Facebook, Clarity, Microsoft, Twitter, TikTok), app control, client-only rendering and a footer page template"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-marketing-ai",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "daily-health",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Published the automated daily health report for 2026-11-09"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M1_hotel_android",
+      "developers": [
+        {
+          "login": "Ashiiq666",
+          "name": "ashiiq666",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Fixed edge-to-edge layout issues after targeting SDK 36, adding shared system bar and keyboard inset handling across activities",
+              "♻️ Replaced direct status bar colour usage with a compat helper in all activities and fragments",
+              "🔧 Adjusted the main screen to use light system bars and top-only insets, so the navigation bar no longer turns grey in dark mode",
+              "🐛 Tuned individual screens: hotel details hero image now sits behind the status bar, plus spacing and webview padding fixes"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m4-web-car",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added a destination search hint across desktop and mobile layouts"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 79,
+          "title": "Add destination search hint for desktop and mobile",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m4-web-flight",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added helpful hints to flight search autosuggest, including a minimum-characters prompt",
+              "🐛 Fixed flickering of autocomplete results while typing"
+            ],
+            "Work in Progress": [
+              "🚀 Prepared a release bundling UI fixes, a calendar fix, the 3-letter search hint, and an updated provider logo list"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 38,
+          "title": "Release: UI fixes, Calendar fix, 3 letter hint, Provider logo list update",
+          "author": "Lascadesevices"
+        },
+        {
+          "number": 37,
+          "title": "Add flight search hints and prevent autocomplete result flicker",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m4h-web-hotel",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added a hint to the destination search telling users to enter at least three letters",
+              "♻️ Updated the hotel helper to support the new destination search hint"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 54,
+          "title": "Add three-letter destination search hint and update hotel helper",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m8-android-hotel",
+      "developers": [
+        {
+          "login": "lascadeansal",
+          "name": "ansal",
+          "commit_count": 5,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Upgraded Gradle, Android Gradle Plugin, Kotlin and most libraries to latest stable versions, including Firebase, Retrofit, OkHttp, Glide, Room and Hilt, with the related build and code migrations",
+              "🐛 Fixed system bar insets for Android 16 edge-to-edge enforcement so the status and navigation bars no longer overlap screen content",
+              "🔧 Removed the unused ExoPlayer dependency and dropped the explicit NDK ABI filters from the build config",
+              "🚀 Changed the destination autocomplete request behaviour in the stays search"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m8wf-lowfareflight",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Merged an update to the logo list (PR #2)"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 2,
+          "title": "Logo list update",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "main",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-api",
+      "developers": [
+        {
+          "login": "AdarshLascade",
+          "name": "AdarshLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "⚡ Merged performance improvements to the ship endpoint"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 83,
+          "title": "Perf/ship endpoint",
+          "author": "AdarshLascade"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed container tracking UI issues: the app now draws edge-to-edge with transparent status and navigation bars, and icon brightness follows the light or dark theme",
+              "🐛 Fixed the no-internet state on the ship details page so it fills the screen without extra nesting",
+              "♻️ Tidied the container credits paywall sheet with formatting cleanups and focus handling",
+              "🐛 Fixed product loading so products are fetched first"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/perf-fixes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Published news stories on maritime incidents, including a pianist rescue, the Villa Vie arrest and the AGIOI FANENDES diversion",
+              "🚀 Published a report on the USS Theodore Roosevelt leaving Singapore for the Gulf, with sources and vessel tracking context",
+              "🚀 Published coverage of two boat disasters south of Crete that left 22 migrants dead after a Libya crossing",
+              "🚀 Published a report on oil prices dropping after news of a reported Hormuz deal offer, with related-post links and newsletter and Telegram notifications"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/n4wh-hotelvisit",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🚀 Added a localized hint to the destination search field",
+              "🔧 Updated the hotel-helper submodule to the latest merged main version"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/destination-min-chars-hint"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Shipped feedback-email translation for reviews and surveys, with retry handling and a cloud fallback, plus English issue titles in the daily issues digest",
+              "🚀 Survey translation now covers all answers, adds source-language labels, handles filter failures gracefully and reports translation failures",
+              "✅ Added regression cases and isolated test helpers, and pinned the Spanish translation test to a verified row with a timestamp guard",
+              "📝 Documented translation decisions, the SEO bookmark review and build plan for approved checks, and archived handoff notes"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/react-email-templates",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added initial scaffolds for six new email templates: M1, M4, M8, HotelSnap, D2 Flight and Discount70"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 33,
+          "bullets": {
+            "Published": [
+              "⚡ Cut the Worker bundle and cold-start cost by dropping the OG image library and generated GraphQL routes, and returned stale page-cache hits before their re-render starts",
+              "⚡ Sped up first paint and load: trimmed unused Tailwind sources, split translations and the currency menu into on-demand chunks, deferred below-the-fold art, and served home hero art from the site with smaller AVIFs",
+              "🐛 Fixed LCP being lost to the first-page fade-in, the flag row overlapping cards on phones, and a wrong currency label in destination search",
+              "🔧 Closed a broad set of security audit findings across the CMS and checkout: tightened roles, draft and preview access, publish and unpublish rights, uploads, CSRF origins, cache keys, checkout input handling, and payment return URLs"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 92,
+          "title": "Release: home page speed, cold-start cuts and security audit fixes",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 91,
+          "title": "Home page speed, cold-start cuts and security audit fixes",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 90,
+          "title": "Release: remove the front Worker",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 89,
+          "title": "Remove the front Worker",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 88,
+          "title": "Release: front Worker for cached pages",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 87,
+          "title": "Hold Smart Placement back until the front Worker is live",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 86,
+          "title": "Fix the staging deploy: plain JSON in wrangler.jsonc",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 85,
+          "title": "Serve cached pages from a small front Worker",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 84,
+          "title": "Release: page speed fixes and D1 redirects",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 83,
+          "title": "Page speed: lighter home art and scripts, faster Worker start, /esim fixes",
+          "author": "Riyaaaaan"
+        }
+      ],
+      "branches": [
+        "chore/security-audit",
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/TA-daily-issues-digest",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Updated the clustering prompt to require English issue titles"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/tasks",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Added email sign-in and Slack notifications for project updates",
+              "🚀 Enabled creating tasks directly from assignment views",
+              "⚡ Reduced the number of activity writes to cut unnecessary overhead",
+              "🚀 Added an All My Tasks view and social branding"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-analytics-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the Conversion API integrations work into the main branch"
+            ],
+            "Testing": [
+              "🔧 Upgraded vulnerable dependencies to address security issues",
+              "🚀 Added workflow dispatch with preset triggers and a trigger form",
+              "🔧 Restricted permissions for triggering custom workflows"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 63,
+          "title": "Conversion API Integrations",
+          "author": "mhdbk"
+        }
+      ],
+      "branches": [
+        "github-workflow-dispatch-feat",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 4,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed localization issues: replaced wrong-language copy in the Czech and Filipino resources and corrected paywall labels that called monthly plans \"weekly\" across many locales",
+              "✅ Added locale integrity tests that reject neighbour-language copy, foreign scripts and non-monthly labels on monthly plans, and updated related parity tests",
+              "✅ Re-recorded the Arabic and Japanese billing screenshot references affected by the monthly plan label change",
+              "📝 Recorded the plan, test baseline and review/gate results for the locale integrity work"
+            ]
+          }
+        },
+        {
+          "login": "rahul028",
+          "name": "rahul028",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "🔧 Updated the Journey AI model from gemini-2.5-flash to gemini-3.5-flash-lite",
+              "✅ Updated the Journey AI test case to match the model change",
+              "♻️ Remapped the SULEIMAN and AMINA values to FOLLOW and LEAD"
+            ]
+          }
+        },
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🐛 Debug Clean Mode now defaults to on when no choice has been stored"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/onboarding-scene-feedback",
+        "fix/locale-integrity",
+        "journeyAiModelUpdate"
+      ],
+      "version": "debug-pr-62"
+    }
+  ]
+}

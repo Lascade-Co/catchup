@@ -1,0 +1,719 @@
+{
+  "date": "2026-11-11",
+  "repos": [
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Added CI workflows that dispatch debug builds for pull requests and release builds for main/release pushes to a central build repo",
+              "🔧 Added a workflow to trigger Play Store publishing when a non-prerelease is published",
+              "🔧 Added a scheduled daily job that deletes debug releases and tags older than 4 days",
+              "📝 Added project setup docs and ignore rules covering local secrets, keystores and stray large files"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "antony/development"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-IOS",
+      "developers": [
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 6,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Fixed a black screen when opening a photo from the camera home; the preview now reads from the tapped item's own project",
+              "🐛 Restored photo saving in the decibel tool, with photos now cropped to fill instead of stretched",
+              "🐛 Fixed back navigation so returning from a project, folder, or tool reopens the right home sheet",
+              "🚀 Redesigned Settings with a frosted glass look, a Free vs Pro card, in-place pickers, and working purchase restore; added analytics for system screenshots by screen and plan"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "release/3.0.2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Updated the Facebook SDK dependency to the latest version 19"
+            ],
+            "Work in Progress": [
+              "🔧 Ongoing work on the Facebook SDK dependency update to version 19 on a separate branch"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 122,
+          "title": "feat:FB dependency updated to latest 19",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d1ah-hotels70",
+      "developers": [
+        {
+          "login": "Ashiiq666",
+          "name": "ashiiq666",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed the release build failing in R8 minification by adding rules for compile-time-only classes pulled in by the Snap CAPI SDK",
+              "🔧 Kept the Snap CAPI model classes from being renamed or stripped in release builds, preventing malformed Snap events",
+              "🔧 Updated the secrets export template to point to the production environment",
+              "♻️ Removed Expedia and Hotels.com from the loader screen, and made minor build script formatting cleanups"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 34,
+          "title": "Fix release R8 build and keep Snap CAPI models",
+          "author": "Ashiiq666"
+        },
+        {
+          "number": 33,
+          "title": "dev",
+          "author": "Ashiiq666"
+        },
+        {
+          "number": 32,
+          "title": "Removed expedia and hotels.com from LoaderActivity.kt",
+          "author": "Ashiiq666"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": "3.0.18"
+    },
+    {
+      "repo": "Lascade-Co/D2-Flight-Android",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Added CI workflows that dispatch debug builds for pull requests and release builds for main/release pushes to a central build repo",
+              "🚀 Merged the Compose work (PR #56) into main, bringing in the project's initial setup and configuration files",
+              "📝 Added a flight result data guide describing what search results can show, such as baggage, amenities, and booking options",
+              "🔧 Incremented the app version code"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 57,
+          "title": "change: increment version code",
+          "author": "AjinLascade"
+        },
+        {
+          "number": 56,
+          "title": "Compose",
+          "author": "AjinLascade"
+        }
+      ],
+      "branches": [
+        "origin",
+        "version-fix"
+      ],
+      "version": "1.9.0"
+    },
+    {
+      "repo": "Lascade-Co/D2-hotel-android",
+      "developers": [
+        {
+          "login": "Ashiiq666",
+          "name": "ashiiq666",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "📝 Added a README to the project",
+              "🔧 Merged the native design branch into main, bringing in the Android project setup with a .gitignore and Gradle dependency catalog configuration"
+            ],
+            "Work in Progress": [
+              "🐛 Fixing the string conversion for calendar counts"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "native_design",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/d2-web-car-v2",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Merged a release PR from the dev branch, bundling SEO fixes, language filtering, and session keepalive, among other changes"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 85,
+          "title": "Release: SEO fixes, language filtering, session keepalive and more",
+          "author": "Lascadesevices"
+        }
+      ],
+      "branches": [
+        "main"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Added a localized travel data usage calculator",
+              "🐛 Made network lists on the plan page consistent",
+              "⚡ Reduced the amount of data downloaded on initial plan page load and merged the change to main"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 147,
+          "title": "data calculator",
+          "author": "rebin03"
+        },
+        {
+          "number": 146,
+          "title": "perf: reduce initial plan page downloads",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/gocheap_tp_d3",
+      "developers": [
+        {
+          "login": "AjinLascade",
+          "name": "ajinLascade",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added an in-app review prompt for Android and iOS, shown after a few searches are handed off to a supplier and kept separate from the Profile tab's store-listing link",
+              "📝 Wrote a README covering setup, running the apps, testing the rating prompt on each platform, and how credentials and Firebase config are handled",
+              "🔧 Set up the Kotlin Multiplatform project with Android build configuration, Travelpayouts flight SDK integration and Firebase, with per-environment values read from git-ignored local config",
+              "🔧 Added a .gitignore that keeps local config, generated iOS secrets and Firebase config files out of version control"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/HotelSnap-E2",
+      "developers": [
+        {
+          "login": "lascadeansal",
+          "name": "ansal",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Restored the USD currency parameter and randomised value on the registration event logging, with separate value ranges for iOS and Android"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-marketing-ai",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "daily-health",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "📝 Published automated daily health reports for 10 and 11 November 2026"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/M1_hotel_android",
+      "developers": [
+        {
+          "login": "Ashiiq666",
+          "name": "ashiiq666",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Merged the dev branch into main, bringing in the project's Android Studio setup, ignore rules and related configuration files"
+            ],
+            "Work in Progress": [
+              "🐛 Working on a fix for a loading indicator issue; the available diff only shows project setup files, so the details of the fix are not clear"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m4-web-car",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Merged a release PR from develop that adds a 3-letter hint feature",
+              "🔧 Included package upgrades in the same release"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 80,
+          "title": "Release: 3 letter hint, package upgrades",
+          "author": "Lascadesevices"
+        }
+      ],
+      "branches": [
+        "main"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m4h-web-hotel",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Merged the dev branch release, which adds a 3-letter hint and updates a submodule"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 55,
+          "title": "Release: 3 letter hint and submodule update",
+          "author": "Lascadesevices"
+        }
+      ],
+      "branches": [
+        "main"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Published maritime news stories, including the SS United States being sunk as the world's largest artificial reef and an ADNOC UAE attack report, with newsletter and Telegram notifications sent",
+              "📝 Published a Turkey NAVTEX story about the vessel Abeille Marengo",
+              "🔧 Updated the publishing ledger so the pipeline does not re-publish the vessel story on its next run",
+              "📝 Added a travel-map how-to guide (draft) to the travelanimator content hub index"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/motwr",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Added a black outline to the title block so it stays readable on bright maps"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 4,
+          "title": "fix: give the title block a black outline so it reads on bright maps",
+          "author": "cherian"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/mtwr-autopiolet",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "Cherian Thomas",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🔧 Removed electric car models, documented the single-runner rule, and made setup fixes",
+              "🚀 Published route 300 and recorded its rendered output in the database"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 1,
+          "title": "chore: drop electric car models, document single-runner rule, setup fixes",
+          "author": "cherian"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/n4wh-hotelvisit",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added a hint to the destination search field and updated the hotel-helper"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 22,
+          "title": "Add destination search hint and update hotel-helper",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "📝 Flagged a live redirect loop between two MarineRadar vessel URLs as high priority in the latest SEO report's executive summary, with a follow-up handoff",
+              "✅ Updated the SEO content ledger test so the boat-tracker survivor check accepts any non-superseded status, not just open",
+              "🐛 Fixed SEO parsing so complete tier-one titles and descriptions are captured"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 9,
+          "bullets": {
+            "Published": [
+              "⚡ Cut render-blocking CSS on content pages by removing unused ported theme rules and moving single-template rules into their own stylesheets, shrinking the critical payload by roughly a third",
+              "⚡ Sped up destination pages: ship the stylesheet once instead of twice and link the plan picker and streamed component styles up front in the document head",
+              "⚡ Served destination hero art as AVIF, shrank the app icon, and loaded the first blog cover early with phone-sized hero images",
+              "🔧 Reverted the inlined-stylesheet experiment after it enlarged the HTML and lowered the home page Lighthouse score, and kept the /esim hero improvement"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 100,
+          "title": "Release: mobile performance (LCP images, destination CSS, AVIF heroes, slimmer ported CSS)",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 99,
+          "title": "Link the destination's streamed stylesheets from the segment layout",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 98,
+          "title": "Mobile performance: LCP images, destination CSS, AVIF heroes, slimmer ported CSS",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 97,
+          "title": "Stop inlining stylesheets",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 96,
+          "title": "Stop inlining stylesheets",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 95,
+          "title": "Faster /esim hero image and inlined CSS",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 94,
+          "title": "Stop the Link header preloading the inlined stylesheet",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 93,
+          "title": "Faster /esim hero image, and a trial of inlined CSS",
+          "author": "Riyaaaaan"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin",
+        "perf/esim-hero-lcp",
+        "perf/lcp-images",
+        "perf/revert-inline-css"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Merged upstream changes into a working branch, bringing in the project scaffolding: Docker ignore rules, a sample environment config, and CI workflows for central Docker builds and PR-comment branch deploys",
+              "📝 Added project documentation and a sample env file covering the ingestion framework, Celery, currency conversion, price alert webhooks and organic route page settings"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/tasks",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "📝 Published the Tasks product guides and added section search to the docs",
+              "🚀 Added project task editing controls and task filters",
+              "🚀 Added work item transfers, plus shared previews served at the original task URL and short task links with Kanban previews",
+              "🔧 Simplified project access with organization-only invitations and admin-only project settings, and added comment mentions with highlighted notifications",
+              "♻️ Switched task details to searchable pickers"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-analytics-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Added a ClickHouse sync trigger that runs when a report is settled"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "github-workflow-dispatch-feat"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "MushfiqHumayoon",
+          "name": "mushfiq",
+          "commit_count": 16,
+          "bullets": {
+            "Testing": [
+              "🚀 Translated 138 preview, export and QuickShot strings plus 35 Settings strings across all 30 locales",
+              "🐛 Fixed English left in locale files, wrong Close and Get Pro translations, and truncated Settings subtitles",
+              "♻️ Moved about 75 hardcoded UI texts and accessibility labels into translated string resources, including location row roles",
+              "✅ Added guards for complete translations, format arguments, untranslated English and hardcoded UI text, with localization docs updated"
+            ]
+          }
+        },
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 15,
+          "bullets": {
+            "Testing": [
+              "🚀 QuickShot templates: shown as Template on Home, opened in the grid with name and Use template on each card, and removing one clears its route from the map",
+              "🚀 Preview: greyed Template tab once a template is used, no Try now after use, restored the release-style export gate dialog and sheet",
+              "🚀 Added video now replaces a QuickShot placeholder clip, with an Add Clip hint on each placeholder",
+              "🐛 iOS and Preview fixes: drag ghost and touch areas align with badges, keyboard no longer resizes the map, saved media paths survive app container moves, My Clip video decoding moved off the main thread"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/onboarding-scene-feedback",
+        "fix/locale-integrity-pr2",
+        "fix/locale-integrity-pr3",
+        "fix/locale-integrity-pr4",
+        "fix/overlay"
+      ],
+      "version": "debug-pr-69"
+    },
+    {
+      "repo": "Lascade-Co/travel-tools",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Made the routes-ingest CPU limit configurable through an environment setting, keeping the default at 1.0 CPU"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "mixedroutes"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/visaless-web",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 4,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added a dataset generation pipeline that produces places and country data files",
+              "🚀 Popular destinations sheet now supports personalized access results",
+              "🚀 Added swipe-to-dismiss for mobile bottom sheets and improved responsive tables"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    }
+  ]
+}

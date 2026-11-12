@@ -1,0 +1,712 @@
+{
+  "date": "2026-11-12",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": null,
+          "name": "Rohit T P",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "🐛 Improved iOS review submission handling: pending page reviews now carry into replacement submissions, and the oldest pending review is replaced when Apple's review capacity is full",
+              "🐛 Made the iOS release flow resume the exact App Store version after version-creation conflicts",
+              "🔧 Improved iOS status reporting and diagnostics by identifying items occupying review slots, showing active review submissions, and including App Store version states in read-only diagnostics",
+              "🐛 Surfaced nested Apple review validation errors in reports for clearer failure details"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": null,
+          "name": "Antony Mathew",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🚀 Added the new camera-access sources to support a camera-first app launch",
+              "🔧 Added CI workflows to request central debug and release builds, trigger Play Store publishing on releases, and clean up old debug releases daily",
+              "🔧 Added project setup files including build configuration, ignore rules and a README with local secrets setup steps",
+              "🚀 Updated onboarding views"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "antony/development"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-IOS",
+      "developers": [
+        {
+          "login": "naumshaz",
+          "name": "naumshaz",
+          "commit_count": 6,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added a share button beside the shutter in the decibel camera view, sharing the captured image with readings through the share sheet",
+              "🐛 Added start and pause controls beside the shutter so measuring can be controlled while the camera is on",
+              "🐛 Updated pre-permission screens to use Continue (or Open Settings when the camera was refused) to address an App Review rejection",
+              "🔧 Moved all paywall triggers to the new placements and re-exported the offline fallback paywall for the newer SDK, fixing a misnamed placement that broke the modes upgrade banner"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "release/3.0.2"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/Chatwoot-digest",
+      "developers": [
+        {
+          "login": "Iamfasna",
+          "name": "Iamfasna",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added the initial daily support digest: pulls the last 24 hours of Chatwoot conversations and messages per app, then builds a Claude-written summary of reported issues and unresolved conversations, with a CSV of all messages attached",
+              "🔧 Added a scheduled GitHub Actions workflow that sends reports for IST and Pacific audiences, with time-zone checks, once-per-day guards, manual dry-run and test options, and a Gemini fallback if the Claude CLI fails",
+              "🔧 Added per-app configuration with inbox selection, recipients, send hour, time zone and product context, plus optional masking of user identity in the CSV and email",
+              "📝 Added a README covering setup, required secrets and local usage, and an example environment file"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Updated user creation flow and landed the initial project setup for the Hotels70 iOS app",
+              "🔧 Set up the Xcode project with a Top Picks widget extension, analytics, sign-in and image/networking dependencies, plus ignore rules for local build and tooling files"
+            ],
+            "Work in Progress": [
+              "🚀 Continued work on the user creation update on a branch without an open PR, with the same project and widget setup"
+            ]
+          }
+        },
+        {
+          "login": "imadibrahimk",
+          "name": "imadibrahimk",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Moved environment configuration and Firebase settings out of the source code into a central secrets manager, with separate Debug and Release setups",
+              "🔧 Added a script that generates per-configuration config files at build time and a build step that copies the right Firebase file into the app",
+              "🔧 Updated the widget bundle ID, added a shared Release scheme and quieted the Debug console output",
+              "📝 Documented the post-clone setup steps for fetching secrets"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 123,
+          "title": "feat:User creation updated",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin",
+        "prod"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the dev branch into main, bringing in the initial Flutter eSIM app project setup",
+              "🔧 Added CI workflows that trigger central debug builds on pull requests and release builds on pushes to main",
+              "📝 Added project docs and conventions, including agent guidance, design context and coding best-practice rules",
+              "🔧 Configured repo tooling: pinned Flutter version, SDK submodule, editor launch configs, and ignore rules for signing files and environment configs"
+            ],
+            "Work in Progress": [
+              "🚀 Added a currency selector to the home header",
+              "🚀 Added status filter chips to the order history screen",
+              "🐛 Fixed the support email link so spaces are encoded correctly",
+              "🔧 Removed the Patrol dependency to fix a release build issue, and fixed stale tests, plus merged cart state recovery work into dev"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 93,
+          "title": "Dev",
+          "author": "sajithlascade"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": "debug-pr-93"
+    },
+    {
+      "repo": "Lascade-Co/esim-db",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🚀 Added a buy link to plans that points to the brand's destination-specific page",
+              "🐛 Added pagination to the compare view and limited embedded provider links to those relevant to the destination"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim_airalo",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "risal-ea",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Added a country-to-currency mapping and now use the device region to choose the default currency"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotels70-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Triggered a deployment run from a branch with no open PR"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "main"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-marketing-ai",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Corrected how the enriched views are described: they drop columns rather than rows, stay 1:1 with their source, and apply no filtering",
+              "📝 Clarified where certain properties come from, such as the revenue-above-zero condition and click ids and params, which live only on the source"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m4h-web-hotel",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🚀 Enabled inline hotel ads on desktop",
+              "♻️ Migrated the parent app to the shared inline hotel ads helper"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/inline-hotel-ads-parent"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m8-web-car",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed the selected currency so it now defaults based on the user's country"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "updates"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m8-web-hotel",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🚀 Currency is now initialized automatically from the user's region",
+              "🚀 Enabled inline hotel ads across all device types"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "feat/inline-hotel-ads-desktop"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m8wf-lowfareflight",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed currency selection so it is based on the user's country",
+              "📝 Updated terms text in the English and Swedish localization files"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "updates"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Published news posts on Strait of Hormuz security: an IMO report of 25 seafarers killed since the war began, and an IRGC claim of destroying radar and navigation systems on Oman's Didamar Island",
+              "🚀 Published a maritime area post on a Liberia-flagged VLCC hit by a projectile in the Arabian Gulf, with four crew injured",
+              "🚀 Published a news post on the ex-USS Enterprise (CVN-65) beginning its final voyage to Alabama",
+              "✅ Publish run confirmed sources and passed link, humanize and internal-link checks"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/mixroutes-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 16,
+          "bullets": {
+            "Published": [
+              "🔧 Ran a series of automated Vercel deployments of the site"
+            ]
+          }
+        },
+        {
+          "login": "ryyansafar",
+          "name": "Ryyan Safar",
+          "commit_count": 10,
+          "bullets": {
+            "Published": [
+              "🐛 Improved place search so the typed place wins over namesakes: candidates are scored on name, address, area and distance, alternate spellings are understood, and fixes landed for Atlantis The Palm, Al Seef, Kaza (Spiti), Tawang, Huay Xai and Karakol",
+              "🚀 Added Dubai transit from RTA's own timetable (Metro, Tram, abras, water buses, Ferry, buses, Palm Monorail, Global Village seasonal buses) plus Kolkata metro, trams and ferries; Lisbon trams and funiculars and Hong Kong trams and Peak Tram",
+              "♻️ Upgraded the router with walking transfers between nearby stops, two-change trips, loop and one-stop-hop filtering, better departure choices, road-following cab and auto legs, and rides named by vehicle type",
+              "🚀 Rotated the hero through places near the visitor, opened search in a modal, put Lascade's own services first in the booking list, and added Europe intercity corridors to the summary"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 14,
+          "title": "Place search: Atlantis on the Palm, namesakes weighed the right way",
+          "author": "ryyansafar"
+        },
+        {
+          "number": 13,
+          "title": "Place search: search the main word near the area when nothing matches by name",
+          "author": "ryyansafar"
+        },
+        {
+          "number": 12,
+          "title": "Place search: landmark over its parts, fresh place cache",
+          "author": "ryyansafar"
+        },
+        {
+          "number": 11,
+          "title": "Place search: pick the place typed, know other spellings",
+          "author": "ryyansafar"
+        },
+        {
+          "number": 10,
+          "title": "Lisbon trams and funiculars, Hong Kong trams and Peak Tram, vehicle names",
+          "author": "ryyansafar"
+        },
+        {
+          "number": 9,
+          "title": "Dubai buses, Palm Monorail, Global Village; Kolkata Metro; changes on foot; road-shaped cab rides",
+          "author": "ryyansafar"
+        },
+        {
+          "number": 8,
+          "title": "Dubai Metro, Tram and abras from RTA's timetable",
+          "author": "ryyansafar"
+        },
+        {
+          "number": 7,
+          "title": "Europe corridors in the summary; hero carousel near the visitor; search modal",
+          "author": "ryyansafar"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 15,
+          "bullets": {
+            "Published": [
+              "🚀 Added scoring for international coverage and sampled internal linking under rubric 3.2, and rebuilt the 2026-11-11 SEO report with the updated scores",
+              "🚀 Added detection and scoring of confirmed redirect loops under rubric 3.1, with configurable click-drop exclusions and redirect watch URLs",
+              "🐛 Fixed sampled-URL handling: preserved URL spellings and redirect evidence, isolated responses by request URL, and improved shallow retry discovery",
+              "📝 Documented summary requirements, rubric checks, scoring coverage and approved scoring decisions"
+            ]
+          }
+        },
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Added an Instagram content strategy for a personal decibel account, including a 4-week calendar, caption templates and hashtag rotation",
+              "📝 Built a standalone AI knowledge base with dB reference data, fascination topics, health facts and voice rules for content generation tools"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/react-email-templates",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 3,
+          "bullets": {
+            "Testing": [
+              "🚀 Built a set of 34 email templates from Figma designs, including gradient images, logo images and device-specific fixes",
+              "🚀 Built the Discount70 welcome, daily-v1 and daily-v2 email templates from Figma",
+              "✅ Tested the Discount70 templates on Android and Gmail web, and recorded an iPhone QA pass"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/roamjoy",
+      "developers": [
+        {
+          "login": "Riyaaaaan",
+          "name": "Riyaaaaan",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "⚡ Sped up destination page LCP on phones by serving hero art from the site itself, adding 768w image variants, and fixing caching headers for site-hosted images",
+              "⚡ Trimmed unused CSS from the site-wide and destination stylesheets, cutting gzip size and adding a check that guards against stylesheet regressions",
+              "🚀 Swapped the placeholder phone in the app download band on the eSIM hub and destination pages for the Figma phone mockup",
+              "🔧 Merged the destination LCP performance work and released it to production"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 106,
+          "title": "Release: Figma phone mockup in the app download band",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 105,
+          "title": "Use the Figma phone mockup in the app download band",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 104,
+          "title": "Release: trim unused rules from the site-wide stylesheet",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 103,
+          "title": "Trim unused rules from the site-wide stylesheet",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 102,
+          "title": "Release: faster destination page LCP on phones",
+          "author": "Riyaaaaan"
+        },
+        {
+          "number": 101,
+          "title": "Speed up destination page LCP on phones",
+          "author": "Riyaaaaan"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin",
+        "perf/destination-lcp"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/tasks",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Open-sourced TasksHQ with self-hosting documentation and environment-driven deploy configuration",
+              "🔧 Added a manual GitHub Actions deploy workflow and narrowed the MCP Worker deploy to use only its introspection secret",
+              "📝 Recaptured the organization members docs screenshot for TasksHQ",
+              "🚀 Updated the footer credit to link to jenin.dev"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-analytics-server",
+      "developers": [
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🐛 Fixed user creation to drop an invalid pseudo ID instead of saving it"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "github-workflow-dispatch-feat"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 7,
+          "bullets": {
+            "Work in Progress": [
+              "🐛 Fixed Android export failures on a newer device by reusing the context's graphics config for encoder surfaces, with tests added but not yet run on device",
+              "✅ Relaxed the plan golden test tolerance for rotation to one float ulp, fixing a CI failure on Linux x86_64 with no production changes",
+              "🐛 Removed duplicated locale strings across all locales and cleared locale test failures by marking or allowlisting brand names and loanwords",
+              "🚀 Carried the Swift iOS app's current route over on upgrade, so Home opens on the user's last route, and merged related feature branches"
+            ]
+          }
+        },
+        {
+          "login": "Iamfasna",
+          "name": "Fasna F F",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the onboarding scene feedback feature branch into main",
+              "📝 Added contributor rule docs covering analytics, persisted models, renderer, resources and Swift conventions",
+              "🔧 Added a Codex lane workflow skill with a helper script for running parallel implementation lanes"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 72,
+          "title": "Fix/issue",
+          "author": "Vivek-4321"
+        },
+        {
+          "number": 71,
+          "title": "feat(ios): carry the Swift app's current route over on upgrade",
+          "author": "Vivek-4321"
+        },
+        {
+          "number": 70,
+          "title": "fix(l10n): correct wrong-language and untranslated copy across all locales",
+          "author": "MushfiqHumayoon"
+        },
+        {
+          "number": 69,
+          "title": "Fix/overlay",
+          "author": "Vivek-4321"
+        },
+        {
+          "number": 59,
+          "title": "Feat/onboarding scene feedback",
+          "author": "Vivek-4321"
+        },
+        {
+          "number": 40,
+          "title": "Map look: plan-derived Sun, atmosphere, clouds, vehicle transitions, water glint and globe relief",
+          "author": "rohittp0"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": "v5.0.16"
+    },
+    {
+      "repo": "Lascade-Co/visaless-web",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added a scheduled job that refreshes visa and places data into R2 storage",
+              "⚡ Data is now served through the data.visaless.com edge cache, which is purged whenever the data is refreshed"
+            ]
+          }
+        },
+        {
+          "login": "risal-ea",
+          "name": "Risal EA",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the dev branch into main, bringing in the initial VisaLess site on Vinext (Vite-based Next.js App Router) for Cloudflare Workers",
+              "🔧 Added a deploy workflow: pushes to dev update the staging preview and pushes to main deploy production",
+              "📝 Added a README and deployment notes covering the data sources, the layered architecture and how access results are resolved"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 3,
+          "title": "Serve data through the data.visaless.com edge cache",
+          "author": "Jenin82"
+        },
+        {
+          "number": 2,
+          "title": "Refresh visa and places data into R2 on a schedule",
+          "author": "Jenin82"
+        },
+        {
+          "number": 1,
+          "title": "Dev",
+          "author": "risal-ea"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

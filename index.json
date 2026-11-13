@@ -153,7 +153,8 @@
     "daily/2026-11-09.json",
     "daily/2026-11-10.json",
     "daily/2026-11-11.json",
-    "daily/2026-11-12.json"
+    "daily/2026-11-12.json",
+    "daily/2026-11-13.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -566,6 +567,10 @@
     {
       "login": null,
       "name": "Rohit T P"
+    },
+    {
+      "login": "sreemikil-Lascade",
+      "name": "sreemikil"
     }
   ]
 }

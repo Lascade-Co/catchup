@@ -1,0 +1,800 @@
+{
+  "date": "2026-11-13",
+  "repos": [
+    {
+      "repo": "Lascade-Co/actions",
+      "developers": [
+        {
+          "login": "sajithlaldev",
+          "name": "sajithlaldev",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Flutter iOS CI can now select the Xcode version from an optional version file in the repo",
+              "🐛 Swift Package Manager resolution now starts from a clean Pods tree to avoid an Xcode crash linked to stale restored caches"
+            ]
+          }
+        },
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Hardened App Store What's New localisation after review: locale matching is now case-insensitive, and the length check follows Apple's UTF-16 counting",
+              "⚡ Raised the translation response size limit so all locales are returned in one batch instead of falling back to English",
+              "🔧 Made the localisation dependency install non-blocking so a failure there can't hold up a release",
+              "✅ Added tests for case-insensitive locale matching and for carrying only What's New without overwriting existing metadata"
+            ]
+          }
+        },
+        {
+          "login": "Iamfasna",
+          "name": "Iamfasna",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added automatic translation of App Store What's New release notes into every non-English locale",
+              "🔧 English locales keep the notes verbatim, and any failed or unusable translation falls back to English with a warning so releases are never blocked",
+              "🔧 Enabled the localisation step in the App Store publish workflow"
+            ]
+          }
+        },
+        {
+          "login": "rohittp0",
+          "name": "Rohit",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Merged a fix so Flutter iOS builds resolve SPM packages before building the IPA"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "Rohit T P",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Fixed an issue where an older app version blocked a new iOS release by replacing it"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 70,
+          "title": "feat(ios): localise App Store What's New into every locale",
+          "author": "Iamfasna"
+        },
+        {
+          "number": 69,
+          "title": "ci(flutter-ios): select Xcode from an optional .xcode-version file",
+          "author": "sajithlascade"
+        },
+        {
+          "number": 67,
+          "title": "ci(flutter-ios): start SPM resolve from a clean Pods tree",
+          "author": "sajithlascade"
+        },
+        {
+          "number": 66,
+          "title": "fix(flutter-ios): resolve SPM packages before flutter build ipa",
+          "author": "sajithlascade"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/airline-apis",
+      "developers": [
+        {
+          "login": "answarck",
+          "name": "Muhammed Answar C K",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Added United as a new airline integration to the repo",
+              "📝 Added a reusable reverse-engineering guide covering how to trace a captured browser session to the data request, map each parameter's origin, and build a Go scraper",
+              "📝 Documented the bot-protection toolbox, mapping each protection type to the solver already in the repo, plus the shared scraper conventions"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/airline70-flutter",
+      "developers": [
+        {
+          "login": "sajithlaldev",
+          "name": "sajithlascade",
+          "commit_count": 5,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Fixed iOS dependency setup by linking Firebase Messaging to the notification service extension and upgrading the Google sign-in iOS plugin to resolve a Swift Package Manager conflict",
+              "🔧 Bumped the Flutter version to meet the newer analyzer and Dart requirements",
+              "🚀 Linked the AdServices framework and added debug logging for Singular attribution on iOS",
+              "📝 Removed an obsolete debug document"
+            ]
+          }
+        },
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Merged the Singular iOS task branch, bringing in the project baseline including Flutter version config, CI build-trigger workflows for debug and release, environment setup docs, and lint settings"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 101,
+          "title": "Link FirebaseMessaging via SPM to notification service extension",
+          "author": "sajithlascade"
+        },
+        {
+          "number": 100,
+          "title": "Upgrade google_sign_in_ios to 6.4.0 to fix SPM gtm-session-fetcher co…",
+          "author": "sajithlascade"
+        },
+        {
+          "number": 99,
+          "title": "Delete debug_doc.md",
+          "author": "sajithlascade"
+        },
+        {
+          "number": 98,
+          "title": "Bump Flutter to 3.47.8 for analyzer 14.6 (Dart >=3.13)",
+          "author": "sajithlascade"
+        },
+        {
+          "number": 97,
+          "title": "Task/singular ios",
+          "author": "sajithlascade"
+        }
+      ],
+      "branches": [
+        "release",
+        "task/singular-ios"
+      ],
+      "version": "v1.7.20+91"
+    },
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": "Angelrose19",
+          "name": "Angel",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Added CI workflows that dispatch debug builds for pull requests and release builds for main/release pushes to a central build repo",
+              "🔧 Added a Play Store release trigger that fires when a non-prerelease release is published",
+              "🔧 Added a scheduled daily job that deletes debug releases and tags older than 4 days",
+              "📝 Added project setup docs and ignore rules for local secrets, keystores, and stray large files"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "antony/development"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-car-ios-v2",
+      "developers": [
+        {
+          "login": "imadibrahimk",
+          "name": "imadibrahimk",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🔧 Moved API hosts, tokens, URLs and SDK IDs out of source constants and into a central secrets manager, with separate dev (Debug) and prod (Release) configs",
+              "🔧 Added a fetch script that generates git-ignored per-config build settings and Firebase config files, which the build now copies into the app",
+              "🔧 Facebook and Google Sign-In URL schemes are now supplied from the secrets manager",
+              "🚀 Updated the bundle ID and app version to 2.5.0, and added a shared Release scheme"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔀 Merged the production branch into the main line and updated the user creation flow",
+              "🔧 Set up build configuration with separate Debug and Release settings, with secrets now fetched from a secrets manager instead of being kept in the repo",
+              "🚀 Project now includes a Top Picks home screen widget extension and integrations for analytics, authentication, push messaging and Google sign-in",
+              "🔧 Updated ignore rules to keep local tooling, build output and generated secret files out of version control"
+            ],
+            "Work in Progress": [
+              "🔀 Merged the production branch into the dev branch to keep it in sync"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 124,
+          "title": "feat:Prod merged and user creation updated",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/e-sim-flutter",
+      "developers": [
+        {
+          "login": "sajithlascade",
+          "name": "sajithlascade",
+          "commit_count": 11,
+          "bullets": {
+            "Published": [
+              "🔧 Removed a stale iOS Swift package pin left over from the Patrol removal, and pinned the Xcode version used by CI",
+              "📝 Cleaned up the repo by deleting outdated planning and integration docs, a data-collection note and a product delivery spreadsheet",
+              "🚀 Merged the Patrol-removal iOS work into dev and released the dev branch to main via PR #94"
+            ],
+            "Work in Progress": [
+              "🔧 Added an empty placeholder iOS plugin to work around an Xcode 26.x Swift package manager crash in CI",
+              "✅ Ran an experiment re-adding the Patrol dev dependency to reproduce the iOS CI Xcode crash (not intended for merge)"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 100,
+          "title": "Dev",
+          "author": "sajithlascade"
+        },
+        {
+          "number": 96,
+          "title": "Delete deferred-activation-integration.md",
+          "author": "sajithlascade"
+        },
+        {
+          "number": 95,
+          "title": "Dev",
+          "author": "sajithlascade"
+        },
+        {
+          "number": 94,
+          "title": "Dev",
+          "author": "sajithlascade"
+        }
+      ],
+      "branches": [
+        "dev",
+        "experiment/ios-ci-patrol-readd",
+        "origin",
+        "task/ios-drop-stale-spm-pin",
+        "task/ios-pod-placeholder"
+      ],
+      "version": "debug-pr-100"
+    },
+    {
+      "repo": "Lascade-Co/esim-db",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🐛 Added pagination to the compare endpoint",
+              "⚡ Trimmed embedded links in responses to keep payloads leaner",
+              "🚀 Added a buy_url field to the data"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 13,
+          "title": "fix: paginate compare, trim embedded links, add buy_url",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-web",
+      "developers": [
+        {
+          "login": "rebin03",
+          "name": "Muhammed Rebin",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Programmatic SEO pages now render Folio sections and match suggested plans"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/gocheap_tp_d3",
+      "developers": [
+        {
+          "login": "sreemikil-Lascade",
+          "name": "sreemikil",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Added the initial Kotlin Multiplatform project (Android and iOS) with a Travelpayouts flight SDK integration and a navigation bar UI update",
+              "🔧 Set up build configuration that reads credentials and per-environment values from git-ignored local files, with Firebase and Crashlytics wiring on Android",
+              "📝 Wrote a README covering app setup, credentials handling, the in-app rating prompt, and how to run the apps and tests"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ui-updates"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/lascade-marketing-ai",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "daily-health",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "📝 Published the automated daily health report for 2026-11-12"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/m4h-web-hotel",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Lascadesevices",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Migrated the hotel search experience to Inline Hotel Ads, merged via PR #56"
+            ]
+          }
+        },
+        {
+          "login": "mhdbk",
+          "name": "mhdbk",
+          "commit_count": 1,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Merged the latest main branch into a working branch, bringing in the Next.js app setup with environment templates, ignore rules and a hotel-helper submodule",
+              "🚀 Brought in localized app layout and home page, plus static pages for About, Privacy Policy, Cookie Policy and Terms",
+              "📝 Documented the inline hotel ads configuration and local development setup in the README"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 56,
+          "title": "Migrate to Inline Hotel Ads",
+          "author": "rebin03"
+        }
+      ],
+      "branches": [
+        "feat/inline-hotel-ads-parent",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marine-tracking-flutter",
+      "developers": [
+        {
+          "login": null,
+          "name": "Adarsh",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🚀 Added voyage history plotting for ships",
+              "🔧 Revoked the Facebook subscription complete event and brought in project setup files, including CI build triggers, editor settings and developer guidance docs"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ps/fb-event",
+        "ps/past-track"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/marineradar-trends",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "📝 Published a news post on the Maersk data breach, covering the ransomware group's claim and Maersk's statement that the incident was limited to one legacy system with no shipping disruption",
+              "📝 Published a maritime news story on the surge in Atlantic migrant crossings toward El Hierro, with verified sources, and sent the newsletter",
+              "📝 Added a dedup ledger entry for the Turkish frigate and survey ship story near Karpathos to prevent duplicate coverage"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/mixroutes-web",
+      "developers": [
+        {
+          "login": "Lascadesevices",
+          "name": "Deploy",
+          "commit_count": 15,
+          "bullets": {
+            "Published": [
+              "🔧 Ran a series of automated Vercel deployments of the site"
+            ]
+          }
+        },
+        {
+          "login": "ryyansafar",
+          "name": "Ryyan Safar",
+          "commit_count": 8,
+          "bullets": {
+            "Published": [
+              "🐛 Improved place matching: fixed points for landmarks the geocoder misplaces (Global Village, Atlantis The Palm, Aquaventure), MG Road handling in both cities, and names that say they are a station now always resolve to our station",
+              "⚡ Made place lookups more resilient: added time limits so shared lookups can no longer hang, dropped stuck lookups so later searches retry, and tuned the public geocoder's failure handling and timeouts for busy periods",
+              "🚀 Stations are now placed from our own timetable feeds without calling the public geocoder, and suggestions offer them too",
+              "🚀 Each trip step now shows its own fare, boarding platform and ticket advice, in line with per-leg pricing"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 21,
+          "title": "Global Village at the venue, MG Road in both cities, stations anchor the trip",
+          "author": "ryyansafar"
+        },
+        {
+          "number": 20,
+          "title": "A name that says it's a station is that station, wherever the search comes from",
+          "author": "ryyansafar"
+        },
+        {
+          "number": 19,
+          "title": "No place lookup may wait forever",
+          "author": "ryyansafar"
+        },
+        {
+          "number": 18,
+          "title": "Place stations from our own timetables, ride out a busy geocoder",
+          "author": "ryyansafar"
+        },
+        {
+          "number": 17,
+          "title": "Per-leg fares, platforms and ticket advice in each step",
+          "author": "ryyansafar"
+        },
+        {
+          "number": 16,
+          "title": "Fixed points for Atlantis The Palm and Aquaventure",
+          "author": "ryyansafar"
+        },
+        {
+          "number": 15,
+          "title": "Give the public Photon time to answer when it's busy",
+          "author": "ryyansafar"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/react-email-templates",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🔧 Moved all email template images to the company R2 storage bucket",
+              "✅ Updated test email sends to use real CDN image URLs"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "dev"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-backend",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 5,
+          "bullets": {
+            "Published": [
+              "🚀 Merged the dev branch into main, delivering the U.S. geography import and admin, retirement of the seobot app, and a simplified local Docker setup"
+            ],
+            "Work in Progress": [
+              "🚀 Added a U.S. geography import with State and City admin views, plus race-safe airport enrichment",
+              "⚡ Added a --download option to the geography import with checksum verification and automatic cleanup",
+              "🔧 Simplified local Docker: repo-local Postgres volume, a single Celery container, and only the app port exposed",
+              "♻️ Removed the retired seobot app and pgvector, and tidied up compose comments"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 22,
+          "title": "U.S. geography import and admin, retire seobot, simplify local Docker",
+          "author": "Jenin82"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-mcp",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🚀 Added new tools to fetch and update country pages",
+              "📝 Restored the blog contributor guidance as writing guide v11",
+              "📝 Recorded the production verification results for writing guide v9"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/seo-web",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 6,
+          "bullets": {
+            "Published": [
+              "🚀 Added eSIM70 country extra sections with a writer API and changed-field translation for country content",
+              "🐛 Made country translation fact checks accept localized formats",
+              "🚀 Added search to the page batch list",
+              "♻️ Blog deletions that were confirmed now resume in the background",
+              "📝 Updated the worker README to describe changed-field country translation and noted the Clerk public key requirement for production builds"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/tasks",
+      "developers": [
+        {
+          "login": "Jenin82",
+          "name": "Jenin Joseph",
+          "commit_count": 4,
+          "bullets": {
+            "Published": [
+              "🚀 Added sub-tasks and description checklists to tasks",
+              "🚀 Made the task reporter editable across core, web and MCP",
+              "📝 Recaptured task detail and filter docs screenshots to show the reporter",
+              "🚀 Show a pointer cursor on clickable controls for better usability"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit",
+          "commit_count": 11,
+          "bullets": {
+            "Published": [
+              "📈 Merged billing analytics improvements: pending purchases, charged value, failure codes and product info on every event"
+            ],
+            "Work in Progress": [
+              "📈 Recording pending checkouts and completing product-aware purchase analytics, with pending events logged reliably even if the paywall is dismissed",
+              "🚀 Mapped charged price and bounded failure reasons for Google Play and iOS StoreKit purchases through the billing gateway",
+              "⚡ Avoided unnecessary storage edits on startup when no pending checkout exists",
+              "✅ Fixed and extended billing tests (duplicate iOS test class, StoreKit error mapping, paywall callback), plus billing handoff docs"
+            ]
+          }
+        },
+        {
+          "login": "Vivek-4321",
+          "name": "Vivek Venugopal",
+          "commit_count": 10,
+          "bullets": {
+            "Published": [
+              "🚀 Added three year-end Quick Shot templates (Year in Review, Travel Rewind, Year Rewind) with new title styles, animations and translated names, shown first in the feed",
+              "🚀 Locked Pro templates behind the templates paywall, with a Pro badge on cards and instant unlock after purchase",
+              "📈 Analytics: restored the Meta purchase event on paywall purchase completion, added is_pro to template_used, and fixed redo, weekly-offer and settings paywall placements that were logged as unknown",
+              "🐛 Fixed on-vehicle effects to a fixed size so the model-size slider only resizes the vehicle; also refactored template ids, tidied comments, updated an overlay test and merged main into the What's New branch"
+            ]
+          }
+        },
+        {
+          "login": "rahul028",
+          "name": "rahul028",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Limited free users to 3 completed Journey AI requests, counting only requests where a tool ran successfully, then opening a paywall; Pro users are never limited",
+              "🚀 Added a localized notice bubble when the free limit is reached, translated across all shipped locales"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 75,
+          "title": "Fix/template",
+          "author": "Vivek-4321"
+        },
+        {
+          "number": 74,
+          "title": "Fix/issue",
+          "author": "Vivek-4321"
+        },
+        {
+          "number": 73,
+          "title": "Billing analytics: pending purchases, charged value, failure codes and product on every event",
+          "author": "rohittp0"
+        },
+        {
+          "number": 61,
+          "title": "Journey ai model update",
+          "author": "rahul028"
+        },
+        {
+          "number": 41,
+          "title": "Feat/whatsnew",
+          "author": "Vivek-4321"
+        }
+      ],
+      "branches": [
+        "origin"
+      ],
+      "version": "v5.0.18"
+    },
+    {
+      "repo": "Lascade-Co/visaless-web",
+      "developers": [
+        {
+          "login": "risal-ea",
+          "name": "Risal EA",
+          "commit_count": 3,
+          "bullets": {
+            "Published": [
+              "🔧 Added a deploy workflow that triggers the shared Vinext deployment: pushes to dev update staging, and pushes to main deploy production",
+              "🔧 Added scheduled data refresh workflows that rebuild the visa matrix weekly and places data monthly, upload them to cloud storage, and purge the edge cache",
+              "📝 Added project docs covering deployment, the data refresh flow, and getting started, plus a .gitignore for build and environment files"
+            ],
+            "Work in Progress": [
+              "♻️ Replacing the SignalSide partner integration with eSIM70"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 4,
+          "title": "Dev",
+          "author": "risal-ea"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/website",
+      "developers": [
+        {
+          "login": "ThePyWizard",
+          "name": "Jishnu M M",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "📝 Added new privacy policy and terms of service pages using the site layout, with shared styling and table-of-contents scrolling",
+              "🔧 Linked the new legal pages from the footers of the home, about, contact and hiring pages, and added them to the sitemap",
+              "📝 Updated the privacy policy to disclose Meta and Reddit advertising pixels on the hiring pages, including how to opt out"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "date": "2026-11-14",
+  "repos": [
+    {
+      "repo": "Lascade-Co/AR-Measure-Android",
+      "developers": [
+        {
+          "login": null,
+          "name": "Antony Mathew",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "🚀 Added an \"Open Settings\" button to the Furniture Fit screen when camera permission is missing, with analytics tracking",
+              "♻️ Removed the old tab as part of cleanup work",
+              "🔧 Included CI workflows, project setup and build configuration files in the commit"
+            ]
+          }
+        },
+        {
+          "login": null,
+          "name": "octopoocha",
+          "commit_count": 2,
+          "bullets": {
+            "Testing": [
+              "♻️ Removed the unused \"home\" string from all localized string files",
+              "🐛 Applied lint fixes in the decibel tool: modern SharedPreferences edit syntax, locale-aware number formatting and a suppressed API-level warning"
+            ]
+          }
+        },
+        {
+          "login": "keith-james",
+          "name": "Keith James",
+          "commit_count": 1,
+          "bullets": {
+            "Testing": [
+              "🚀 Ported the photo feature of the decibel meter tool to iOS",
+              "🔧 Included CI workflows for central debug and release builds, Play Store release triggers and scheduled cleanup of old debug releases"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "antony/development",
+        "keith/decibel-meter"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D1-hotel-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Added a retry for user creation when the pseudo ID is set"
+            ],
+            "Work in Progress": [
+              "🚀 Continued work on the user creation retry for pseudo ID handling"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 125,
+          "title": "feat:User creation retry for pseudo_id set",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/D2-car-ios-v2",
+      "developers": [
+        {
+          "login": "Swalih60",
+          "name": "Swalih60",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🚀 Updated the app UI and added the initial iOS Xcode project setup for the Airport Rental Cars app",
+              "🔧 Configured project dependencies for networking, image loading, Firebase (analytics, auth, messaging), Facebook, Clarity and Google Sign-In"
+            ],
+            "Work in Progress": [
+              "🚀 Ongoing UI updates on a branch, including the iOS project scaffolding and dependency configuration"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 34,
+          "title": "feat:UI updated",
+          "author": "Swalih60"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/esim-db",
+      "developers": [
+        {
+          "login": "Shaan-Shoukath",
+          "name": "Shaan Shoukath",
+          "commit_count": 7,
+          "bullets": {
+            "Published": [
+              "🐛 Merged the dev branch into main (PR #14): promotions now only affect their own destination, plus improvements to plan networks and the plan detail API"
+            ],
+            "Work in Progress": [
+              "🚀 Added capture of each plan's own promo, along with the brand's promo title and terms",
+              "🚀 Added a brand detail endpoint with per-country plan counts, and exposed country subregions",
+              "🚀 Added plan networks per country, a last-checked timestamp, and a plan detail endpoint",
+              "🐛 Fixed failed destinations to retry within hours rather than waiting a full rotation, made promotions touch only their destination, and trimmed brand links on the provider list"
+            ]
+          }
+        }
+      ],
+      "prs": [
+        {
+          "number": 14,
+          "title": "fix: promotions touch only their destination; plan networks and detail API",
+          "author": "Shaan-Shoukath"
+        }
+      ],
+      "branches": [
+        "dev",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/hotels70-web",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Integrated the NextPluggable plugin system, adding an admin plugin dashboard, a plugin API, plugin-provided pages and a new layout slot, with storage that works both locally and on hosted deployments",
+              "🎨 Wrapped plugin pages in the Hotels70 header, footer and brand colours so they match the rest of the site",
+              "🔧 Improved SEO defaults for plugin pages: sharing image and Twitter tags, sitemap listings that refresh when plugins change, and page titles and descriptions that stay in the document head",
+              "⚡ Refreshed the bundled plugin build so plugin styles are inlined, removing an extra blocking request on each page"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ccr-046bd09c-s7lnuy"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/product-intelligence",
+      "developers": [
+        {
+          "login": "cherian",
+          "name": "cherian",
+          "commit_count": 15,
+          "bullets": {
+            "Published": [
+              "🚀 Added entity quality collection and scoring with tracked fixes, plus weekly reporting of entity name search positions",
+              "🐛 Hardened entity scanning: redirected documents settle before scanning, text is measured despite pending telemetry, and runs replay their captured entity configuration",
+              "🐛 Improved SEO reporting and menu fixes: findings labelled as registry watchlists, table columns no longer split words, menu redirects match exact hrefs, and direct crawl responses are recognised when closing fixes",
+              "✅ Froze entity forecast and four-site verification reports, isolated tests from live audit data, and added replay coverage; also tracked live-site SEO fixes, raised the AI daily limit, recorded the Nov 12-13 SEO runs, and updated docs with entity page decisions"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/travel-animator-shared",
+      "developers": [
+        {
+          "login": "rohittp0",
+          "name": "Rohit T P",
+          "commit_count": 3,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Added the Airbridge Subscribe event at the shared purchase decision point, matching the timing and value of the existing Meta purchase event",
+              "🔧 Set up Airbridge tracking links on Android and iOS so they open the app and are attributed only, and made Airbridge the single SKAdNetwork conversion-value writer on iOS",
+              "📝 Documented Airbridge events, links, the SKAdNetwork decision and privacy label entries",
+              "🔧 Confirmed the iOS Airbridge signature inventory against a build manifest"
+            ]
+          }
+        },
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🚀 Integrated the Airbridge attribution SDK on Android and iOS, initialised at app launch with configuration read from local settings rather than hard-coded",
+              "🔧 Disabled Airbridge's SKAdNetwork handling on iOS to avoid overwriting Meta's conversion values, and held back link hosts to protect existing app links on older Android versions",
+              "✅ Ran unit tests on Linux with no failures; iOS build and on-device behavior are still unverified",
+              "📝 Updated steering docs: units are handed back closed, and pending work becomes an issue only when it can't be completed and the user agrees"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [],
+      "version": "debug-pr-77"
+    },
+    {
+      "repo": "Lascade-Co/TravelPluggables",
+      "developers": [
+        {
+          "login": "claude",
+          "name": "Claude",
+          "commit_count": 2,
+          "bullets": {
+            "Work in Progress": [
+              "🔧 Scaffolded the repository as a NextPluggable plugin source, with project config, TypeScript setup, SDK and build tooling, and placeholder build and validate scripts until the first plugin exists",
+              "🚀 Added a small Next.js dev site with NextPluggable integrated, plus a sync script that installs or updates built plugins through the dashboard API for repeatable local checks of rendered HTML, sitemap, widgets and Lighthouse",
+              "📝 Added CLAUDE.md covering the repo's layout, commands and platform constraints, the procedure for turning a plugin concept into a finished plugin, and how to use the test site"
+            ]
+          }
+        },
+        {
+          "login": "rohittp0",
+          "name": "Rohit",
+          "commit_count": 2,
+          "bullets": {
+            "Published": [
+              "🔧 Created the initial repository",
+              "📝 Updated the README with instructions to set the repo up as a NextPluggable plugin source and build a plugin"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "ccr-3554342d-je2nn6",
+        "origin"
+      ],
+      "version": null
+    },
+    {
+      "repo": "Lascade-Co/website",
+      "developers": [
+        {
+          "login": "ThePyWizard",
+          "name": "Jishnu M M",
+          "commit_count": 1,
+          "bullets": {
+            "Published": [
+              "🚀 Redesigned the Playground as a scroll-driven app dial featuring all 13 apps, with brand-colour icon cards, live captions and store/website links",
+              "🚀 Added soft synthesised UI sound effects (counter ticks, dial whooshes, hover, page transitions) with an \"Enter with sound\" screen and a nav toggle",
+              "🚀 Team section now cross-fades between two team photos, and the nav gains an APPS link",
+              "🐛 Fixed the careers page missing its nav and footer, plus the contact favicon, page titles, home page meta tags and footer year; cleaned up page animations on navigation so home page sounds no longer play on other pages"
+            ]
+          }
+        }
+      ],
+      "prs": [],
+      "branches": [
+        "origin"
+      ],
+      "version": null
+    }
+  ]
+}

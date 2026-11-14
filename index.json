@@ -154,7 +154,8 @@
     "daily/2026-11-10.json",
     "daily/2026-11-11.json",
     "daily/2026-11-12.json",
-    "daily/2026-11-13.json"
+    "daily/2026-11-13.json",
+    "daily/2026-11-14.json"
   ],
   "repos": [
     "Lascade-Co/D2-Flight-Android",
@@ -313,7 +314,8 @@
     "Lascade-Co/m8wf-lowfareflight",
     "Lascade-Co/mtwr-autopiolet",
     "Lascade-Co/tasks",
-    "Lascade-Co/gocheap_tp_d3"
+    "Lascade-Co/gocheap_tp_d3",
+    "Lascade-Co/TravelPluggables"
   ],
   "users": [
     {
